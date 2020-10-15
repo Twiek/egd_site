@@ -51,12 +51,11 @@ def github_signature_deploy(type="site"):
 
 def deploy_site():
 	app_site_pull()
-	app_site_compile_assets()
-	return { "msg": "pulled, and assets are going to be compiled then server restarted and website cache cleared. Some seconds are needed for this task, please be patient." }
+	return app_site_compile_assets()
 
 
 def app_site_pull():
-	subprocess.check_output(["git", "pull"], cwd = path_site_app)
+	subprocess.check_output(["git", "pull"], cwd=path_site_app)
 
 
 def app_site_compile_assets():
