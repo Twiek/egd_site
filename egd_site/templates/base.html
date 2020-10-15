@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="{{ url }}{{ "/" + path if path else "" }}" rel="canonical">
+
+	{# https://support.google.com/webmasters/answer/182192?hl=en #}
+	{%- for language in languages_meta %}
+	<link rel="alternate" href="{{ language.url }}" hreflang="{{ language.hreflang }}" />
+	{%- endfor %}
+
+	{%- block meta_block %}{% include "templates/includes/meta_block.html" %}{% endblock %}
+	{#<!-- TODO: Facebook? <meta property="fb:app_id" content="{{AE_FB_APP_ID}}"> -->#}
+
+	<title>{% block title %}{{ title | striptags }}{{ AE_HTML_TITLE_SUFFIX if path != "" else "" }}{% endblock %}</title>
+	{% block favicon %}
+	{#- https://realfavicongenerator.net/ #}
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/egd_site/images/favicons/apple-touch-icon.png?{{ AE_ASSETS_VERSION }}">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/egd_site/images/favicons/favicon-32x32.png?{{ AE_ASSETS_VERSION }}">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/egd_site/images/favicons/favicon-16x16.png?{{ AE_ASSETS_VERSION }}">
+	<link rel="manifest" href="/assets/egd_site/images/favicons/site.webmanifest?{{ AE_ASSETS_VERSION }}">
+	<link rel="mask-icon" href="/assets/egd_site/images/favicons/safari-pinned-tab.svg?{{ AE_ASSETS_VERSION }}" color="#c97053">
+	<link rel="shortcut icon" href="/assets/egd_site/images/favicons/favicon.ico?{{ AE_ASSETS_VERSION }}">
+	<meta name="msapplication-TileColor" content="#efeae4">
+	<meta name="msapplication-config" content="/assets/egd_site/images/favicons/browserconfig.xml?{{ AE_ASSETS_VERSION }}">
+	<meta name="theme-color" content="#efeae4">
+	{%- endblock -%}
+
+	{%- block head -%}
+		{% if head_html is defined -%}
+		{{ head_html or "" }}
+		{%- endif %}
+	{%- endblock -%}
+
+	<link type="text/css" rel="stylesheet" href="/assets/css/egd-site.web.min.css?{{ AE_ASSETS_VERSION }}">
+
+	{%- block head_include %}
+		{{ head_include or "" }}
+	{% endblock -%}
+
+	{%- block style %}{%- endblock -%}
+
+	<script>
+		frappe = window.frappe = {}
+		frappe.ready_events = []
+		frappe.ready = function(fn) { frappe.ready_events.push(fn) }
+		window.dev_server = {{ dev_server }}
+		// window.socketio_port = {{ frappe.socketio_port }}
+	</script>
+	{% if dev_server != 1 %}
+	<!-- TODO: Google Analytics (Tag manager)? -->
+{#
+	<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-M5PSHC3');</script> -->
+#}
+	{% endif %}
+</head>
+<body data-path="{{ path | e }}" {% if template and template.endswith('.md') %}frappe-content-type="markdown"{% endif %} class="{% if body_class %}{{ body_class }}{% endif %}">
+
+	<div id="aef-app" class="page {{ 'with-sidebar' if show_sidebar else 'without-sidebar' }}" id="page-{{ (name or route) | e | replace("/", "-") }}" data-path="{{ pathname | e | replace("/", "-") }}">
+
+	{% block content %}{{ content }}{% endblock %}
+
+	</div>
+
+	{%- block base_scripts %}
+	<script src="/assets/frappe/js/lib/jquery/jquery.min.js?{{ AE_ASSETS_VERSION }}"></script>
+	<script src="/assets/js/frappe-web.min.js?{{ AE_ASSETS_VERSION }}"></script>
+	<!-- <script src="/assets/egd_site/template/js/popper.min.js?{{ AE_ASSETS_VERSION }}"></script> -->
+	<script src="/assets/js/bootstrap-4-web.min.js?{{ AE_ASSETS_VERSION }}"></script>
+	<script src="/assets/js/egd-site.web.min.js?{{ AE_ASSETS_VERSION }}"></script>
+	{% endblock -%}
+
+	{%- for link in web_include_js %}
+	{%- if link != "website_script.js" and link != "assets/js/erpnext-web.min.js" %}
+	<script src="{{ link | abs_url }}?{{ AE_ASSETS_VERSION }}"></script>
+	{%- endif %}
+	{%- endfor -%}
+
+	{%- block script %}{%- endblock %}
+
+	<!-- csrf_token -->
+	{%- block body_include %}{{ body_include or "" }}{% endblock -%}
+</body>
+</html>

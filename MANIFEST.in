@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include egd_site *.css
+recursive-include egd_site *.csv
+recursive-include egd_site *.html
+recursive-include egd_site *.ico
+recursive-include egd_site *.js
+recursive-include egd_site *.json
+recursive-include egd_site *.md
+recursive-include egd_site *.png
+recursive-include egd_site *.py
+recursive-include egd_site *.svg
+recursive-include egd_site *.txt
+recursive-exclude egd_site *.pyc

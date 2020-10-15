@@ -1,0 +1,103 @@
+{% extends "templates/web.html" %}
+
+
+{% block header %}
+{% endblock %}
+
+
+{% block page_content %}
+
+<div id="navigation-access" class="page-card granted text-center">
+	<div class="granted-ok hide my-5 py-5">
+		Thank you!<br>
+		Now you can navigate the site :)<br>
+		<a href="/">Go to home</a>
+	</div>
+	<div class="granted-ko hide">
+		<h1>We are still working...</h1>
+		<p>If you are a collaborator please enter your code.</p>
+		<form class="needs-validation p-1" method="post" novalidate>
+			<div class="form-group position-relative">
+				<input name="code" type="text" class="form-control" placeholder="access code" pattern=".{5,}" required>
+				<p class="invalid-feedback">The code is invalid</p>
+			</div>
+			<button type="submit" class="btn btn-primary">Enter</button>
+		</form>
+	</div>
+</div>
+{% endblock %}
+
+
+{% block footer %}
+{% endblock %}
+
+
+{% block style %}
+<style>
+.was-validated .form-control:valid,
+.form-control.is-valid,
+.was-validated .form-control:valid:focus,
+.form-control.is-valid:focus {
+	border-color: #ced4da;
+	box-shadow: none;
+	background-image: none;
+}
+.was-validated .form-control:invalid,
+.form-control.is-invalid,
+.was-validated .form-control:invalid:focus,
+.form-control.is-invalid:focus {
+	background-image: none;
+}
+</style>
+{% endblock %}
+
+{% block script %}
+<script>
+	let access_granted = {{ 'true' if access_granted else 'false' }}
+	function setGranted(value) {
+		if (value) {
+			$('.granted-ok').removeClass('hide')
+			$('.granted-ko').addClass('hide')
+		} else {
+			$('.granted-ko').removeClass('hide')
+			$('.granted-ok').addClass('hide')
+		}
+	}
+	frappe.ready(function() {
+		console.log('FORM READY!')
+		setGranted(access_granted)
+		let $form = $('#navigation-access form')
+		if ($form) {
+			let $code = $form.find('[name="code"]')
+			$code.focus()
+			let $submit = $form.find('button[type="submit"]')
+			let $response_without_mail = $form.find('.response-ok')
+			function send(e) {
+				e.preventDefault()
+				e.stopPropagation()
+				$form.addClass('was-validated')
+				if ($form[0].checkValidity() === false) {
+					return
+				}
+				let code = $code.val()
+				let submit_label = $submit.html()
+				$submit.html('Comprobando...').attr('disabled', true)
+				frappe.call({
+					method: 'egd_site.www.access.check_code',
+					type: 'POST',
+					args: { code },
+					callback: r => {
+						setGranted(r.result)
+						if (!r.result) {
+							$code.val('')
+							$submit.html(submit_label).attr('disabled', false)
+						}
+					}
+				})
+			}
+			$form.on('submit', send)
+		}
+	})
+
+</script>
+{% endblock %}

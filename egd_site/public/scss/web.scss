@@ -1,0 +1,85 @@
+
+
+// LINEICONS
+$lni-font-path: "/assets/egd_site/fonts/line-icons";
+@import "line-icons/main";
+[class^="lni-"], [class*=" lni-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'LineIcons' !important;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+// <BASE TEMPLATE STYLES
+// Current Preset color
+$preset: #1b5266;
+
+// @import "../template/css/colors/purple";
+@import "../template/css/slicknav.min";
+@import "../template/css/animate";
+
+// Global Styles
+@import "../template/scss/global";
+
+// Navbar
+@import "../template/scss/navbar";
+
+// About US Area
+@import "../template/scss/about";
+
+// Schedule Areax
+@import "../template/scss/schedule";
+
+// Service Area
+@import "../template/scss/service";
+
+// Portfolio Area
+@import "../template/scss/portfolio";
+
+// Team Area
+@import "../template/scss/team";
+
+// Blog Area
+// @import "../template/scss/blog";
+
+// Contact Area
+// @import "../template/scss/contact";
+
+// Contact Area
+@import "../template/scss/footer";
+
+// Shortcode
+@import "../template/scss/shortcode";
+
+// Responsive
+@import "../template/scss/responsive";
+
+// BASE TEMPLATE STYLES>
+
+
+
+// ACCORDION CHEVRON
+.card-header {
+	.opener-chevron {
+		transition: transform 0.35s ease-in-out;
+		position: absolute;
+		right: 30px;
+		top: 50px;
+		font-size: 25px;
+	}
+	// &.collapsed { }
+	&:not(.collapsed) {
+		.opener-chevron {
+			transition: transform 0.35s ease-in-out;
+			transform: rotate(90deg);
+		}
+	}
+}
+
