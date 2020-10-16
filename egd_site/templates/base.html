@@ -46,6 +46,9 @@
 		frappe.ready_events = []
 		frappe.ready = function(fn) { frappe.ready_events.push(fn) }
 		window.dev_server = {{ dev_server }}
+		window.context = {
+			lang: '{{ lang }}',
+		}
 		// window.socketio_port = {{ frappe.socketio_port }}
 	</script>
 	{% if dev_server != 1 %}

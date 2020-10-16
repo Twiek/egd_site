@@ -1,5 +1,4 @@
 
-
 // LINEICONS
 $lni-font-path: "/assets/egd_site/fonts/line-icons";
 @import "line-icons/main";
@@ -19,7 +18,8 @@ $lni-font-path: "/assets/egd_site/fonts/line-icons";
 
 // <BASE TEMPLATE STYLES
 // Current Preset color
-$preset: #1b5266;
+$color-main: #1b5266;
+$preset: $color-main;
 
 // @import "../template/css/colors/purple";
 @import "../template/css/slicknav.min";
@@ -64,9 +64,32 @@ $preset: #1b5266;
 // BASE TEMPLATE STYLES>
 
 
+// GLOBAL
 .hide {
 	display: none;
 }
+
+
+// NAVBAR
+.navbar {
+	.nav-item {
+		&.selected {
+			.language {
+				font-weight: bold !important;
+			}
+		}
+		.nav-link {
+			&.active {
+				color: $color-main !important;
+				font-weight: bold;
+			}
+		}
+		.language {
+			padding: 0 5px !important;
+		}
+	}
+}
+
 
 // ACCORDION CHEVRON
 .card-header {
@@ -86,6 +109,7 @@ $preset: #1b5266;
 	}
 }
 
+
 // BS FORM VALIDATION
 .was-validated .form-control:valid,
 .form-control.is-valid,
@@ -103,3 +127,12 @@ $preset: #1b5266;
 .custom-select.is-invalid {
 	background-image: none;
 }
+
+
+// <FRAPPE MODAL CUSTOMIZATIONS
+.msgprint-dialog {
+	h5 {
+		font-size: 20px;
+	}
+}
+// FRAPPE MODAL CUSTOMIZATIONS>
