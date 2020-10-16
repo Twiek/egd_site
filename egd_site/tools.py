@@ -55,9 +55,6 @@ def context_extend(context):
 @frappe.whitelist(allow_guest=True)
 def subscribe(email):
 	from frappe.utils.verified_command import get_signed_params
-	from frappe.sessions import get_geo_ip_country
-
-	country = get_geo_ip_country(frappe.local.request_ip) if frappe.local.request_ip else None,
 
 	url = "{0}?{1}".format(
 		frappe.utils.get_url("/api/method/egd_site.tools.confirm_subscription"),
@@ -65,7 +62,7 @@ def subscribe(email):
 	)
 	messages = (
 		_("Thank you for subscribing to our updates."),
-		_("Please verify your email address:") + country,
+		_("Please verify your email address:"),
 		url,
 		_("Click here to verify")
 	)
@@ -79,7 +76,6 @@ def subscribe(email):
 @frappe.whitelist(allow_guest=True)
 def confirm_subscription(email):
 	from frappe.utils.verified_command import verify_request
-
 	if not verify_request():
 		return
 
@@ -90,11 +86,20 @@ def confirm_subscription(email):
 			"title": group_name,
 		}).insert(ignore_permissions=True)
 
+	# TODO: Implement ip iso code to email_group_member Doctype
+	# from frappe.sessions import get_geo_from_ip
+	# if frappe.local.request_ip:
+	# 	geo = get_geo_from_ip(frappe.local.request_ip)
+	# 	if geo and "country" in geo:
+	# 		country_code = geo["country"]["iso_code"]
+	# 		print(country_code)
+	# 	print(geo)
+
 	from frappe.email.doctype.email_group.email_group import add_subscribers
 	frappe.flags.ignore_permissions = True
+	# TODO: Implement ip iso code to email_group_member Doctype
 	add_subscribers(group_name, email)
 	frappe.db.commit()
 
-	frappe.respond_as_web_page(_("Confirmed"),
-		_("{0} has been successfully added to the Email Group.").format(email),
-		indicator_color='green')
+	frappe.respond_as_web_page(_("Email confirmed"),
+		_("{0} successfully subscribed. Thank you very much.").format(email))

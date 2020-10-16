@@ -4,6 +4,7 @@ apps/egd_site/egd_site/templates/includes/footer.html,Subscribe,Subscribirse
 apps/egd_site/egd_site/templates/includes/footer.html,Stay up to date,Mantente informado
 apps/egd_site/egd_site/templates/includes/footer.html,Legal,Condiciones
 apps/egd_site/egd_site/templates/includes/footer.html,Privacy,Privacidad
+apps/egd_site/egd_site/templates/includes/footer.html,"Thank you, you will receive a confirmation email.","Muchas gracias, pronto recibirás un email de confirmación."
 
 apps/egd_site/egd_site/templates/includes/header.html,Agenda,Agenda
 apps/egd_site/egd_site/templates/includes/header.html,Speakers,Ponentes
@@ -22,3 +23,5 @@ apps/egd_site/egd_site/tools.py,Thank you for subscribing to our updates.,Muchas
 apps/egd_site/egd_site/tools.py,Please verify your email address:,Por favor verifica tu email:
 apps/egd_site/egd_site/tools.py,Click here to verify, Haz click aquí para verificarlo
 apps/egd_site/egd_site/tools.py,Confirm your email,Confirma tu email
+apps/egd_site/egd_site/tools.py,Email confirmed,Email confirmado
+apps/egd_site/egd_site/tools.py,{0} successfully subscribed. Thank you very much.,{0} suscrito correctamente. Muchas gracias.
