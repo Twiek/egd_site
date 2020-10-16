@@ -86,20 +86,35 @@ def confirm_subscription(email):
 			"title": group_name,
 		}).insert(ignore_permissions=True)
 
-	# TODO: Implement ip iso code to email_group_member Doctype
-	# from frappe.sessions import get_geo_from_ip
-	# if frappe.local.request_ip:
-	# 	geo = get_geo_from_ip(frappe.local.request_ip)
-	# 	if geo and "country" in geo:
-	# 		country_code = geo["country"]["iso_code"]
-	# 		print(country_code)
-	# 	print(geo)
+	from frappe.sessions import get_geo_from_ip
+	country_code = ""
+	if frappe.local.request_ip:
+		geo = get_geo_from_ip(frappe.local.request_ip)
+		if geo and "country" in geo:
+			country_code = geo["country"]["iso_code"]
 
-	from frappe.email.doctype.email_group.email_group import add_subscribers
-	frappe.flags.ignore_permissions = True
+	from frappe.utils import validate_email_address
 	# TODO: Implement ip iso code to email_group_member Doctype
-	add_subscribers(group_name, email)
-	frappe.db.commit()
+	email = email.strip()
+	parsed_email = validate_email_address(email, False)
+	if parsed_email:
+		if not frappe.db.get_value("Email Group Member",
+			{"email_group": group_name, "email": parsed_email}):
+			frappe.get_doc({
+				"doctype": "Email Group Member",
+				"email_group": group_name,
+				"email": parsed_email,
+				"country": country_code,
+				"ip": frappe.local.request_ip,
+			}).insert(ignore_permissions = True)
+			frappe.get_doc("Email Group", group_name).update_total_subscribers()
+			frappe.db.commit()
+			frappe.respond_as_web_page(_("Email confirmed"),
+				_("{0} successfully subscribed. Thank you very much.").format(email))
+		else:
+			frappe.respond_as_web_page(_("Email subscribed"),
+				_("{0} was subscribed previously.").format(email))
+	else:
+		frappe.respond_as_web_page(_("Email not subscribed"),
+			_("There was an error adding {0}.").format(email))
 
-	frappe.respond_as_web_page(_("Email confirmed"),
-		_("{0} successfully subscribed. Thank you very much.").format(email))
