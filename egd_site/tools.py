@@ -1,7 +1,7 @@
 
 from __future__ import unicode_literals
 import frappe
-from jinja2.runtime import Context
+from frappe import _
 
 
 def get_home_page(user:str=""):
@@ -46,52 +46,55 @@ def context_extend(context):
 		if not "context" in frappe.local.response:
 			frappe.local.response.context = {}
 
-		# # Below lines will override ALL context variables previously generated
-		# frappe.local.response.context["title"] = context.metatags["title"] + " | PEPE"
-		# 	# frappe.get_hooks("AE_HTML_TITLE_SUFFIX")[0]
-		# 	# if frappe.get_hooks("AE_HTML_TITLE_SUFFIX")
-		# 	# else ""
 
-
-		print("XXX COMPROBAR QUE LOS METATAGS SE APLICAN!!!!!")
-
-		# # context.base_template_path = app_base[0] if app_base else "templates/base.html"
-		# if not "metatags" in context:
-		# 	context.metatags = frappe._dict({})
-
-		# context.metatags["lang"] = frappe.local.lang
-		# context.metatags["url"] = context.url
-		# context.metatags["og:url"] = context.url
-
-		# # If blog image or no default use the "summary_large_image" value
-		# if "image" in context.metatags and context.metatags["image"]:
-		# 	context.metatags["twitter:card"] = "summary_large_image"
-		# else:
-		# 	context.metatags["image"] = frappe.utils.get_url() + "/assets/egd_site/images/effective-giving-day.svg"
-		# 	context.metatags["twitter:card"] = "summary"
-
-		# if not "title" in context.metatags:
-		# 	if "meta_title" in context:
-		# 		context.metatags["title"] = context["meta_title"]
-		# 	elif context.title:
-		# 		context.metatags["title"] = context.title
-		# 	# Add title suffix except for home
-		# 	if "path" in context and context["path"] != "":
-		# 		context.metatags["title"] += (
-		# 			frappe.get_hooks("AE_HTML_TITLE_SUFFIX")[0]
-		# 			if frappe.get_hooks("AE_HTML_TITLE_SUFFIX")
-		# 			else ""
-		# 		)
-
-		# if not "description" in context.metatags:
-		# 	if "meta_description" in context:
-		# 		context.metatags["description"] = context["meta_description"]
-
-
-	print(context)
 	return context
 
 
-# https://api.ip2country.info/ip?5.6.7.8
-# https://apility.io/search/5.6.7.8
-# https://ipgeolocation.io/pricing.html
+
+
+@frappe.whitelist(allow_guest=True)
+def subscribe(email):
+	from frappe.utils.verified_command import get_signed_params
+	from frappe.sessions import get_geo_ip_country
+
+	country = get_geo_ip_country(frappe.local.request_ip) if frappe.local.request_ip else None,
+
+	url = "{0}?{1}".format(
+		frappe.utils.get_url("/api/method/egd_site.tools.confirm_subscription"),
+		get_signed_params({"email": email})
+	)
+	messages = (
+		_("Thank you for subscribing to our updates."),
+		_("Please verify your email address:") + country,
+		url,
+		_("Click here to verify")
+	)
+	content = """
+	<p>{0}{1}</p>
+	<p><a href="{2}">{3}</a></p>
+	"""
+	frappe.sendmail(email, subject=_("Confirm your email"), content=content.format(*messages))
+
+
+@frappe.whitelist(allow_guest=True)
+def confirm_subscription(email):
+	from frappe.utils.verified_command import verify_request
+
+	if not verify_request():
+		return
+
+	group_name = "EGD Subscriptions"
+	if not frappe.db.exists("Email Group", group_name):
+		frappe.get_doc({
+			"doctype": "Email Group",
+			"title": group_name,
+		}).insert(ignore_permissions=True)
+
+	from frappe.email.doctype.email_group.email_group import add_subscribers
+	frappe.flags.ignore_permissions = True
+	add_subscribers(group_name, email)
+	frappe.db.commit()
+
+	frappe.respond_as_web_page(_("Confirmed"),
+		_("{0} has been successfully added to the Email Group.").format(email),
+		indicator_color='green')

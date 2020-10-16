@@ -1,4 +1,13 @@
 
+
+$color-primary: #1b5266;
+
+
+// BOOTSTRAP 4
+$primary: $color-primary;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
 // LINEICONS
 $lni-font-path: "/assets/egd_site/fonts/line-icons";
 @import "line-icons/main";
@@ -17,9 +26,7 @@ $lni-font-path: "/assets/egd_site/fonts/line-icons";
 
 
 // <BASE TEMPLATE STYLES
-// Current Preset color
-$color-main: #1b5266;
-$preset: $color-main;
+$preset: $color-primary;
 
 // @import "../template/css/colors/purple";
 @import "../template/css/slicknav.min";
@@ -65,7 +72,7 @@ $preset: $color-main;
 
 
 // GLOBAL
-.hide {
+.hide, .hidden {
 	display: none;
 }
 
@@ -80,7 +87,7 @@ $preset: $color-main;
 		}
 		.nav-link {
 			&.active {
-				color: $color-main !important;
+				color: $primary !important;
 				font-weight: bold;
 			}
 		}
@@ -127,12 +134,3 @@ $preset: $color-main;
 .custom-select.is-invalid {
 	background-image: none;
 }
-
-
-// <FRAPPE MODAL CUSTOMIZATIONS
-.msgprint-dialog {
-	h5 {
-		font-size: 20px;
-	}
-}
-// FRAPPE MODAL CUSTOMIZATIONS>

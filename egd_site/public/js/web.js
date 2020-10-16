@@ -33,10 +33,6 @@ frappe.ready(function() {
 	})
 	wow.init()
 
-	// one page navigation 
-	$('.navbar-nav').onePageNav({
-		currentClass: 'active'
-	})
 
 	/* Back Top Link active
 	========================================================*/
@@ -70,6 +66,44 @@ frappe.ready(function() {
 			form.classList.add('was-validated')
 		}, false)
 	})
+
+
+	// SUBSCRIBE
+	const $newsletter = $('.form-subscribe')
+	if ($newsletter.length) {
+		const $form = $newsletter.find('form')
+		const $submit = $newsletter.find('button')
+		const $email = $newsletter.find('[name="email"]')
+		const $message_ok = $newsletter.find('.alert-success')
+		$form.on('submit', function(e) {
+			e.preventDefault()
+			e.stopPropagation()
+			subscribe()
+		})
+		function subscribe() {
+			const email = $email.val()
+			if (email && validate_email(email)) {
+				$email.attr('disabled', true)
+				$submit.html(__('Subscribing...')).attr('disabled', true)
+				return frappe.call({
+					type: 'POST',
+					method: 'egd_site.tools.subscribe',
+					args: { 'email': email, '_lang': window.context.lang },
+					callback: r => {
+						if (!r.exc) {
+							$message_ok.show()
+							$form.hide()
+						} else {
+							$submit.html(__('Error with subscription')).addClass('btn-danger').attr('disabled', false)
+							$email.val('').attr('disabled', false)
+						}
+					},
+				})
+			} else {
+				frappe.msgprint(__('Please check your email'), __('Something went wrong'))
+			}
+		}
+	}
 })
 
 

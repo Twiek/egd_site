@@ -1,31 +1,4 @@
 
-apps/frappe/frappe/public/js/frappe/ui/messages.js,Message,Mensaje
-apps/frappe/frappe/www/login.py,Email Address,Email
-apps/frappe/frappe/www/login.html,Back to Login,Iniciar sesión
-apps/frappe/frappe/www/login.html,Forgot Password?,¿Has olvidado tu contraseña?
-apps/frappe/frappe/core/doctype/user/user.js,Reset Password,Cambiar mi contraseña
-apps/frappe/frappe/www/login.html,Forgot Password,Contraseña olvidada
-apps/frappe/frappe/core/doctype/user/user.py,Password reset instructions have been sent to your email,Te hemos enviado un email con un enlace que te permite cambiar tu contraseña
-apps/frappe/frappe/templates/includes/login/login.js,Instructions Emailed,Instrucciones enviadas a tu email
-apps/frappe/frappe/www/update-password.html,New Password Required.,Por favor introduce tu nueva contraseña.
-apps/frappe/frappe/core/doctype/user/user.py,Invalid Password:,Error:
-apps/frappe/frappe/utils/password_strength.py,This is a very common password.,Contraseña demasiado sencilla.
-apps/frappe/frappe/www/update-password.html,"Hint: Include symbols, numbers and capital letters in the password","Por favor utiliza números, mayúsculas y/o algún símbolo"
-apps/frappe/frappe/handler.py,You have been successfully logged out,¡Esperamos verte pronto!
-apps/frappe/frappe/templates/includes/login/login.js,Invalid Login. Try again.,Email o contraseña incorrectas
-apps/frappe/frappe/www/update-password.html,Please enter the password,Introduce tu nueva contraseña
-apps/frappe/frappe/www/update-password.html,Old Password Required.,Es necesario que indiques tu contraseña actual
-apps/frappe/frappe/www/update-password.html,Invalid Password,Contraseña actual inválida
-apps/frappe/frappe/www/update-password.html,Old Password,Contraseña actual
-apps/frappe/frappe/www/update-password.html,New Password,Nueva contraseña
-apps/frappe/frappe/www/update-password.html,Password Updated,Contraseña actualizada correctamente
-DocType: Chat Profile,Offline,Desconectado correctamente
-DocType: Workflow State,Home,Home
-DocType: Custom DocPerm,Submit,Enviar
-apps/frappe/frappe/templates/includes/login/login.js,Success,Has entrado correctamente
-apps/frappe/frappe/utils/response.py,Your system is being updated. Please refresh again after a few moments,"Discúlpanos: estamos actualizando la web. Si recargas esta página en unos segundos todo debería estar de nuevo en su sitio."
-apps/frappe/frappe/templates/includes/login/login.js,Valid Login id required.,Email necesario
-
 apps/egd_site/egd_site/templates/includes/footer.html,Enter your email here,Introduce tu email
 apps/egd_site/egd_site/templates/includes/footer.html,Subscribe,Subscribirse
 apps/egd_site/egd_site/templates/includes/footer.html,Stay up to date,Mantente informado
@@ -39,3 +12,13 @@ apps/egd_site/egd_site/templates/includes/header.html,Register,Registro
 apps/egd_site/egd_site/templates/includes/header.html,Contact,Contacto
 apps/egd_site/egd_site/templates/includes/header.html,EFFECTIVE GIVING DAY,DÍA DE LA DONACIÓN EFECTIVA
 apps/egd_site/egd_site/templates/includes/header.html,REGISTER NOW,REGÍSTRATE AHORA
+
+apps/egd_site/egd_site/public/js/web.js,Please check your email,Por favor revisa tu email
+apps/egd_site/egd_site/public/js/web.js,Something went wrong,Algo ha ido mal
+apps/egd_site/egd_site/public/js/web.js,Error with subscription,Error en la suscripción
+apps/egd_site/egd_site/public/js/web.js,Subscribing...,Suscribiéndote...
+
+apps/egd_site/egd_site/tools.py,Thank you for subscribing to our updates.,Muchas gracias por suscribirte a nuestras actualizaciones
+apps/egd_site/egd_site/tools.py,Please verify your email address:,Por favor verifica tu email:
+apps/egd_site/egd_site/tools.py,Click here to verify, Haz click aquí para verificarlo
+apps/egd_site/egd_site/tools.py,Confirm your email,Confirma tu email
