@@ -57,6 +57,19 @@ frappe.ready(function() {
 		return false
 	})
 
+
+	// BS FORM VALIDATIONS
+	const FORMS = document.getElementsByClassName('bs-validation')
+	// Loop over them and prevent submission
+	Array.prototype.filter.call(FORMS, function(form) {
+		form.addEventListener('submit', function(event) {
+			if (form.checkValidity() === false) {
+				event.preventDefault()
+				event.stopPropagation()
+			}
+			form.classList.add('was-validated')
+		}, false)
+	})
 })
 
 

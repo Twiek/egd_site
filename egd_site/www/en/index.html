@@ -11,7 +11,7 @@
 
 {% block page_container %}
 
-<!-- About Section Start -->
+
 <section id="about" class="section-padding">
 	<div class="container">
 		<div class="row">
@@ -41,9 +41,8 @@
 		</div>
 	</div>
 </section>
-<!-- About Section End -->
 
-<!-- intro Section Start -->
+
 <section id="intro" class="intro section-padding">
 	<div class="container">
 		<div class="row">
@@ -107,9 +106,8 @@
 		</div>
 	</div>
 </section>
-<!-- intro Section End -->
 
-<!-- Schedule Section Start -->
+
 <section id="schedules" class="schedule section-padding">
 	<div class="container">
 		<div class="row">
@@ -120,194 +118,14 @@
 				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-12">
-				<div class="schedule-area row fadeInDown" data-wow-delay="0.3s">
-					<div class="schedule-tab-content col-12 clearfix">
-						<div id="accordion">
-							<div class="card">
-								<div id="headingOne">
-									<div class="schedule-slot-time">
-										<span> 9.30 - 10.30 AM</span>
-										Workshop
-									</div>
-									<div class="collapsed card-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-										<i class="opener-chevron lni-chevron-right"></i>
-										<div class="images-box">
-											<img class="img-fluid" src="/assets/egd_site/images/speakers/person-small.jpg" alt="">
-										</div>
-										<h4>Web Design Principles and Best Practices</h4>
-										<h5 class="name">David Warner</h5>
-									</div>
-								</div>
-								<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-									<div class="card-body">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet minima dolores rerum maiores qui at commodi quas, reprehenderit eius consectetur quae magni molestias veniam, provident illum facere iure libero asperiores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam earum nihil ex ipsa magni eligendi fugiat assumenda suscipit, accusantium, necessitatibus reiciendis odit sed, vero amet blanditiis?</p>
-										<div class="location">
-										<span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="card">
-								<div id="headingTwo">
-									<div class="schedule-slot-time">
-										<span> 10.30 - 11.30 AM</span>
-										Workshop
-									</div>
-									<div class="collapsed card-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-										<i class="opener-chevron lni-chevron-right"></i>
-										<div class="images-box">
-											<img class="img-fluid" src="/assets/egd_site/images/speakers/person-small.jpg" alt="">
-										</div>
-										<h4>15 Free Productive Design Tools</h4>
-										<h5 class="name">David Warner</h5>
-									</div>
-								</div>
-								<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-									<div class="card-body">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet minima dolores rerum maiores qui at commodi quas, reprehenderit eius consectetur quae magni molestias veniam, provident illum facere iure libero asperiores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam earum nihil ex ipsa magni eligendi fugiat assumenda suscipit, accusantium, necessitatibus reiciendis odit sed, vero amet blanditiis?</p>
-										<div class="location">
-											<span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="card">
-								<div id="headingThree">
-									<div class="schedule-slot-time">
-										<span> 11.30 - 12.30 AM</span>
-										Workshop
-									</div>
-									<div class="collapsed card-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-										<i class="opener-chevron lni-chevron-right"></i>
-										<div class="images-box">
-											<img class="img-fluid" src="/assets/egd_site/images/speakers/person-small.jpg" alt="">
-										</div>
-										<h4>Getting Started With SketchApp</h4>
-										<h5 class="name">David Warner</h5>
-									</div>
-								</div>
-								<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-									<div class="card-body">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet minima dolores rerum maiores qui at commodi quas, reprehenderit eius consectetur quae magni molestias veniam, provident illum facere iure libero asperiores! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam earum nihil ex ipsa magni eligendi fugiat assumenda suscipit, accusantium, necessitatibus reiciendis odit sed, vero amet blanditiis?</p>
-										<div class="location">
-											<span>Location:</span> Hall 1 , Building A, Golden Street, Southafrica
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		{% include "templates/includes/en.agenda.html" ignore missing %}
 	</div>
 </section>
-<!-- Schedule Section End -->
+
 
 <section id="team" class="section-padding text-center">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<div class="section-title-header text-center">
-					<h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">Speakers</h2>
-					<p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an <br> cule dicta iriure at phaedrum.</p>
-				</div>
-			</div>
-		</div>
-		<div class="row justify-content-bt">
-			<div class="col-lg-3 col-md-6 col-xs-12">
-				<div class="team-item wow fadeInUp" data-wow-delay="0.2s">
-					<div class="team-img">
-						<img class="img-fluid" src="/assets/egd_site/images/speakers/person.jpg" alt="">
-						<div class="team-overlay">
-							<div class="overlay-social-icon text-center">
-								<ul class="social-icons">
-									<li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="lni-google" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="lni-pinterest" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="info-text">
-						<h3><a href="#">JONATHON DOE</a></h3>
-						<p>Product Designer, Tesla</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-3 col-md-6 col-xs-12">
-				<div class="team-item wow fadeInUp" data-wow-delay="0.2s">
-					<div class="team-img">
-						<img class="img-fluid" src="/assets/egd_site/images/speakers/person.jpg" alt="">
-						<div class="team-overlay">
-							<div class="overlay-social-icon text-center">
-								<ul class="social-icons">
-									<li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="lni-google" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="lni-pinterest" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="info-text">
-						<h3><a href="#">JONATHON DOE</a></h3>
-						<p>Product Designer, Tesla</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-3 col-md-6 col-xs-12">
-				<div class="team-item wow fadeInUp" data-wow-delay="0.2s">
-					<div class="team-img">
-						<img class="img-fluid" src="/assets/egd_site/images/speakers/person.jpg" alt="">
-						<div class="team-overlay">
-							<div class="overlay-social-icon text-center">
-								<ul class="social-icons">
-									<li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="lni-google" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="lni-pinterest" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="info-text">
-						<h3><a href="#">JONATHON DOE</a></h3>
-						<p>Product Designer, Tesla</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-3 col-md-6 col-xs-12">
-				<div class="team-item wow fadeInUp" data-wow-delay="0.2s">
-					<div class="team-img">
-						<img class="img-fluid" src="/assets/egd_site/images/speakers/person.jpg" alt="">
-						<div class="team-overlay">
-							<div class="overlay-social-icon text-center">
-								<ul class="social-icons">
-									<li><a href="#"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="lni-google" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="lni-facebook-filled" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="lni-pinterest" aria-hidden="true"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="info-text">
-						<h3><a href="#">JONATHON DOE</a></h3>
-						<p>Product Designer, Tesla</p>
-					</div>
-				</div>
-			</div>
-
-		</div>
-		<a href="/speakers" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">See all speakers</a>
-	</div>
+	{% include "templates/includes/en.speakers.html" ignore missing %}
+	<a href="/speakers" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">See all speakers</a>
 </section>
 
 

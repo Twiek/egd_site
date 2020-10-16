@@ -76,10 +76,8 @@
 			border: none;
 		}
 	}
-	.show .card-body{
-		background: #f3f4f3;
-	}
 	.card{
+		background-color: transparent;
 		.schedule-slot-time{
 			background: $preset;
 		    color: #fff;

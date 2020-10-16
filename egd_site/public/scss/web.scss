@@ -86,3 +86,20 @@ $preset: #1b5266;
 	}
 }
 
+// BS FORM VALIDATION
+.was-validated .form-control:valid,
+.form-control.is-valid,
+.was-validated .form-control:valid:focus,
+.form-control.is-valid:focus {
+	border-color: #ced4da;
+	box-shadow: none;
+	background-image: none;
+}
+.was-validated .form-control:invalid,
+.form-control.is-invalid,
+.was-validated .form-control:invalid:focus,
+.form-control.is-invalid:focus,
+.was-validated .custom-select:invalid,
+.custom-select.is-invalid {
+	background-image: none;
+}
