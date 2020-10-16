@@ -134,3 +134,14 @@ $preset: $color-primary;
 .custom-select.is-invalid {
 	background-image: none;
 }
+
+
+// FRAPPE MESSAGES
+.page-card {
+	.page-card-body {
+		> div {
+			text-align: right;
+		}
+	}
+}
+

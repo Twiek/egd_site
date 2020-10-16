@@ -79,6 +79,13 @@ def confirm_subscription(email):
 	if not verify_request():
 		return
 
+	# Default user message
+	message = frappe._dict({
+		"title": _("Email subscription"),
+		"html": _("Error adding \"{0}\".").format(email),
+		"primary_label": _("Go to homepage"),
+	})
+
 	group_name = "EGD Subscriptions"
 	if not frappe.db.exists("Email Group", group_name):
 		frappe.get_doc({
@@ -94,27 +101,23 @@ def confirm_subscription(email):
 			country_code = geo["country"]["iso_code"]
 
 	from frappe.utils import validate_email_address
-	# TODO: Implement ip iso code to email_group_member Doctype
 	email = email.strip()
-	parsed_email = validate_email_address(email, False)
-	if parsed_email:
+	email_valid = validate_email_address(email, False)
+	if email_valid:
 		if not frappe.db.get_value("Email Group Member",
-			{"email_group": group_name, "email": parsed_email}):
+			{"email_group": group_name, "email": email_valid}):
 			frappe.get_doc({
 				"doctype": "Email Group Member",
 				"email_group": group_name,
-				"email": parsed_email,
+				"email": email_valid,
 				"country": country_code,
 				"ip": frappe.local.request_ip,
-			}).insert(ignore_permissions = True)
+			}).insert(ignore_permissions=True)
 			frappe.get_doc("Email Group", group_name).update_total_subscribers()
 			frappe.db.commit()
-			frappe.respond_as_web_page(_("Email confirmed"),
-				_("{0} successfully subscribed. Thank you very much.").format(email))
+			message.html=_("\"{0}\" successfully subscribed. Thank you very much.").format(email)
 		else:
-			frappe.respond_as_web_page(_("Email subscribed"),
-				_("{0} was subscribed previously.").format(email))
-	else:
-		frappe.respond_as_web_page(_("Email not subscribed"),
-			_("There was an error adding {0}.").format(email))
+			message.html =_("\"{0}\" was subscribed previously.").format(email)
+
+	frappe.respond_as_web_page(**message)
 

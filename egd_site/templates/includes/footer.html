@@ -6,7 +6,7 @@
 				<div class="form-subscribe subscribe-inner wow fadeInDown" data-wow-delay="0.3s">
 					<h2 class="subscribe-title">{{ _('Stay up to date') }}</h2>
 					<form class="bs-validation text-center form-inline" novalidate>
-						<input class="mb-20 form-control" name="email" placeholder="{{ _('Enter your email here') }}">
+						<input class="mb-20 form-control" name="email" placeholder="{{ _('Enter your email here') }}" pattern="^.+@.+\..+$" required>
 						<button type="submit" class="btn btn-common sub-btn" data-style="zoom-in" data-spinner-size="30" name="submit" id="submit">
 							<span class="ladda-label"><i class="lni-check-box"></i> {{ _('Subscribe') }}</span>
 						</button>

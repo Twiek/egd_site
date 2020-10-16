@@ -99,8 +99,6 @@ frappe.ready(function() {
 						}
 					},
 				})
-			} else {
-				frappe.msgprint(__('Please check your email'), __('Something went wrong'))
 			}
 		}
 	}

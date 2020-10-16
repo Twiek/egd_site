@@ -19,9 +19,13 @@ apps/egd_site/egd_site/public/js/web.js,Something went wrong,Algo ha ido mal
 apps/egd_site/egd_site/public/js/web.js,Error with subscription,Error en la suscripción
 apps/egd_site/egd_site/public/js/web.js,Subscribing...,Suscribiéndote...
 
+apps/egd_site/egd_site/tools.py,Confirm your email,Confirma tu email
 apps/egd_site/egd_site/tools.py,Thank you for subscribing to our updates.,Muchas gracias por suscribirte a nuestras actualizaciones
 apps/egd_site/egd_site/tools.py,Please verify your email address:,Por favor verifica tu email:
 apps/egd_site/egd_site/tools.py,Click here to verify, Haz click aquí para verificarlo
-apps/egd_site/egd_site/tools.py,Confirm your email,Confirma tu email
-apps/egd_site/egd_site/tools.py,Email confirmed,Email confirmado
-apps/egd_site/egd_site/tools.py,{0} successfully subscribed. Thank you very much.,{0} suscrito correctamente. Muchas gracias.
+
+apps/egd_site/egd_site/tools.py,Subscription,Suscripción
+apps/egd_site/egd_site/tools.py,Error adding \"{0}\".,Error añadiendo \"{0}\". 
+apps/egd_site/egd_site/tools.py,Go to homepage,Ir a la home
+apps/egd_site/egd_site/tools.py,\"{0}\" successfully subscribed. Thank you very much.,\"{0}\" suscrito correctamente. Muchas gracias.
+apps/egd_site/egd_site/tools.py,\"{0}\" was subscribed previously.,\"{0}\" ya estaba suscrito.
