@@ -13,7 +13,7 @@ app_license = "MIT"
 
 
 AE_ASSETS_VERSION = "1.0.0.2"
-AE_HTML_TITLE_SUFFIX = " | Effectiva Giving Day"
+AE_HTML_TITLE_SUFFIX = " | Effective Giving Day"
 
 # Site domains & environment
 site_app_domains = {
