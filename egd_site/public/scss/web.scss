@@ -75,6 +75,9 @@ $preset: $color-primary;
 .hide, .hidden {
 	display: none;
 }
+small, .small {
+	line-height: 120%;
+}
 
 
 // NAVBAR
@@ -145,3 +148,13 @@ $preset: $color-primary;
 	}
 }
 
+
+
+.dfp-test {
+	button {
+		height: 55px;
+		@include media-breakpoint-up(md) {
+			margin-left: -55px !important;
+		}
+	}
+}

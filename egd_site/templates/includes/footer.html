@@ -5,13 +5,25 @@
 			<div class="col-lg-8 col-md-12 col-xs-12">
 				<div class="form-subscribe subscribe-inner wow fadeInDown" data-wow-delay="0.3s">
 					<h2 class="subscribe-title">{{ _('Stay up to date') }}</h2>
-					<form class="bs-validation text-center form-inline" novalidate>
-						<input class="mb-20 form-control" name="email" placeholder="{{ _('Enter your email here') }}" pattern="^.+@.+\..+$" required>
-						<button type="submit" class="btn btn-common sub-btn" data-style="zoom-in" data-spinner-size="30" name="submit" id="submit">
-							<span class="ladda-label"><i class="lni-check-box"></i> {{ _('Subscribe') }}</span>
+					<form class="bs-validation row justify-content-center dfp-test" novalidate>
+						<input class="form-control mb-2 col-xs-12 col-md-8" name="email" placeholder="{{ _('Enter your email here') }}" pattern="^.+@.+\..+$" required>
+						<button type="submit" class="btn btn-common col-xs-12 col-md-4 mx-4" data-style="zoom-in" data-spinner-size="30" name="submit" id="submit">
+							<span class="text-nowrap">{{ _('Accept and subscribe') }}</span>
 						</button>
 					</form>
+					{#<!-- <form class="bs-validation text-center form-inline" novalidate>
+						<input class="form-control" name="email" placeholder="{{ _('Enter your email here') }}" pattern="^.+@.+\..+$" required>
+						<button type="submit" class="btn btn-common sub-btn" data-style="zoom-in" data-spinner-size="30" name="submit" id="submit">
+							<span class="ladda-label text-nowrap">{{ _('Accept and subscribe') }}</span>
+						</button>
+					</form> -->#}
 					<div class="alert alert-success hide">{{ _('Thank you, you will receive a confirmation email.') }}</div>
+					<small id="contact-name" class="form-text text-muted">
+						After sending this form, you will receive an email to confirm your email, no data from you is saved yet.
+						After you receive the confirmation email and click on the link we send you, we are going to save it, 
+						your IP and related country to allow us sending information related to your nearest Effective Altruism
+						organization. If you are not interested, please do not start this process.
+					</small>
 				</div>
 				<div class="footer-logo">
 					<img src="/assets/egd_site/images/effective-giving-day-logo-inverted.svg" alt="">
