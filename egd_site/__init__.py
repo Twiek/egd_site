@@ -30,8 +30,8 @@ def site_env() -> str:
 	return sites[frappe.local.site] if frappe.local.site in sites else "local"
 
 
-# <Override guess_language method
-from frappe.translate import guess_language as frappe_guess_language
+# <FRAPPE OVERRIDES
+
 def egd_guess_language(lang_list=None) -> str:
 	"""Set `frappe.local.lang` from url language segment: `/xx/...`"""
 	if is_app_for_actual_site():
@@ -49,12 +49,11 @@ def egd_guess_language(lang_list=None) -> str:
 			frappe.lang = frappe.local.lang = lang
 			return lang
 	return frappe_guess_language(lang_list)
+
+from frappe.translate import guess_language as frappe_guess_language
 frappe.translate.guess_language = egd_guess_language
-# Override guess_language method>
 
 
-# <Override resolve_redirect method
-from frappe.website.redirect import resolve_redirect as frappe_resolve_redirect
 def egd_resolve_redirect(path):
 	if is_app_for_actual_site():
 		requested = frappe.local.request.path
@@ -77,7 +76,10 @@ def egd_resolve_redirect(path):
 	else:
 		frappe_resolve_redirect(path)
 
+from frappe.website.redirect import resolve_redirect as frappe_resolve_redirect
 frappe.website.redirect.resolve_redirect = egd_resolve_redirect
-# TODO: Below line must be commented when installing module. Please resolve.
+# First import full module `render` to avoid issue when file loading from `bench`
+import frappe.website.render
 frappe.website.render.resolve_redirect = egd_resolve_redirect
-# Override resolve_redirect method>
+
+# FRAPPE OVERRIDES>
