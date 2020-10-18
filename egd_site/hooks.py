@@ -12,8 +12,8 @@ app_email = "info@ayudaefectiva.org"
 app_license = "MIT"
 
 
-AE_ASSETS_VERSION = "1.0.0.2"
-AE_HTML_TITLE_SUFFIX = " | Effective Giving Day"
+ASSETS_VERSION = "1.0.0.3"
+HTML_TITLE_SUFFIX = " | Effective Giving Day"
 
 # Site domains & environment
 site_app_domains = {
@@ -91,8 +91,8 @@ update_website_context = [
 ]
 
 website_context = {
-	"AE_ASSETS_VERSION": AE_ASSETS_VERSION,
-	"AE_HTML_TITLE_SUFFIX": AE_HTML_TITLE_SUFFIX,
+	"ASSETS_VERSION": ASSETS_VERSION,
+	"HTML_TITLE_SUFFIX": HTML_TITLE_SUFFIX,
 	"language_default": language_default,
 }
 

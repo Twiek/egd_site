@@ -9,8 +9,6 @@ def get_home_page(user:str=""):
 
 
 def context_extend(context):
-	# CONTEXT: check order in "def build_context(context):"
-
 	languages = frappe.get_hooks("translated_languages_for_website")
 
 	context["lang"] = frappe.local.lang
@@ -42,14 +40,10 @@ def context_extend(context):
 				"is_home": not path_without_language,
 			})
 
-
 		if not "context" in frappe.local.response:
 			frappe.local.response.context = {}
 
-
 	return context
-
-
 
 
 @frappe.whitelist(allow_guest=True)
@@ -66,11 +60,8 @@ def subscribe(email):
 		url,
 		_("Click here to verify")
 	)
-	content = """
-	<p>{0}{1}</p>
-	<p><a href="{2}">{3}</a></p>
-	"""
-	frappe.sendmail(email, subject=_("Confirm your email"), content=content.format(*messages))
+	content = "<p>{0}{1}</p><p><a href=\"{2}\">{3}</a></p>".format(*messages)
+	frappe.sendmail(email, subject=_("Email confirmation"), content=content)
 
 
 @frappe.whitelist(allow_guest=True)
