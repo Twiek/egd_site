@@ -44,7 +44,8 @@ def egd_guess_language(lang_list=None) -> str:
 				path = frappe.local.request.path
 				# Default language first in list
 				lang = languages[0]
-				if len(path) >= 3 and path[1:3] in languages:
+				# /xx || /xx/path 
+				if (len(path) == 3 or (len(path) > 3 and path[3:4] == "/")) and path[1:3] in languages:
 					lang = path[1:3]
 			frappe.lang = frappe.local.lang = lang
 			return lang
