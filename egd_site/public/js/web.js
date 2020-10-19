@@ -1,13 +1,11 @@
 
-
 import isoCountriesLanguages from '@hotosm/iso-countries-languages'
 window.isoCountriesLanguages = isoCountriesLanguages
-
 
 frappe.ready(function() {
 
 	// COUNTRIES TRANSLATED
-	window.context.countries = isoCountriesLanguages.getCountries(window.context.lang)
+	window.context.countries = window.isoCountriesLanguages.getCountries(window.context.lang)
 	$('select.select-countries').each((idx, el) => {
 		$.each(window.context.countries, function(iso, label) {
 			$(el).append($('<option></option>').val(iso).html(label) )
