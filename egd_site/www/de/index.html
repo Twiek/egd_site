@@ -1,0 +1,166 @@
+{% extends "templates/web.html" %}
+
+
+{% block header %}
+	{% block hero %}
+		{% include "templates/includes/hero.html" %}
+	{% endblock %}
+	{% include "templates/includes/header.html" %}
+{% endblock %}
+
+
+{% block page_container %}
+
+
+<section id="about" class="section-padding">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-12 col-xs-12">
+				<div class="img-thumb">
+					<img class="img-fluid" src="/assets/egd_site/template/img/about/img1.png" alt="">
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12 col-xs-12">
+				<div class="about-content">
+					<div>
+						<div class="about-text">  
+							<h2>About the event</h2>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod ncididunt ametfh consectetur dolore magna aliqua. Ut enim ad minim veniam dolor sitame magnaelit ate consectetur adipisicing. Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod.</p>
+						</div>
+						<ul class="stylish-list mb-3">
+							<li><i class="lni-check-mark-circle"></i>We are providing different services</li>
+							<li><i class="lni-check-mark-circle"></i>We are one of leading company</li>
+							<li><i class="lni-check-mark-circle"></i>Profitability is the primary goal of all business</li>
+							<li><i class="lni-check-mark-circle"></i>Learn how to grow your Business </li>
+							<li><i class="lni-check-mark-circle"></i>Professional solutions for your business</li>
+						</ul>
+						<a class="btn btn-common" href="/es/agenda">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section id="intro" class="intro section-padding">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title-header text-center">
+					<h2 class="section-title fadeInUp" data-wow-delay="0.2s">Why attend</h2>
+					<p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an <br> cule dicta iriure at phaedrum.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row intro-wrapper">
+			<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="single-intro-text mb-70">
+					<i class="lni-microphone"></i>
+					<h3>Great Speakers</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus mollitia, excepturi.</p>
+					<span class="count-number">01</span>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="single-intro-text">
+					<i class="lni-users"></i>
+					<h3 class="ts-title">New People</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus mollitia, excepturi.</p>
+					<span class="count-number">02</span>
+				</div>
+				<div class="border-shap left"></div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="single-intro-text mb-70">
+					<i class="lni-bullhorn"></i>
+					<h3>Global Event</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus mollitia, excepturi.</p>
+					<span class="count-number">03</span>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="single-intro-text mb-70">
+					<i class="lni-heart"></i>
+					<h3>Get Inspired</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus mollitia, excepturi.</p>
+					<span class="count-number">04</span>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="single-intro-text mb-70">
+					<i class="lni-cup"></i>
+					<h3>Networking Session</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus mollitia, excepturi.</p>
+					<span class="count-number">05</span>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-xs-12">
+				<div class="single-intro-text mb-70">
+					<i class="lni-gallery"></i>
+					<h3>Meet New Faces</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus mollitia, excepturi.</p>
+					<span class="count-number">06</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section id="schedules" class="schedule section-padding">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title-header text-center">
+					<h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">Agenda</h2>
+					<p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an <br> cule dicta iriure at phaedrum.</p>
+				</div>
+			</div>
+		</div>
+		{% include "templates/includes/de.agenda.html" ignore missing %}
+	</div>
+</section>
+
+
+<section id="team" class="section-padding text-center">
+	{% include "templates/includes/de.speakers.html" ignore missing %}
+	<a href="/speakers" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">Ver todos los ponentes</a>
+</section>
+
+
+<section id="sponsors" class="section-padding">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title-header text-center">
+					<h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">Partners</h2>
+					<p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an <br> cule dicta iriure at phaedrum.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row mb-30 text-center wow fadeInDown" data-wow-delay="0.3s">
+			<div class="col-lg-12">
+				<div class="sponsors-logo text-center">
+					<a href=""><img src="/assets/egd_site/images/partners/logo.png" alt=""></a>
+					<a href=""><img src="/assets/egd_site/images/partners/logo.png" alt=""></a>
+					<a href=""><img src="/assets/egd_site/images/partners/logo.png" alt=""></a>
+					<a href=""><img src="/assets/egd_site/images/partners/logo.png" alt=""></a>
+					<a href=""><img src="/assets/egd_site/images/partners/logo.png" alt=""></a>
+					<a href=""><img src="/assets/egd_site/images/partners/logo.png" alt=""></a>
+					<a href=""><img src="/assets/egd_site/images/partners/logo.png" alt=""></a>
+					<a href=""><img src="/assets/egd_site/images/partners/logo.png" alt=""></a>
+					<a href=""><img src="/assets/egd_site/images/partners/logo.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+{% endblock %}
+
+
+{% block script %}
+{% endblock %}

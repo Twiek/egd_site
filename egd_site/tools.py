@@ -52,7 +52,7 @@ def subscribe(email):
 
 	url = "{0}?{1}".format(
 		frappe.utils.get_url("/api/method/egd_site.tools.confirm_subscription"),
-		get_signed_params({"email": email})
+		get_signed_params({"email": email, "_lang": frappe.local.lang})
 	)
 	messages = (
 		_("Thank you for subscribing to our updates."),
@@ -73,7 +73,7 @@ def confirm_subscription(email):
 	# Default user message
 	message = frappe._dict({
 		"title": _("Email subscription"),
-		"html": _("Error adding \"{0}\".").format(email),
+		"html": _('Error adding "{0}".').format(email),
 		"primary_label": _("Go to homepage"),
 	})
 
@@ -106,9 +106,9 @@ def confirm_subscription(email):
 			}).insert(ignore_permissions=True)
 			frappe.get_doc("Email Group", group_name).update_total_subscribers()
 			frappe.db.commit()
-			message.html=_("\"{0}\" successfully subscribed. Thank you very much.").format(email)
+			message.html=_('"{0}" successfully subscribed. Thank you very much.').format(email)
 		else:
-			message.html =_("\"{0}\" was subscribed previously.").format(email)
+			message.html =_('{0}" was subscribed previously.').format(email)
 
 	frappe.respond_as_web_page(**message)
 

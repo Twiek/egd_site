@@ -1,0 +1,25 @@
+
+apps/egd_site/egd_site/public/js/web.js,Error with subscription,Error with subscription
+apps/egd_site/egd_site/public/js/web.js,Subscribing...,Subscribing...
+apps/egd_site/egd_site/templates/includes/footer.html,Accept and subscribe,Accept and subscribe
+apps/egd_site/egd_site/templates/includes/footer.html,Enter your email here,Enter your email here
+apps/egd_site/egd_site/templates/includes/footer.html,Legal,Legal
+apps/egd_site/egd_site/templates/includes/footer.html,Privacy,Privacy
+apps/egd_site/egd_site/templates/includes/footer.html,Stay up to date,Stay up to date
+apps/egd_site/egd_site/templates/includes/footer.html,"Thank you, you will receive a confirmation email.","Thank you, you will receive a confirmation email."
+apps/egd_site/egd_site/templates/includes/header.html,Agenda,Agenda
+apps/egd_site/egd_site/templates/includes/header.html,Contact,Contact
+apps/egd_site/egd_site/templates/includes/header.html,Press,Press
+apps/egd_site/egd_site/templates/includes/header.html,Register,Register
+apps/egd_site/egd_site/templates/includes/header.html,Speakers,Speakers
+apps/egd_site/egd_site/templates/includes/hero.html,EFFECTIVE GIVING DAY,EFFECTIVE GIVING DAY
+apps/egd_site/egd_site/templates/includes/hero.html,REGISTER NOW,REGISTER NOW
+apps/egd_site/egd_site/tools.py,"""{0}"" successfully subscribed. Thank you very much.","""{0}"" successfully subscribed. Thank you very much."
+apps/egd_site/egd_site/tools.py,Click here to verify,Click here to verify
+apps/egd_site/egd_site/tools.py,Email confirmation,Email confirmation
+apps/egd_site/egd_site/tools.py,Email subscription,Email subscription
+apps/egd_site/egd_site/tools.py,"Error adding ""{0}"".","Error adding ""{0}""."
+apps/egd_site/egd_site/tools.py,Go to homepage,Go to homepage
+apps/egd_site/egd_site/tools.py,Please verify your email address:,Please verify your email address:
+apps/egd_site/egd_site/tools.py,Thank you for subscribing to our updates.,Thank you for subscribing to our updates.
+apps/egd_site/egd_site/tools.py,"{0}"" was subscribed previously.","{0}"" was subscribed previously."

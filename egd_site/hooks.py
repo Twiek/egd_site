@@ -28,7 +28,7 @@ site_app_domains = {
 # bench --site egd.local install-app egd_site
 # bench setup requirements
 
-translated_languages_for_website = ["en", "es"]
+translated_languages_for_website = ["en", "de", "es"]
 language_default = translated_languages_for_website[0]
 
 # Includes in <head>

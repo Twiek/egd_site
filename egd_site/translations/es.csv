@@ -1,31 +1,24 @@
-
-apps/egd_site/egd_site/templates/includes/footer.html,Enter your email here,Introduce tu email
-apps/egd_site/egd_site/templates/includes/footer.html,Accept and subscribe,Aceptar y subscribirse
-apps/egd_site/egd_site/templates/includes/footer.html,Stay up to date,Mantente informado
-apps/egd_site/egd_site/templates/includes/footer.html,Legal,Condiciones
-apps/egd_site/egd_site/templates/includes/footer.html,Privacy,Privacidad
-apps/egd_site/egd_site/templates/includes/footer.html,"Thank you, you will receive a confirmation email.","Muchas gracias, pronto recibirás un email de confirmación."
-
-apps/egd_site/egd_site/templates/includes/header.html,Agenda,Agenda
-apps/egd_site/egd_site/templates/includes/header.html,Speakers,Ponentes
-apps/egd_site/egd_site/templates/includes/header.html,Press,Prensa
-apps/egd_site/egd_site/templates/includes/header.html,Register,Registro
-apps/egd_site/egd_site/templates/includes/header.html,Contact,Contacto
-apps/egd_site/egd_site/templates/includes/header.html,EFFECTIVE GIVING DAY,DÍA DE LA DONACIÓN EFECTIVA
-apps/egd_site/egd_site/templates/includes/header.html,REGISTER NOW,REGÍSTRATE AHORA
-
-apps/egd_site/egd_site/public/js/web.js,Please check your email,Por favor revisa tu email
-apps/egd_site/egd_site/public/js/web.js,Something went wrong,Algo ha ido mal
 apps/egd_site/egd_site/public/js/web.js,Error with subscription,Error en la suscripción
 apps/egd_site/egd_site/public/js/web.js,Subscribing...,Suscribiéndote...
-
+apps/egd_site/egd_site/templates/includes/footer.html,Accept and subscribe,Aceptar y subscribirse
+apps/egd_site/egd_site/templates/includes/footer.html,Enter your email here,Introduce tu email
+apps/egd_site/egd_site/templates/includes/footer.html,Legal,Condiciones
+apps/egd_site/egd_site/templates/includes/footer.html,Privacy,Privacidad
+apps/egd_site/egd_site/templates/includes/footer.html,Stay up to date,Mantente informado
+apps/egd_site/egd_site/templates/includes/footer.html,"Thank you, you will receive a confirmation email.","Muchas gracias, pronto recibirás un email de confirmación."
+apps/egd_site/egd_site/templates/includes/header.html,Agenda,Agenda
+apps/egd_site/egd_site/templates/includes/header.html,Contact,Contacto
+apps/egd_site/egd_site/templates/includes/header.html,Press,Prensa
+apps/egd_site/egd_site/templates/includes/header.html,Register,Registro
+apps/egd_site/egd_site/templates/includes/header.html,Speakers,Ponentes
+apps/egd_site/egd_site/templates/includes/hero.html,EFFECTIVE GIVING DAY,DÍA DE LA DONACIÓN EFECTIVA
+apps/egd_site/egd_site/templates/includes/hero.html,REGISTER NOW,REGÍSTRATE AHORA
+apps/egd_site/egd_site/tools.py,"""{0}"" successfully subscribed. Thank you very much.","""{0}"" suscrito correctamente. Muchas gracias."
+apps/egd_site/egd_site/tools.py,Click here to verify,Haz click aquí para verificarlo
 apps/egd_site/egd_site/tools.py,Email confirmation,Confirmación de tu email
-apps/egd_site/egd_site/tools.py,Thank you for subscribing to our updates.,Muchas gracias por suscribirte a nuestras actualizaciones
-apps/egd_site/egd_site/tools.py,Please verify your email address:,Por favor verifica tu email:
-apps/egd_site/egd_site/tools.py,Click here to verify, Haz click aquí para verificarlo
-
-apps/egd_site/egd_site/tools.py,Subscription,Suscripción
-apps/egd_site/egd_site/tools.py,Error adding \"{0}\".,Error añadiendo \"{0}\". 
+apps/egd_site/egd_site/tools.py,Email subscription,Suscripción
+apps/egd_site/egd_site/tools.py,"Error adding ""{0}"".","Error añadiendo ""{0}""."
 apps/egd_site/egd_site/tools.py,Go to homepage,Ir a la home
-apps/egd_site/egd_site/tools.py,\"{0}\" successfully subscribed. Thank you very much.,\"{0}\" suscrito correctamente. Muchas gracias.
-apps/egd_site/egd_site/tools.py,\"{0}\" was subscribed previously.,\"{0}\" ya estaba suscrito.
+apps/egd_site/egd_site/tools.py,Please verify your email address:,Por favor verifica tu email:
+apps/egd_site/egd_site/tools.py,Thank you for subscribing to our updates.,Muchas gracias por suscribirte a nuestras actualizaciones.
+apps/egd_site/egd_site/tools.py,"{0}"" was subscribed previously.","{0}"" ya estaba suscrito."
