@@ -70,7 +70,7 @@ $preset: $color-primary;
 			color: #848484;
 			background-color: #f8fafa;
 			padding: 7px 19px;
-			border-radius: 30px;
+			border-radius: 20px;
 			background-image: none;
 			background-clip: padding-box;
 		}
@@ -89,15 +89,12 @@ $preset: $color-primary;
 			color: #848484;
 			background-color: #f8fafa;
 			padding: 7px 19px;
-			border-radius: 30px;
+			border-radius: 20px;
 		}
 		.form-check-label {
 			font-size: 14px;
 			color: #848484;
 		}
-	}
-	textarea{
-		border-radius: 4px!important;
 	}
 }
 
