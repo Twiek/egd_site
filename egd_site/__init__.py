@@ -54,6 +54,17 @@ from frappe.translate import guess_language as frappe_guess_language
 frappe.translate.guess_language = egd_guess_language
 
 
+def egd_get_user_lang(user=None) -> str:
+	"""If user logged use gessed language on session beginning or resumption"""
+	if is_app_for_actual_site():
+		return frappe.local.lang
+	else:
+		return frappe_get_user_lang(user)
+
+from frappe.translate import get_user_lang as frappe_get_user_lang
+frappe.translate.get_user_lang = egd_get_user_lang
+
+
 def egd_resolve_redirect(path):
 	if is_app_for_actual_site():
 		requested = frappe.local.request.path
