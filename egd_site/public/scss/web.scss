@@ -5,6 +5,8 @@ $color-primary: #1b5266;
 
 // BOOTSTRAP 4
 $primary: $color-primary;
+$enable-validation-icons: false;
+$form-feedback-valid-color: $color-primary;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
@@ -47,23 +49,63 @@ $preset: $color-primary;
 // Service Area
 @import "../template/scss/service";
 
-// Portfolio Area
-@import "../template/scss/portfolio";
-
 // Team Area
 @import "../template/scss/team";
 
-// Blog Area
-// @import "../template/scss/blog";
-
 // Contact Area
-// @import "../template/scss/contact";
+.container-form {
+	.form-wrapper {
+		background-color: white;
+		padding: 56px;
+		box-shadow: 0 8px 24px #E2E8ED;
+		.form-group {
+			margin-bottom: 30px;
+		}
+		.form-control {
+			display: block;
+			width: 100%;
+			line-height: 26px;
+			font-size: 14px;
+			box-shadow: none;
+			color: #848484;
+			background-color: #f8fafa;
+			padding: 7px 19px;
+			border-radius: 30px;
+			background-image: none;
+			background-clip: padding-box;
+		}
+		.form-control:focus,
+		.custom-select:focus {
+			color: #212121;
+			background-color: #fff;
+			border-color: $preset;
+			box-shadow: none;
+			outline: 0;
+		}
+		.custom-select {
+			width: 100%;
+			font-size: 14px;
+			box-shadow: none;
+			color: #848484;
+			background-color: #f8fafa;
+			padding: 7px 19px;
+			border-radius: 30px;
+		}
+		.form-check-label {
+			font-size: 14px;
+			color: #848484;
+		}
+	}
+	textarea{
+		border-radius: 4px!important;
+	}
+}
 
-// Contact Area
+// Footer
 @import "../template/scss/footer";
 
-// Shortcode
-@import "../template/scss/shortcode";
+// Carousel
+@import "../template/scss/hero-area";
 
 // Responsive
 @import "../template/scss/responsive";
@@ -120,25 +162,6 @@ small, .small {
 }
 
 
-// BS FORM VALIDATION
-.was-validated .form-control:valid,
-.form-control.is-valid,
-.was-validated .form-control:valid:focus,
-.form-control.is-valid:focus {
-	border-color: #ced4da;
-	box-shadow: none;
-	background-image: none;
-}
-.was-validated .form-control:invalid,
-.form-control.is-invalid,
-.was-validated .form-control:invalid:focus,
-.form-control.is-invalid:focus,
-.was-validated .custom-select:invalid,
-.custom-select.is-invalid {
-	background-image: none;
-}
-
-
 // FRAPPE MESSAGES
 .page-card {
 	.page-card-body {
@@ -149,8 +172,8 @@ small, .small {
 }
 
 
-
-.dfp-test {
+// FORM FOOTER SUBSCRIBE
+.form-subscribe {
 	button {
 		height: 55px;
 		@include media-breakpoint-up(md) {

@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@hotosm/iso-countries-languages": "^1.0.2",
     "bootstrap": "^4.5.2"
   }
 }

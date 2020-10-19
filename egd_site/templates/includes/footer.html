@@ -5,18 +5,12 @@
 			<div class="col-lg-8 col-md-12 col-xs-12">
 				<div class="form-subscribe subscribe-inner wow fadeInDown" data-wow-delay="0.3s">
 					<h2 class="subscribe-title">{{ _('Stay up to date') }}</h2>
-					<form class="bs-validation row justify-content-center dfp-test" novalidate>
+					<form class="bs-validation row justify-content-center" novalidate>
 						<input class="form-control mb-2 col-xs-12 col-md-8" name="email" placeholder="{{ _('Enter your email here') }}" pattern="^.+@.+\..+$" required>
 						<button type="submit" class="btn btn-common col-xs-12 col-md-4 mx-4" data-style="zoom-in" data-spinner-size="30" name="submit" id="submit">
 							<span class="text-nowrap">{{ _('Accept and subscribe') }}</span>
 						</button>
 					</form>
-					{#<!-- <form class="bs-validation text-center form-inline" novalidate>
-						<input class="form-control" name="email" placeholder="{{ _('Enter your email here') }}" pattern="^.+@.+\..+$" required>
-						<button type="submit" class="btn btn-common sub-btn" data-style="zoom-in" data-spinner-size="30" name="submit" id="submit">
-							<span class="ladda-label text-nowrap">{{ _('Accept and subscribe') }}</span>
-						</button>
-					</form> -->#}
 					<div class="alert alert-success hide">{{ _('Thank you, you will receive a confirmation email.') }}</div>
 					<small id="contact-name" class="form-text text-muted">
 						After sending this form, you will receive an email to confirm your email, no data from you is saved yet.
@@ -31,6 +25,7 @@
 				<div class="site-info">
 					<a href="{{ url_lang }}/legal">{{ _('Legal') }}</a>
 					/ <a href="{{ url_lang }}/privacy">{{ _('Privacy') }}</a>
+					/ <a href="/login">Enter</a>
 				</div>
 			</div>
 		</div>

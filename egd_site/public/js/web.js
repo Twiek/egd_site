@@ -1,5 +1,18 @@
 
+
+import isoCountriesLanguages from '@hotosm/iso-countries-languages'
+window.isoCountriesLanguages = isoCountriesLanguages
+
+
 frappe.ready(function() {
+
+	// COUNTRIES TRANSLATED
+	window.context.countries = isoCountriesLanguages.getCountries(window.context.lang)
+	$('select.select-countries').each((idx, el) => {
+		$.each(window.context.countries, function(iso, label) {
+			$(el).append($('<option></option>').val(iso).html(label) )
+		})
+	})
 
 	$('#preloader').fadeOut()
 
@@ -62,6 +75,9 @@ frappe.ready(function() {
 			if (form.checkValidity() === false) {
 				event.preventDefault()
 				event.stopPropagation()
+				$(form).addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+					$(this).removeClass('shake animated')
+				})
 			}
 			form.classList.add('was-validated')
 		}, false)

@@ -1,5 +1,13 @@
 apps/egd_site/egd_site/public/js/web.js,Error with subscription,Error en la suscripción
 apps/egd_site/egd_site/public/js/web.js,Subscribing...,Suscribiéndote...
+apps/egd_site/egd_site/templates/includes/contact.html,Email,Email
+apps/egd_site/egd_site/templates/includes/contact.html,Full name,Nombre y apellidos
+apps/egd_site/egd_site/templates/includes/contact.html,I have read and agree with the Privacy statement,He leido y acepto la política de privacidad
+apps/egd_site/egd_site/templates/includes/contact.html,Message,Mensaje
+apps/egd_site/egd_site/templates/includes/contact.html,Privacy,Privacidad
+apps/egd_site/egd_site/templates/includes/contact.html,Select your country,Selecciona tu país
+apps/egd_site/egd_site/templates/includes/contact.html,Send Message,Enviar mensaje
+apps/egd_site/egd_site/templates/includes/contact.html,Subject,Asunto
 apps/egd_site/egd_site/templates/includes/footer.html,Accept and subscribe,Aceptar y subscribirse
 apps/egd_site/egd_site/templates/includes/footer.html,Enter your email here,Introduce tu email
 apps/egd_site/egd_site/templates/includes/footer.html,Legal,Condiciones
