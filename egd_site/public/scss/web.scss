@@ -171,10 +171,19 @@ small, .small {
 
 // FORM FOOTER SUBSCRIBE
 .form-subscribe {
+	.form-check-label {
+		color: #817a7a;
+	}
 	button {
 		height: 55px;
 		@include media-breakpoint-up(md) {
 			margin-left: -55px !important;
 		}
+	}
+	a {
+		color: lighten($color-primary, 10%);
+	}
+	a:hover {
+		color: lighten($color-primary, 40%);
 	}
 }

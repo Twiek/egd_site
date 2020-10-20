@@ -112,3 +112,18 @@ def confirm_subscription(email):
 
 	frappe.respond_as_web_page(**message)
 
+
+@frappe.whitelist(allow_guest=True)
+def contact(email, full_name, country_code, subject, message, language):
+	# frappe.local.response["_server_messages"] = ["Mensaje uno", "mensaje dos"]
+	doc = frappe.get_doc({
+		"doctype": "Web contact",
+		"email": email,
+		"full_name": full_name,
+		"country_code": country_code,
+		"subject": subject,
+		"message": message,
+		"language": language,
+	})
+	doc.insert(ignore_permissions=True)
+	return "success"

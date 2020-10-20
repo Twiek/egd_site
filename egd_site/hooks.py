@@ -23,11 +23,6 @@ site_app_domains = {
 	"egd.ayudaefectiva.org": "preprod",
 }
 
-# bench new-site --db-name db_egd --mariadb-root-password ******* --force egd.local
-# bench new-app egd_site
-# bench --site egd.local install-app egd_site
-# bench setup requirements
-
 translated_languages_for_website = ["en", "de", "es"]
 language_default = translated_languages_for_website[0]
 

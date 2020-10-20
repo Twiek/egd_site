@@ -10,14 +10,15 @@
 						<button type="submit" class="btn btn-common col-xs-12 col-md-4 mx-4" data-style="zoom-in" data-spinner-size="30" name="submit" id="submit">
 							<span class="text-nowrap">{{ _('Accept and subscribe') }}</span>
 						</button>
+						<div>
+							<input class="form-check-input" name="accepted" type="checkbox" id="form-subscribe-conditions" required>
+							<label class="form-check-label" for="form-subscribe-conditions">
+								{{ _('I have read and agree with the Privacy statement') }}:
+								<a href="{{ url_lang }}/privacy" target="_blank">{{ _('Privacy') }}</a>
+							</label>
+						</div>
 					</form>
 					<div class="alert alert-success hide">{{ _('Thank you, you will receive a confirmation email.') }}</div>
-					<small id="contact-name" class="form-text text-muted">
-						After sending this form, you will receive an email to confirm your email, no data from you is saved yet.
-						After you receive the confirmation email and click on the link we send you, we are going to save it, 
-						your IP and related country to allow us sending information related to your nearest Effective Altruism
-						organization. If you are not interested, please do not start this process.
-					</small>
 				</div>
 				<div class="footer-logo">
 					<img src="/assets/egd_site/images/effective-giving-day-logo-inverted.svg" alt="">
