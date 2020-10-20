@@ -114,16 +114,34 @@ def confirm_subscription(email):
 
 
 @frappe.whitelist(allow_guest=True)
-def contact(email, full_name, country_code, subject, message, language):
-	# frappe.local.response["_server_messages"] = ["Mensaje uno", "mensaje dos"]
+def contact(email, full_name, country_code, subject, message):
 	doc = frappe.get_doc({
-		"doctype": "Web contact",
+		"doctype": "Web Contact",
 		"email": email,
 		"full_name": full_name,
 		"country_code": country_code,
 		"subject": subject,
 		"message": message,
-		"language": language,
+		"language": frappe.local.lang,
+	})
+	doc.insert(ignore_permissions=True)
+	return "success"
+
+
+@frappe.whitelist(allow_guest=True)
+def registration(firstname, lastname, email, country_code, occupation, organization, title, donation: int, familiarity:int):
+	doc = frappe.get_doc({
+		"doctype": "Web Registration",
+		"email": email,
+		"firstname": firstname,
+		"lastname": lastname,
+		"country_code": country_code,
+		"occupation": occupation,
+		"organization": organization,
+		"title": title,
+		"donation": int(donation),
+		"familiarity": int(familiarity),
+		"language": frappe.local.lang,
 	})
 	doc.insert(ignore_permissions=True)
 	return "success"

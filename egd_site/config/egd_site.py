@@ -4,6 +4,23 @@ from frappe import _
 def get_data():
 	return [
 		{
+			"label": "Registrations & contacts",
+			"items": [
+				{
+					"type": "doctype",
+					"name": "Web Registration",
+					"label": "Web registrations",
+					"onboard": 0,
+				},
+				{
+					"type": "doctype",
+					"name": "Web Contact",
+					"label": "Web contacts",
+					"onboard": 0,
+				},
+			]
+		},
+		{
 			"label": "Emails & Email groups",
 			"items": [
 				{

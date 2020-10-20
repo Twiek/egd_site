@@ -97,31 +97,28 @@ frappe.ready(function() {
 		const $submit = $newsletter.find('button')
 		const $message_ok = $newsletter.find('.alert-success')
 		const $f_email = $newsletter.find('[name="email"]')
+		const $f_accepted = $newsletter.find('[name="accepted"]')
 		$form.on('submit', function(e) {
 			e.preventDefault()
 			e.stopPropagation()
-			if (e.target.checkValidity() && validate_email($f_email.val())) {
-				send()
+			if (e.target.checkValidity() && $f_accepted.val() && validate_email($f_email.val())) {
+				$submit.html(__('Subscribing...')).attr('disabled', true)
+				frappe.call({
+					type: 'POST',
+					method: 'egd_site.tools.subscribe',
+					args: { email: $f_email.val() },
+					callback: r => {
+						if (!r.exc) {
+							$message_ok.show()
+							$form.hide()
+						} else {
+							$submit.html(__('Error with form')).addClass('btn-danger').attr('disabled', false)
+							$f_email.val('').attr('disabled', false)
+						}
+					},
+				})
 			}
 		})
-		function send() {
-			$f_email.attr('disabled', true)
-			$submit.html(__('Subscribing...')).attr('disabled', true)
-			return frappe.call({
-				type: 'POST',
-				method: 'egd_site.tools.subscribe',
-				args: { 'email': $f_email.val(), '_lang': window.context.lang },
-				callback: r => {
-					if (!r.exc) {
-						$message_ok.show()
-						$form.hide()
-					} else {
-						$submit.html(__('Error with form')).addClass('btn-danger').attr('disabled', false)
-						$f_email.val('').attr('disabled', false)
-					}
-				},
-			})
-		}
 	}
 
 
@@ -140,36 +137,82 @@ frappe.ready(function() {
 		$form.on('submit', function(e) {
 			e.preventDefault()
 			e.stopPropagation()
-			if (e.target.checkValidity() && validate_email($f_email.val())) {
-				send()
-			}
-		})
-		function send() {
-			$f_email.attr('disabled', true)
-			$submit.html(__('Sending...')).attr('disabled', true)
-			let opts = {
-				type: 'POST',
-				method: 'egd_site.tools.contact',
-				args: {
-					email: $f_email.val(),
-					full_name: $f_fullname.val(),
-					country_code: $f_country.val(),
-					subject: $f_subject.val(),
-					message: $f_message.val(),
-					language: window.context.lang,
-				},
-				callback: r => {
-					if (!r.exe && r.message == 'success') {
-						$message_ok.show()
-						$form.hide()
-					} else {
+			if (e.target.checkValidity() && $f_accepted.val() && validate_email($f_email.val())) {
+				$submit.html(__('Sending...')).attr('disabled', true)
+				frappe.call({
+					type: 'POST',
+					method: 'egd_site.tools.contact',
+					args: {
+						email: $f_email.val(),
+						full_name: $f_fullname.val(),
+						country_code: $f_country.val(),
+						subject: $f_subject.val(),
+						message: $f_message.val(),
+					},
+					callback: r => {
+						if (!r.exe && r.message == 'success') {
+							$message_ok.show()
+							$form.hide()
+							frappe.ui.scroll('h2', true, 30)
+						} else {
 							$submit.html(__('Error with form')).addClass('btn-danger').attr('disabled', false)
 							$f_email.val('').attr('disabled', false)
-					}
-				},
+						}
+					},
+				})
 			}
-			frappe.call(opts)
-		}
+		})
+	}
+
+
+	// REGISTER
+	const $register = $('.form-registration')
+	if ($register.length) {
+		const $form = $register.find('form')
+		const $submit = $register.find('button')
+		const $message_ok = $register.find('.alert-success')
+		const $f_firstname = $register.find('[name="firstname"]')
+		const $f_lastname = $register.find('[name="lastname"]')
+		const $f_email = $register.find('[name="email"]')
+		const $f_country = $register.find('[name="country"]')
+		const $f_occupation = $register.find('[name="occupation"]')
+		const $f_organization = $register.find('[name="organization"]')
+		const $f_title = $register.find('[name="title"]')
+		const $f_donation = $register.find('[name="effective_charities_donations_in_usd"]')
+		const $f_familiarity = $register.find('[name="familiarity"]')
+		const $f_accepted = $register.find('[name="accepted"]')
+		$form.on('submit', function(e) {
+			e.preventDefault()
+			e.stopPropagation()
+			if (e.target.checkValidity() && $f_accepted.val() && validate_email($f_email.val())) {
+				$submit.html(__('Sending...')).attr('disabled', true)
+				frappe.call({
+					type: 'POST',
+					method: 'egd_site.tools.registration',
+					args: {
+						firstname: $f_firstname.val(),
+						lastname: $f_lastname.val(),
+						email: $f_email.val(),
+						country_code: $f_country.val(),
+						occupation: $f_occupation.val(),
+						organization: $f_organization.val(),
+						title: $f_title.val(),
+						donation: $f_donation.val(),
+						familiarity: $f_familiarity.val(),
+					},
+					callback: r => {
+						if (!r.exe && r.message == 'success') {
+							$message_ok.show()
+							$form.hide()
+							frappe.ui.scroll('h2', true, 30)
+						} else {
+							$submit.html(__('Error with form')).addClass('btn-danger').attr('disabled', false)
+							$f_email.val('').attr('disabled', false)
+						}
+					},
+				})
+			}
+		})
 	}
 
 })
@@ -183,6 +226,8 @@ frappe.call = function(opts) {
 	if (opts['method'] == 'frappe.website.doctype.website_settings.website_settings.is_chat_enabled') {
 		return false
 	}
+	// Add language to all ajax calls
+	opts.args = $.extend({}, opts.args || {}, { '_lang': window.context.lang })
 	return frappe.call_cloned(opts)
 }
 // Override call from /frappe/public/js/frappe/request.js>
