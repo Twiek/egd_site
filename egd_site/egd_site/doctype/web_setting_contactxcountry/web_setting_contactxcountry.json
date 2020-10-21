@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "creation": "2020-10-21 18:18:53.725719",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "country_code",
+  "email"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "fieldname": "country_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "2 digits ISO code for country",
+   "unique": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contact email"
+  }
+ ],
+ "links": [],
+ "modified": "2020-10-21 18:18:53.725719",
+ "modified_by": "Administrator",
+ "module": "EGD Site",
+ "name": "Web Setting ContactXCountry",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "country_code",
+ "track_changes": 1
+}

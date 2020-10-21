@@ -62,7 +62,7 @@ apps/egd_site/egd_site/templates/includes/section-about.html,section:about:title
 apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:intro,section:agenda:intro
 apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:title,section:agenda:title
 apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:organized_by,Organized by
-apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:supported_by,Supported by
+apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:supported_by,With the support of
 apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:intro,section:speakers:intro
 apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:see_all_speakers,section:speakers:See all speakers
 apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:title,section:speakers:title

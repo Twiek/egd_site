@@ -36,7 +36,6 @@ def get_context(context):
 	for lang in languages:
 		path = os.path.join(frappe.get_pymodule_path(app), "translations", lang + ".csv")
 		data = get_translation_dict_from_file(path, lang, app)
-		print(data)
 		ctx_lang["translated"][lang] = data
 
 		mem_file = io.StringIO()

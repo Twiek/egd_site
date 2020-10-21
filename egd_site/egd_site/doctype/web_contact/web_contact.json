@@ -9,6 +9,7 @@
   "email",
   "language",
   "country_code",
+  "forwarded_to",
   "subject",
   "message"
  ],
@@ -55,10 +56,16 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Lang"
+  },
+  {
+   "fieldname": "forwarded_to",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Forwarded to"
   }
  ],
  "links": [],
- "modified": "2020-10-20 14:38:41.845009",
+ "modified": "2020-10-21 18:56:24.136187",
  "modified_by": "Administrator",
  "module": "EGD Site",
  "name": "Web Contact",

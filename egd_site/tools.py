@@ -115,16 +115,38 @@ def confirm_subscription(email):
 
 @frappe.whitelist(allow_guest=True)
 def contact(email, full_name, country_code, subject, message):
+	email_to = None
+	settings = frappe.get_single("Web Settings")
+	for row in settings.contacts_x_country:
+		if row.country_code == country_code:
+			email_to = row.email
+
+	if not email_to and settings.contact_default:
+		email_to = settings.contact_default
+
 	doc = frappe.get_doc({
 		"doctype": "Web Contact",
 		"email": email,
 		"full_name": full_name,
 		"country_code": country_code,
+		"forwarded_to": email_to,
 		"subject": subject,
 		"message": message,
 		"language": frappe.local.lang,
 	})
 	doc.insert(ignore_permissions=True)
+
+	from . import site_env
+	if site_env() == "local":
+		email_to = settings.contact_default_local or None
+
+	if email_to:
+		from frappe.utils import now
+		if frappe.db.sql("""SELECT COUNT(*) FROM `tabWeb Contact`
+			WHERE TIMEDIFF(%s, modified) < '01:00:00'""", now())[0][0] > 500:
+			return
+		frappe.sendmail(recipients=email_to, sender=email, content=message, subject=subject)
+
 	return "success"
 
 
