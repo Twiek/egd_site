@@ -8,6 +8,7 @@
   "firstname",
   "lastname",
   "email",
+  "email_confirmed",
   "language",
   "country_code",
   "occupation",
@@ -83,10 +84,17 @@
    "fieldtype": "Int",
    "in_list_view": 1,
    "label": "Familiarity"
+  },
+  {
+   "default": "0",
+   "fieldname": "email_confirmed",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Email confirmed"
   }
  ],
  "links": [],
- "modified": "2020-10-20 17:18:45.247078",
+ "modified": "2020-10-21 19:14:31.339443",
  "modified_by": "Administrator",
  "module": "EGD Site",
  "name": "Web Registration",

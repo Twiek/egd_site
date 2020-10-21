@@ -166,4 +166,46 @@ def registration(firstname, lastname, email, country_code, occupation, organizat
 		"language": frappe.local.lang,
 	})
 	doc.insert(ignore_permissions=True)
+
+	from frappe.utils.verified_command import get_signed_params
+	url = "{0}?{1}".format(
+		frappe.utils.get_url("/api/method/egd_site.tools.confirm_registration"),
+		get_signed_params({"email": email, "_lang": frappe.local.lang})
+	)
+	messages = (
+		_("registration:email:body:thank_you"),
+		_("registration:email:body:verify_your_email"),
+		url,
+		_("registration:email:body:click_here_to_verify")
+	)
+	content = "<p>{0}{1}</p><p><a href=\"{2}\">{3}</a></p>".format(*messages)
+	frappe.sendmail(email, subject=_("registration:email:subject"), content=content)
+
 	return "success"
+
+
+@frappe.whitelist(allow_guest=True)
+def confirm_registration(email):
+	from frappe.utils.verified_command import verify_request
+	if not verify_request():
+		return
+
+	# Default user message
+	message = frappe._dict({
+		"title": _("registration:dialog:title:registration_subscription"),
+		"html": _('registration:dialog:body:error_confirming_your_email.').format(email),
+		"primary_label": _("dialog:body:go_to_homepage"),
+	})
+
+	fields = ["name", "email_confirmed"]
+	registration = frappe.get_value("Web Registration", {"email": email}, fields, as_dict=True)
+	if registration.name and not registration.email_confirmed:
+		doc = frappe.get_doc("Web Registration", registration.name)
+		doc.email_confirmed = 1
+		doc.save(ignore_permissions=True)
+		frappe.db.commit()
+		message.html=_('registration:dialog:body:email_"{0}"_confirmed_ok').format(email)
+	elif registration.name and registration.email_confirmed:
+		message.html =_('registration:dialog:body:email_"{0}"_confirmed_previously').format(email)
+
+	frappe.respond_as_web_page(**message)

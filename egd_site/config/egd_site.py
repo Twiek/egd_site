@@ -18,7 +18,13 @@ def get_data():
 					"label": "Web contacts",
 					"onboard": 0,
 				},
-			]
+				{
+					"type": "doctype",
+					"name": "Web Settings",
+					"label": "Web Settings",
+					"onboard": 0,
+				},
+			],
 		},
 		{
 			"label": "Emails & Email groups",
@@ -41,7 +47,7 @@ def get_data():
 					"label": "Email Queue (stop/play)",
 					"onboard": 0,
 				},
-			]
+			],
 		},
 		{
 			"label": "Exportar & importar",
@@ -58,7 +64,7 @@ def get_data():
 					"label": "Import",
 					"onboard": 0,
 				},
-			]
+			],
 		},
 		{
 			"label": "Setup & logs",
@@ -89,6 +95,6 @@ def get_data():
 					"name": "Email Account",
 					"description": "Add / Manage Email Accounts."
 				},
-			]
+			],
 		},
 	]
