@@ -9,4 +9,8 @@ pre {
 </style>
 
 <h1>Translations</h1>
-<pre>{{ translations }}</pre>
+{% for lang, data in languages_data.translated.items() %}
+<h2>{{ lang }}</h2>
+<pre>{{ data }}</pre>
+<pre>{{ languages_data.segments_as_txt[lang] }}</pre>
+{% endfor %}

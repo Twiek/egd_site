@@ -44,7 +44,7 @@ def get_data():
 			]
 		},
 		{
-			"label": _("Exportar & importar"),
+			"label": "Exportar & importar",
 			"items": [
 				{
 					"type": "doctype",

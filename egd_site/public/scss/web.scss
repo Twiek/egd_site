@@ -3,11 +3,17 @@
 $color-primary: #1b5266;
 
 
-// BOOTSTRAP 4
+// <BOOTSTRAP 4
 $primary: $color-primary;
 $enable-validation-icons: false;
 $form-feedback-valid-color: $color-primary;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.form-check-input {
+ 	margin-top: .4rem;
+}
+// BOOTSTRAP 4>
 
 
 // LINEICONS

@@ -55,13 +55,13 @@ def subscribe(email):
 		get_signed_params({"email": email, "_lang": frappe.local.lang})
 	)
 	messages = (
-		_("email:newsletter:body:thank_you"),
-		_("email:newsletter:body:verify_your_email"),
+		_("newsletter:email:body:thank_you"),
+		_("newsletter:email:body:verify_your_email"),
 		url,
-		_("email:newsletter:body:click_here_to_verify")
+		_("newsletter:email:body:click_here_to_verify")
 	)
 	content = "<p>{0}{1}</p><p><a href=\"{2}\">{3}</a></p>".format(*messages)
-	frappe.sendmail(email, subject=_("email:newsletter:subject"), content=content)
+	frappe.sendmail(email, subject=_("newsletter:email:subject"), content=content)
 
 
 @frappe.whitelist(allow_guest=True)
@@ -72,9 +72,9 @@ def confirm_subscription(email):
 
 	# Default user message
 	message = frappe._dict({
-		"title": _("message:title:newsletter_subscription"),
-		"html": _('message:body:error_adding_email_"{0}".').format(email),
-		"primary_label": _("message:body:go_to_homepage"),
+		"title": _("newsletter:dialog:title:newsletter_subscription"),
+		"html": _('newsletter:dialog:body:error_adding_email_"{0}".').format(email),
+		"primary_label": _("dialog:body:go_to_homepage"),
 	})
 
 	group_name = "EGD Subscriptions"
@@ -106,9 +106,9 @@ def confirm_subscription(email):
 			}).insert(ignore_permissions=True)
 			frappe.get_doc("Email Group", group_name).update_total_subscribers()
 			frappe.db.commit()
-			message.html=_('message:body:email_"{0}"_subscribed_ok').format(email)
+			message.html=_('newsletter:dialog:body:email_"{0}"_subscribed_ok').format(email)
 		else:
-			message.html =_('message:body:email_"{0}"_subscribed_previously').format(email)
+			message.html =_('newsletter:dialog:body:email_"{0}"_subscribed_previously').format(email)
 
 	frappe.respond_as_web_page(**message)
 
