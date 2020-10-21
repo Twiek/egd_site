@@ -31,8 +31,8 @@ apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed
 apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:error_adding_email_""{0}"".","DE There was an error adding your email ""{0}""."
 apps/egd_site/egd_site/tools.py,newsletter:dialog:title:newsletter_subscription,DE Newsletter subscription
 apps/egd_site/egd_site/tools.py,newsletter:email:body:click_here_to_verify,DE Click here to verify your email
-apps/egd_site/egd_site/tools.py,newsletter:email:body:thank_you,DE Thank you very much for your interest
-apps/egd_site/egd_site/tools.py,newsletter:email:body:verify_your_email,DE We need your email confirmation to finish your subscription
+apps/egd_site/egd_site/tools.py,newsletter:email:body:thank_you,DE Thank you very much for your interest.
+apps/egd_site/egd_site/tools.py,newsletter:email:body:verify_your_email,DE We need your email confirmation to finish your subscription.
 apps/egd_site/egd_site/tools.py,newsletter:email:subject,DE Email confirmation (action needed)
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:email,DE Your email
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submit,DE Subscribe
