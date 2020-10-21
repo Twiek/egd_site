@@ -1,10 +1,8 @@
 
 <header id="header-wrap">
-	<!-- Navbar Start -->
 	<nav class="navbar navbar-expand-lg bg-inverse fixed-top scrolling-navbar top-nav-collapse">
 		<div class="container">
 			<div class="theme-header clearfix">
-				<!-- Brand and toggle get grouped for better mobile display -->
 				<a href="{{ "/" if lang == "en" else "/"+lang }}" class="navbar-brand">
 					<img src="/assets/egd_site/images/effective-giving-day-logo.svg" alt="">
 				</a>
@@ -14,7 +12,7 @@
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav mr-auto w-100 justify-content-end">
 						<li class="nav-item">
-							<a class="nav-link" href="{{ "/" if lang == "en" else "/"+lang }}">Home</a>
+							<a class="nav-link" href="{{ "/" if lang == "en" else "/"+lang }}">{{ _('link:home') }}</a>
 						</li>
 						{#<!-- <li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -25,19 +23,19 @@
 							</ul>
 						</li> -->#}
 						<li class="nav-item">
-							<a class="nav-link" href="{{ url_lang }}/agenda">{{ _('Agenda') }}</a>
+							<a class="nav-link" href="{{ url_lang }}/agenda">{{ _('link:agenda') }}</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="{{ url_lang }}/speakers">{{ _('Speakers') }}</a>
+							<a class="nav-link" href="{{ url_lang }}/speakers">{{ _('link:speakers') }}</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="{{ url_lang }}/press">{{ _('Press') }}</a>
+							<a class="nav-link" href="{{ url_lang }}/press">{{ _('link:press') }}</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="{{ url_lang }}/register">{{ _('Register') }}</a>
+							<a class="nav-link" href="{{ url_lang }}/register">{{ _('link:register') }}</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="{{ url_lang }}/contact-us">{{ _('Contact') }}</a>
+							<a class="nav-link" href="{{ url_lang }}/contact-us">{{ _('link:contact') }}</a>
 						</li>
 						{% for language in languages_meta %}
 						<li class="nav-item{% if language.code == lang %} selected{% endif %}">
@@ -50,7 +48,6 @@
 		</div>
 		<div class="mobile-menu" data-logo="/assets/egd_site/images/effective-giving-day-logo.svg"></div>
 	</nav>
-	<!-- Navbar End -->
 
 	{% block hero %}{% endblock %}
 

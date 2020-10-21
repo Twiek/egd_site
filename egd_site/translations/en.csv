@@ -1,0 +1,58 @@
+apps/egd_site/egd_site/config/desktop.py,EGD Site,EGD Site
+apps/egd_site/egd_site/config/egd_site.py,Exportar & importar,Exportar & importar
+apps/egd_site/egd_site/public/js/web.js,form:submit:error,Error submitting...
+apps/egd_site/egd_site/public/js/web.js,form:submit:sending...,Subscribing...
+apps/egd_site/egd_site/templates/includes/contact.html,form:contact:submit,Send message
+apps/egd_site/egd_site/templates/includes/contact.html,form:contact:thank_you_message,Message sent successfully. We will contact you as soon as possible.
+apps/egd_site/egd_site/templates/includes/contact.html,form:email,Email
+apps/egd_site/egd_site/templates/includes/contact.html,form:full_name,Full name
+apps/egd_site/egd_site/templates/includes/contact.html,form:i_have_read_and_agree,I have read and accept privacy statement:
+apps/egd_site/egd_site/templates/includes/contact.html,form:message,Message
+apps/egd_site/egd_site/templates/includes/contact.html,form:select_your_country,Select your country
+apps/egd_site/egd_site/templates/includes/contact.html,form:subject,Subject
+apps/egd_site/egd_site/templates/includes/contact.html,link:privacy,privacy
+apps/egd_site/egd_site/templates/includes/footer.html,form:newsletter:email,Your email
+apps/egd_site/egd_site/templates/includes/footer.html,form:newsletter:submit,Subscribe
+apps/egd_site/egd_site/templates/includes/footer.html,form:newsletter:thank_you_message,Soon you will receive a an email for confirmation. Thank you very much for subscribing.
+apps/egd_site/egd_site/templates/includes/footer.html,link:legal,Legal
+apps/egd_site/egd_site/templates/includes/footer.html,link:login,Login
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Stay up to date
+apps/egd_site/egd_site/templates/includes/header.html,link:agenda,Agenda
+apps/egd_site/egd_site/templates/includes/header.html,link:contact,Contact
+apps/egd_site/egd_site/templates/includes/header.html,link:home,Home
+apps/egd_site/egd_site/templates/includes/header.html,link:press,Press
+apps/egd_site/egd_site/templates/includes/header.html,link:register,Register
+apps/egd_site/egd_site/templates/includes/header.html,link:speakers,Speakers
+apps/egd_site/egd_site/templates/includes/hero.html,hero:intro,hero:intro
+apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra,"Online, Nov 2020"
+apps/egd_site/egd_site/templates/includes/hero.html,hero:register_button,REGISTER NOW
+apps/egd_site/egd_site/templates/includes/hero.html,hero:title,EFFECTIVE GIVING DAY
+apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:organized_by,Organized by
+apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:supported_by,Supported by
+apps/egd_site/egd_site/templates/includes/register.html,form:first_name,First name
+apps/egd_site/egd_site/templates/includes/register.html,form:last_name,Last name
+apps/egd_site/egd_site/templates/includes/register.html,form:occupation:other,Other
+apps/egd_site/egd_site/templates/includes/register.html,form:occupation:professional,Professional
+apps/egd_site/egd_site/templates/includes/register.html,form:occupation:student,Student
+apps/egd_site/egd_site/templates/includes/register.html,form:organization,Organization
+apps/egd_site/egd_site/templates/includes/register.html,form:organization_title,Title
+apps/egd_site/egd_site/templates/includes/register.html,form:register:donation:question,How much (if anything) do you currently give per year to ‘effective charities’ (as defined by the effective giving movement)? (USD)
+apps/egd_site/egd_site/templates/includes/register.html,form:register:familiarity:a_bit_familiar,A bit familiar
+apps/egd_site/egd_site/templates/includes/register.html,form:register:familiarity:not_familiar,Not familiar
+apps/egd_site/egd_site/templates/includes/register.html,form:register:familiarity:question,How familiar are you with the effective giving movement?
+apps/egd_site/egd_site/templates/includes/register.html,form:register:familiarity:quite_familiar,Quite familiar
+apps/egd_site/egd_site/templates/includes/register.html,form:register:familiarity:very_familiar,Very familiar
+apps/egd_site/egd_site/templates/includes/register.html,form:register:submit,Register
+apps/egd_site/egd_site/templates/includes/register.html,form:register:thank_you_message,Soon you will receive a an email for confirmation. Thank you very much for your registration.
+apps/egd_site/egd_site/templates/includes/register.html,form:select_country,Select you country
+apps/egd_site/egd_site/templates/includes/register.html,form:select_occupation,Select your occupation
+apps/egd_site/egd_site/templates/includes/register.html,form:select_option,Select an option
+apps/egd_site/egd_site/tools.py,email:newsletter:body:click_here_to_verify,Click here to verify your email
+apps/egd_site/egd_site/tools.py,email:newsletter:body:thank_you,Thank you very much for your interest
+apps/egd_site/egd_site/tools.py,email:newsletter:body:verify_your_email,We need your email confirmation to finish your subscription
+apps/egd_site/egd_site/tools.py,email:newsletter:subject,Email confirmation (action needed)
+apps/egd_site/egd_site/tools.py,"message:body:email_""{0}""_subscribed_ok","Your email ""{0}"" was successfully subscribed"
+apps/egd_site/egd_site/tools.py,"message:body:email_""{0}""_subscribed_previously","Your email ""{0}"" were subscribed previously"
+apps/egd_site/egd_site/tools.py,"message:body:error_adding_email_""{0}"".","There was an error adding your email ""{0}""."
+apps/egd_site/egd_site/tools.py,message:body:go_to_homepage,Go to homepage
+apps/egd_site/egd_site/tools.py,message:title:newsletter_subscription,Newsletter subscription

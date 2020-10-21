@@ -5,61 +5,61 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="form-group">
-						<input type="text" class="form-control" name="firstname" placeholder="{{ _('Name') }}" required>
+						<input type="text" class="form-control" name="firstname" placeholder="{{ _('form:first_name') }}" required>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="form-group">
-						<input type="text" class="form-control" name="lastname" placeholder="{{ _('Last name') }}" required>
+						<input type="text" class="form-control" name="lastname" placeholder="{{ _('form:last_name') }}" required>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="form-group">
-						<input type="email" class="form-control" name="email" placeholder="{{ _('Email') }}" pattern="^.+@.+\..+$" required>
+						<input type="email" class="form-control" name="email" placeholder="{{ _('form:email') }}" pattern="^.+@.+\..+$" required>
 					</div> 
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
 						<select class="custom-select select-countries" name="country" required>
-							<option selected disabled value="">{{ _('Select your country') }}</option>
+							<option selected disabled value="">{{ _('form:select_country') }}</option>
 						</select>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
 						<select class="custom-select" name="occupation" required>
-							<option selected disabled value="">{{ _('Select your occupation') }}</option>
-							<option value="student">{{ _('Student') }}</option>
-							<option value="professional">{{ _('Professional') }}</option>
-							<option value="other">{{ _('Any others') }}</option>
+							<option selected disabled value="">{{ _('form:select_occupation') }}</option>
+							<option value="student">{{ _('form:occupation:student') }}</option>
+							<option value="professional">{{ _('form:occupation:professional') }}</option>
+							<option value="other">{{ _('form:occupation:other') }}</option>
 						</select>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
-						<input type="text" class="form-control" name="organization" placeholder="{{ _('Organization') }}" required>
+						<input type="text" class="form-control" name="organization" placeholder="{{ _('form:organization') }}" required>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
-						<input type="text" class="form-control" name="title" placeholder="{{ _('Title') }}" required>
+						<input type="text" class="form-control" name="title" placeholder="{{ _('form:organization_title') }}" required>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
-						<label for="effective_charities_donations_in_usd">How much (if anything) do you currently give per year to ‘effective charities’ (as defined by the effective giving movement)? (USD)</label>
+						<label for="effective_charities_donations_in_usd">{{ _('form:register:donation:question') }}</label>
 						<input type="number" class="form-control" name="effective_charities_donations_in_usd" value="0" id="effective_charities_donations_in_usd">
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
-						<label for="familiarity">How familiar are you with the effective giving movement?</label>
+						<label for="familiarity">{{ _('form:register:familiarity:question') }}</label>
 						<select class="custom-select" name="familiarity" id="familiarity">
-							<option selected disabled value="">{{ _('Select one option') }}</option>
-							<option value="0">{{ _('Not familiar at all') }}</option>
-							<option value="1">{{ _('A bit familiar') }}</option>
-							<option value="2">{{ _('Quite familiar') }}</option>
-							<option value="3">{{ _('Very familiar') }}</option>
+							<option selected disabled value="">{{ _('form:select_option') }}</option>
+							<option value="0">{{ _('form:register:familiarity:not_familiar') }}</option>
+							<option value="1">{{ _('form:register:familiarity:a_bit_familiar') }}</option>
+							<option value="2">{{ _('form:register:familiarity:quite_familiar') }}</option>
+							<option value="3">{{ _('form:register:familiarity:very_familiar') }}</option>
 						</select>
 					</div>
 				</div>
@@ -68,17 +68,17 @@
 						<div class="form-check">
 							<input class="form-check-input" type="checkbox" name="accepted" id="form-conditions" required>
 							<label class="form-check-label" for="form-conditions">
-								{{ _('I have read and agree with the Privacy statement') }}:
-								<a href="{{ url_lang }}/privacy" target="_blank">{{ _('Privacy') }}</a>
+								{{ _('form:i_have_read_and_agree') }}:
+								<a href="{{ url_lang }}/privacy" target="_blank">{{ _('link:privacy') }}</a>
 							</label>
 						</div>
 					</div>
 					<div class="form-submit">
-						<button type="submit" class="btn btn-common w-100">{{ _('Register') }}</button>
+						<button type="submit" class="btn btn-common w-100">{{ _('form:register:submit') }}</button>
 					</div>
 				</div>
 			</div>
 		</form>
-		<div class="alert alert-success hide">{{ _('Thank you, we will contact you back asap.') }}</div>
+		<div class="alert alert-success hide">{{ _('form:register:thank_you_message') }}</div>
 	</div>
 </div>

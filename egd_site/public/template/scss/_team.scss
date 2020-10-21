@@ -1,8 +1,20 @@
-/* Team Item */
+#team {
+	background: url(/assets/egd_site/template/img/background/countdown.jpg) no-repeat center;
+	background-attachment: scroll;
+	background-size: auto auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	.section-title-header,
+	.section-title {
+		color: white;
+	}
+}
 .team-item:hover{
 	box-shadow: 0 16px 48px #E2E8ED;
 }
-.team-item{
+.team-item {
+	background-color: white;
 	margin: 15px 0;
 	padding: 15px;
 	border-radius: 4px;

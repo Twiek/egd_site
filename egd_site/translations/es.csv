@@ -1,32 +1,58 @@
-apps/egd_site/egd_site/public/js/web.js,Error with form,Error con el formulario
-apps/egd_site/egd_site/public/js/web.js,Subscribing...,Suscribiéndote...
-apps/egd_site/egd_site/templates/includes/contact.html,Email,Email
-apps/egd_site/egd_site/templates/includes/contact.html,Full name,Nombre y apellidos
-apps/egd_site/egd_site/templates/includes/contact.html,I have read and agree with the Privacy statement,He leido y acepto la política de privacidad
-apps/egd_site/egd_site/templates/includes/contact.html,Message,Mensaje
-apps/egd_site/egd_site/templates/includes/contact.html,Privacy,Privacidad
-apps/egd_site/egd_site/templates/includes/contact.html,Select your country,Selecciona tu país
-apps/egd_site/egd_site/templates/includes/contact.html,Send Message,Enviar mensaje
-apps/egd_site/egd_site/templates/includes/contact.html,Subject,Asunto
-apps/egd_site/egd_site/templates/includes/footer.html,Accept and subscribe,Aceptar y subscribirse
-apps/egd_site/egd_site/templates/includes/footer.html,Enter your email here,Introduce tu email
-apps/egd_site/egd_site/templates/includes/footer.html,Legal,Condiciones
-apps/egd_site/egd_site/templates/includes/footer.html,Privacy,Privacidad
-apps/egd_site/egd_site/templates/includes/footer.html,Stay up to date,Mantente informado
-apps/egd_site/egd_site/templates/includes/footer.html,"Thank you, you will receive a confirmation email.","Muchas gracias, pronto recibirás un email de confirmación."
-apps/egd_site/egd_site/templates/includes/header.html,Agenda,Agenda
-apps/egd_site/egd_site/templates/includes/header.html,Contact,Contacto
-apps/egd_site/egd_site/templates/includes/header.html,Press,Prensa
-apps/egd_site/egd_site/templates/includes/header.html,Register,Registro
-apps/egd_site/egd_site/templates/includes/header.html,Speakers,Ponentes
-apps/egd_site/egd_site/templates/includes/hero.html,EFFECTIVE GIVING DAY,DÍA DE LA DONACIÓN EFECTIVA
-apps/egd_site/egd_site/templates/includes/hero.html,REGISTER NOW,REGÍSTRATE AHORA
-apps/egd_site/egd_site/tools.py,"""{0}"" successfully subscribed. Thank you very much.","""{0}"" suscrito correctamente. Muchas gracias."
-apps/egd_site/egd_site/tools.py,Click here to verify,Haz click aquí para verificarlo
-apps/egd_site/egd_site/tools.py,Email confirmation,Confirmación de tu email
-apps/egd_site/egd_site/tools.py,Email subscription,Suscripción
-apps/egd_site/egd_site/tools.py,"Error adding ""{0}"".","Error añadiendo ""{0}""."
-apps/egd_site/egd_site/tools.py,Go to homepage,Ir a la home
-apps/egd_site/egd_site/tools.py,Please verify your email address:,Por favor verifica tu email:
-apps/egd_site/egd_site/tools.py,Thank you for subscribing to our updates.,Muchas gracias por suscribirte a nuestras actualizaciones.
-apps/egd_site/egd_site/tools.py,"{0}"" was subscribed previously.","{0}"" ya estaba suscrito."
+apps/egd_site/egd_site/config/desktop.py,EGD Site,ES EGD Site
+apps/egd_site/egd_site/config/egd_site.py,Exportar & importar,ES Exportar & importar
+apps/egd_site/egd_site/public/js/web.js,form:submit:error,ES Error submitting...
+apps/egd_site/egd_site/public/js/web.js,form:submit:sending...,ES Subscribing...
+apps/egd_site/egd_site/templates/includes/contact.html,form:contact:submit,ES Send message
+apps/egd_site/egd_site/templates/includes/contact.html,form:contact:thank_you_message,ES Message sent successfully. We will contact you as soon as possible.
+apps/egd_site/egd_site/templates/includes/contact.html,form:email,ES Email
+apps/egd_site/egd_site/templates/includes/contact.html,form:full_name,ES Full name
+apps/egd_site/egd_site/templates/includes/contact.html,form:i_have_read_and_agree,ES I have read and accept privacy statement:
+apps/egd_site/egd_site/templates/includes/contact.html,form:message,ES Message
+apps/egd_site/egd_site/templates/includes/contact.html,form:select_your_country,ES Select your country
+apps/egd_site/egd_site/templates/includes/contact.html,form:subject,ES Subject
+apps/egd_site/egd_site/templates/includes/contact.html,link:privacy,ES privacy
+apps/egd_site/egd_site/templates/includes/footer.html,form:newsletter:email,ES Your email
+apps/egd_site/egd_site/templates/includes/footer.html,form:newsletter:submit,ES Subscribe
+apps/egd_site/egd_site/templates/includes/footer.html,form:newsletter:thank_you_message,ES Soon you will receive a an email for confirmation. Thank you very much for subscribing.
+apps/egd_site/egd_site/templates/includes/footer.html,link:legal,ES Legal
+apps/egd_site/egd_site/templates/includes/footer.html,link:login,ES Login
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,ES Stay up to date
+apps/egd_site/egd_site/templates/includes/header.html,link:agenda,ES Agenda
+apps/egd_site/egd_site/templates/includes/header.html,link:contact,ES Contact
+apps/egd_site/egd_site/templates/includes/header.html,link:home,ES Home
+apps/egd_site/egd_site/templates/includes/header.html,link:press,ES Press
+apps/egd_site/egd_site/templates/includes/header.html,link:register,ES Register
+apps/egd_site/egd_site/templates/includes/header.html,link:speakers,ES Speakers
+apps/egd_site/egd_site/templates/includes/hero.html,hero:intro,ES hero:intro
+apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra,"Online,ES  Nov 2020"
+apps/egd_site/egd_site/templates/includes/hero.html,hero:register_button,ES REGISTER NOW
+apps/egd_site/egd_site/templates/includes/hero.html,hero:title,ES EFFECTIVE GIVING DAY
+apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:organized_by,ES Organized by
+apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:supported_by,ES Supported by
+apps/egd_site/egd_site/templates/includes/register.html,form:first_name,ES First name
+apps/egd_site/egd_site/templates/includes/register.html,form:last_name,ES Last name
+apps/egd_site/egd_site/templates/includes/register.html,form:occupation:other,ES Other
+apps/egd_site/egd_site/templates/includes/register.html,form:occupation:professional,ES Professional
+apps/egd_site/egd_site/templates/includes/register.html,form:occupation:student,ES Student
+apps/egd_site/egd_site/templates/includes/register.html,form:organization,ES Organization
+apps/egd_site/egd_site/templates/includes/register.html,form:organization_title,ES Title
+apps/egd_site/egd_site/templates/includes/register.html,form:register:donation:question,ES How much (if anything) do you currently give per year to ‘effective charities’ (as defined by the effective giving movement)? (USD)
+apps/egd_site/egd_site/templates/includes/register.html,form:register:familiarity:a_bit_familiar,ES A bit familiar
+apps/egd_site/egd_site/templates/includes/register.html,form:register:familiarity:not_familiar,ES Not familiar
+apps/egd_site/egd_site/templates/includes/register.html,form:register:familiarity:question,ES How familiar are you with the effective giving movement?
+apps/egd_site/egd_site/templates/includes/register.html,form:register:familiarity:quite_familiar,ES Quite familiar
+apps/egd_site/egd_site/templates/includes/register.html,form:register:familiarity:very_familiar,ES Very familiar
+apps/egd_site/egd_site/templates/includes/register.html,form:register:submit,ES Register
+apps/egd_site/egd_site/templates/includes/register.html,form:register:thank_you_message,ES Soon you will receive a an email for confirmation. Thank you very much for your registration.
+apps/egd_site/egd_site/templates/includes/register.html,form:select_country,ES Select you country
+apps/egd_site/egd_site/templates/includes/register.html,form:select_occupation,ES Select your occupation
+apps/egd_site/egd_site/templates/includes/register.html,form:select_option,ES Select an option
+apps/egd_site/egd_site/tools.py,email:newsletter:body:click_here_to_verify,ES Click here to verify your email
+apps/egd_site/egd_site/tools.py,email:newsletter:body:thank_you,ES Thank you very much for your interest
+apps/egd_site/egd_site/tools.py,email:newsletter:body:verify_your_email,ES We need your email confirmation to finish your subscription
+apps/egd_site/egd_site/tools.py,email:newsletter:subject,ES Email confirmation (action needed)
+apps/egd_site/egd_site/tools.py,"message:body:email_""{0}""_subscribed_ok",ES "Your email ""{0}"" was successfully subscribed"
+apps/egd_site/egd_site/tools.py,"message:body:email_""{0}""_subscribed_previously",ES "Your email ""{0}"" were subscribed previously"
+apps/egd_site/egd_site/tools.py,"message:body:error_adding_email_""{0}"".",ES "There was an error adding your email ""{0}""."
+apps/egd_site/egd_site/tools.py,message:body:go_to_homepage,ES Go to homepage
+apps/egd_site/egd_site/tools.py,message:title:newsletter_subscription,ES Newsletter subscription

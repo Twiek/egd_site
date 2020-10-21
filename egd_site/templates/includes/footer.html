@@ -4,29 +4,29 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-8 col-md-12 col-xs-12">
 				<div class="form-subscribe subscribe-inner wow fadeInDown" data-wow-delay="0.3s">
-					<h2 class="subscribe-title">{{ _('Stay up to date') }}</h2>
+					<h2 class="subscribe-title">{{ _('newsletter:stay_up_to_date') }}</h2>
 					<form class="bs-validation row justify-content-center" novalidate>
-						<input class="form-control mb-2 col-xs-12 col-md-8" name="email" placeholder="{{ _('Enter your email here') }}" pattern="^.+@.+\..+$" required>
+						<input class="form-control mb-2 col-xs-12 col-md-8" name="email" placeholder="{{ _('form:newsletter:email') }}" pattern="^.+@.+\..+$" required>
 						<button type="submit" class="btn btn-common col-xs-12 col-md-4 mx-4" data-style="zoom-in" data-spinner-size="30" name="submit" id="submit">
-							<span class="text-nowrap">{{ _('Accept and subscribe') }}</span>
+							<span class="text-nowrap">{{ _('form:newsletter:submit') }}</span>
 						</button>
 						<div>
 							<input class="form-check-input" name="accepted" type="checkbox" id="form-subscribe-conditions" required>
 							<label class="form-check-label" for="form-subscribe-conditions">
-								{{ _('I have read and agree with the Privacy statement') }}:
-								<a href="{{ url_lang }}/privacy" target="_blank">{{ _('Privacy') }}</a>
+								{{ _('form:i_have_read_and_agree') }}:
+								<a href="{{ url_lang }}/privacy" target="_blank">{{ _('link:privacy') }}</a>
 							</label>
 						</div>
 					</form>
-					<div class="alert alert-success hide">{{ _('Thank you, you will receive a confirmation email.') }}</div>
+					<div class="alert alert-success hide">{{ _('form:newsletter:thank_you_message') }}</div>
 				</div>
 				<div class="footer-logo">
 					<img src="/assets/egd_site/images/effective-giving-day-logo-inverted.svg" alt="">
 				</div>
 				<div class="site-info">
-					<a href="{{ url_lang }}/legal">{{ _('Legal') }}</a>
-					/ <a href="{{ url_lang }}/privacy">{{ _('Privacy') }}</a>
-					/ <a href="/login">Login</a>
+					<a href="{{ url_lang }}/legal">{{ _('link:legal') }}</a>
+					/ <a href="{{ url_lang }}/privacy">{{ _('link:privacy') }}</a>
+					/ <a href="/login">{{ _('link:login') }}</a>
 				</div>
 			</div>
 		</div>

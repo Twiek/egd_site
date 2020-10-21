@@ -1,77 +1,73 @@
-//About
+
 #about{
 	background: #F6F9F9;
-}
-.about-content{
-	height: 100%;
-	display: table;
-	> div{
-		vertical-align: middle;
-		display: table-cell;
-	}
-	.about-text{
-		h2{
-			font-size: 40px;
-			font-weight: 700;
+	.about-content {
+		height: 100%;
+		display: table;
+		> div{
+			vertical-align: middle;
+			display: table-cell;
 		}
-		h6{
-			font-size: 18px;
-			line-height: 32px;
-			font-weight: 400;
-			margin-top: 20px;
-		}
-		p{
-			margin-top: 20px;
-			margin-bottom: 20px;
-		}
-	}
-	ul{
-		margin-bottom: -8px;
-		li{
-			list-style: none;
-			line-height: 30px;
-			position: relative;
-			padding-left: 35px;
-			i{
-				position: absolute;
-				left: 0;
-				top: 7px;
-				font-size: 16px;
-				color: $preset;
+		.about-text{
+			h2{
+				font-size: 40px;
+				font-weight: 700;
+			}
+			h6{
+				font-size: 18px;
+				line-height: 32px;
+				font-weight: 400;
+				margin-top: 20px;
+			}
+			p{
+				margin-top: 20px;
+				margin-bottom: 20px;
 			}
 		}
-	}
-	.btn-about{
-		margin-top: 30px;
-		.btn{
-			margin-right: 10px;
+		ul{
+			margin-bottom: -8px;
+			li{
+				list-style: none;
+				line-height: 30px;
+				position: relative;
+				padding-left: 35px;
+				i{
+					position: absolute;
+					left: 0;
+					top: 7px;
+					font-size: 16px;
+					color: $preset;
+				}
+			}
+		}
+		.btn-about{
+			margin-top: 30px;
+			.btn{
+				margin-right: 10px;
+			}
 		}
 	}
 }
 
-/* Sponsors Area */
 #sponsors{
-	background: url(/assets/egd_site/template/img/background/countdown.jpg) no-repeat center;
-	background-attachment: scroll;
-	background-size: auto auto;
-	background-size: cover;
-	background-attachment: fixed;
-	position: relative;
-	.section-title-header{
-		.section-title{
-			color: #fff;
-		}
-		p{
-			color: #fff;
-		}
-	}
+	// background: url(/assets/egd_site/template/img/background/countdown.jpg) no-repeat center;
+	// background-attachment: scroll;
+	// background-size: auto auto;
+	// background-size: cover;
+	// background-attachment: fixed;
+	// position: relative;
+	// .overlay {
+	// 	background: #b5b5b5ed;
+	// }
+	// .section-title {
+	// 	color: white;
+	// }
 	.sponsors-logo{
 		a {
 			img {
 				max-height: 70px;
 				max-width: 300px;
 				margin: 15px;
-				background-color: #ffffff8f;
 				padding: 10px;
 				border-radius: 5px;
 			}
