@@ -12,8 +12,8 @@ apps/egd_site/egd_site/templates/includes/register.html,form:select_option,Selec
 apps/egd_site/egd_site/templates/includes/contact.html,form:subject,Subject
 apps/egd_site/egd_site/public/js/web.js,form:submit:error,Error submitting...
 apps/egd_site/egd_site/public/js/web.js,form:submit:sending...,Sending...
-apps/egd_site/egd_site/templates/includes/hero.html,hero:intro,hero:intro
-apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra,"Online, Nov 2020"
+apps/egd_site/egd_site/templates/includes/hero.html,hero:intro,Learn about how the ideas of effective giving can help you maximize your impact when donating to the causes you care about
+apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra,"November 30,2020 | 6:45 p.m. | Online event"
 apps/egd_site/egd_site/templates/includes/hero.html,hero:register_button,REGISTER NOW
 apps/egd_site/egd_site/templates/includes/hero.html,hero:title,EFFECTIVE GIVING DAY
 apps/egd_site/egd_site/templates/includes/header.html,link:agenda,Agenda
@@ -62,18 +62,18 @@ apps/egd_site/egd_site/tools.py,registration:email:body:click_here_to_verify,reg
 apps/egd_site/egd_site/tools.py,registration:email:body:thank_you,registration:email:body:thank_you
 apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,registration:email:body:verify_your_email
 apps/egd_site/egd_site/tools.py,registration:email:subject,registration:email:subject
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:intro,section:about:intro
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:intro,Effective Giving Day is an online conference featuring some of the world's most prominent organizations in the effective giving space.
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:1,section:about:list:1
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:2,section:about:list:2
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:3,section:about:list:3
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:4,section:about:list:4
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:title,section:about:title
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:title,About the event
 apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:intro,section:agenda:intro
-apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:title,section:agenda:title
+apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:title,Agenda
 apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:organized_by,Organized by
 apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:supported_by,With the support of
 apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:intro,section:speakers:intro
 apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:see_all_speakers,section:speakers:See all speakers
-apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:title,section:speakers:title
+apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:title,Speakers
 apps/egd_site/egd_site/templates/includes/section-why.html,section:why:intro,section:why:intro
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:title,section:why:title
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:title,Why you should attend
