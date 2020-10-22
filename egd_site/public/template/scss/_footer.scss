@@ -11,12 +11,13 @@ footer{
 		font-size: 13px;
 		color: #9e9e9e;
 	}
-a{
-	color: #fff;
-	&:hover{
-	color: $preset;
+	a {
+		text-transform: capitalize;
+		color: #fff;
+		&:hover {
+			color: $preset;
+		}
 	}
-}
 }
 .social-icons-footer{
 	ul{
