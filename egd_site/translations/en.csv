@@ -18,6 +18,7 @@ apps/egd_site/egd_site/templates/includes/hero.html,hero:register_button,REGISTE
 apps/egd_site/egd_site/templates/includes/hero.html,hero:title,EFFECTIVE GIVING DAY
 apps/egd_site/egd_site/templates/includes/header.html,link:agenda,Agenda
 apps/egd_site/egd_site/templates/includes/header.html,link:contact,Contact
+apps/egd_site/egd_site/templates/includes/footer.html,link:cookies,Cookies
 apps/egd_site/egd_site/templates/includes/header.html,link:home,Home
 apps/egd_site/egd_site/templates/includes/footer.html,link:legal,Legal
 apps/egd_site/egd_site/templates/includes/footer.html,link:login,Login
@@ -39,7 +40,7 @@ apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submit,Sub
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,Soon you will receive a an email for confirmation. Thank you very much for subscribing.
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Stay up to date
 apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,How much (if anything) do you currently give per year to ‘effective charities’ (as defined by the effective giving movement)? (USD)
-apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:a_bit_familiar,A bit familiar
+apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:a_bit_familiar,Somewhat familiar
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:not_familiar,Not familiar
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:question,How familiar are you with the effective giving movement?
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:quite_familiar,Quite familiar
@@ -53,6 +54,14 @@ apps/egd_site/egd_site/templates/includes/register.html,register:form:select_cou
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_occupation,Select your occupation
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submit,Register
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message,Soon you will receive a an email for confirmation. Thank you very much for your registration.
+apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_ok","registration:dialog:body:email_""{0}""_confirmed_ok"
+apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_previously","registration:dialog:body:email_""{0}""_confirmed_previously"
+apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,registration:dialog:body:error_confirming_your_email.
+apps/egd_site/egd_site/tools.py,registration:dialog:title:registration_subscription,registration:dialog:title:registration_subscription
+apps/egd_site/egd_site/tools.py,registration:email:body:click_here_to_verify,registration:email:body:click_here_to_verify
+apps/egd_site/egd_site/tools.py,registration:email:body:thank_you,registration:email:body:thank_you
+apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,registration:email:body:verify_your_email
+apps/egd_site/egd_site/tools.py,registration:email:subject,registration:email:subject
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:intro,section:about:intro
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:1,section:about:list:1
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:2,section:about:list:2
