@@ -6,7 +6,7 @@ Effective Altruism Day Website based on Frappe Framework.
 # Setup
 
 ## Install Frappe
-Please follow instructions from: (https://frappeframework.com/docs/user/en/installation)[https://frappeframework.com/docs/user/en/installation].
+Please follow instructions from: [https://frappeframework.com/docs/user/en/installation](https://frappeframework.com/docs/user/en/installation).
 
 
 ## Create a new site
