@@ -114,4 +114,14 @@ frappe.website.redirect.resolve_redirect = egd_resolve_redirect
 import frappe.website.render
 frappe.website.render.resolve_redirect = egd_resolve_redirect
 
+
+def egd_add_metatags(context):
+	"""Override `Web Page` Doctype template if CMS page."""
+	if is_app_for_actual_site():
+		if context.doctype == "Web Page":
+			context.template = "templates/web.html"
+	frappe_add_metatags(context)
+from frappe.website.context import add_metatags as frappe_add_metatags
+frappe.website.context.add_metatags = egd_add_metatags
+
 # FRAPPE OVERRIDES>

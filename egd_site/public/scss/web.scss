@@ -33,6 +33,10 @@ $lni-font-path: "/assets/egd_site/fonts/line-icons";
 }
 
 
+// FONTAWESOME
+@import "/assets/frappe/css/font-awesome.css";
+
+
 // <BASE TEMPLATE STYLES
 $preset: $color-primary;
 
@@ -191,5 +195,21 @@ small, .small {
 	}
 	a:hover {
 		color: lighten($color-primary, 40%);
+	}
+}
+
+
+// COOKIES MESSAGE
+#cookies-message {
+	position: fixed;
+	bottom: -16px;
+	right: 0;
+	left: 0;
+	z-index: 1020;
+	padding: 20px 30%;
+	box-shadow: 0 0 1rem rgba(black, 0.12);
+	.close {
+		right: -25px;
+		position: relative;
 	}
 }

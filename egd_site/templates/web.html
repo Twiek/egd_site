@@ -25,7 +25,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					{% block page_content -%}{%- endblock %}
+					{% block page_content -%}
+						{% if main_section %}
+						<div class="web-page-content">{{ main_section }}</div>
+						{% endif %}
+					{%- endblock %}
 				</div>
 			</div>
 		</div>

@@ -216,8 +216,22 @@ frappe.ready(function() {
 		})
 	}
 
-})
 
+	// COOKIES MESSAGE
+	// ga('set', 'allowAdFeatures', false)
+	// Edit the tag -> More Settings -> Fields to set -> Add a field -> set Field Name as ‘anonymizeIp’ and its Value ‘true’
+	// https://termly.io/resources/articles/google-analytics-gdpr/
+	const $cookie_message = $('#cookies-message')
+	if ($cookie_message.length) {
+		$cookie_message.find('button.refuse').on('click', cookiesUserRefused)
+		$cookie_message.find('button.accept').on('click', cookiesUserAccept)
+		const cookies = frappe.get_cookie(cookie_consent_name)
+		if (['accepted', 'refused'].indexOf(cookies) < 0) {
+			$cookie_message.removeClass('hide')
+		} else {
+		}
+	}
+})
 
 
 // <FRAPPE OVERRIDES
@@ -233,3 +247,26 @@ frappe.call = function(opts) {
 }
 // Override call from /frappe/public/js/frappe/request.js>
 // FRAPPE OVERRIDES>
+
+
+
+
+// COOKIES
+const cookie_consent_name = 'cookie_consent'
+function cookieSet(name, value = '', days = '365') {
+	let expires = ''
+	if (days) {
+		let date = new Date()
+		date.setTime(date.getTime() + (days*24*60*60*1000))
+		expires = `; expires=${date.toUTCString()}`
+	}
+	document.cookie = `${name}=${value}${expires}; path=/`
+}
+function cookiesUserAccept() {
+	console.log('cookies accepted!!!')
+	cookieSet(cookie_consent_name, 'accepted')
+}
+function cookiesUserRefused() {
+	console.log('cookies refused!!!')
+	cookieSet(cookie_consent_name, 'refused')
+}
