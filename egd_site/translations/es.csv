@@ -45,9 +45,9 @@ apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarit
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:question,ES How familiar are you with the effective giving movement?
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:quite_familiar,ES Quite familiar
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:very_familiar,ES Very familiar
-apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:other,ES Other
-apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:professional,ES Professional
-apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:student,ES Student
+apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:other,Otra
+apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:professional,Profesional
+apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:student,Estudiante
 apps/egd_site/egd_site/templates/includes/register.html,register:form:organization,Organización
 apps/egd_site/egd_site/templates/includes/register.html,register:form:organization_title,Puesto que desempeñas
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_country,Elige tu país
