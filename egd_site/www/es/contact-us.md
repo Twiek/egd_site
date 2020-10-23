@@ -1,10 +1,14 @@
+---
+;title: HTML head title. Remove coment character ";" to be applied
+;meta_description: META description. Remove coment character ";" to be applied
+---
 
 <section>
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
 				<div class="section-title-header text-center">
-					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Contact Us</h1>
+					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Contacto</h1>
 					<p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an <br> cule dicta iriure at phaedrum.</p>
 				</div>
 			</div>

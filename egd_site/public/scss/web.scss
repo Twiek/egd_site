@@ -213,3 +213,25 @@ small, .small {
 		position: relative;
 	}
 }
+
+
+// HEADERS, PARAGRAPHS AND LISTS FOR FULL TEXT PAGES
+.legal-content {
+	.page-content {
+		h1, h2, h3, h4, h5, h6, .h1,
+		.h2, .h3, .h4, .h5, .h6 {
+			margin-bottom: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		p {
+			margin: 0px 0 15px 0;
+		}
+		ul, ol {
+			margin: 17px;
+			li {
+				list-style: disc;
+				padding: 0 0 10px 0;
+			}
+		}
+	}
+}
