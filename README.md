@@ -1,19 +1,21 @@
-## EGD Site based on Frappe
+# EGD Site based on Frappe
 
 Effective Altruism Day Website based on Frappe Framework.
 
 
-### Install Frappe
+# Setup
+
+## Install Frappe
 Please follow instructions from: (https://frappeframework.com/docs/user/en/installation)[https://frappeframework.com/docs/user/en/installation].
 
 
-### Create a new site
+## Create a new site
 
 ```
 bench new-site --db-name db_egd --mariadb-root-password ******* --force egd.local
 ```
 
-### Install app on created site
+## Install app on created site
 
 ```
 bench get-app git@github.com:Ayuda-Efectiva/egd_site.git
@@ -21,7 +23,7 @@ bench update --requirements
 bench --site egd.local install-app egd_site
 ```
 
-### Load your local site
+## Load your local site
 
 ```
 bench start
@@ -56,6 +58,6 @@ Each CSV file is formed by three columns:
   * **Column 1**: Translation for CSV language. You can use **,** (comma) but you need to wrap whole translation with **"**.
 
 
-#### License
+# License
 
 MIT
