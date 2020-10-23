@@ -4,18 +4,18 @@
 body_class: legal-content
 ---
 
-# Política de privacidad del newsletter 
+# Newsletter privacy policy 
 
-## Protección de datos personales
+## Personal data protection
 
-Los datos personales facilitados serán incorporados en un fichero responsabilidad de FUNDACIÓN AYUDA EFECTIVA (en adelante la FUNDACIÓN) con domicilio en Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, con la finalidad de enviarle la newsletter sobre información, novedades o eventos de la FUNDACIÓN.
+The personal data provided will be included in a file under the responsibility of FUNDACIÓN AYUDA EFECTIVA (hereinafter the FOUNDATION) with address at Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, for the purpose of sending you the newsletter about information, news or events of the FOUNDATION.
 
-La base jurídica que legitima este tratamiento es su consentimiento manifestado en el momento de enviar su solicitud de suscripción a la newsletter. Los datos serán tratados de forma indefinida hasta que revoque su consentimiento o solicite la supresión de sus datos. Los datos personales no serán cedidos a terceras personas salvo obligación legal.
+The legal basis for this processing is your consent given at the time of sending your request to subscribe to the newsletter. The data will be processed indefinitely until you revoke your consent or request the deletion of your data. The personal data will not be transferred to third parties unless legally obliged to do so.
 
-Le informamos de que la newsletter será remitida mediante la herramienta SMTP2GO, gestionada por la empresa Sand Dune Mail Ltd. cuyos servidores están ubicados en Nueva Zelanda, empresa que cumple con el Reglamento General de Protección de Datos europeo o RGPD ([https://www.smtp2go.com/privacy/](https://www.smtp2go.com/privacy/)).
+We inform you that the newsletter will be sent through the tool SMTP2GO, managed by the company Sand Dune Mail Ltd. whose servers are located in New Zealand, a company that complies with the European General Data Protection Regulation or RGPD ([https://www.smtp2go.com/privacy/](https://www.smtp2go.com/privacy/)).
 
-La herramienta utilizada para el envío de la newsletter por correo electrónico, incluirá enlaces e imágenes diminutas y transparentes que estarán asociadas a su dirección de correo electrónico. De esta forma, cuando se descarga una de estas imágenes o se accede a los enlaces contenidos en el correo electrónico, la FUNDACIÓN puede saber a efectos estadísticos si el correo se ha abierto o si se ha accedido a algún enlace desde dicho correo. Podrá impedir estos usos configurando su gestor o programa de correo electrónico para impedir la descarga automatizada de imágenes, así como no accediendo a los enlaces incluidos en los correos electrónicos que reciba.
+The tool used to send the newsletter by email will include links and tiny, transparent images that will be associated with your email address. In this way, when you download one of these images or access the links contained in the email, the FOUNDATION can know for statistical purposes whether the email has been opened or whether a link has been accessed from that email. You may prevent these uses by configuring your manager or e-mail program to prevent automated downloading of images, as well as by not accessing the links included in the e-mails you receive.
 
-En cada comunicación, podrá oponerse a recibir este tipo de información a través del medio de contacto indicado para tramitar su baja.
+In each communication, you will be able to oppose to receive this type of information through the indicated means of contact to process your cancellation.
 
-En cualquier momento podrá revocar su consentimiento y ejercer sus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad a través de correo electrónico o correo postal al domicilio indicado, aportando copia de su DNI o documento equivalente, identificándose como suscriptor de la newsletter y concretando su solicitud. En caso de considerar vulnerado su derecho a la protección de datos, podrá presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es).
+At any time you may revoke your consent and exercise your rights of access, rectification, deletion, opposition, limitation and portability by sending an e-mail or post to the address indicated, providing a copy of your ID card or equivalent document, identifying yourself as a subscriber to the newsletter and specifying your request. If you consider that your right to data protection has been violated, you may file a complaint with the Spanish Data Protection Agency (www.aepd.es).

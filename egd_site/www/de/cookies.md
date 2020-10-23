@@ -4,108 +4,108 @@
 body_class: legal-content
 ---
 
-# Política de cookies
+# Cookie-Richtlinie
 
-## 1. Información general
+## 1. Allgemeine Informationen
 
-A continuación, se ofrece al Usuario información general sobre qué son las cookies y qué tipos de cookies existen.
+Im Folgenden erhält der Benutzer allgemeine Informationen darüber, was Cookies sind und welche Arten von Cookies es gibt.
 
-### ¿Qué son las cookies?
+### Was sind Cookies?
 
-Las cookies y otros dispositivos similares, como píxeles, web bugs, etc. son archivos de texto o imagen que se instalan en el navegador del usuario cuando este accede a un servicio online.
+Cookies und andere ähnliche Vorrichtungen, wie z.B. Pixel, Web Bugs usw. sind Text- oder Bilddateien, die im Browser des Benutzers installiert werden, wenn er auf einen Online-Dienst zugreift.
 
-Las cookies permiten, entre otras cosas, almacenar y recuperar información sobre el usuario, su navegador, sus dispositivos y la actividad del usuario en el servicio al que se conecta.
+Cookies ermöglichen es unter anderem, Informationen über den Benutzer, seinen Browser, seine Geräte und die Aktivität des Benutzers in dem Dienst, mit dem er sich verbindet, zu speichern und abzurufen.
 
-### ¿Qué tipos de cookies existen?
+### Welche Arten von Cookies gibt es?
 
-Existen muchos tipos de cookies. A continuación, ofrecemos al usuario algunas clasificaciones de las mismas, sin que ello implique necesariamente que este servicio utiliza todos estos tipos de cookies:
+Es gibt viele Arten von Cookies. Im Folgenden bieten wir dem Benutzer einige Klassifizierungen davon an, ohne notwendigerweise zu implizieren, dass dieser Dienst alle diese Arten von Cookies verwendet:
 
-a) Según la entidad que gestiona las cookies:
+1. Nach der Entität, die die Cookies verwaltet:
 
-*   Cookies propias: son aquéllas que se envían al dispositivo o terminal del usuario desde el equipo o dominio perteneciente al titular de un servicio, y gestionadas por éste.
-*   Cookies de terceros: son aquéllas que son enviadas al dispositivo o terminal del usuario desde un equipo o dominio que no es gestionado por el titular de un servicio, sino por un tercero que tratará la información obtenida a través de las cookies.
+* Eigene Cookies: sind diejenigen, die von dem Computer oder der Domäne des Eigentümers eines Dienstes an das Gerät oder Terminal des Benutzers gesendet und von diesem verwaltet werden.
+* Cookies von Dritten: sind diejenigen, die von einem Computer oder einer Domäne, die nicht vom Eigentümer eines Dienstes verwaltet wird, sondern von einer dritten Partei, die die durch die Cookies erhaltenen Informationen verarbeiten wird, an das Gerät oder Terminal des Benutzers gesendet werden.
 
-b) Según el tiempo de conservación:
+2. Nach dem Zeitpunkt der Aufbewahrung:
 
-*   Cookies de sesión: son aquéllas que recaban y almacenan los datos cuando el usuario accede a un servicio y cesan una vez que el usuario sale de ésta.
-*   Cookies persistentes: son aquéllas que tienen una duración determinada en el tiempo por el responsable del tratamiento. El tiempo de conservación puede variar entre unos minutos a varios años. Se utilizan para guardar y recuperar ciertos parámetros cada vez que el usuario visite un servicio.
+* Sitzungs-Cookies: sind diejenigen, die Daten sammeln und speichern, wenn der Benutzer auf einen Dienst zugreift, und die aufhören, sobald der Benutzer den Dienst verlässt.
+* Persistente Cookies: sind diejenigen, deren Dauer von der für die Verarbeitung verantwortlichen Person zeitlich festgelegt wird. Die Aufbewahrungsdauer kann von einigen Minuten bis zu mehreren Jahren variieren. Sie werden verwendet, um bestimmte Parameter jedes Mal, wenn der Benutzer einen Dienst besucht, zu speichern und wiederherzustellen.
 
-c) Según su finalidad:
+3. Abhängig von ihrem Zweck:
 
-*   Cookies técnicas: son aquéllas imprescindibles y estrictamente necesarias para el correcto funcionamiento del servicio y utilizar las diferentes opciones o servicios ofrecidos por los titulares del mismo a través de éste. Por ejemplo, las que sirven para el mantenimiento de la sesión, la gestión del tiempo de respuesta, rendimiento o validación de opciones, utilizar elementos de seguridad, etc.
-*   Cookies de personalización: son aquéllas que permiten que el usuario pueda especificar o personalizar algunas características de un servicio. Por ejemplo, definir el idioma, configuración regional o tipo de navegador.
-*   Cookies analíticas: son aquéllas que permiten contar el número de visitantes únicos y realizar un análisis del uso de un servicio para medir el interés de éste o de determinadas áreas del mismo. Por ejemplo, mediante una cookie analítica se controlarían las áreas geográficas desde donde se conectan mayores porcentajes de usuarios, cuál es el producto o servicio de más aceptación, etc.
-*   Cookies publicitarias: son aquéllas que permiten la gestión de los espacios publicitarios en un servicio.
-*   Cookies de publicidad comportamental: son aquéllas que permiten la gestión de espacios publicitarios en un servicio. La función de estas cookies es almacenar información del comportamiento de los usuarios de un servicio, para posteriormente mostrar publicidad personalizada.
+* Technische Cookies: Diese sind für das korrekte Funktionieren des Dienstes und die Nutzung der verschiedenen Optionen oder Dienste, die von den Eigentümern des Dienstes über ihn angeboten werden, unerlässlich und unbedingt notwendig. Zum Beispiel diejenigen, die für die Aufrechterhaltung der Sitzung, die Verwaltung der Antwortzeiten, die Leistungs- oder Optionsvalidierung, die Verwendung von Sicherheitselementen usw. verwendet werden.
+* Personalisierungs-Cookies: Dies sind diejenigen, die es dem Benutzer ermöglichen, bestimmte Merkmale eines Dienstes zu spezifizieren oder zu personalisieren. Zum Beispiel, um die Sprache, die regionale Konfiguration oder die Art des Browsers zu definieren.
+* Analytische Cookies: Diese erlauben es, die Anzahl der einzelnen Besucher zu zählen und eine Analyse der Nutzung eines Dienstes durchzuführen, um das Interesse des Dienstes oder bestimmter Bereiche des Dienstes zu messen. Ein analytisches Cookie würde z.B. kontrollieren, aus welchen geographischen Gebieten sich die höchsten Prozentsätze der Benutzer verbinden, welches Produkt oder welche Dienstleistung am beliebtesten ist, usw.
+* Werbe-Cookies: Dies sind diejenigen, die die Verwaltung von Werbeflächen in einem Dienst ermöglichen.
+* Verhaltensbasierte Werbe-Cookies: sind diejenigen, die die Verwaltung von Werbeflächen in einem Dienst ermöglichen. Die Funktion dieser Cookies besteht darin, Informationen über das Verhalten der Benutzer eines Dienstes zu speichern, um anschließend personalisierte Werbung anzuzeigen.
 
-d) Otras tecnologías:
+4. Andere Technologien:
 
-*   Pixeles, web bugs o trackers: también conocidos como píxeles de rastreo, tracking pixel, pixel tag o píxeles de conversión, web beacons o balizas web son diminutas imágenes de 1x1 píxeles transparentes que se insertan en un servicio a fin de realizar mediciones de actividad. Una vez que determinada página se carga en un navegador, dicha imagen se cargará, pudiendo este dato ser medido. Los píxeles de seguimiento permiten, generalmente, conocer el recorrido que ha realizado una determinada IP de usuario en un servicio online.
-*   Almacenamiento HTML5: consiste en aprovechar las capacidades de la tecnología HTML5 para almacenar en el navegador del usuario determinados parámetros que pueden ser utilizados para identificar el navegador del mismo.
-*   Objetos locales compartidos (LSO): también conocidos como “flash cookies”, consiste en el almacenamiento de información sin cookies en el equipo de usuario aprovechando la tecnología Adobe Flash Player.
-*   Etags: se trata de un mecanismo del protocolo HTTP que permite la validación del caché que el usuario guarda en su navegador de una web. Esta tecnología se usa principalmente para ahorrar ancho de banda, evitando descarga de contenidos por duplicado. No obstante, también es posible utilizarla para reconocer el navegador del usuario.
-*   Canvas fingerprinting: consiste en la generación de una forma única en el navegador del usuario aprovechando la tecnología del estándar web HTML5 para identificar el equipo del usuario.
-*   Detección de fuentes: esta técnica consiste en identificar la configuración de fuentes del equipo del usuario para obtener una identificación única del equipo.
-*   Caché del navegador: como su propio nombre indica, esta técnica consiste en el almacenaje de información en el caché del navegador.
-*   WebGL: esta técnica permite aprovechar las capacidades para representar figuras en tres dimensiones de los navegadores modernos para obtener una identificación única del equipo, debido a las diferentes configuraciones de cada uno.
+* Pixel, Web-Bugs oder Tracker: auch bekannt als Tracking-Pixel, Tracking-Pixel, Pixel-Tags oder Konvertierungspixel, Web-Beacons oder Web-Beacons sind winzige Bilder von 1x1 transparenten Pixeln, die in einen Dienst eingefügt werden, um die Aktivität zu messen. Sobald eine bestimmte Seite in einem Browser geladen ist, wird dieses Bild geladen, und diese Daten können gemessen werden. Die Tracking-Pixel ermöglichen es im Allgemeinen, den Weg herauszufinden, den die IP eines bestimmten Benutzers in einem Online-Dienst nimmt.
+* HTML5-Speicherung: besteht darin, die Kapazitäten der HTML5-Technologie auszunutzen, um im Browser des Benutzers bestimmte Parameter zu speichern, die zur Identifizierung des Browsers desselben verwendet werden können.
+* Local Shared Objects (LSO): auch als "Flash Cookies" bekannt, besteht darin, Informationen ohne Cookies auf dem Computer des Benutzers zu speichern, wobei die Adobe Flash Player-Technologie genutzt wird.
+* Etags: Dies ist ein Mechanismus des HTTP-Protokolls, der die Validierung des Caches ermöglicht, den der Benutzer in seinem Webbrowser speichert. Diese Technologie wird hauptsächlich verwendet, um Bandbreite zu sparen und das doppelte Herunterladen von Inhalten zu vermeiden. Sie kann aber auch dazu verwendet werden, den Browser des Benutzers zu erkennen.
+* Canvas-Fingerprinting: besteht in der Erstellung eines eindeutigen Formulars im Browser des Benutzers, das die Technologie des Webstandards HTML5 nutzt, um den Computer des Benutzers zu identifizieren.
+* Schriftartenerkennung: Diese Technik besteht aus der Identifizierung der Schriftartenkonfiguration des Computers des Benutzers, um eine eindeutige Identifizierung des Computers zu erhalten.
+* Browser-Cache: Wie der Name schon sagt, besteht diese Technik darin, Informationen im Browser-Cache zu speichern.
+* WebGL: Diese Technik ermöglicht es, die dreidimensionale Darstellung von Abbildungen in modernen Browsern zu nutzen, um eine eindeutige Identifizierung des Geräts aufgrund der unterschiedlichen Konfigurationen jedes Browsers zu erhalten.
 
-## 2. Información específica
+## 2. Spezifische Informationen
 
-### ¿Quién es el responsable de este servicio?
+### Wer ist für diesen Dienst verantwortlich?
 
-Este Servicio es responsabilidad de FUNDACIÓN AYUDA EFECTIVA, con NIF G88444278, domiciliada en Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, e inscrita en el Registro de Fundaciones con el número 2263.
+Für diesen Dienst ist FUNDACIÓN AYUDA EFECTIVA zuständig, mit NIF G88444278, wohnhaft in der Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, und eingetragen im Stiftungsregister unter der Nummer 2263.
 
-### ¿Qué tecnologías utilizamos?
+### Welche Technologien verwenden wir?
 
-En concreto, este servicio online utiliza cookies y otros dispositivos similares con las siguientes finalidades:
+Konkret verwendet dieser Online-Dienst Cookies und andere ähnliche Geräte für folgende Zwecke
 
-**Cookies técnicas**:
+**Technische Cookies**:
 
-Persistencia: Cookies de sesión / Hasta un año
+Persistenz: Session-Cookies / Bis zu einem Jahr
 
-Origen/Proveedor: Propias
+Herkunft/Lieferant: Eigene
 
-Más información: Por ejemplo, cuando el usuario cierra el aviso de Cookies mantenerlo cerrado, mantener algún dato necesario para la navegación del usuario logueado si se da el caso, etc.
+Mehr Informationen: Wenn der Benutzer z.B. die Cookie-Warnung schließt, lassen Sie sie geschlossen, bewahren Sie gegebenenfalls einige Daten auf, die für die Navigation des eingeloggten Benutzers erforderlich sind, usw.
 
-**Cookies analíticas**:
+**Analytische Cookies**:
 
-Persistencia: Hasta 2 años
+Persistenz: Bis zu 2 Jahre
 
-Origen/Proveedor: Google Inc. *
+Herkunft/Lieferant: Google Inc. *
 
-Más información: Información sobre cookies de Google Analytics: [https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)
+Mehr Informationen: Informationen zum Google Analytics-Cookie: [https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)
 
-(*) Proveedores no ubicados en la Unión Europea ni en países con legislación equivalente en materia de protección de datos
+(*) Lieferanten, die nicht in der Europäischen Union oder in Ländern mit gleichwertiger Datenschutzgesetzgebung ansässig sind
 
-La información obtenida a través de estas cookies se almacena en servidores de proveedores no ubicados en la Unión Europea ni en países con una legislación equivalente a la europea en materia de protección de datos.
+Die durch diese Cookies erhaltenen Informationen werden auf Servern von Anbietern gespeichert, die nicht in der Europäischen Union oder in Ländern mit gleichwertiger Datenschutzgesetzgebung ansässig sind.
 
-No obstante, estos proveedores aportan las siguientes garantías adecuadas en materia de protección de datos:
+Diese Anbieter bieten jedoch die folgenden angemessenen Garantien in Bezug auf den Datenschutz:
 
-Google se encuentra adherido al Escudo de Privacidad o “Privacy Shield”: [https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active](https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active)
+Google hat sich an das Datenschutzschild gehalten: [https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active](https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active)
 
-### ¿Cómo deshabilitar o eliminar las cookies?
+### Wie deaktiviert oder löscht man Cookies?
 
-Al acceder al servicio por primera vez, el usuario verá un aviso de cookies en el que se le informará de la forma en la que puede prestar o rechazar su consentimiento.
+Wenn Sie zum ersten Mal auf den Dienst zugreifen, werden Sie eine Cookie-Warnung sehen, die Sie darüber informiert, wie Sie Ihre Zustimmung geben oder verweigern können.
 
-En caso de que el usuario hubiese prestado su consentimiento, en cualquier momento podrá deshabilitar o eliminar las cookies enunciadas a través de la configuración de las opciones del navegador utilizado en su dispositivo o terminal.
+Wenn Sie Ihre Zustimmung gegeben haben, können Sie die Cookies jederzeit über die Konfiguration der Optionen des auf Ihrem Gerät oder Terminal verwendeten Browsers deaktivieren oder löschen.
 
-No obstante, el usuario debe tener en cuenta que, si rechaza o borra las cookies, no podremos mantener sus preferencias y algunas características no estarán operativas, por lo que no podremos ofrecerle servicios personalizados y cada vez que vayan a utilizar el servicio figurará como un nuevo usuario al que se le solicitará su autorización para el uso de cookies.
+Die Benutzer sollten jedoch bedenken, dass wir, wenn sie die Cookies ablehnen oder löschen, nicht in der Lage sein werden, ihre Präferenzen beizubehalten, und einige Funktionen nicht funktionsfähig sein werden, so dass wir ihnen keine personalisierten Dienste anbieten können und sie bei jeder Nutzung des Dienstes als neuer Benutzer erscheinen werden, der gebeten wird, die Verwendung von Cookies zu genehmigen.
 
-A continuación, ofrecemos enlaces en los que el usuario encontrará información sobre cómo desactivar las cookies y similares en los principales navegadores:
+Unten bieten wir Links an, wo der Benutzer Informationen darüber findet, wie Cookies und ähnliche Funktionen in den wichtigsten Browsern deaktiviert werden können:
 
-*   [Configuración de cookies para Google Chrome](https://support.google.com/chrome/answer/95647?hl=es)
-*   [Configuración de cookies para Mozilla Firefox](https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-)
-*   [Configuración de cookies para Internet Explorer](https://support.microsoft.com/es-es/help/278835/how-to-delete-cookie-files-in-internet-explorer)
-*   [Configuración de cookies para Safari](https://support.apple.com/kb/HT1677?viewlocale=es_ES)
+* [Cookie-Einstellungen für Google Chrome](https://support.google.com/chrome/answer/95647?hl=es)
+* [Cookie-Einstellungen für Mozilla Firefox](https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-)
+* [Cookie-Einstellungen für Internet Explorer](https://support.microsoft.com/es-es/help/278835/how-to-delete-cookie-files-in-internet-explorer)
+* [Cookie-Einstellungen für Safari] (https://support.apple.com/kb/HT1677?viewlocale=es_ES)
 
-### ¿Cómo afecta el uso de cookies a la protección de los datos personales del usuario?
+### Wie wirkt sich die Verwendung von Cookies auf den Schutz der persönlichen Daten des Benutzers aus?
 
-La mayoría de las cookies recopilan información anónima, que no permite obtener la identidad del usuario, si bien algunos de los códigos que se incluyen sirven para singularizar o individualizar al navegador de su dispositivo utilizado, pudiendo ser de aplicación la normativa en materia de protección de datos personales. Por ello, le informamos de que la información que se obtiene por medio de las cookies, será tratada con las finalidades indicadas en la presente Política de Cookies. Asimismo, está información también será tratada por aquellas empresas que proveen cookies con la finalidad indicada en sus respectivas políticas de privacidad.
+Die meisten Cookies sammeln anonyme Informationen, die es nicht erlauben, die Identität des Benutzers zu erfahren, obwohl einige der enthaltenen Codes dazu dienen, den Browser des verwendeten Geräts zu identifizieren oder zu individualisieren, und die Vorschriften über den Schutz personenbezogener Daten gelten möglicherweise. Wir informieren Sie daher, dass die durch Cookies erhaltenen Informationen mit den in dieser Cookie-Richtlinie angegebenen Zwecken behandelt werden. Gleichermaßen werden diese Informationen auch von den Unternehmen behandelt, die Cookies mit dem in ihren jeweiligen Datenschutzrichtlinien angegebenen Zweck zur Verfügung stellen.
 
-No obstante, teniendo en cuenta que estos códigos no permiten la identificación del Usuario, no serán aplicables los derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad reconocidos en la normativa de protección de datos, salvo que el Usuario sea capaz de aportar información adicional que permita vincular su identidad con los códigos identificativos de sus cookies.
+Unter Berücksichtigung der Tatsache, dass diese Codes keine Identifizierung des Benutzers ermöglichen, sind die in den Datenschutzbestimmungen anerkannten Rechte auf Zugang, Berichtigung, Unterdrückung, Widerspruch, Einschränkung und Übertragbarkeit jedoch nicht anwendbar, es sei denn, der Benutzer ist in der Lage, zusätzliche Informationen bereitzustellen, die es ermöglichen, seine Identität mit den Identifizierungscodes seiner Cookies zu verknüpfen.
 
-En caso de considerar vulnerado su derecho a la protección de datos, el usuario podrá interponer una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es).
+Wenn der Benutzer der Ansicht ist, dass sein Recht auf Datenschutz verletzt wurde, kann er eine Beschwerde bei der spanischen Datenschutzbehörde (www.aepd.es) einreichen.
 
-### Más información
+### Weitere Informationen
 
-El usuario puede plantear cualquier consulta relacionada con el uso de cookies que no esté contestada en esta Política de Cookies a través del correo electrónico info @ ayudaefectiva.org.
+Der Benutzer kann jede Frage bezüglich der Verwendung von Cookies, die in dieser Cookie-Richtlinie nicht beantwortet wird, über die E-Mail info @ ayudaefectiva.org stellen.

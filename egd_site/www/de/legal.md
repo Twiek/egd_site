@@ -4,82 +4,82 @@
 body_class: legal-content
 ---
 
-# Aviso legal
+# Rechtlicher Hinweis
 
-## 1. Información legal
+## 1. Rechtliche Informationen
 
-Effectivegivingday.org (en adelante, el SITIO WEB) es un dominio gestionado por FUNDACIÓN AYUDA EFECTIVA (en adelante, LA FUNDACIÓN), entidad inscrita en el Registro de Fundaciones con el número 2263:
+Effectivegivingday.org (nachfolgend die WEBSITE) ist eine von FUNDACIÓN AYUDA EFECTIVA (nachfolgend DIE STIFTUNG), einer im Stiftungsregister unter der Nummer 2263 eingetragenen Einrichtung, verwaltete Domain:
 
-NIF: G88444278
+NIF: G884444278
 
-DOMICILIO SOCIAL: Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid
+SOZIALE ANSPRACHE: Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid
 
-CÓDIGO POSTAL: 28290
+POSTLEITZAHL: 28290
 
-LOCALIDAD: Madrid
+STANDORT: Madrid
 
-CORREO ELECTRÓNICO: info @ ayudaefectiva.org
+EMAIL: info @ ayudaefectiva.org
 
-LA FUNDACIÓN cumple los requisitos de la Ley 49/2002, de 23 de diciembre, de régimen fiscal de las entidades sin fines lucrativos y de los incentivos fiscales al mecenazgo.
+DIE STIFTUNG erfüllt die Anforderungen des Gesetzes 49/2002 vom 23. Dezember über die Steuerregelung für gemeinnützige Organisationen und steuerliche Anreize für Mäzenatentum.
 
-## 2. Carácter del contenido del sitio web y las condiciones de uso
+## 2. Art des Website-Inhalts und Nutzungsbedingungen
 
-A través de este SITIO WEB se facilita a los visitantes y usuarios información acerca de los fines de LA FUNDACIÓN y las actividades que desarrolla o en las que colabora como marca.
+Diese WEBSITE bietet Besuchern und Benutzern Informationen über die Ziele der STIFTUNG und die Aktivitäten, die sie als Marke durchführt oder an denen sie mitarbeitet.
 
-Este SITIO WEB contiene elementos y secciones desarrolladas de manera directa por LA FUNDACIÓN o vínculos a páginas de terceros ajenos a LA FUNDACIÓN, que, a pesar de estar relacionados con la marca, serán gestionadas y desarrolladas por dichos terceros.
+Diese WEBSITE enthält Elemente und Abschnitte, die direkt von DER STIFTUNG entwickelt wurden, oder Links zu Seiten Dritter, die nicht zu DER STIFTUNG gehören und die, obwohl sie mit der Marke in Verbindung stehen, von den genannten Dritten verwaltet und entwickelt werden.
 
-Por favor, lea previamente las políticas del SITIO WEB y en caso de no estar conforme con las mismas, absténgase de acceder o hacer uso del mismo.
+Bitte lesen Sie die Richtlinien der WEBSITE vorher durch, und wenn Sie mit ihnen nicht einverstanden sind, unterlassen Sie bitte den Zugriff oder die Nutzung der Website.
 
-Mediante el acceso y utilización del SITIO WEB, se entenderá que el usuario manifiesta de forma expresa su aceptación al contenido de todas y cada una de las presentes Condiciones en la versión publicada en el SITIO WEB en el momento del acceso.
+Mit dem Zugriff und der Nutzung der WEBSITE wird davon ausgegangen, dass der Benutzer ausdrücklich den Inhalt jeder einzelnen dieser Bedingungen in der zum Zeitpunkt des Zugriffs auf die WEBSITE veröffentlichten Fassung akzeptiert.
 
-El acceso al SITIO WEB es de carácter gratuito.
+Der Zugang zur WEBSITE ist kostenlos.
 
-## 3. Responsabilidad del usuario
+## 3. Verantwortung des Benutzers
 
-El USUARIO se compromete a no utilizar el SITIO WEB ni la información ofrecida en el mismo para la realización de actividades contrarias a la Ley, la moral o el orden público y, en general, a hacer un uso conforme a las condiciones establecidas por LA FUNDACIÓN.
+Der BENUTZER verpflichtet sich, die WEBSITE oder die darin angebotenen Informationen nicht für Aktivitäten zu verwenden, die gegen das Gesetz, die Moral oder die öffentliche Ordnung verstoßen, und sie im Allgemeinen in Übereinstimmung mit den von der STIFTUNG festgelegten Bedingungen zu nutzen.
 
-Las opiniones, contenidos y, en general, todas las actividades realizadas por el USUARIO, son de su exclusiva responsabilidad, sin que pueda responsabilizarse a LA FUNDACIÓN de los daños o perjuicios que pudieran derivarse de dichas actividades ajenas a su voluntad y sin que ésta tenga un conocimiento efectivo de las mismas.
+Die Meinungen, Inhalte und im Allgemeinen alle vom BENUTZER ausgeführten Aktivitäten unterliegen ihrer ausschließlichen Verantwortung, ohne dass die STIFTUNG für Schäden oder Verluste haftet, die sich aus diesen Aktivitäten ergeben können, die sich ihrer Kontrolle entziehen, und ohne dass der BENUTZER tatsächlich Kenntnis davon hat.
 
-## 4. Responsabilidad de la fundación
+## 4. die Verantwortung der Stiftung
 
-LA FUNDACIÓN no será responsable de los errores en el acceso al SITIO WEB o en sus contenidos, aunque pondrá la mayor diligencia en que los mismos no se produzcan.
+DIE STIFTUNG ist nicht verantwortlich für Fehler beim Zugriff auf die WEBSITE oder deren Inhalt, obwohl sie alle Anstrengungen unternehmen wird, um sicherzustellen, dass solche Fehler nicht auftreten.
 
-LA FUNDACIÓN se reserva el derecho de suspender temporalmente, y sin necesidad de previo aviso, la accesibilidad del SITIO WEB con motivo de una eventual necesidad de efectuar operaciones de mantenimiento, reparación, actualización o mejora del mismo.
+DIE STIFTUNG behält sich das Recht vor, den Zugang zur WEBSITE ohne vorherige Ankündigung vorübergehend zu unterbrechen, sollte es notwendig sein, Wartungs-, Reparatur-, Aktualisierungs- oder Verbesserungsarbeiten durchzuführen.
 
-## 5. Propiedad intelectual e industrial
+## Nr. 5 Geistiges und gewerbliches Eigentum
 
-Todos los contenidos del SITIO WEB (incluyendo, sin carácter limitativo, bases de datos, imágenes, dibujos, gráficos, archivos de texto, audio, vídeo y software), que no proceden de un banco externo, son propiedad de LA FUNDACIÓN y están protegidos por las normas nacionales e internacionales de propiedad intelectual e industrial, quedando todos los derechos reservados. 
+Alle Inhalte der WEBSITE (einschließlich, aber nicht beschränkt auf Datenbanken, Bilder, Zeichnungen, Grafiken, Textdateien, Audio-, Video- und Software), die nicht von einer externen Bank stammen, sind Eigentum der STIFTUNG und werden durch nationale und internationale Vorschriften über geistiges und gewerbliches Eigentum geschützt, wobei alle Rechte vorbehalten sind. 
 
-El nombre de dominio, las marcas, rótulos, signos distintivos o logos que aparecen en el SITIO WEB son titularidad de LA FUNDACIÓN.
+Der Domainname, die Marken, Zeichen, Unterscheidungszeichen oder Logos, die auf der WEBSITE erscheinen, sind Eigentum der STIFTUNG.
 
-Todos los textos, dibujos gráficos, vídeos o soportes de audio que pudieran encontrarse en este momento o en un futuro en este sitio de Internet, son propiedad de LA FUNDACIÓN y no podrán ser objeto de ulterior modificación, copia, alteración, reproducción total o parcial, adaptación o traducción por parte del USUARIO o de terceros sin la expresa autorización por parte de LA FUNDACIÓN.
+Alle Texte, graphischen Zeichnungen, Videos oder Tonträger, die zu diesem Zeitpunkt oder in Zukunft auf dieser Website zu finden sind, sind Eigentum der STIFTUNG und dürfen ohne ausdrückliche Genehmigung der STIFTUNG nicht nachträglich modifiziert, kopiert, verändert, ganz oder teilweise reproduziert, angepasst oder übersetzt werden durch den BENUTZER oder Dritte.
 
-El uso no autorizado de la información contenida en este SITIO WEB, así como la lesión de los derechos de propiedad intelectual o industrial dará lugar a las responsabilidades legalmente establecidas.
+Die unbefugte Nutzung der auf dieser WEBSITE enthaltenen Informationen sowie die Verletzung geistiger oder gewerblicher Eigentumsrechte zieht die gesetzlich festgelegten Verantwortlichkeiten nach sich.
 
-## 6. Hiperenlaces
+## Nr. 6: Hyperlinks
 
-El establecimiento de cualquier hiperenlace desde una página web ajena a cualquiera de las páginas del SITIO WEB de LA FUNDACIÓN estará sometido a las siguientes condiciones:
+Die Einrichtung eines Hyperlinks von einer Webseite, die in keinem Zusammenhang mit einer der Seiten der WEBSITE der STIFTUNG steht, unterliegt den folgenden Bedingungen:
 
-No se permite la reproducción ni total ni parcial de ninguno de los servicios contenidos en el SITIO WEB de LA FUNDACIÓN.
+Die vollständige oder teilweise Reproduktion eines der auf der WEBSITE der STIFTUNG enthaltenen Dienste ist nicht gestattet.
 
-No se incluirá ninguna manifestación falsa, inexacta o incorrecta sobre las páginas del SITIO WEB de LA FUNDACIÓN y sus servicios.
+Auf den Seiten der WEBSITE der STIFTUNG und ihrer Dienstleistungen wird keine falsche, ungenaue oder unkorrekte Aussage gemacht.
 
-Bajo ninguna circunstancia, LA FUNDACIÓN será responsable de los contenidos, informaciones, manifestaciones, opiniones o servicios puestos a disposición del público en la página web desde la que se establezca un hiperenlace al presente SITIO WEB.
+Unter keinen Umständen ist DIE STIFTUNG verantwortlich für die Inhalte, Informationen, Aussagen, Meinungen oder Dienstleistungen, die der Öffentlichkeit auf der Website zur Verfügung gestellt werden, von der aus ein Hyperlink zu dieser WEBSITE eingerichtet wird.
 
-Cualquier hiperenlace se efectuará a la página principal del SITIO WEB.
+Jeder Hyperlink muss auf die Startseite der WEBSITE verweisen.
 
-En su caso, los hiperenlaces que se encuentran en el SITIO WEB han sido previamente consensuados con los titulares de las páginas webs enlazadas. LA FUNDACIÓN no será responsable del mal uso ni de las actividades contrarias a la ley, la moral o el orden público que realicen los usuarios en dichas páginas enlazadas.
+Gegebenenfalls wurden die auf der WEBSITE gefundenen Hyperlinks zuvor mit den Eigentümern der verlinkten Webseiten vereinbart. Die STIFTUNG haftet nicht für den Missbrauch oder für Aktivitäten, die gegen das Gesetz, die Moral oder die öffentliche Ordnung verstoßen und von den Benutzern auf diesen verlinkten Seiten durchgeführt werden.
 
-## 7. Vigencia de las condiciones de uso
+## 7. die Gültigkeit der Nutzungsbedingungen
 
-Las condiciones de uso de este SITIO WEB tienen carácter indefinido. LA FUNDACIÓN se reserva en todo caso el derecho unilateral de modificar las condiciones de acceso a las mismas, así como su contenido.
+Die Nutzungsbedingungen dieser WEBSITE sind unbestimmter Natur. Die STIFTUNG behält sich das einseitige Recht vor, die Bedingungen für den Zugang zu denselben sowie deren Inhalt zu ändern.
 
-## 8. Nulidad e ineficacia de las cláusulas
+## 8. die Nichtigkeit und Unwirksamkeit der Klauseln
 
-Si cualquier cláusula incluida en estas condiciones fuese declarada total o parcialmente nula o ineficaz, tal nulidad afectará tan solo a dicha disposición o la parte de la misma que resulte nula o ineficaz, subsistiendo en todo lo demás las condiciones.
+Sollte eine in diesen Bedingungen enthaltene Klausel ganz oder teilweise für nichtig oder unwirksam erklärt werden, so betrifft diese Nichtigkeit nur diese Klausel oder den Teil der Klausel, der nichtig oder unwirksam ist, wobei die übrigen Bedingungen in Kraft bleiben.
 
-## 9. Legislación y jurisdicción aplicables
+## 9 Anwendbares Recht und Gerichtsstand
 
-La prestación del servicio de este SITIO WEB y las presentes condiciones de uso se rigen por la ley española.
+Die Bereitstellung des Dienstes dieser WEBSITE und diese Nutzungsbedingungen unterliegen dem spanischen Recht.
 
-Toda cuestión litigiosa que incumba a los servicios prestados a través de este SITIO WEB será resuelta a través de los tribunales arbitrales de consumo, mediadores o semejantes a los que se encuentre adherida LA FUNDACIÓN en el momento de producirse la controversia, así como los juzgados y tribunales correspondientes de conformidad con la legislación española.
+Jede strittige Angelegenheit, die die über diese WEBSITE angebotenen Dienstleistungen betrifft, wird durch die Verbraucher-Schiedsgerichte, Mediatoren oder ähnliche Gerichte, denen die STIFTUNG zum Zeitpunkt der Streitigkeit angeschlossen ist, sowie durch die entsprechenden Gerichte und Tribunale gemäß der spanischen Gesetzgebung gelöst.

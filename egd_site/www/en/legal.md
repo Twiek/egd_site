@@ -4,82 +4,82 @@
 body_class: legal-content
 ---
 
-# Aviso legal
+# Legal notice
 
-## 1. Información legal
+## 1. Legal information
 
-Effectivegivingday.org (en adelante, el SITIO WEB) es un dominio gestionado por FUNDACIÓN AYUDA EFECTIVA (en adelante, LA FUNDACIÓN), entidad inscrita en el Registro de Fundaciones con el número 2263:
+Effectivegivingday.org (hereinafter, the WEBSITE) is a domain managed by FUNDACIÓN AYUDA EFECTIVA (hereinafter, THE FOUNDATION), an entity registered in the Register of Foundations under number 2263:
 
 NIF: G88444278
 
-DOMICILIO SOCIAL: Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid
+SOCIAL ADDRESS: Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid
 
-CÓDIGO POSTAL: 28290
+POSTAL CODE: 28290
 
-LOCALIDAD: Madrid
+LOCATION: Madrid
 
-CORREO ELECTRÓNICO: info @ ayudaefectiva.org
+EMAIL: info @ ayudaefectiva.org
 
-LA FUNDACIÓN cumple los requisitos de la Ley 49/2002, de 23 de diciembre, de régimen fiscal de las entidades sin fines lucrativos y de los incentivos fiscales al mecenazgo.
+THE FOUNDATION complies with the requirements of Law 49/2002, of 23 December, on the tax regime for non-profit organisations and tax incentives for patronage.
 
-## 2. Carácter del contenido del sitio web y las condiciones de uso
+## 2. Nature of the website content and conditions of use
 
-A través de este SITIO WEB se facilita a los visitantes y usuarios información acerca de los fines de LA FUNDACIÓN y las actividades que desarrolla o en las que colabora como marca.
+This WEBSITE provides visitors and users with information about the aims of the FOUNDATION and the activities it carries out or in which it collaborates as a brand.
 
-Este SITIO WEB contiene elementos y secciones desarrolladas de manera directa por LA FUNDACIÓN o vínculos a páginas de terceros ajenos a LA FUNDACIÓN, que, a pesar de estar relacionados con la marca, serán gestionadas y desarrolladas por dichos terceros.
+This WEBSITE contains elements and sections developed directly by THE FOUNDATION or links to third party pages not belonging to THE FOUNDATION, which, despite being related to the brand, will be managed and developed by these third parties.
 
-Por favor, lea previamente las políticas del SITIO WEB y en caso de no estar conforme con las mismas, absténgase de acceder o hacer uso del mismo.
+Please read the policies of the WEBSITE beforehand and if you do not agree with them, please refrain from accessing or using it.
 
-Mediante el acceso y utilización del SITIO WEB, se entenderá que el usuario manifiesta de forma expresa su aceptación al contenido de todas y cada una de las presentes Condiciones en la versión publicada en el SITIO WEB en el momento del acceso.
+By accessing and using the WEBSITE, it shall be understood that the user expressly accepts the content of each and every one of these Conditions in the version published on the WEBSITE at the time of access.
 
-El acceso al SITIO WEB es de carácter gratuito.
+Access to the WEBSITE is free of charge.
 
-## 3. Responsabilidad del usuario
+## 3. Responsibility of the user
 
-El USUARIO se compromete a no utilizar el SITIO WEB ni la información ofrecida en el mismo para la realización de actividades contrarias a la Ley, la moral o el orden público y, en general, a hacer un uso conforme a las condiciones establecidas por LA FUNDACIÓN.
+The USER undertakes not to use the WEBSITE or the information offered on it to carry out activities contrary to the Law, morality or public order and, in general, to use it in accordance with the conditions established by the FOUNDATION.
 
-Las opiniones, contenidos y, en general, todas las actividades realizadas por el USUARIO, son de su exclusiva responsabilidad, sin que pueda responsabilizarse a LA FUNDACIÓN de los daños o perjuicios que pudieran derivarse de dichas actividades ajenas a su voluntad y sin que ésta tenga un conocimiento efectivo de las mismas.
+The opinions, contents and, in general, all the activities carried out by the USER, are their exclusive responsibility, and the FOUNDATION cannot be held liable for any damages that may arise from these activities that are beyond its control and without the latter having effective knowledge of them.
 
-## 4. Responsabilidad de la fundación
+## 4. Responsibility of the foundation
 
-LA FUNDACIÓN no será responsable de los errores en el acceso al SITIO WEB o en sus contenidos, aunque pondrá la mayor diligencia en que los mismos no se produzcan.
+THE FOUNDATION will not be responsible for any errors in accessing the WEBSITE or in its contents, although it will make every effort to ensure that such errors do not occur.
 
-LA FUNDACIÓN se reserva el derecho de suspender temporalmente, y sin necesidad de previo aviso, la accesibilidad del SITIO WEB con motivo de una eventual necesidad de efectuar operaciones de mantenimiento, reparación, actualización o mejora del mismo.
+THE FOUNDATION reserves the right to temporarily suspend access to the WEBSITE, without prior notice, should it be necessary to carry out maintenance, repair, updating or improvement operations.
 
-## 5. Propiedad intelectual e industrial
+## 5. Intellectual and industrial property
 
-Todos los contenidos del SITIO WEB (incluyendo, sin carácter limitativo, bases de datos, imágenes, dibujos, gráficos, archivos de texto, audio, vídeo y software), que no proceden de un banco externo, son propiedad de LA FUNDACIÓN y están protegidos por las normas nacionales e internacionales de propiedad intelectual e industrial, quedando todos los derechos reservados. 
+All the contents of the WEBSITE (including, but not limited to, databases, images, drawings, graphics, text files, audio, video and software), which do not come from an external bank, are the property of the FOUNDATION and are protected by national and international intellectual and industrial property regulations, with all rights reserved. 
 
-El nombre de dominio, las marcas, rótulos, signos distintivos o logos que aparecen en el SITIO WEB son titularidad de LA FUNDACIÓN.
+The domain name, trademarks, signs, distinctive signs or logos that appear on the WEBSITE are the property of THE FOUNDATION.
 
-Todos los textos, dibujos gráficos, vídeos o soportes de audio que pudieran encontrarse en este momento o en un futuro en este sitio de Internet, son propiedad de LA FUNDACIÓN y no podrán ser objeto de ulterior modificación, copia, alteración, reproducción total o parcial, adaptación o traducción por parte del USUARIO o de terceros sin la expresa autorización por parte de LA FUNDACIÓN.
+All texts, graphic drawings, videos or audio supports that may be found at this time or in the future on this website are the property of the FOUNDATION and may not be subject to subsequent modification, copying, alteration, total or partial reproduction, adaptation or translation by the USER or third parties without the express authorisation of the FOUNDATION.
 
-El uso no autorizado de la información contenida en este SITIO WEB, así como la lesión de los derechos de propiedad intelectual o industrial dará lugar a las responsabilidades legalmente establecidas.
+Unauthorised use of the information contained on this WEBSITE, as well as any breach of intellectual or industrial property rights, shall give rise to the legally established responsibilities.
 
-## 6. Hiperenlaces
+## 6. Hyperlinks
 
-El establecimiento de cualquier hiperenlace desde una página web ajena a cualquiera de las páginas del SITIO WEB de LA FUNDACIÓN estará sometido a las siguientes condiciones:
+The establishment of any hyperlink from a web page that does not belong to any of the pages of the FOUNDATION's WEBSITE will be subject to the following conditions:
 
-No se permite la reproducción ni total ni parcial de ninguno de los servicios contenidos en el SITIO WEB de LA FUNDACIÓN.
+The total or partial reproduction of any of the services contained in the FOUNDATION'S WEBSITE is not permitted.
 
-No se incluirá ninguna manifestación falsa, inexacta o incorrecta sobre las páginas del SITIO WEB de LA FUNDACIÓN y sus servicios.
+No false, inaccurate or incorrect statement will be included on the pages of the FOUNDATION'S WEBSITE and its services.
 
-Bajo ninguna circunstancia, LA FUNDACIÓN será responsable de los contenidos, informaciones, manifestaciones, opiniones o servicios puestos a disposición del público en la página web desde la que se establezca un hiperenlace al presente SITIO WEB.
+Under no circumstances will THE FOUNDATION be responsible for the contents, information, statements, opinions or services made available to the public on the web page from which a hyperlink to this WEBSITE is established.
 
-Cualquier hiperenlace se efectuará a la página principal del SITIO WEB.
+Any hyperlink shall be made to the home page of the WEBSITE.
 
-En su caso, los hiperenlaces que se encuentran en el SITIO WEB han sido previamente consensuados con los titulares de las páginas webs enlazadas. LA FUNDACIÓN no será responsable del mal uso ni de las actividades contrarias a la ley, la moral o el orden público que realicen los usuarios en dichas páginas enlazadas.
+Where applicable, the hyperlinks found on the WEBSITE have been previously agreed upon with the owners of the linked web pages. The FOUNDATION shall not be held responsible for the misuse or activities contrary to the law, morality or public order carried out by users in these linked pages.
 
-## 7. Vigencia de las condiciones de uso
+## 7. Validity of the conditions of use
 
-Las condiciones de uso de este SITIO WEB tienen carácter indefinido. LA FUNDACIÓN se reserva en todo caso el derecho unilateral de modificar las condiciones de acceso a las mismas, así como su contenido.
+The conditions of use of this WEBSITE are of an indefinite nature. The FOUNDATION reserves the unilateral right to modify the conditions of access to the same, as well as their content.
 
-## 8. Nulidad e ineficacia de las cláusulas
+## 8. Nullity and inefficiency of the clauses
 
-Si cualquier cláusula incluida en estas condiciones fuese declarada total o parcialmente nula o ineficaz, tal nulidad afectará tan solo a dicha disposición o la parte de la misma que resulte nula o ineficaz, subsistiendo en todo lo demás las condiciones.
+If any clause included in these conditions were to be declared totally or partially null and void, such nullity would affect only that provision or the part of it that is null and void, with the rest of the conditions remaining in force.
 
-## 9. Legislación y jurisdicción aplicables
+## 9. Applicable legislation and jurisdiction
 
-La prestación del servicio de este SITIO WEB y las presentes condiciones de uso se rigen por la ley española.
+The provision of the service of this WEBSITE and these conditions of use are governed by Spanish law.
 
-Toda cuestión litigiosa que incumba a los servicios prestados a través de este SITIO WEB será resuelta a través de los tribunales arbitrales de consumo, mediadores o semejantes a los que se encuentre adherida LA FUNDACIÓN en el momento de producirse la controversia, así como los juzgados y tribunales correspondientes de conformidad con la legislación española.
+Any litigious matter concerning the services provided through this WEBSITE will be resolved through the consumer arbitration courts, mediators or similar courts to which the FOUNDATION is affiliated at the time the dispute occurs, as well as the corresponding courts and tribunals in accordance with Spanish legislation.

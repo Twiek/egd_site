@@ -4,80 +4,80 @@
 body_class: legal-content
 ---
 
-# Política de privacidad
+# Datenschutzerklärung
 
-## 1. Identidad del responsable del tratamiento
+## 1. Identität des für die Verarbeitung Verantwortlichen
 
-La información facilitada por el USUARIO a través de cualquiera de los formularios del SITIO WEB será incluida en uno o varios ficheros responsabilidad de FUNDACIÓN AYUDA EFECTIVA (en adelante, LA FUNDACIÓN), con domicilio social en Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid.
+Die vom BENUTZER durch eines der Formulare auf der WEBSITE zur Verfügung gestellten Informationen werden in eine oder mehrere Dateien unter der Verantwortung von FUNDACIÓN AYUDA EFECTIVA (nachstehend DIE STIFTUNG) mit Sitz in der Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, aufgenommen.
 
-## 2. Finalidades del tratamiento
+## 2. Ziele der Behandlung
 
-LA FUNDACIÓN tratará la información facilitada por el USUARIO con distintas finalidades, dependiendo de la vía de recogida de los datos:
+DIE STIFTUNG wird die vom BENUTZER zur Verfügung gestellten Informationen für unterschiedliche Zwecke behandeln, je nachdem, wie die Daten gesammelt werden:
 
-### 2.1 Contactos
+### 2.1 Kontakte
 
-Dar respuesta a cualesquiera peticiones, consultas o solicitud de información que puedan remitir los USUARIOS del SITIO WEB.
+Um auf alle Anfragen, Bitten oder Informationsersuchen zu antworten, die von den BENUTZERN der WEBSITE eingereicht werden können.
 
-La base legal que legitima este tratamiento es el consentimiento del USUARIO.
+Die rechtliche Grundlage, die diese Behandlung legitimiert, ist die Zustimmung des BENUTZERS.
 
-Los datos personales se conservarán hasta el momento de la resolución de su petición de información.
+Die persönlichen Daten werden bis zur Erledigung Ihrer Informationsanfrage aufbewahrt.
 
-### 2.2. Newsletter
+### 2.2 Rundschreiben
 
-Gestionar la suscripción del USUARIO en la Newsletter que se encuentra en el SITIO WEB, para enviarle información sobre el altruismo eficaz y nuestras actividades y eventos.
+Verwalten Sie das Abonnement des BENUTZERS im Newsletter, der auf der WEBSITE zu finden ist, um ihm Informationen über effektiven Altruismus und unsere Aktivitäten und Veranstaltungen zukommen zu lassen.
 
-La base legal que legitima el envío de la Newsletter es el consentimiento del propio USUARIO en el momento de la recogida de datos marcando la casilla correspondiente.
+Die rechtliche Grundlage, die den Versand des Newsletters legitimiert, ist die Zustimmung des BENUTZERS selbst zum Zeitpunkt der Datenerhebung durch Ankreuzen des entsprechenden Kästchens.
 
-Los datos personales facilitados se conservarán hasta el momento en que el USUARIO solicite la supresión de sus datos, siguiendo el mecanismo establecido en el apartado 5 de la presente Política de Privacidad.
+Die zur Verfügung gestellten persönlichen Daten werden bis zu dem Zeitpunkt aufbewahrt, an dem der BENUTZER die Löschung seiner Daten gemäß dem in Abschnitt 5 dieser Datenschutzrichtlinie festgelegten Mechanismus beantragt.
 
-## 3. Destinatarios de la información
+## 3. Empfänger der Informationen
 
-Los datos que el usuario haya facilitado a LA FUNDACIÓN no serán comunicados a ningún tercero, salvo que:
+Die Daten, die der Benutzer DER STIFTUNG zur Verfügung gestellt hat, werden nicht an Dritte weitergegeben, es sei denn
 
-- La cesión esté autorizada en una ley.
+- Die Übertragung ist gesetzlich erlaubt.
 
-- El tratamiento responda a la libre y legítima aceptación de una relación jurídica cuyo desarrollo, cumplimiento y control implique necesariamente la conexión de dicho tratamiento con ficheros de terceros, como, por ejemplo, entidades bancarias para la facturación de los productos o servicios contratados o empresas de mensajería para el envío de los productos contratados.
+- Die Verarbeitung entspricht der freien und rechtmäßigen Annahme eines Rechtsverhältnisses, dessen Entwicklung, Einhaltung und Kontrolle notwendigerweise die Verbindung einer solchen Verarbeitung mit Dateien Dritter, wie z.B. Banken für die Fakturierung der in Auftrag gegebenen Produkte oder Dienstleistungen oder Kurierunternehmen für den Versand der in Auftrag gegebenen Produkte, impliziert.
 
-- Los datos sean solicitados por el Defensor del Pueblo, el Ministerio Fiscal o los Jueces o Tribunales o el Tribunal de Cuentas, en el ejercicio de las funciones que tienen atribuidas.
+- Die Daten werden vom Bürgerbeauftragten, von der Staatsanwaltschaft oder von den Richtern oder Gerichten oder vom Rechnungshof in Ausübung der ihnen zugewiesenen Funktionen angefordert.
 
-## 4. Carácter obligatorio o facultativo de la información solicitada
+## 4. obligatorische oder fakultative Art der angeforderten Informationen
 
-Cuando el USUARIO nos facilite datos por medio de formularios del SITIO WEB, se indicarán expresamente aquellos campos, marcados con un asterisco (*) que resulten ser obligatorios para la petición o consulta o para la prestación de los servicios.
+Wenn der BENUTZER uns Daten über Formulare auf der WEBSITE zur Verfügung stellt, werden die mit einem Sternchen (*) gekennzeichneten Felder, die für die Anfrage oder Konsultation oder für die Erbringung der Dienstleistungen obligatorisch sind, ausdrücklich angegeben.
 
-La negativa a suministrar los datos obligatorios supondrá la imposibilidad de atender la consulta o servicio solicitado por el USUARIO.
+Die Weigerung, die obligatorischen Daten zu liefern, bedeutet die Unmöglichkeit, der vom BENUTZER gewünschten Beratung oder Dienstleistung beizuwohnen.
 
-Asimismo, al pulsar el botón “Enviar", "Aceptar", "Suscribirse” u otros análogos incorporados en los formularios del SITIO WEB, el USUARIO declara que la información y los datos que en ellos nos ha facilitado son exactos y veraces.
+Ebenso erklärt der BENUTZER durch Anklicken der Schaltflächen "Senden", "Akzeptieren", "Abonnieren" oder anderer ähnlicher Schaltflächen, die in den Formularen auf der WEBSITE enthalten sind, dass die darin enthaltenen Informationen und Daten korrekt und wahrheitsgemäß sind.
 
-## 5. Ejercicio de derechos
+## Nr. 5 Ausübung der Rechte
 
-El USUARIO podrá revocar su consentimiento y ejercer sus derechos de acceso, rectificación y cancelación / supresión de sus datos de carácter personal, así como, limitar o directamente oponerse al tratamiento o ejercer el derecho a la portabilidad de los mismos, a través de un correo electrónico a la dirección info @ ayudaefectiva.org o a través de la dirección postal Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, identificándose como USUARIO del SITIO WEB, aportando fotocopia del DNI o documento equivalente y concretando su solicitud.
+Der BENUTZER kann seine Einwilligung widerrufen und seine Rechte auf Zugang, Berichtigung und Löschung/Löschung seiner persönlichen Daten ausüben, sowie die Verarbeitung einschränken oder sich direkt der Verarbeitung widersetzen oder das Recht auf Übertragbarkeit dieser Daten ausüben, indem er eine E-Mail an die Adresse info @ ayudaefectiva sendet. org oder über die Postanschrift Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, und weisen Sie sich als BENUTZER der WEBSITE aus, indem Sie eine Fotokopie Ihres Personalausweises oder eines gleichwertigen Dokuments vorlegen und Ihre Anfrage spezifizieren.
 
-Asimismo, en caso de considerar vulnerado su derecho a la protección de datos de carácter personal, podrá presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es).
+Wenn Sie der Ansicht sind, dass Ihr Recht auf den Schutz personenbezogener Daten verletzt wurde, können Sie ebenfalls eine Beschwerde bei der spanischen Datenschutzbehörde (www.aepd.es) einreichen.
 
-## 6. Compromiso del usuario
+## 6. die Verpflichtung des Benutzers
 
-El USUARIO garantiza que es mayor de edad y que la información facilitada a través de los formularios de este SITIO WEB es veraz y exacta.
+Der BENUTZER garantiert, dass er/sie volljährig ist und dass die durch die Formulare auf dieser WEBSITE bereitgestellten Informationen wahrheitsgetreu und genau sind.
 
-El USUARIO se compromete a informar a LA FUNDACIÓN de cualquier modificación que sufra la información facilitada a través de un correo electrónico a la dirección info @ ayudaefectiva.org, identificándose como USUARIO del SITIO WEB y concretando la información que deba ser modificada.
+Der BENUTZER verpflichtet sich, die STIFTUNG über jede Änderung der angegebenen Informationen zu informieren, indem er eine E-Mail an info @ ayudaefectiva.org schickt, sich als BENUTZER der WEBSITE identifiziert und die Informationen angibt, die geändert werden müssen.
 
-## 7. Datos de terceros facilitados por el usuario
+## 7. vom Benutzer zur Verfügung gestellte Daten Dritter
 
-En caso de que el USUARIO facilite datos personales de terceras personas con cualquier finalidad, garantiza haber informado previamente a los afectados y haber obtenido su consentimiento para la comunicación de sus datos a LA FUNDACIÓN.
+Für den Fall, dass der BENUTZER personenbezogene Daten Dritter zu irgendeinem Zweck zur Verfügung stellt, garantiert er, dass er die betroffenen Parteien vorher informiert und ihre Zustimmung zur Übermittlung ihrer Daten an DIE STIFTUNG eingeholt hat.
 
-El USUARIO garantiza que los afectados son mayores de edad y que la información facilitada es exacta y veraz.
+Der BENUTZER garantiert, dass die Betroffenen volljährig sind und dass die zur Verfügung gestellten Informationen korrekt und wahrheitsgetreu sind.
 
-En caso de que se deriven responsabilidades por un incumplimiento de estas condiciones por parte del USUARIO, deberá responder de las consecuencias de dicho incumplimiento.
+Für den Fall, dass Verantwortlichkeiten aus einer Verletzung dieser Bedingungen durch den BENUTZER abgeleitet werden, ist er oder sie für die Folgen einer solchen Verletzung verantwortlich.
 
-## 8. Cookies
+## Nr. 8: Kekse
 
-LA FUNDACIÓN utiliza cookies y otros mecanismos similares de almacenamiento y recuperación de datos en equipos terminales (en adelante, cookies).
+DIE STIFTUNG verwendet Cookies und andere ähnliche Datenspeicherungs- und -abrufmechanismen auf Endgeräten ("Cookies").
 
-Las cookies son ficheros que se descargan al navegador del usuario y que pueden ser leídos posteriormente por LA FUNDACIÓN. De esta forma, las cookies permiten diversas funcionalidades, como, por ejemplo, reconocer a un usuario que ya ha accedido al Servicio anteriormente y poder hacer análisis sobre el uso del Servicio que permitan mejorarlo. No obstante, no es posible averiguar la identidad del usuario a partir de las cookies que utiliza LA FUNDACIÓN, salvo que el usuario proporcione información adicional a través de otros medios y estos pudiesen vincularse con las cookies que tiene descargadas.
+Cookies sind Dateien, die auf den Browser des Benutzers heruntergeladen werden und anschließend von DER STIFTUNG gelesen werden können. Auf diese Weise ermöglichen die Cookies verschiedene Funktionen, wie z.B. das Wiedererkennen eines Benutzers, der bereits vorher auf den Dienst zugegriffen hat, und die Möglichkeit, Analysen über die Nutzung des Dienstes durchzuführen, die eine Verbesserung des Dienstes ermöglichen. Es ist jedoch nicht möglich, die Identität des Benutzers anhand der von DER STIFTUNG verwendeten Cookies zu ermitteln, es sei denn, der Benutzer stellt auf anderem Wege zusätzliche Informationen zur Verfügung und diese können mit den heruntergeladenen Cookies verknüpft werden.
 
-Para más información, consulte la [Política de cookies](cookies).
+Weitere Informationen finden Sie in der [Cookie-Richtlinie](cookies).
 
-## 9. Medidas de seguridad
+## Nr. 9: Sicherheitsmaßnahmen
 
-De conformidad con lo dispuesto en las normativas vigentes en materia de protección de datos de carácter personal, LA FUNDACIÓN ha adoptado las medidas de índole técnica y organizativas necesarias que garanticen la seguridad de los datos de carácter personal y eviten su alteración, pérdida, tratamiento o acceso no autorizado, habida cuenta del estado de la tecnología, la naturaleza de los datos almacenados y los riesgos a que estén expuestos.
+In Übereinstimmung mit den geltenden Vorschriften über den Schutz personenbezogener Daten hat DIE STIFTUNG die erforderlichen technischen und organisatorischen Maßnahmen ergriffen, um die Sicherheit personenbezogener Daten zu gewährleisten und ihre Änderung, ihren Verlust, ihre unbefugte Verarbeitung oder ihren unbefugten Zugang zu verhindern, wobei der Stand der Technik, die Art der gespeicherten Daten und die Risiken, denen sie ausgesetzt sind, berücksichtigt werden.
 
-Si tiene alguna duda sobre la información que se recoge en nuestra Política de Privacidad, puede enviar un mensaje de correo electrónico a info @ ayudaefectiva.org.
+Wenn Sie Fragen zu den in unserer Datenschutzrichtlinie gesammelten Informationen haben, können Sie eine E-Mail an info @ ayudaefectiva.org senden.

@@ -4,108 +4,108 @@
 body_class: legal-content
 ---
 
-# Política de cookies
+# Cookie policy
 
-## 1. Información general
+## 1. General information
 
-A continuación, se ofrece al Usuario información general sobre qué son las cookies y qué tipos de cookies existen.
+The following provides the user with general information on what cookies are and what types of cookies exist.
 
-### ¿Qué son las cookies?
+### What are cookies?
 
-Las cookies y otros dispositivos similares, como píxeles, web bugs, etc. son archivos de texto o imagen que se instalan en el navegador del usuario cuando este accede a un servicio online.
+Cookies and other similar devices, such as pixels, web bugs, etc. are text or image files that are installed in the user's browser when he/she accesses an online service.
 
-Las cookies permiten, entre otras cosas, almacenar y recuperar información sobre el usuario, su navegador, sus dispositivos y la actividad del usuario en el servicio al que se conecta.
+Cookies allow, among other things, to store and retrieve information about the user, their browser, their devices and the user's activity in the service they are connecting to.
 
-### ¿Qué tipos de cookies existen?
+### What types of cookies are there?
 
-Existen muchos tipos de cookies. A continuación, ofrecemos al usuario algunas clasificaciones de las mismas, sin que ello implique necesariamente que este servicio utiliza todos estos tipos de cookies:
+There are many types of cookies. Below, we offer the user some classifications of these, without necessarily implying that this service uses all these types of cookies:
 
-a) Según la entidad que gestiona las cookies:
+1. According to the entity that manages the cookies:
 
-*   Cookies propias: son aquéllas que se envían al dispositivo o terminal del usuario desde el equipo o dominio perteneciente al titular de un servicio, y gestionadas por éste.
-*   Cookies de terceros: son aquéllas que son enviadas al dispositivo o terminal del usuario desde un equipo o dominio que no es gestionado por el titular de un servicio, sino por un tercero que tratará la información obtenida a través de las cookies.
+* Own cookies: are those that are sent to the user's device or terminal from the computer or domain belonging to the owner of a service, and managed by the latter.
+* Third-party cookies: are those that are sent to the user's device or terminal from a computer or domain that is not managed by the owner of a service, but by a third party that will process the information obtained through the cookies.
 
-b) Según el tiempo de conservación:
+2. According to the time of conservation:
 
-*   Cookies de sesión: son aquéllas que recaban y almacenan los datos cuando el usuario accede a un servicio y cesan una vez que el usuario sale de ésta.
-*   Cookies persistentes: son aquéllas que tienen una duración determinada en el tiempo por el responsable del tratamiento. El tiempo de conservación puede variar entre unos minutos a varios años. Se utilizan para guardar y recuperar ciertos parámetros cada vez que el usuario visite un servicio.
+* Session cookies: are those that collect and store data when the user accesses a service and cease once the user leaves the service.
+* Persistent cookies: are those that have a duration determined in time by the person responsible for the processing. The conservation time may vary from a few minutes to several years. They are used to save and recover certain parameters each time the user visits a service.
 
-c) Según su finalidad:
+3. Depending on their purpose:
 
-*   Cookies técnicas: son aquéllas imprescindibles y estrictamente necesarias para el correcto funcionamiento del servicio y utilizar las diferentes opciones o servicios ofrecidos por los titulares del mismo a través de éste. Por ejemplo, las que sirven para el mantenimiento de la sesión, la gestión del tiempo de respuesta, rendimiento o validación de opciones, utilizar elementos de seguridad, etc.
-*   Cookies de personalización: son aquéllas que permiten que el usuario pueda especificar o personalizar algunas características de un servicio. Por ejemplo, definir el idioma, configuración regional o tipo de navegador.
-*   Cookies analíticas: son aquéllas que permiten contar el número de visitantes únicos y realizar un análisis del uso de un servicio para medir el interés de éste o de determinadas áreas del mismo. Por ejemplo, mediante una cookie analítica se controlarían las áreas geográficas desde donde se conectan mayores porcentajes de usuarios, cuál es el producto o servicio de más aceptación, etc.
-*   Cookies publicitarias: son aquéllas que permiten la gestión de los espacios publicitarios en un servicio.
-*   Cookies de publicidad comportamental: son aquéllas que permiten la gestión de espacios publicitarios en un servicio. La función de estas cookies es almacenar información del comportamiento de los usuarios de un servicio, para posteriormente mostrar publicidad personalizada.
+* Technical cookies: these are essential and strictly necessary for the correct functioning of the service and the use of the different options or services offered by the owners of the service through it. For example, those used for session maintenance, response time management, performance or option validation, use of security elements, etc.
+* Personalisation cookies: these are those that allow the user to specify or personalise certain characteristics of a service. For example, to define the language, regional configuration or type of browser.
+* Analytical cookies: these allow the number of unique visitors to be counted and an analysis of the use of a service to be made in order to measure the interest of the service or of certain areas of it. For example, an analytical cookie would control the geographical areas from which the highest percentages of users connect, which product or service is most popular, etc.
+* Advertising cookies: these are those that allow the management of advertising spaces in a service.
+* Behavioral advertising cookies: are those that allow the management of advertising spaces in a service. The function of these cookies is to store information on the behaviour of the users of a service, in order to subsequently display personalised advertising.
 
-d) Otras tecnologías:
+4. Other technologies:
 
-*   Pixeles, web bugs o trackers: también conocidos como píxeles de rastreo, tracking pixel, pixel tag o píxeles de conversión, web beacons o balizas web son diminutas imágenes de 1x1 píxeles transparentes que se insertan en un servicio a fin de realizar mediciones de actividad. Una vez que determinada página se carga en un navegador, dicha imagen se cargará, pudiendo este dato ser medido. Los píxeles de seguimiento permiten, generalmente, conocer el recorrido que ha realizado una determinada IP de usuario en un servicio online.
-*   Almacenamiento HTML5: consiste en aprovechar las capacidades de la tecnología HTML5 para almacenar en el navegador del usuario determinados parámetros que pueden ser utilizados para identificar el navegador del mismo.
-*   Objetos locales compartidos (LSO): también conocidos como “flash cookies”, consiste en el almacenamiento de información sin cookies en el equipo de usuario aprovechando la tecnología Adobe Flash Player.
-*   Etags: se trata de un mecanismo del protocolo HTTP que permite la validación del caché que el usuario guarda en su navegador de una web. Esta tecnología se usa principalmente para ahorrar ancho de banda, evitando descarga de contenidos por duplicado. No obstante, también es posible utilizarla para reconocer el navegador del usuario.
-*   Canvas fingerprinting: consiste en la generación de una forma única en el navegador del usuario aprovechando la tecnología del estándar web HTML5 para identificar el equipo del usuario.
-*   Detección de fuentes: esta técnica consiste en identificar la configuración de fuentes del equipo del usuario para obtener una identificación única del equipo.
-*   Caché del navegador: como su propio nombre indica, esta técnica consiste en el almacenaje de información en el caché del navegador.
-*   WebGL: esta técnica permite aprovechar las capacidades para representar figuras en tres dimensiones de los navegadores modernos para obtener una identificación única del equipo, debido a las diferentes configuraciones de cada uno.
+* Pixels, web bugs or trackers: also known as tracking pixels, tracking pixels, pixel tags or conversion pixels, web beacons or web beacons are tiny images of 1x1 transparent pixels that are inserted into a service in order to measure activity. Once a certain page is loaded in a browser, this image will be loaded, and this data can be measured. The tracking pixels generally make it possible to find out the path taken by a given user's IP in an online service.
+* HTML5 storage: consists of taking advantage of the capacities of HTML5 technology to store in the user's browser certain parameters that can be used to identify the browser of the same.
+* Local Shared Objects (LSO): also known as "flash cookies", this consists of storing information without cookies on the user's computer, taking advantage of Adobe Flash Player technology.
+* Etags: this is a mechanism of the HTTP protocol that allows the validation of the cache that the user saves in his web browser. This technology is mainly used to save bandwidth, avoiding duplicate downloads of content. However, it can also be used to recognise the user's browser.
+* Canvas fingerprinting: consists of the generation of a unique form in the user's browser taking advantage of the technology of the HTML5 web standard to identify the user's computer.
+* Font detection: this technique consists of identifying the font configuration of the user's computer to obtain a unique identification of the computer.
+* Browser cache: as the name suggests, this technique consists of storing information in the browser cache.
+* WebGL: this technique makes it possible to take advantage of the capacity to represent figures in three dimensions of modern browsers to obtain a unique identification of the equipment, due to the different configurations of each one.
 
-## 2. Información específica
+## 2. Specific information
 
-### ¿Quién es el responsable de este servicio?
+### Who is responsible for this service?
 
-Este Servicio es responsabilidad de FUNDACIÓN AYUDA EFECTIVA, con NIF G88444278, domiciliada en Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, e inscrita en el Registro de Fundaciones con el número 2263.
+This service is the responsibility of FUNDACIÓN AYUDA EFECTIVA, with NIF G88444278, domiciled in Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, and registered in the Registry of Foundations under number 2263.
 
-### ¿Qué tecnologías utilizamos?
+### What technologies do we use?
 
-En concreto, este servicio online utiliza cookies y otros dispositivos similares con las siguientes finalidades:
+Specifically, this online service uses cookies and other similar devices for the following purposes
 
-**Cookies técnicas**:
+**Technical cookies**:
 
-Persistencia: Cookies de sesión / Hasta un año
+Persistence: Session cookies / Up to one year
 
-Origen/Proveedor: Propias
+Origin/Supplier: Own
 
-Más información: Por ejemplo, cuando el usuario cierra el aviso de Cookies mantenerlo cerrado, mantener algún dato necesario para la navegación del usuario logueado si se da el caso, etc.
+More information: For example, when the user closes the Cookie warning keep it closed, keep some data necessary for the navigation of the logged-in user if necessary, etc.
 
-**Cookies analíticas**:
+**Analytical Cookies**:
 
-Persistencia: Hasta 2 años
+Persistence: Up to 2 years
 
-Origen/Proveedor: Google Inc. *
+Origin/Supplier: Google Inc. *
 
-Más información: Información sobre cookies de Google Analytics: [https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)
+More information: Google Analytics cookie information: [https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)
 
-(*) Proveedores no ubicados en la Unión Europea ni en países con legislación equivalente en materia de protección de datos
+(*) Suppliers not located in the European Union or in countries with equivalent data protection legislation
 
-La información obtenida a través de estas cookies se almacena en servidores de proveedores no ubicados en la Unión Europea ni en países con una legislación equivalente a la europea en materia de protección de datos.
+The information obtained through these cookies is stored on servers of suppliers not located in the European Union or in countries with equivalent data protection legislation.
 
-No obstante, estos proveedores aportan las siguientes garantías adecuadas en materia de protección de datos:
+However, these suppliers provide the following appropriate guarantees in terms of data protection:
 
-Google se encuentra adherido al Escudo de Privacidad o “Privacy Shield”: [https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active](https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active)
+Google has adhered to the Privacy Shield: [https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active](https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active)
 
-### ¿Cómo deshabilitar o eliminar las cookies?
+### How to disable or delete cookies?
 
-Al acceder al servicio por primera vez, el usuario verá un aviso de cookies en el que se le informará de la forma en la que puede prestar o rechazar su consentimiento.
+When you access the service for the first time, you will see a cookie warning informing you how you can give or refuse consent.
 
-En caso de que el usuario hubiese prestado su consentimiento, en cualquier momento podrá deshabilitar o eliminar las cookies enunciadas a través de la configuración de las opciones del navegador utilizado en su dispositivo o terminal.
+If you have given your consent, you can disable or delete the cookies at any time through the configuration of the options of the browser used on your device or terminal.
 
-No obstante, el usuario debe tener en cuenta que, si rechaza o borra las cookies, no podremos mantener sus preferencias y algunas características no estarán operativas, por lo que no podremos ofrecerle servicios personalizados y cada vez que vayan a utilizar el servicio figurará como un nuevo usuario al que se le solicitará su autorización para el uso de cookies.
+However, users should bear in mind that if they reject or delete the cookies, we will not be able to maintain their preferences and some features will not be operational, so we will not be able to offer them personalised services and each time they use the service they will appear as a new user who will be asked to authorise the use of cookies.
 
-A continuación, ofrecemos enlaces en los que el usuario encontrará información sobre cómo desactivar las cookies y similares en los principales navegadores:
+Below, we offer links where the user will find information on how to disable cookies and similar features in the main browsers:
 
-*   [Configuración de cookies para Google Chrome](https://support.google.com/chrome/answer/95647?hl=es)
-*   [Configuración de cookies para Mozilla Firefox](https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-)
-*   [Configuración de cookies para Internet Explorer](https://support.microsoft.com/es-es/help/278835/how-to-delete-cookie-files-in-internet-explorer)
-*   [Configuración de cookies para Safari](https://support.apple.com/kb/HT1677?viewlocale=es_ES)
+* [Cookie settings for Google Chrome](https://support.google.com/chrome/answer/95647?hl=es)
+* [Cookie settings for Mozilla Firefox](https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-)
+* [Cookie settings for Internet Explorer](https://support.microsoft.com/es-es/help/278835/how-to-delete-cookie-files-in-internet-explorer)
+* [Cookie settings for Safari](https://support.apple.com/kb/HT1677?viewlocale=es_ES)
 
-### ¿Cómo afecta el uso de cookies a la protección de los datos personales del usuario?
+### How does the use of cookies affect the protection of the user's personal data?
 
-La mayoría de las cookies recopilan información anónima, que no permite obtener la identidad del usuario, si bien algunos de los códigos que se incluyen sirven para singularizar o individualizar al navegador de su dispositivo utilizado, pudiendo ser de aplicación la normativa en materia de protección de datos personales. Por ello, le informamos de que la información que se obtiene por medio de las cookies, será tratada con las finalidades indicadas en la presente Política de Cookies. Asimismo, está información también será tratada por aquellas empresas que proveen cookies con la finalidad indicada en sus respectivas políticas de privacidad.
+Most cookies collect anonymous information, which does not allow the identity of the user to be obtained, although some of the codes included serve to identify or individualise the browser of the device used, and the regulations on the protection of personal data may apply. Therefore, we inform you that the information obtained through cookies will be treated with the purposes indicated in this Cookie Policy. Likewise, this information will also be treated by those companies that provide cookies with the purpose indicated in their respective privacy policies.
 
-No obstante, teniendo en cuenta que estos códigos no permiten la identificación del Usuario, no serán aplicables los derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad reconocidos en la normativa de protección de datos, salvo que el Usuario sea capaz de aportar información adicional que permita vincular su identidad con los códigos identificativos de sus cookies.
+Nevertheless, taking into account that these codes do not allow the identification of the User, the rights of access, rectification, suppression, opposition, limitation and portability recognised in the data protection regulations will not be applicable, unless the User is able to provide additional information that allows his or her identity to be linked to the identification codes of his or her cookies.
 
-En caso de considerar vulnerado su derecho a la protección de datos, el usuario podrá interponer una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es).
+If the user considers that his or her right to data protection has been violated, he or she may file a complaint with the Spanish Data Protection Agency (www.aepd.es).
 
-### Más información
+### More information
 
-El usuario puede plantear cualquier consulta relacionada con el uso de cookies que no esté contestada en esta Política de Cookies a través del correo electrónico info @ ayudaefectiva.org.
+The user can raise any question related to the use of cookies that is not answered in this Cookie Policy through the email info @ ayudaefectiva.org.

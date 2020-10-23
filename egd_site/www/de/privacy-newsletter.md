@@ -4,18 +4,18 @@
 body_class: legal-content
 ---
 
-# Política de privacidad del newsletter 
+# Datenschutzerklärung für Newsletter 
 
-## Protección de datos personales
+## Schutz persönlicher Daten
 
-Los datos personales facilitados serán incorporados en un fichero responsabilidad de FUNDACIÓN AYUDA EFECTIVA (en adelante la FUNDACIÓN) con domicilio en Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, con la finalidad de enviarle la newsletter sobre información, novedades o eventos de la FUNDACIÓN.
+Die zur Verfügung gestellten persönlichen Daten werden in eine Datei unter der Verantwortung von FUNDACIÓN AYUDA EFECTIVA (nachfolgend die Stiftung) mit Adresse in der Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, aufgenommen, mit dem Zweck, Ihnen den Newsletter über Informationen, Neuigkeiten oder Veranstaltungen der Stiftung zuzusenden.
 
-La base jurídica que legitima este tratamiento es su consentimiento manifestado en el momento de enviar su solicitud de suscripción a la newsletter. Los datos serán tratados de forma indefinida hasta que revoque su consentimiento o solicite la supresión de sus datos. Los datos personales no serán cedidos a terceras personas salvo obligación legal.
+Die rechtliche Grundlage für diese Verarbeitung ist Ihre Einwilligung, die Sie bei der Versendung Ihrer Newsletter-Abonnementanfrage gegeben haben. Die Daten werden auf unbestimmte Zeit behandelt, bis Sie Ihre Zustimmung widerrufen oder die Löschung Ihrer Daten beantragen. Die persönlichen Daten werden nicht an Dritte weitergegeben, es sei denn, es besteht eine gesetzliche Verpflichtung dazu.
 
-Le informamos de que la newsletter será remitida mediante la herramienta SMTP2GO, gestionada por la empresa Sand Dune Mail Ltd. cuyos servidores están ubicados en Nueva Zelanda, empresa que cumple con el Reglamento General de Protección de Datos europeo o RGPD ([https://www.smtp2go.com/privacy/](https://www.smtp2go.com/privacy/)).
+Wir informieren Sie, dass der Newsletter über das Tool SMTP2GO verschickt wird, das von der Firma Sand Dune Mail Ltd. verwaltet wird, deren Server sich in Neuseeland befinden, einem Unternehmen, das die europäische Verordnung über den allgemeinen Datenschutz oder RGPD ([https://www.smtp2go.com/privacy/](https://www.smtp2go.com/privacy/)) einhält.
 
-La herramienta utilizada para el envío de la newsletter por correo electrónico, incluirá enlaces e imágenes diminutas y transparentes que estarán asociadas a su dirección de correo electrónico. De esta forma, cuando se descarga una de estas imágenes o se accede a los enlaces contenidos en el correo electrónico, la FUNDACIÓN puede saber a efectos estadísticos si el correo se ha abierto o si se ha accedido a algún enlace desde dicho correo. Podrá impedir estos usos configurando su gestor o programa de correo electrónico para impedir la descarga automatizada de imágenes, así como no accediendo a los enlaces incluidos en los correos electrónicos que reciba.
+Das Werkzeug, mit dem der Newsletter per E-Mail verschickt wird, enthält Links und winzige, transparente Bilder, die mit Ihrer E-Mail-Adresse verknüpft werden. Auf diese Weise kann die STIFTUNG, wenn Sie eines dieser Bilder herunterladen oder auf die in der E-Mail enthaltenen Links zugreifen, zu statistischen Zwecken wissen, ob die E-Mail geöffnet wurde oder ob ein Link aus der E-Mail heraus aufgerufen wurde. Sie können diese Verwendungen verhindern, indem Sie Ihren Manager oder Ihr E-Mail-Programm so konfigurieren, dass das automatische Herunterladen von Bildern verhindert wird, sowie indem Sie nicht auf die Links zugreifen, die in den E-Mails enthalten sind, die Sie erhalten.
 
-En cada comunicación, podrá oponerse a recibir este tipo de información a través del medio de contacto indicado para tramitar su baja.
+In jeder Mitteilung können Sie den Erhalt dieser Art von Informationen über die zur Bearbeitung Ihrer Kündigung angegebenen Kontaktmöglichkeiten ablehnen.
 
-En cualquier momento podrá revocar su consentimiento y ejercer sus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad a través de correo electrónico o correo postal al domicilio indicado, aportando copia de su DNI o documento equivalente, identificándose como suscriptor de la newsletter y concretando su solicitud. En caso de considerar vulnerado su derecho a la protección de datos, podrá presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es).
+Sie können jederzeit Ihre Zustimmung widerrufen und Ihre Rechte auf Zugang, Berichtigung, Löschung, Widerspruch, Einschränkung und Übertragbarkeit per E-Mail oder Post an die angegebene Adresse ausüben, indem Sie eine Kopie Ihres Personalausweises oder eines gleichwertigen Dokuments vorlegen, sich als Abonnent des Newsletters ausweisen und Ihre Anfrage spezifizieren. Wenn Sie der Meinung sind, dass Ihr Recht auf Datenschutz verletzt wurde, können Sie eine Beschwerde bei der spanischen Datenschutzbehörde (www.aepd.es) einreichen.

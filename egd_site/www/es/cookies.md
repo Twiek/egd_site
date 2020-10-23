@@ -20,34 +20,34 @@ Las cookies permiten, entre otras cosas, almacenar y recuperar información sobr
 
 Existen muchos tipos de cookies. A continuación, ofrecemos al usuario algunas clasificaciones de las mismas, sin que ello implique necesariamente que este servicio utiliza todos estos tipos de cookies:
 
-a) Según la entidad que gestiona las cookies:
+1. Según la entidad que gestiona las cookies:
 
-*   Cookies propias: son aquéllas que se envían al dispositivo o terminal del usuario desde el equipo o dominio perteneciente al titular de un servicio, y gestionadas por éste.
-*   Cookies de terceros: son aquéllas que son enviadas al dispositivo o terminal del usuario desde un equipo o dominio que no es gestionado por el titular de un servicio, sino por un tercero que tratará la información obtenida a través de las cookies.
+* Cookies propias: son aquéllas que se envían al dispositivo o terminal del usuario desde el equipo o dominio perteneciente al titular de un servicio, y gestionadas por éste.
+* Cookies de terceros: son aquéllas que son enviadas al dispositivo o terminal del usuario desde un equipo o dominio que no es gestionado por el titular de un servicio, sino por un tercero que tratará la información obtenida a través de las cookies.
 
-b) Según el tiempo de conservación:
+2. Según el tiempo de conservación:
 
-*   Cookies de sesión: son aquéllas que recaban y almacenan los datos cuando el usuario accede a un servicio y cesan una vez que el usuario sale de ésta.
-*   Cookies persistentes: son aquéllas que tienen una duración determinada en el tiempo por el responsable del tratamiento. El tiempo de conservación puede variar entre unos minutos a varios años. Se utilizan para guardar y recuperar ciertos parámetros cada vez que el usuario visite un servicio.
+* Cookies de sesión: son aquéllas que recaban y almacenan los datos cuando el usuario accede a un servicio y cesan una vez que el usuario sale de ésta.
+* Cookies persistentes: son aquéllas que tienen una duración determinada en el tiempo por el responsable del tratamiento. El tiempo de conservación puede variar entre unos minutos a varios años. Se utilizan para guardar y recuperar ciertos parámetros cada vez que el usuario visite un servicio.
 
-c) Según su finalidad:
+3. Según su finalidad:
 
-*   Cookies técnicas: son aquéllas imprescindibles y estrictamente necesarias para el correcto funcionamiento del servicio y utilizar las diferentes opciones o servicios ofrecidos por los titulares del mismo a través de éste. Por ejemplo, las que sirven para el mantenimiento de la sesión, la gestión del tiempo de respuesta, rendimiento o validación de opciones, utilizar elementos de seguridad, etc.
-*   Cookies de personalización: son aquéllas que permiten que el usuario pueda especificar o personalizar algunas características de un servicio. Por ejemplo, definir el idioma, configuración regional o tipo de navegador.
-*   Cookies analíticas: son aquéllas que permiten contar el número de visitantes únicos y realizar un análisis del uso de un servicio para medir el interés de éste o de determinadas áreas del mismo. Por ejemplo, mediante una cookie analítica se controlarían las áreas geográficas desde donde se conectan mayores porcentajes de usuarios, cuál es el producto o servicio de más aceptación, etc.
-*   Cookies publicitarias: son aquéllas que permiten la gestión de los espacios publicitarios en un servicio.
-*   Cookies de publicidad comportamental: son aquéllas que permiten la gestión de espacios publicitarios en un servicio. La función de estas cookies es almacenar información del comportamiento de los usuarios de un servicio, para posteriormente mostrar publicidad personalizada.
+* Cookies técnicas: son aquéllas imprescindibles y estrictamente necesarias para el correcto funcionamiento del servicio y utilizar las diferentes opciones o servicios ofrecidos por los titulares del mismo a través de éste. Por ejemplo, las que sirven para el mantenimiento de la sesión, la gestión del tiempo de respuesta, rendimiento o validación de opciones, utilizar elementos de seguridad, etc.
+* Cookies de personalización: son aquéllas que permiten que el usuario pueda especificar o personalizar algunas características de un servicio. Por ejemplo, definir el idioma, configuración regional o tipo de navegador.
+* Cookies analíticas: son aquéllas que permiten contar el número de visitantes únicos y realizar un análisis del uso de un servicio para medir el interés de éste o de determinadas áreas del mismo. Por ejemplo, mediante una cookie analítica se controlarían las áreas geográficas desde donde se conectan mayores porcentajes de usuarios, cuál es el producto o servicio de más aceptación, etc.
+* Cookies publicitarias: son aquéllas que permiten la gestión de los espacios publicitarios en un servicio.
+* Cookies de publicidad comportamental: son aquéllas que permiten la gestión de espacios publicitarios en un servicio. La función de estas cookies es almacenar información del comportamiento de los usuarios de un servicio, para posteriormente mostrar publicidad personalizada.
 
-d) Otras tecnologías:
+4. Otras tecnologías:
 
-*   Pixeles, web bugs o trackers: también conocidos como píxeles de rastreo, tracking pixel, pixel tag o píxeles de conversión, web beacons o balizas web son diminutas imágenes de 1x1 píxeles transparentes que se insertan en un servicio a fin de realizar mediciones de actividad. Una vez que determinada página se carga en un navegador, dicha imagen se cargará, pudiendo este dato ser medido. Los píxeles de seguimiento permiten, generalmente, conocer el recorrido que ha realizado una determinada IP de usuario en un servicio online.
-*   Almacenamiento HTML5: consiste en aprovechar las capacidades de la tecnología HTML5 para almacenar en el navegador del usuario determinados parámetros que pueden ser utilizados para identificar el navegador del mismo.
-*   Objetos locales compartidos (LSO): también conocidos como “flash cookies”, consiste en el almacenamiento de información sin cookies en el equipo de usuario aprovechando la tecnología Adobe Flash Player.
-*   Etags: se trata de un mecanismo del protocolo HTTP que permite la validación del caché que el usuario guarda en su navegador de una web. Esta tecnología se usa principalmente para ahorrar ancho de banda, evitando descarga de contenidos por duplicado. No obstante, también es posible utilizarla para reconocer el navegador del usuario.
-*   Canvas fingerprinting: consiste en la generación de una forma única en el navegador del usuario aprovechando la tecnología del estándar web HTML5 para identificar el equipo del usuario.
-*   Detección de fuentes: esta técnica consiste en identificar la configuración de fuentes del equipo del usuario para obtener una identificación única del equipo.
-*   Caché del navegador: como su propio nombre indica, esta técnica consiste en el almacenaje de información en el caché del navegador.
-*   WebGL: esta técnica permite aprovechar las capacidades para representar figuras en tres dimensiones de los navegadores modernos para obtener una identificación única del equipo, debido a las diferentes configuraciones de cada uno.
+* Pixeles, web bugs o trackers: también conocidos como píxeles de rastreo, tracking pixel, pixel tag o píxeles de conversión, web beacons o balizas web son diminutas imágenes de 1x1 píxeles transparentes que se insertan en un servicio a fin de realizar mediciones de actividad. Una vez que determinada página se carga en un navegador, dicha imagen se cargará, pudiendo este dato ser medido. Los píxeles de seguimiento permiten, generalmente, conocer el recorrido que ha realizado una determinada IP de usuario en un servicio online.
+* Almacenamiento HTML5: consiste en aprovechar las capacidades de la tecnología HTML5 para almacenar en el navegador del usuario determinados parámetros que pueden ser utilizados para identificar el navegador del mismo.
+* Objetos locales compartidos (LSO): también conocidos como “flash cookies”, consiste en el almacenamiento de información sin cookies en el equipo de usuario aprovechando la tecnología Adobe Flash Player.
+* Etags: se trata de un mecanismo del protocolo HTTP que permite la validación del caché que el usuario guarda en su navegador de una web. Esta tecnología se usa principalmente para ahorrar ancho de banda, evitando descarga de contenidos por duplicado. No obstante, también es posible utilizarla para reconocer el navegador del usuario.
+* Canvas fingerprinting: consiste en la generación de una forma única en el navegador del usuario aprovechando la tecnología del estándar web HTML5 para identificar el equipo del usuario.
+* Detección de fuentes: esta técnica consiste en identificar la configuración de fuentes del equipo del usuario para obtener una identificación única del equipo.
+* Caché del navegador: como su propio nombre indica, esta técnica consiste en el almacenaje de información en el caché del navegador.
+* WebGL: esta técnica permite aprovechar las capacidades para representar figuras en tres dimensiones de los navegadores modernos para obtener una identificación única del equipo, debido a las diferentes configuraciones de cada uno.
 
 ## 2. Información específica
 
@@ -93,10 +93,10 @@ No obstante, el usuario debe tener en cuenta que, si rechaza o borra las cookies
 
 A continuación, ofrecemos enlaces en los que el usuario encontrará información sobre cómo desactivar las cookies y similares en los principales navegadores:
 
-*   [Configuración de cookies para Google Chrome](https://support.google.com/chrome/answer/95647?hl=es)
-*   [Configuración de cookies para Mozilla Firefox](https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-)
-*   [Configuración de cookies para Internet Explorer](https://support.microsoft.com/es-es/help/278835/how-to-delete-cookie-files-in-internet-explorer)
-*   [Configuración de cookies para Safari](https://support.apple.com/kb/HT1677?viewlocale=es_ES)
+* [Configuración de cookies para Google Chrome](https://support.google.com/chrome/answer/95647?hl=es)
+* [Configuración de cookies para Mozilla Firefox](https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-)
+* [Configuración de cookies para Internet Explorer](https://support.microsoft.com/es-es/help/278835/how-to-delete-cookie-files-in-internet-explorer)
+* [Configuración de cookies para Safari](https://support.apple.com/kb/HT1677?viewlocale=es_ES)
 
 ### ¿Cómo afecta el uso de cookies a la protección de los datos personales del usuario?
 
