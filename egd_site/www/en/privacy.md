@@ -3,81 +3,80 @@
 ;meta_description: META description. Remove coment character ";" to be applied
 body_class: legal-content
 ---
+# Privacy Policy
 
-# Política de privacidad
+## 1. Identity of the person responsible for the treatment
 
-## 1. Identidad del responsable del tratamiento
+The information provided by the USER through any of the forms on the WEBSITE will be included in one or more files under the responsibility of FUNDACIÓN AYUDA EFECTIVA (hereinafter, THE FOUNDATION), with registered office at Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid.
 
-La información facilitada por el USUARIO a través de cualquiera de los formularios del SITIO WEB será incluida en uno o varios ficheros responsabilidad de FUNDACIÓN AYUDA EFECTIVA (en adelante, LA FUNDACIÓN), con domicilio social en Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid.
+## 2. Purposes of treatment
 
-## 2. Finalidades del tratamiento
+The FOUNDATION will treat the information provided by the USER for different purposes, depending on the way the data is collected:
 
-LA FUNDACIÓN tratará la información facilitada por el USUARIO con distintas finalidades, dependiendo de la vía de recogida de los datos:
+### 2.1 Contacts
 
-### 2.1 Contactos
+Respond to any requests, queries or requests for information that may be sent by the USERS of the WEBSITE.
 
-Dar respuesta a cualesquiera peticiones, consultas o solicitud de información que puedan remitir los USUARIOS del SITIO WEB.
+The legal basis that legitimizes this treatment is the consent of the USER.
 
-La base legal que legitima este tratamiento es el consentimiento del USUARIO.
-
-Los datos personales se conservarán hasta el momento de la resolución de su petición de información.
+The personal data will be kept until the resolution of your request for information.
 
 ### 2.2. Newsletter
 
-Gestionar la suscripción del USUARIO en la Newsletter que se encuentra en el SITIO WEB, para enviarle información sobre el altruismo eficaz y nuestras actividades y eventos.
+Manage the subscription of the USER in the Newsletter that can be found in the WEBSITE, to send him information about the effective altruism and our activities and events.
 
-La base legal que legitima el envío de la Newsletter es el consentimiento del propio USUARIO en el momento de la recogida de datos marcando la casilla correspondiente.
+The legal basis that legitimizes the sending of the Newsletter is the consent of the USER himself at the time of data collection by checking the appropriate box.
 
-Los datos personales facilitados se conservarán hasta el momento en que el USUARIO solicite la supresión de sus datos, siguiendo el mecanismo establecido en el apartado 5 de la presente Política de Privacidad.
+The personal data provided will be kept until the moment the USER requests the deletion of their data, following the mechanism established in section 5 of this Privacy Policy.
 
-## 3. Destinatarios de la información
+## 3. Recipients of the information
 
-Los datos que el usuario haya facilitado a LA FUNDACIÓN no serán comunicados a ningún tercero, salvo que:
+The data that the user has provided to THE FOUNDATION will not be communicated to any third party, unless
 
-- La cesión esté autorizada en una ley.
+- The transfer is authorized by law.
 
-- El tratamiento responda a la libre y legítima aceptación de una relación jurídica cuyo desarrollo, cumplimiento y control implique necesariamente la conexión de dicho tratamiento con ficheros de terceros, como, por ejemplo, entidades bancarias para la facturación de los productos o servicios contratados o empresas de mensajería para el envío de los productos contratados.
+- The processing corresponds to the free and legitimate acceptance of a legal relationship whose development, compliance and control necessarily implies the connection of such processing with third party files, such as, for example, banks for the invoicing of the products or services contracted or courier companies for the shipment of the products contracted.
 
-- Los datos sean solicitados por el Defensor del Pueblo, el Ministerio Fiscal o los Jueces o Tribunales o el Tribunal de Cuentas, en el ejercicio de las funciones que tienen atribuidas.
+- The data are requested by the Ombudsman, the Public Prosecutor's Office or the Judges or Courts or the Court of Auditors, in the exercise of the functions attributed to them.
 
-## 4. Carácter obligatorio o facultativo de la información solicitada
+## 4. Mandatory or optional nature of the information requested
 
-Cuando el USUARIO nos facilite datos por medio de formularios del SITIO WEB, se indicarán expresamente aquellos campos, marcados con un asterisco (*) que resulten ser obligatorios para la petición o consulta o para la prestación de los servicios.
+When the USER provides us with data through forms on the WEBSITE, those fields marked with an asterisk (*) that are mandatory for the request or consultation or for the provision of services will be expressly indicated.
 
-La negativa a suministrar los datos obligatorios supondrá la imposibilidad de atender la consulta o servicio solicitado por el USUARIO.
+The refusal to provide the compulsory data will mean the impossibility to attend the consultation or service requested by the USER.
 
-Asimismo, al pulsar el botón “Enviar", "Aceptar", "Suscribirse” u otros análogos incorporados en los formularios del SITIO WEB, el USUARIO declara que la información y los datos que en ellos nos ha facilitado son exactos y veraces.
+Likewise, by clicking on the "Send", "Accept", "Subscribe" or other similar buttons incorporated in the forms on the WEBSITE, the USER declares that the information and data provided therein are accurate and true.
 
-## 5. Ejercicio de derechos
+## 5. Exercise of rights
 
-El USUARIO podrá revocar su consentimiento y ejercer sus derechos de acceso, rectificación y cancelación / supresión de sus datos de carácter personal, así como, limitar o directamente oponerse al tratamiento o ejercer el derecho a la portabilidad de los mismos, a través de un correo electrónico a la dirección info @ ayudaefectiva.org o a través de la dirección postal Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, identificándose como USUARIO del SITIO WEB, aportando fotocopia del DNI o documento equivalente y concretando su solicitud.
+The USER may revoke his consent and exercise his rights of access, rectification and cancellation/deletion of his personal data, as well as, limit or directly oppose to the treatment or exercise the right to the portability of the same, through an email to the address info @ ayudaefectiva. org or through the postal address Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, identifying yourself as a USER of the WEBSITE, providing a photocopy of your ID card or equivalent document and specifying your request.
 
-Asimismo, en caso de considerar vulnerado su derecho a la protección de datos de carácter personal, podrá presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es).
+Likewise, in case you consider your right to the protection of personal data has been violated, you may file a claim with the Spanish Data Protection Agency (www.aepd.es).
 
-## 6. Compromiso del usuario
+## 6. User's commitment
 
-El USUARIO garantiza que es mayor de edad y que la información facilitada a través de los formularios de este SITIO WEB es veraz y exacta.
+The USER guarantees that he/she is of legal age and that the information provided through the forms on this WEBSITE is true and accurate.
 
-El USUARIO se compromete a informar a LA FUNDACIÓN de cualquier modificación que sufra la información facilitada a través de un correo electrónico a la dirección info @ ayudaefectiva.org, identificándose como USUARIO del SITIO WEB y concretando la información que deba ser modificada.
+The USER undertakes to inform the FOUNDATION of any change in the information provided by sending an email to info @ ayudaefectiva.org, identifying himself as a USER of the WEBSITE and specifying the information that must be changed.
 
-## 7. Datos de terceros facilitados por el usuario
+## 7. Third party data provided by the user
 
-En caso de que el USUARIO facilite datos personales de terceras personas con cualquier finalidad, garantiza haber informado previamente a los afectados y haber obtenido su consentimiento para la comunicación de sus datos a LA FUNDACIÓN.
+In the event that the USER provides personal data of third parties for any purpose, he guarantees that he has previously informed the affected parties and obtained their consent for the communication of their data to THE FOUNDATION.
 
-El USUARIO garantiza que los afectados son mayores de edad y que la información facilitada es exacta y veraz.
+The USER guarantees that those affected are of legal age and that the information provided is accurate and truthful.
 
-En caso de que se deriven responsabilidades por un incumplimiento de estas condiciones por parte del USUARIO, deberá responder de las consecuencias de dicho incumplimiento.
+In the event that responsibilities are derived from a breach of these conditions by the USER, he or she must answer for the consequences of such breach.
 
 ## 8. Cookies
 
-LA FUNDACIÓN utiliza cookies y otros mecanismos similares de almacenamiento y recuperación de datos en equipos terminales (en adelante, cookies).
+THE FOUNDATION uses cookies and other similar mechanisms to store and recover data on terminal equipment (hereinafter referred to as "cookies").
 
-Las cookies son ficheros que se descargan al navegador del usuario y que pueden ser leídos posteriormente por LA FUNDACIÓN. De esta forma, las cookies permiten diversas funcionalidades, como, por ejemplo, reconocer a un usuario que ya ha accedido al Servicio anteriormente y poder hacer análisis sobre el uso del Servicio que permitan mejorarlo. No obstante, no es posible averiguar la identidad del usuario a partir de las cookies que utiliza LA FUNDACIÓN, salvo que el usuario proporcione información adicional a través de otros medios y estos pudiesen vincularse con las cookies que tiene descargadas.
+Cookies are files that are downloaded to the user's browser and can be read later by THE FOUNDATION. In this way, cookies allow various functions, such as, for example, recognizing a user who has already accessed the Service previously and being able to make analyses about the use of the Service that allow it to be improved. However, it is not possible to find out the identity of the user from the cookies used by THE FOUNDATION, unless the user provides additional information through other means and these can be linked to the cookies downloaded.
 
-Para más información, consulte la [Política de cookies](cookies).
+For more information, please refer to the [Cookie Policy].
 
-## 9. Medidas de seguridad
+## 9. Security Measures
 
-De conformidad con lo dispuesto en las normativas vigentes en materia de protección de datos de carácter personal, LA FUNDACIÓN ha adoptado las medidas de índole técnica y organizativas necesarias que garanticen la seguridad de los datos de carácter personal y eviten su alteración, pérdida, tratamiento o acceso no autorizado, habida cuenta del estado de la tecnología, la naturaleza de los datos almacenados y los riesgos a que estén expuestos.
+In accordance with current regulations on personal data protection, THE FOUNDATION has adopted the necessary technical and organizational measures to guarantee the security of personal data and prevent its alteration, loss, treatment or unauthorized access, taking into account the state of technology, the nature of the data stored and the risks to which it is exposed.
 
-Si tiene alguna duda sobre la información que se recoge en nuestra Política de Privacidad, puede enviar un mensaje de correo electrónico a info @ ayudaefectiva.org.
+If you have any questions about the information collected in our Privacy Policy, you can send an email to info @ ayudaefectiva.org.

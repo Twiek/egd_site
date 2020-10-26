@@ -12,10 +12,6 @@ path_site_app = "{0}/apps/{1}/".format(path_bench, site_app)
 # /api/method/egd_site.deploy.github_site
 @frappe.whitelist(allow_guest=True)
 def github_site():
-	return github_signature_deploy("site")
-
-
-def github_signature_deploy(type="site"):
 	import hashlib
 	import hmac
 

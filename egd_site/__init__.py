@@ -104,9 +104,7 @@ def egd_resolve_redirect(path):
 				or frappe.local.request.cookies["preview_access"] != frappe.local.conf.RESTRICTED_COOKIE_VALUE):
 				frappe.local.flags.redirect_location = "/access"
 				raise frappe.Redirect
-		frappe_resolve_redirect(path)
-	else:
-		frappe_resolve_redirect(path)
+	frappe_resolve_redirect(path)
 
 from frappe.website.redirect import resolve_redirect as frappe_resolve_redirect
 frappe.website.redirect.resolve_redirect = egd_resolve_redirect
