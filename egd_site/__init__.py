@@ -154,4 +154,14 @@ def egd_add_metatags(context):
 from frappe.website.context import add_metatags as frappe_add_metatags
 frappe.website.context.add_metatags = egd_add_metatags
 
+
+def egd_add_preload_headers(response):
+	"""Allow externals links preloading"""
+	frappe_add_preload_headers(response)
+	response.headers["Link"] = response.headers["Link"].replace("/http", "http")
+
+from frappe.website.render import add_preload_headers as frappe_add_preload_headers
+frappe.website.render.add_preload_headers = egd_add_preload_headers
+
+
 # FRAPPE OVERRIDES>
