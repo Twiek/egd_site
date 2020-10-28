@@ -1,6 +1,4 @@
 ---
-;title: HTML head title. Remove coment character ";" to be applied
-;meta_description: META description. Remove coment character ";" to be applied
 body_class: legal-content
 ---
 
@@ -12,7 +10,7 @@ The following provides the user with general information on what cookies are and
 
 ### What are cookies?
 
-Cookies and other similar devices, such as pixels, web bugs, etc. are text or image files that are installed in the user's browser when he/she accesses an online service.
+Cookies and other similar devices, such as pixels, web bugs, etc. are text or image files that are installed in the user's browser when they access an online service.
 
 Cookies allow, among other things, to store and retrieve information about the user, their browser, their devices and the user's activity in the service they are connecting to.
 
@@ -34,20 +32,20 @@ There are many types of cookies. Below, we offer the user some classifications o
 
 * Technical cookies: these are essential and strictly necessary for the correct functioning of the service and the use of the different options or services offered by the owners of the service through it. For example, those used for session maintenance, response time management, performance or option validation, use of security elements, etc.
 * Personalisation cookies: these are those that allow the user to specify or personalise certain characteristics of a service. For example, to define the language, regional configuration or type of browser.
-* Analytical cookies: these allow the number of unique visitors to be counted and an analysis of the use of a service to be made in order to measure the interest of the service or of certain areas of it. For example, an analytical cookie would control the geographical areas from which the highest percentages of users connect, which product or service is most popular, etc.
+* Analytical cookies: these allow the number of unique visitors to be counted and an analysis of the use of a service to be made in order to measure the interest in the service or in certain areas of it. For example, an analytical cookie would indicate the geographical areas from which the highest percentages of users connect, which product or service is most popular, etc.
 * Advertising cookies: these are those that allow the management of advertising spaces in a service.
 * Behavioral advertising cookies: are those that allow the management of advertising spaces in a service. The function of these cookies is to store information on the behaviour of the users of a service, in order to subsequently display personalised advertising.
 
 4. Other technologies:
 
-* Pixels, web bugs or trackers: also known as tracking pixels, tracking pixels, pixel tags or conversion pixels, web beacons or web beacons are tiny images of 1x1 transparent pixels that are inserted into a service in order to measure activity. Once a certain page is loaded in a browser, this image will be loaded, and this data can be measured. The tracking pixels generally make it possible to find out the path taken by a given user's IP in an online service.
-* HTML5 storage: consists of taking advantage of the capacities of HTML5 technology to store in the user's browser certain parameters that can be used to identify the browser of the same.
-* Local Shared Objects (LSO): also known as "flash cookies", this consists of storing information without cookies on the user's computer, taking advantage of Adobe Flash Player technology.
-* Etags: this is a mechanism of the HTTP protocol that allows the validation of the cache that the user saves in his web browser. This technology is mainly used to save bandwidth, avoiding duplicate downloads of content. However, it can also be used to recognise the user's browser.
+* Pixels, web bugs or trackers: also known as tracking pixels, pixel tags or conversion pixels, or web beacons: these are tiny images of 1x1 transparent pixels that are inserted into a service in order to measure activity. Once a certain page is loaded in a browser, this image will be loaded, and this data can be measured. The tracking pixels generally make it possible to find out the path taken by a given user's IP in an online service.
+* HTML5 storage: consists of taking advantage of the capacities of HTML5 technology to store in the user's browser certain parameters that can be used to identify the browser of the same user.
+* Local Shared Objects (LSO): also known as "flash cookies", these store information without cookies on the user's computer, taking advantage of Adobe Flash Player technology.
+* Etags: this is a mechanism of the HTTP protocol that allows the validation of the cache that the user saves in their web browser. This technology is mainly used to save bandwidth, avoiding duplicate downloads of content. However, it can also be used to recognise the user's browser.
 * Canvas fingerprinting: consists of the generation of a unique form in the user's browser taking advantage of the technology of the HTML5 web standard to identify the user's computer.
 * Font detection: this technique consists of identifying the font configuration of the user's computer to obtain a unique identification of the computer.
-* Browser cache: as the name suggests, this technique consists of storing information in the browser cache.
-* WebGL: this technique makes it possible to take advantage of the capacity to represent figures in three dimensions of modern browsers to obtain a unique identification of the equipment, due to the different configurations of each one.
+* Browser cache: this technique consists of storing information in the browser cache.
+* WebGL: this technique makes it possible to take advantage of the capacity of modern browsers to represent figures in three dimensions, to obtain a unique identification of the equipment through the different configurations of each one.
 
 ## 2. Specific information
 
@@ -65,7 +63,7 @@ Persistence: Session cookies / Up to one year
 
 Origin/Supplier: Own
 
-More information: For example, when the user closes the Cookie warning keep it closed, keep some data necessary for the navigation of the logged-in user if necessary, etc.
+More information: For example, to keep the Cookie warning closed when the user closes it, to keep some data necessary for the navigation of a logged-in user if necessary, etc.
 
 **Analytical Cookies**:
 
@@ -87,7 +85,7 @@ Google has adhered to the Privacy Shield: [https://www.privacyshield.gov/partici
 
 When you access the service for the first time, you will see a cookie warning informing you how you can give or refuse consent.
 
-If you have given your consent, you can disable or delete the cookies at any time through the configuration of the options of the browser used on your device or terminal.
+If you have given your consent, you can disable or delete the cookies at any time through the configuration of your browser’s options on your device or terminal.
 
 However, users should bear in mind that if they reject or delete the cookies, we will not be able to maintain their preferences and some features will not be operational, so we will not be able to offer them personalised services and each time they use the service they will appear as a new user who will be asked to authorise the use of cookies.
 
@@ -100,12 +98,13 @@ Below, we offer links where the user will find information on how to disable coo
 
 ### How does the use of cookies affect the protection of the user's personal data?
 
-Most cookies collect anonymous information, which does not allow the identity of the user to be obtained, although some of the codes included serve to identify or individualise the browser of the device used, and the regulations on the protection of personal data may apply. Therefore, we inform you that the information obtained through cookies will be treated with the purposes indicated in this Cookie Policy. Likewise, this information will also be treated by those companies that provide cookies with the purpose indicated in their respective privacy policies.
+Most cookies collect anonymous information, which does not allow the identity of the user to be obtained, although some of the codes included serve to identify or individualise the browser of the device used, and the regulations on the protection of personal data may apply. Therefore, we inform you that the information obtained through cookies will be processed  as indicated in this Cookie Policy. Likewise, this information will also be processed by those companies that provide cookies as indicated in their respective privacy policies.
 
-Nevertheless, taking into account that these codes do not allow the identification of the User, the rights of access, rectification, suppression, opposition, limitation and portability recognised in the data protection regulations will not be applicable, unless the User is able to provide additional information that allows his or her identity to be linked to the identification codes of his or her cookies.
+Nevertheless, because these codes do not allow the identification of the User, the rights of access, rectification, suppression, opposition, limitation and portability recognised in the data protection regulations will not be applicable, unless the User is able to provide additional information that allows their identity to be linked to the identification codes of their cookies.
 
-If the user considers that his or her right to data protection has been violated, he or she may file a complaint with the Spanish Data Protection Agency (www.aepd.es).
+If the User considers that their right to data protection has been violated, they may file a complaint with the Spanish Data Protection Agency (www.aepd.es).
 
 ### More information
 
-The user can raise any question related to the use of cookies that is not answered in this Cookie Policy through the email info @ ayudaefectiva.org.
+The User can raise any question related to the use of cookies that is not answered in this Cookie Policy via the email info @ ayudaefectiva.org.
+
