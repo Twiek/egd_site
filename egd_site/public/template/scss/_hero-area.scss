@@ -32,6 +32,12 @@
 			margin-bottom: 22px;
 			line-height: 24px;
 			color: #fff;
+			a {
+				color: white;
+				&:hover {
+					color: $color-primary;
+				}
+			}
 		}
 		.head-title{	
 			color: #fff;

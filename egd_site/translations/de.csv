@@ -13,7 +13,9 @@ apps/egd_site/egd_site/templates/includes/contact.html,form:subject,Subject
 apps/egd_site/egd_site/public/js/web.js,form:submit:error,Error submitting...
 apps/egd_site/egd_site/public/js/web.js,form:submit:sending...,Sending...
 apps/egd_site/egd_site/templates/includes/hero.html,hero:intro,Give with your head as well as your heart: Discover how the ideas of effective giving can help you maximize your impact when donating to the causes you care about
-apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra,"November 30, 2020 | 6:45 p.m. CET | Online event"
+apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_date,"November 30, 2020"
+apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_time,6:45 p.m. CET
+apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_place,Online event
 apps/egd_site/egd_site/templates/includes/hero.html,hero:register_button,REGISTER NOW
 apps/egd_site/egd_site/templates/includes/hero.html,hero:title,INTERNATIONAL EFFECTIVE GIVING DAY
 apps/egd_site/egd_site/templates/includes/header.html,link:agenda,Agenda

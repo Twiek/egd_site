@@ -11,7 +11,7 @@
 	{%- endfor %}
 
 	{%- block meta_block %}{% include "templates/includes/meta_block.html" %}{% endblock %}
-	{#<!-- TODO: Facebook? <meta property="fb:app_id" content="{{AE_FB_APP_ID}}"> -->#}
+	{#<!-- TODO: Facebook app_id? <meta property="fb:app_id" content="{{AE_FB_APP_ID}}"> -->#}
 
 	<title>{% block title %}{{ title | striptags }}{{ HTML_TITLE_SUFFIX if path != "" else "" }}{% endblock %}</title>
 	{% block favicon %}
