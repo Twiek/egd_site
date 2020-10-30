@@ -1,61 +1,61 @@
-apps/egd_site/egd_site/templates/includes/contact.html,contact:form:select_your_country,Select your country
-apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submit,Send message
-apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submitted_successfully_message,Message sent successfully. We will contact you as soon as possible.
-apps/egd_site/egd_site/tools.py,dialog:body:go_to_homepage,Go to homepage
-apps/egd_site/egd_site/templates/includes/contact.html,form:email,Email
-apps/egd_site/egd_site/templates/includes/register.html,form:first_name,First name
-apps/egd_site/egd_site/templates/includes/contact.html,form:full_name,Full name
-apps/egd_site/egd_site/templates/includes/contact.html,form:i_have_read_and_agree,I have read and accept privacy statement:
-apps/egd_site/egd_site/templates/includes/register.html,form:last_name,Last name
-apps/egd_site/egd_site/templates/includes/contact.html,form:message,Message
-apps/egd_site/egd_site/templates/includes/register.html,form:select_option,Select an option
-apps/egd_site/egd_site/templates/includes/contact.html,form:subject,Subject
-apps/egd_site/egd_site/public/js/web.js,form:submit:error,Error submitting...
-apps/egd_site/egd_site/public/js/web.js,form:submit:sending,Sending...
-apps/egd_site/egd_site/templates/includes/hero.html,hero:intro,Give with your head as well as your heart: Discover how the ideas of effective giving can help you maximize your impact when donating to the causes you care about
-apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_date,"November 30, 2020"
-apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_time,6:45 p.m. CET
-apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_place,Online event
-apps/egd_site/egd_site/templates/includes/hero.html,hero:register_button,REGISTER NOW
+apps/egd_site/egd_site/templates/includes/contact.html,contact:form:select_your_country,Wähle ein Land aus
+apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submit,Absenden
+apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submitted_successfully_message,Deine Nachricht wurde versendet. Wir werden uns schnellstmöglich bei dir melden.
+apps/egd_site/egd_site/tools.py,dialog:body:go_to_homepage,Zurück zur Startseite.
+apps/egd_site/egd_site/templates/includes/contact.html,form:email,E-Mail
+apps/egd_site/egd_site/templates/includes/register.html,form:first_name,Vorname
+apps/egd_site/egd_site/templates/includes/contact.html,form:full_name,Vollständiger Name
+apps/egd_site/egd_site/templates/includes/contact.html,form:i_have_read_and_agree,Ich habe die Datenschutzbestimmungen gelesen und akzeptiert:
+apps/egd_site/egd_site/templates/includes/register.html,form:last_name,Nachname
+apps/egd_site/egd_site/templates/includes/contact.html,form:message,Nachricht
+apps/egd_site/egd_site/templates/includes/register.html,form:select_option,Wähle eine Option aus
+apps/egd_site/egd_site/templates/includes/contact.html,form:subject,Betreff
+apps/egd_site/egd_site/public/js/web.js,form:submit:error,Fehler...
+apps/egd_site/egd_site/public/js/web.js,form:submit:sending,Sendet...
+apps/egd_site/egd_site/templates/includes/hero.html,hero:intro,Gutes tun braucht Herz und Kopf: Finde heraus wie du mit effektiven Spenden die größtmögliche Wirkung erzielen kannst um die Dinge zu erreichen, die wirklich wichtig sind
+apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_date,"30. November 2020"
+apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_time,18:45 Uhr
+apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_place,Virtuelles Event
+apps/egd_site/egd_site/templates/includes/hero.html,hero:register_button,Jetzt registrieren
 apps/egd_site/egd_site/templates/includes/hero.html,hero:title,INTERNATIONAL EFFECTIVE GIVING DAY
 apps/egd_site/egd_site/templates/includes/header.html,link:agenda,Agenda
-apps/egd_site/egd_site/templates/includes/header.html,link:contact,Contact
+apps/egd_site/egd_site/templates/includes/header.html,link:contact,Kontakt
 apps/egd_site/egd_site/templates/includes/footer.html,link:cookies,Cookies
-apps/egd_site/egd_site/templates/includes/header.html,link:home,Home
-apps/egd_site/egd_site/templates/includes/footer.html,link:legal,Legal
+apps/egd_site/egd_site/templates/includes/header.html,link:home,Startseite
+apps/egd_site/egd_site/templates/includes/footer.html,link:legal,AGB
 apps/egd_site/egd_site/templates/includes/footer.html,link:login,Login
-apps/egd_site/egd_site/templates/includes/header.html,link:press,Press
-apps/egd_site/egd_site/templates/includes/contact.html,link:privacy,privacy
-apps/egd_site/egd_site/templates/includes/section-about.html,link:read_more,Read more
-apps/egd_site/egd_site/templates/includes/header.html,link:register,Register
-apps/egd_site/egd_site/templates/includes/header.html,link:speakers,Speakers
-apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_ok","Your email ""{0}"" was successfully subscribed"
-apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_previously","Your email ""{0}"" were subscribed previously"
-apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:error_adding_email_""{0}"".","There was an error adding your email ""{0}""."
-apps/egd_site/egd_site/tools.py,newsletter:dialog:title:newsletter_subscription,Newsletter subscription
-apps/egd_site/egd_site/tools.py,newsletter:email:body:click_here_to_verify,Click here to verify your email
-apps/egd_site/egd_site/tools.py,newsletter:email:body:thank_you,Thank you very much for your interest.
-apps/egd_site/egd_site/tools.py,newsletter:email:body:verify_your_email,We need your email confirmation to finish your subscription.
-apps/egd_site/egd_site/tools.py,newsletter:email:subject,Email confirmation (action needed)
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:email,Your email
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submit,Subscribe
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,Soon you will receive a an email for confirmation. Thank you very much for subscribing.
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Stay up to date
-apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,How much (if anything) do you currently give per year to ‘effective charities’ (as defined by the effective giving movement)? (USD)
-apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:a_bit_familiar,Somewhat familiar
-apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:not_familiar,Not familiar
-apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:question,How familiar are you with the effective giving movement?
-apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:quite_familiar,Quite familiar
-apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:very_familiar,Very familiar
-apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:other,Other
-apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:professional,Professional
-apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:student,Student
-apps/egd_site/egd_site/templates/includes/register.html,register:form:organization,Organization
-apps/egd_site/egd_site/templates/includes/register.html,register:form:organization_title,Title
-apps/egd_site/egd_site/templates/includes/register.html,register:form:select_country,Select you country
-apps/egd_site/egd_site/templates/includes/register.html,register:form:select_occupation,Select your occupation
-apps/egd_site/egd_site/templates/includes/register.html,register:form:submit,Register
-apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message,Soon you will receive a an email for confirmation. Thank you very much for your registration.
+apps/egd_site/egd_site/templates/includes/header.html,link:press,Presse
+apps/egd_site/egd_site/templates/includes/contact.html,link:privacy,Datenschutzhinweise
+apps/egd_site/egd_site/templates/includes/section-about.html,link:read_more,Mehr erfahren
+apps/egd_site/egd_site/templates/includes/header.html,link:register,Registrieren
+apps/egd_site/egd_site/templates/includes/header.html,link:speakers,Referenten
+apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_ok","Du hast Dich mit Deiner E-Mail ""{0}"" erfolgreich angemeldet"
+apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_previously","Deine E-Mail ""{0}"" ist bereits angemeldet"
+apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:error_adding_email_""{0}"".","Es gab einen Fehler mit Deiner E-Mail ""{0}""."
+apps/egd_site/egd_site/tools.py,newsletter:dialog:title:newsletter_subscription,Newsletter Anmeldung
+apps/egd_site/egd_site/tools.py,newsletter:email:body:click_here_to_verify,Hier klicken um Deine E-Mail zu bestätigen
+apps/egd_site/egd_site/tools.py,newsletter:email:body:thank_you,Vielen Dank für Dein Interesse.
+apps/egd_site/egd_site/tools.py,newsletter:email:body:verify_your_email,Um Deine Anmeldung abzuschließen prüfe bitte deine E-Mails.
+apps/egd_site/egd_site/tools.py,newsletter:email:subject,E-Mail Bestätigung (Handlung erforderlich)
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:email,Deine E-Mail
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submit,Anmelden
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,Besten Dank für deine Anmeldung. Um diese abzuschließen haben wir dir gerade eine E-Mail zur Bestätigung geschickt.
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Bleib auf dem neusten Stand
+apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,Wie viel spendest du bisher jedes Jahr an "effektive hilfsorganisationen" (US-Dollar)?
+apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:a_bit_familiar,Kenne mich ein bisschen aus
+apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:not_familiar,Kenne mich nicht aus
+apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:question,Wie gut kennst du dich mit effektivem Spenden aus?
+apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:quite_familiar,Kenne mich gut aus
+apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:very_familiar,Kenne mich sehr gut aus
+apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:other,Sonstige
+apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:professional,Berufstätig
+apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:student,Student oder Auszubildende
+apps/egd_site/egd_site/templates/includes/register.html,register:form:organization,Arbeitgeber
+apps/egd_site/egd_site/templates/includes/register.html,register:form:organization_title,Titel
+apps/egd_site/egd_site/templates/includes/register.html,register:form:select_country,Wähle ein Land aus
+apps/egd_site/egd_site/templates/includes/register.html,register:form:select_occupation,Wähle die Art deiner Beschäftigung
+apps/egd_site/egd_site/templates/includes/register.html,register:form:submit,Registriere dich
+apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message,Vielen Dank für Deine Anmeldung. Du wirst in Kürze eine Bestätigungsemail erhalten.
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_ok","registration:dialog:body:email_""{0}""_confirmed_ok"
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_previously","registration:dialog:body:email_""{0}""_confirmed_previously"
 apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,registration:dialog:body:error_confirming_your_email.
@@ -64,18 +64,18 @@ apps/egd_site/egd_site/tools.py,registration:email:body:click_here_to_verify,reg
 apps/egd_site/egd_site/tools.py,registration:email:body:thank_you,registration:email:body:thank_you
 apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,registration:email:body:verify_your_email
 apps/egd_site/egd_site/tools.py,registration:email:subject,registration:email:subject
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:intro,Effective Giving Day is an online conference featuring some of the world's most prominent organizations in the effective giving space.
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:intro,Der Effective Giving Day ist eine virtuelle Konferenz mit einigen der renommiertesten Experten im Bereich effektiver Spenden.
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:1,section:about:list:1
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:2,section:about:list:2
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:3,section:about:list:3
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:4,section:about:list:4
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:title,About the event
-apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:intro,section:agenda:intro
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:title,Über die Veranstaltung
+apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:intro,section:agenda:Einfürhung
 apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:title,Agenda
-apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:organized_by,Organized by
-apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:supported_by,With the support of
-apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:intro,section:speakers:intro
-apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:see_all_speakers,section:speakers:See all speakers
-apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:title,Speakers
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:intro,section:why:intro
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:title,Why you should attend
+apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:organized_by,Organisiert von
+apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:supported_by,Unterstützt von
+apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:intro,section:speakers:Einführung
+apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:see_all_speakers,section:speakers:Alle Referenten
+apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:title,Referenten
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:intro,section:why:Einführung
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:title,Warum du teilnehmen solltest.
