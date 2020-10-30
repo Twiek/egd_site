@@ -90,6 +90,11 @@ frappe.ready(function() {
 		}, false)
 	})
 
+	// TODO: check why js translations are not working
+	// const button_message_ok = frappe._('form:submit:sending')
+	// const button_message_ko = frappe._('form:submit:error')
+	// console.log('button_message_ok', button_message_ok)
+	// console.log('button_message_ko', button_message_ko)
 
 	// SUBSCRIBE
 	const $newsletter = $('.form-subscribe')
@@ -103,7 +108,7 @@ frappe.ready(function() {
 			e.preventDefault()
 			e.stopPropagation()
 			if (e.target.checkValidity() && $f_accepted.val() && validate_email($f_email.val())) {
-				$submit.html(__('form:submit:sending')).attr('disabled', true)
+				$submit.html(window.context.translations.form_submit_sending).attr('disabled', true)
 				frappe.call({
 					type: 'POST',
 					method: 'egd_site.tools.subscribe',
@@ -113,7 +118,7 @@ frappe.ready(function() {
 							$message_ok.show()
 							$form.hide()
 						} else {
-							$submit.html(__('form:submit:error')).addClass('btn-danger').attr('disabled', false)
+							$submit.html(window.context.translations.form_submit_error).addClass('btn-danger').attr('disabled', false)
 							$f_email.val('').attr('disabled', false)
 						}
 					},
@@ -140,7 +145,7 @@ frappe.ready(function() {
 			e.preventDefault()
 			e.stopPropagation()
 			if (e.target.checkValidity() && $f_accepted.val() && validate_email($f_email.val())) {
-				$submit.html(__('form:submit:sending')).attr('disabled', true)
+				$submit.html(window.context.translations.form_submit_sending).attr('disabled', true)
 				frappe.call({
 					type: 'POST',
 					method: 'egd_site.tools.contact',
@@ -158,7 +163,7 @@ frappe.ready(function() {
 							$form.hide()
 							frappe.ui.scroll('h1', true, 30)
 						} else {
-							$submit.html(__('form:submit:error')).addClass('btn-danger').attr('disabled', false)
+							$submit.html(window.context.translations.form_submit_error).addClass('btn-danger').attr('disabled', false)
 							$f_email.val('').attr('disabled', false)
 						}
 					},
@@ -188,7 +193,7 @@ frappe.ready(function() {
 			e.preventDefault()
 			e.stopPropagation()
 			if (e.target.checkValidity() && $f_accepted.val() && validate_email($f_email.val())) {
-				$submit.html(__('form:submit:sending')).attr('disabled', true)
+				$submit.html(window.context.translations.form_submit_sending).attr('disabled', true)
 				frappe.call({
 					type: 'POST',
 					method: 'egd_site.tools.registration',
@@ -209,7 +214,7 @@ frappe.ready(function() {
 							$form.hide()
 							frappe.ui.scroll('h1', true, 30)
 						} else {
-							$submit.html(__('form:submit:error')).addClass('btn-danger').attr('disabled', false)
+							$submit.html(window.context.translations.form_submit_error).addClass('btn-danger').attr('disabled', false)
 							$f_email.val('').attr('disabled', false)
 						}
 					},
