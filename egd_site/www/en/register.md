@@ -8,8 +8,8 @@ meta_description: Register to attend the International Effective Giving Day onli
 		<div class="row">
 			<div class="col-12">
 				<div class="section-title-header text-center">
-					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Registro</h1>
-					<p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an <br> cule dicta iriure at phaedrum.</p>
+					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Register</h1>
+					<p class="wow fadeInDown" data-wow-delay="0.2s">If you would like to attend the International Effective Giving Day event on November 30, please register by filling in the following form. You will receive a confirmation email and we will send the link to join the event to that same email address a few days before the event.</p>
 				</div>
 			</div>
 		</div>

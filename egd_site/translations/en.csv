@@ -40,9 +40,9 @@ apps/egd_site/egd_site/tools.py,newsletter:email:body:verify_your_email,We need 
 apps/egd_site/egd_site/tools.py,newsletter:email:subject,Email confirmation (action needed)
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:email,Your email
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submit,Subscribe
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,Soon you will receive a an email for confirmation. Thank you very much for subscribing.
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,<strong>Thank you for registering!</strong> You you will receive a confirmarion email within a few minutes. A few days before the event you will also receive the instructions on how to join it online.
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Stay up to date
-apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,How much (if anything) do you currently give per year to ‘effective charities’ (as defined by the effective giving movement)? (USD)
+apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,How much (if anything) do you currently give per year to charities you know are highly effective? (USD)
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:a_bit_familiar,Somewhat familiar
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:not_familiar,Not familiar
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:question,How familiar are you with the effective giving movement?
