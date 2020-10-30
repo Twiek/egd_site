@@ -129,6 +129,7 @@ frappe.ready(function() {
 		const $form = $contact.find('form')
 		const $submit = $contact.find('button')
 		const $message_ok = $contact.find('.alert-success')
+		const $f_press = $contact.find('[name="press"]')
 		const $f_email = $contact.find('[name="email"]')
 		const $f_fullname = $contact.find('[name="fullname"]')
 		const $f_country = $contact.find('[name="country"]')
@@ -144,6 +145,7 @@ frappe.ready(function() {
 					type: 'POST',
 					method: 'egd_site.tools.contact',
 					args: {
+						press: $f_press.val(),
 						email: $f_email.val(),
 						full_name: $f_fullname.val(),
 						country_code: $f_country.val(),

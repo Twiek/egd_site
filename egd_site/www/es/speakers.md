@@ -3,8 +3,4 @@
 ;meta_description: META description. Remove coment character ";" to be applied
 ---
 
-# Ponentes
-
-<div class="mb-5"></div>
-
-{% include "templates/includes/speakers.html" %}
+{% include "templates/includes/section-speakers.html" %}

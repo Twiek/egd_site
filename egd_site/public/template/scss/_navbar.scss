@@ -20,11 +20,11 @@
 	.navbar-brand{
 		top: 0px;
 	}
-	background: #fff!important;
-	.navbar-nav .nav-link{
+	background: #fff !important;
+	.navbar-nav .nav-link {
 		color: #212121 !important;
-		&:hover{
-		color: $preset!important;
+		&:hover {
+			color: $preset !important;
 		}
 	}
 }
@@ -38,24 +38,28 @@
 	border-radius: 4px;
 	cursor: pointer;
 }
-.indigo{
-	background: transparent;
-}
-.navbar-expand-lg .navbar-nav .nav-link{
-	color: #fff;
-	font-size: 14px;
-	padding: 0 15px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
-	line-height: 40px;
-	text-transform: uppercase;
-	background: transparent;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-	position: relative;
+// .indigo {
+// 	background: transparent;
+// }
+.navbar-expand-lg {
+	.navbar-nav {
+		.nav-link,
+		.navbar-text {
+			font-size: 14px;
+			padding: 0 15px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 500;
+			line-height: 40px;
+			text-transform: uppercase;
+			background: transparent;
+			-webkit-transition: all 0.3s ease-in-out;
+			-moz-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+			position: relative;
+		}
+	}
 }
 .navbar-expand-lg .navbar-nav li a:hover, 
 .navbar-expand-lg .navbar-nav li .active > a, 

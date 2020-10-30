@@ -1,6 +1,5 @@
 
-#about{
-	background: #F6F9F9;
+#about {
 	.about-content {
 		height: 100%;
 		display: table;
@@ -49,19 +48,10 @@
 	}
 }
 
-#sponsors{
-	// background: url(/assets/egd_site/template/img/background/countdown.jpg) no-repeat center;
-	// background-attachment: scroll;
-	// background-size: auto auto;
-	// background-size: cover;
-	// background-attachment: fixed;
-	// position: relative;
-	// .overlay {
-	// 	background: #b5b5b5ed;
-	// }
-	// .section-title {
-	// 	color: white;
-	// }
+#sponsors {
+	.section-title {
+		color: $color-primary;
+	}
 	.sponsors-logo{
 		a {
 			img {

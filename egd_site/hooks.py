@@ -23,7 +23,8 @@ site_app_domains = {
 	"egd.ayudaefectiva.org": "preprod",
 }
 
-translated_languages_for_website = ["en", "de", "es"]
+# translated_languages_for_website = ["en", "de", "es"]
+translated_languages_for_website = ["en"]
 language_default = translated_languages_for_website[0]
 
 # Includes in <head>

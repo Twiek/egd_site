@@ -1,48 +1,40 @@
-#team {
-	background: url(/assets/egd_site/template/img/background/countdown.jpg) no-repeat center;
-	background-attachment: scroll;
-	background-size: auto auto;
-	background-size: cover;
-	background-attachment: fixed;
-	position: relative;
-	.section-title-header,
-	.section-title {
-		color: white;
-	}
-}
-.team-item:hover{
-	box-shadow: 0 16px 48px #E2E8ED;
-}
+
+// .team-item:hover{
+// 	box-shadow: 0 16px 48px #E2E8ED;
+// }
 .team-item {
 	background-color: white;
 	margin: 15px 0;
 	padding: 15px;
 	border-radius: 4px;
 	position: relative;
-	box-shadow: 0 8px 24px #E2E8ED;
+	// box-shadow: 0 8px 24px #E2E8ED;
 	transition: all 0.3s ease-in-out 0s;
-    -moz-transition: all 0.3s ease-in-out 0s;
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -o-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-o-transition: all 0.3s ease-in-out 0s;
+	strong {
+		color: black;
+	}
 	.team-img{
 		position: relative;
 		cursor: pointer;
 		overflow: hidden;
 	}
-	.team-overlay{
-		text-align: center;
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		width: 100%;
-		height: 100%;
-		background: rgba(0, 0, 0, 0.9);
-		opacity: 0;
-		-webkit-transition: all 0.3s ease-in-out;
-		-moz-transition: all 0.3s ease-in-out;
-		-o-transition: all 0.3s ease-in-out;
-		transition: all 0.3s ease-in-out;
-	}
+	// .team-overlay{
+	// 	text-align: center;
+	// 	position: absolute;
+	// 	top: 0px;
+	// 	left: 0px;
+	// 	width: 100%;
+	// 	height: 100%;
+	// 	background: rgba(0, 0, 0, 0.9);
+	// 	opacity: 0;
+	// 	-webkit-transition: all 0.3s ease-in-out;
+	// 	-moz-transition: all 0.3s ease-in-out;
+	// 	-o-transition: all 0.3s ease-in-out;
+	// 	transition: all 0.3s ease-in-out;
+	// }
 	.overlay-social-icon{
         position: absolute;
 		top: 50%;
@@ -132,9 +124,9 @@
 	    }
 	}
 }
-.team-item:hover .team-overlay{
-  opacity: 1;
-}
+// .team-item:hover .team-overlay{
+//   opacity: 1;
+// }
 .team-item:hover .social-icons {
   -webkit-transform: translateY(0px);
   -moz-transform: translateY(0px);

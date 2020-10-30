@@ -1,6 +1,8 @@
 
 <section id="team" class="section-padding text-center">
+	{% if name == "home" %}
 	<div class="overlay"></div>
+	{% endif %}
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -10,7 +12,11 @@
 				</div>
 			</div>
 		</div>
+
 		{% include "templates/includes/speakers.html" %}
+
+		{% if name == "home" %}
 		<a href="{{ url_lang }}/speakers" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">{{ _('section:speakers:see_all_speakers') }}</a>
+		{% endif %}
 	</div>
 </section>

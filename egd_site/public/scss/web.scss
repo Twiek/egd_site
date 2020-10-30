@@ -236,8 +236,23 @@ small, .small {
 	}
 }
 
-
-// E TEMP SOLUTION
-img[src="/assets/egd_site/images/e.png"] {
-	max-height: 15px;
+// HOME PAGE
+#page-home {
+	#about,
+	#schedules {
+		background-color: #f3f4f3;
+	}
+	#team {
+		background: url(/assets/egd_site/template/img/background/countdown.jpg) no-repeat center;
+		background-attachment: scroll;
+		background-size: auto auto;
+		background-size: cover;
+		background-attachment: fixed;
+		position: relative;
+		.section-title-header,
+		.section-title {
+			color: white;
+		}
+	}
 }
+

@@ -76,18 +76,19 @@ ul, ol {
 	text-align: center;
 }
 .section-title-header{
-.subtitle{
-	font-size: 20px;
-	color: $preset;
-	margin-bottom: 10px;
-	font-style: italic;
-}
-p {
-	text-align: center;
-	font-weight: 400;
-	line-height: 26px;
-	padding-bottom: 36px;
-}
+	.subtitle{
+		font-size: 20px;
+		color: $preset;
+		margin-bottom: 10px;
+		font-style: italic;
+	}
+	p {
+		font-size: 20px;
+		text-align: center;
+		font-weight: 400;
+		line-height: 26px;
+		padding-bottom: 36px;
+	}
 }
 .section-title{
 font-size: 30px;
@@ -111,7 +112,7 @@ margin-bottom: 10px;
 }
 .section-subcontent{
 font-size: 16px;
-text: center;
+// text: center;
 font-weight: 400;
 line-height: 26px;
 padding-bottom: 36px;
