@@ -1,6 +1,6 @@
 ---
-;title: HTML head title. Remove coment character ";" to be applied
-;meta_description: META description. Remove coment character ";" to be applied
+title: Register
+meta_description: Register to attend the International Effective Giving Day online event on November 30, 2020
 ---
 
 <section>

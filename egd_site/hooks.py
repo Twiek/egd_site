@@ -13,7 +13,7 @@ app_license = "MIT"
 
 
 ASSETS_VERSION = "1.0.0.3"
-HTML_TITLE_SUFFIX = " | Effective Giving Day"
+HTML_TITLE_SUFFIX = " | International Effective Giving Day"
 
 # Site domains & environment
 site_app_domains = {

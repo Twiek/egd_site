@@ -1,6 +1,6 @@
 ---
-;title: HTML head title. Remove coment character ";" to be applied
-;meta_description: META description. Remove coment character ";" to be applied
+title: Agenda
+meta_description: The event agenda includes sessions on how to apply effective giving to causes lika climate change, global health and development and animal welfare
 ---
 
 {% set cards_opened = 1 %}

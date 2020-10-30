@@ -1,6 +1,6 @@
 ---
-;title: HTML head title. Remove coment character ";" to be applied
-;meta_description: META description. Remove coment character ";" to be applied
+title: Contact
+meta_description: Contact us: we will direct your email to the person best suited to help you
 ---
 
 <section>

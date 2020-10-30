@@ -1,6 +1,6 @@
 ---
-;title: HTML head title. Remove coment character ";" to be applied
-;meta_description: META description. Remove coment character ";" to be applied
+title: Get involved
+meta_description: Get involved with effective giving: donate, learn more or help spread the message
 ---
 
 # Get involved

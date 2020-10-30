@@ -9,7 +9,10 @@
 			<div class="col-12">
 				<div class="section-title-header text-center">
 					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Press</h1>
-					<p class="wow fadeInDown" data-wow-delay="0.2s">Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an <br> cule dicta iriure at phaedrum.</p>
+					<p class="wow fadeInDown" data-wow-delay="0.2s">We are happy to respond to 
+					interview requests, provide quotes or answer questions. Please fill in this 
+					form and we will put you in touch with the best press contact for your 
+					country or area of interest</p>
 				</div>
 			</div>
 		</div>

@@ -1,6 +1,6 @@
 ---
-;title: HTML head title. Remove coment character ";" to be applied
-;meta_description: META description. Remove coment character ";" to be applied
+title: Speakers
+meta_description: Our speakers include Nobel-prize winner Michael Kremer and leaders from GiveWell, Animal Charity Evaluators and Founders Pledge
 ---
 
 {% include "templates/includes/section-speakers.html" %}
