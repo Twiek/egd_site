@@ -23,8 +23,7 @@ site_app_domains = {
 	"egd.ayudaefectiva.org": "preprod",
 }
 
-# translated_languages_for_website = ["en", "de", "es"]
-translated_languages_for_website = ["en"]
+translated_languages_for_website = ["en", "de", "es"]
 language_default = translated_languages_for_website[0]
 
 # Includes in <head>
@@ -71,8 +70,6 @@ website_redirects = [
 	# then route "/en/example" will be redirected 301 to "/example"
 	{ "source": r"/{0}".format(language_default), "target": "/" },
 	{ "source": r"/{0}/(.*)".format(language_default), "target": r"/\1" },
-	{ "source": "/es/login", "target": "/login?_lang=es" },
-	{ "source": "/es/contact", "target": "/contact?_lang=es" },
 ]
 
 # Url rewrites

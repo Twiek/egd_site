@@ -150,25 +150,6 @@ small, .small {
 }
 
 
-// ACCORDION CHEVRON
-.card-header {
-	.opener-chevron {
-		transition: transform 0.35s ease-in-out;
-		position: absolute;
-		right: 30px;
-		top: 50px;
-		font-size: 25px;
-	}
-	// &.collapsed { }
-	&:not(.collapsed) {
-		.opener-chevron {
-			transition: transform 0.35s ease-in-out;
-			transform: rotate(90deg);
-		}
-	}
-}
-
-
 // FRAPPE MESSAGES
 .page-card {
 	.page-card-body {

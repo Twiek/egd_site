@@ -97,11 +97,25 @@
 	}
 	.card-header {
 		position: relative;
-		padding: 35px 40px 35px 224px;
+		padding: 35px 70px 35px 224px;
 		border-bottom: 1px dashed #e5e5e5;
 		cursor: pointer;
 		border-left: none;
 		width: 100%;
+		.opener-chevron {
+			transition: transform 0.35s ease-in-out;
+			position: absolute;
+			right: 20px;
+			top: 50px;
+			font-size: 25px;
+		}
+		// &.collapsed { }
+		&:not(.collapsed) {
+			.opener-chevron {
+				transition: transform 0.35s ease-in-out;
+				transform: rotate(90deg);
+			}
+		}
 		.images-box {
 			&.extra {
 				margin-left: -30px;

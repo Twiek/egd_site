@@ -21,6 +21,7 @@ apps/egd_site/egd_site/templates/includes/hero.html,hero:title,INTERNATIONAL EFF
 apps/egd_site/egd_site/templates/includes/header.html,link:agenda,Agenda
 apps/egd_site/egd_site/templates/includes/header.html,link:contact,Contact
 apps/egd_site/egd_site/templates/includes/footer.html,link:cookies,Cookies
+apps/egd_site/egd_site/templates/includes/header.html,link:get_involved,Get involved
 apps/egd_site/egd_site/templates/includes/header.html,link:home,Home
 apps/egd_site/egd_site/templates/includes/footer.html,link:legal,Legal
 apps/egd_site/egd_site/templates/includes/header.html,link:press,Press
@@ -75,7 +76,7 @@ apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:tit
 apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:organized_by,Organized by
 apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:supported_by,With the support of
 apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:intro,section:speakers:intro
-apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:see_all_speakers,section:speakers:See all speakers
+apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:see_all_speakers,See all speakers
 apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:title,Speakers
 apps/egd_site/egd_site/templates/includes/section-why.html,section:why:1:intro,which charities should I support?
 apps/egd_site/egd_site/templates/includes/section-why.html,section:why:1:title,I want to give but

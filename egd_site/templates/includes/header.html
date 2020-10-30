@@ -29,19 +29,25 @@
 							<a class="nav-link" href="{{ url_lang }}/speakers">{{ _('link:speakers') }}</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="{{ url_lang }}/press">{{ _('link:press') }}</a>
+							<a class="nav-link" href="{{ url_lang }}/register">{{ _('link:register') }}</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="{{ url_lang }}/register">{{ _('link:register') }}</a>
+							<a class="nav-link" href="{{ url_lang }}/press">{{ _('link:press') }}</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="{{ url_lang }}/contact-us">{{ _('link:contact') }}</a>
 						</li>
-						{% if languages|length > 1 %}
 						<li class="nav-item">
-							<span class="navbar-text"></span>
+							<span class="navbar-text">·</span>
 						</li>
-						{#<!-- <li class="nav-item dropdown">
+						<li class="nav-item">
+							<a class="nav-link" href="{{ url_lang }}/get-involved">{{ _('link:get_involved') }}</a>
+						</li>
+						{# IMPORTANTE!!!! HABILITAR link rel="alternate" en base.html
+						<li class="nav-item">
+							<span class="navbar-text">·</span>
+						</li>
+						<!-- <li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Language:
 							</a>
@@ -52,13 +58,13 @@
 								</li>
 								{% endfor %}
 							</ul>
-						</li> -->#}
+						</li> -->
 						{% for language in languages_meta %}
 						<li class="nav-item{% if language.code == lang %} selected{% endif %}">
 							<a class="nav-link language" href="{{ language.url }}">{{ language.code|upper }}</a>
 						</li>
 						{% endfor %}
-						{% endif %}
+						#}
 					</ul>
 				</div>
 			</div>
