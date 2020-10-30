@@ -61,10 +61,10 @@ apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirme
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_previously","registration:dialog:body:email_""{0}""_confirmed_previously"
 apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,registration:dialog:body:error_confirming_your_email.
 apps/egd_site/egd_site/tools.py,registration:dialog:title:registration_subscription,registration:dialog:title:registration_subscription
-apps/egd_site/egd_site/tools.py,registration:email:body:click_here_to_verify,registration:email:body:click_here_to_verify
+apps/egd_site/egd_site/tools.py,registration:email:body:click_here_to_verify,Click here to verify your email
 apps/egd_site/egd_site/tools.py,registration:email:body:thank_you,registration:email:body:thank_you
-apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,registration:email:body:verify_your_email
-apps/egd_site/egd_site/tools.py,registration:email:subject,registration:email:subject
+apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,Thank you for your interest in the International Effective Giving Day! <strong>Please confirm your email address to complete your registration</strong>:
+apps/egd_site/egd_site/tools.py,registration:email:subject,Please confirm your email address to complete your registration
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:intro,International Effective Giving Day is an online event giving you the chance to hear from some of the world's most eminent thinkers in effective philanthropy.
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:1,Keynote address: Nobel Laureate Professor Michael Kremer
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:2,Supported by the world’s leading organizations in effective philanthropy and charity evaluation
