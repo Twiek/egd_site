@@ -103,7 +103,7 @@ frappe.ready(function() {
 			e.preventDefault()
 			e.stopPropagation()
 			if (e.target.checkValidity() && $f_accepted.val() && validate_email($f_email.val())) {
-				$submit.html(__('form:submit:sending...')).attr('disabled', true)
+				$submit.html(__('form:submit:sending')).attr('disabled', true)
 				frappe.call({
 					type: 'POST',
 					method: 'egd_site.tools.subscribe',
@@ -140,7 +140,7 @@ frappe.ready(function() {
 			e.preventDefault()
 			e.stopPropagation()
 			if (e.target.checkValidity() && $f_accepted.val() && validate_email($f_email.val())) {
-				$submit.html(__('form:submit:sending...')).attr('disabled', true)
+				$submit.html(__('form:submit:sending')).attr('disabled', true)
 				frappe.call({
 					type: 'POST',
 					method: 'egd_site.tools.contact',
@@ -188,7 +188,7 @@ frappe.ready(function() {
 			e.preventDefault()
 			e.stopPropagation()
 			if (e.target.checkValidity() && $f_accepted.val() && validate_email($f_email.val())) {
-				$submit.html(__('form:submit:sending...')).attr('disabled', true)
+				$submit.html(__('form:submit:sending')).attr('disabled', true)
 				frappe.call({
 					type: 'POST',
 					method: 'egd_site.tools.registration',
