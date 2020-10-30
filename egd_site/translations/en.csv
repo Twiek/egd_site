@@ -25,11 +25,11 @@ apps/egd_site/egd_site/templates/includes/header.html,link:get_involved,Get invo
 apps/egd_site/egd_site/templates/includes/header.html,link:home,Home
 apps/egd_site/egd_site/templates/includes/footer.html,link:legal,Legal
 apps/egd_site/egd_site/templates/includes/header.html,link:press,Press
-apps/egd_site/egd_site/templates/includes/contact.html,link:privacy,privacy
+apps/egd_site/egd_site/templates/includes/footer.html,link:privacy,privacy
 apps/egd_site/egd_site/templates/includes/section-about.html,link:read_more,Read more
 apps/egd_site/egd_site/templates/includes/header.html,link:register,Register
 apps/egd_site/egd_site/templates/includes/header.html,link:speakers,Speakers
-apps/egd_site/egd_site/templates/includes/footer.html,link:view,view
+apps/egd_site/egd_site/templates/includes/contact.html,link:view,view
 apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_ok","Your email ""{0}"" was successfully subscribed"
 apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_previously","Your email ""{0}"" were subscribed previously"
 apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:error_adding_email_""{0}"".","There was an error adding your email ""{0}""."
