@@ -78,17 +78,9 @@ apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners
 apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:intro,section:speakers:intro
 apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:see_all_speakers,See all speakers
 apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:title,Speakers
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:1:intro,which charities should I support?
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:1:title,I want to give but
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:2:intro,will have real impact
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:2:title,I want to know that my money
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:3:intro,"can’t be solved, right?"
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:3:title,The world’s biggest problems
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:4:intro,how can we compare one against another?
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:4:title,All charities are good
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:5:intro,section:why:5:intro
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:5:title,section:why:5:title
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:6:intro,section:why:6:intro
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:6:title,section:why:6:title
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:intro,section:why:intro
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:1:title,Can non-profits make a dent on the world’s biggest problems?
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:2:title,Are all charities just as good? How can we compare one against another?
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:3:title,I want to give - but how can I decide which charities to support?
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:4:title,How can I be sure that my money will have real impact?
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:intro,Have you ever wondered how much you can actually improve the world through charitable giving? Our speakers will shed light on the key questions you have to answer if you care about having an impact:
 apps/egd_site/egd_site/templates/includes/section-why.html,section:why:title,Why you should attend
