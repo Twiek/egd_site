@@ -55,12 +55,11 @@ def subscribe(email):
 		get_signed_params({"email": email, "_lang": frappe.local.lang})
 	)
 	messages = (
-		_("newsletter:email:body:thank_you"),
 		_("newsletter:email:body:verify_your_email"),
 		url,
 		_("newsletter:email:body:click_here_to_verify")
 	)
-	content = "<p>{0}{1}</p><p><a href=\"{2}\">{3}</a></p>".format(*messages)
+	content = "<p>{0}</p><p><a href=\"{1}\">{2}</a></p>".format(*messages)
 	frappe.sendmail(email, subject=_("newsletter:email:subject"), content=content)
 
 
@@ -178,7 +177,7 @@ def registration(firstname, lastname, email, country_code, occupation, organizat
 		url,
 		_("registration:email:body:click_here_to_verify")
 	)
-	content = "<p>{0}{1}</p><p><a href=\"{2}\">{3}</a></p>".format(*messages)
+	content = "<p>{0}</p><p><a href=\"{1}\">{2}</a></p>".format(*messages)
 	frappe.sendmail(email, subject=_("registration:email:subject"), content=content)
 
 	return "success"
