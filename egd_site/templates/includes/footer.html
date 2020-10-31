@@ -10,11 +10,22 @@
 						<button type="submit" class="btn btn-common col-xs-12 col-md-4 mx-4" data-style="zoom-in" data-spinner-size="30" name="submit" id="submit">
 							<span class="text-nowrap">{{ _('newsletter:form:submit') }}</span>
 						</button>
+						<p class="text-left">
+							<!-- TODO: Do newsletter legal text multilanguage -->
+							<small>Your data will be processed by FUNDACIÓN AYUDA EFECTIVA to send you
+							the newsletter and event notifications. You can exercise your rights 
+							through the following email info @ ayudaefectiva.org, identifying yourself
+							as a subscriber to the effectivegivingday.org newsletter and 
+							specifying your request. For more information about the treatment of 
+							your data and your rights, please consult the 
+							<a href="{{ url_lang }}/privacy">privacy clause</a>.</small>
+						</p>
 						<div>
 							<input class="form-check-input" name="accepted" type="checkbox" id="form-subscribe-conditions" required>
 							<label class="form-check-label" for="form-subscribe-conditions">
-								{{ _('form:i_have_read_and_agree') }}
-								(<a href="{{ url_lang }}/privacy-newsletter" target="_blank">{{ _('link:view') }}</a>)
+								I have read and accept the processing of my personal data for the described purpose
+								{#<!-- {{ _('form:i_have_read_and_agree') }}
+								(<a href="{{ url_lang }}/privacy-newsletter" target="_blank">{{ _('link:view') }}</a>) -->#}
 							</label>
 						</div>
 					</form>

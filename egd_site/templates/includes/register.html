@@ -65,11 +65,19 @@
 				</div>
 				<div class="col-12">
 					<div class="form-group">
+						<!-- TODO: Do register legal text multilanguage -->
+						<p class="legal-text text-muted mb-3">Your data will be treated by FUNDACIÓN AYUDA EFECTIVA to manage your registration,
+							as well as to keep you informed about this and future related events. You can 
+							exercise your rights by using the following email address info @ ayudaefectiva.org, 
+							identifying yourself as a registered user of the effectivegivingday.org website, 
+							and specifying your request. For more information about the treatment of your data, 
+							please consult our <a href="{{ url_lang }}/privacy">privacy clause</a>.</p>
 						<div class="form-check">
 							<input class="form-check-input" type="checkbox" name="accepted" id="form-conditions" required>
 							<label class="form-check-label" for="form-conditions">
-								{{ _('form:i_have_read_and_agree') }}
-								<a href="{{ url_lang }}/privacy" target="_blank">{{ _('link:view') }}</a>
+								I have read and accept the processing of my personal data for the purposes described
+								{#<!-- {{ _('form:i_have_read_and_agree') }}
+								<a href="{{ url_lang }}/privacy" target="_blank">{{ _('link:view') }}</a> -->#}
 							</label>
 						</div>
 					</div>
