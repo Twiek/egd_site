@@ -1,6 +1,7 @@
 ---
 title: Contact
 meta_description: "Contact us: we will direct your email to the person best suited to help you"
+sitemap: 1
 ---
 
 <section>

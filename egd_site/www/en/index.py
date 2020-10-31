@@ -1,4 +1,6 @@
 
+sitemap = 1
+
 def get_context(context):
 	context["title"] = "International Effective Giving Day"
 	context["meta_title"] = context["title"]

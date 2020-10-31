@@ -65,6 +65,9 @@ get_website_user_home_page = "egd_site.tools.get_home_page"
 website_redirects = [
 	{ "source": "/index", "target": "/" },
 	{ "source": "/index.html", "target": "/" },
+	# Avoid framework contact and about pages being accesible 
+	{ "source": "/about", "target": "/" },
+	{ "source": "/contact", "target": "/" },
 	# Languages: Remove main language segment. For example,
 	# if "en" is first one in "translated_languages_for_website"
 	# then route "/en/example" will be redirected 301 to "/example"
