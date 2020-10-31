@@ -217,6 +217,7 @@ small, .small {
 	}
 }
 
+
 // HOME PAGE
 #page-home {
 	#about,
@@ -238,6 +239,26 @@ small, .small {
 }
 
 
+// CONTENT PAGE LINKS
 .page-content a {
 	text-decoration: underline;
+}
+
+
+// FORMS LEGAL TEXT
+.legal-read-more-container {
+	.legal-read-more-text {
+		position: relative;
+		overflow: auto;
+		max-height: 40px;
+		transition: max-height 0.5s ease-out;
+		p {
+			margin-bottom: 5px;
+		}
+		&.opened {
+			max-height: 400px;
+			transition: max-height 0.5s ease-in;
+			overflow: auto;
+		}
+	}
 }

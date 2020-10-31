@@ -238,6 +238,23 @@ frappe.ready(function() {
 		} else {
 		}
 	}
+
+
+	// LEGAL SEE MORE LINKS
+	const $legal_read_more_items = $('.legal-read-more-container')
+	if ($legal_read_more_items.length) {
+		$legal_read_more_items.each(function(key, item) {
+			let $item = $(item)
+			let $item_text = $item.find('.legal-read-more-text')
+			let $item_link = $item.find('.legal-read-more-open')
+			$item_link.on('click', function(event) {
+				event.preventDefault()
+				$item_text.addClass('opened')
+				$item_link.hide()
+			})
+		})
+	}
+
 })
 
 
