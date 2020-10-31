@@ -174,7 +174,6 @@ def registration(firstname, lastname, email, country_code, occupation, organizat
 		get_signed_params({"email": email, "_lang": frappe.local.lang})
 	)
 	messages = (
-		_("registration:email:body:thank_you"),
 		_("registration:email:body:verify_your_email"),
 		url,
 		_("registration:email:body:click_here_to_verify")
