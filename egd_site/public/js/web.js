@@ -206,7 +206,7 @@ frappe.ready(function() {
 						organization: $f_organization.val(),
 						title: $f_title.val(),
 						donation: $f_donation.val(),
-						familiarity: $f_familiarity.val(),
+						familiarity: $f_familiarity.val() == null ? '' : $f_familiarity.val(),
 					},
 					callback: r => {
 						if (!r.exe && r.message == 'success') {
