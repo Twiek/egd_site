@@ -39,7 +39,7 @@ apps/egd_site/egd_site/tools.py,newsletter:email:body:verify_your_email,Thank yo
 apps/egd_site/egd_site/tools.py,newsletter:email:subject,Email confirmation (action needed)
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:email,Your email
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submit,Subscribe
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,<strong>Thank you for registering!</strong> You you will receive a confirmarion email within a few minutes. A few days before the event you will also receive the instructions on how to join it online.
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,Soon you will receive a an email for confirmation. Thank you very much for your registration.
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Stay up to date
 apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,How much (if anything) do you currently give per year to charities you know are highly effective? (USD)
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:a_bit_familiar,Somewhat familiar
@@ -55,7 +55,7 @@ apps/egd_site/egd_site/templates/includes/register.html,register:form:organizati
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_country,Select you country
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_occupation,Select your occupation
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submit,Register
-apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message,Soon you will receive a an email for confirmation. Thank you very much for your registration.
+apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message,<strong>Thank you for registering!</strong> You you will receive a confirmation email within a few minutes. A few days before the event you will also receive the instructions on how to join it online.
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_ok","Email ""{0}"" confirmed successfully."
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_previously","Email ""{0}"" confirmed previously."
 apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,Error with your email confirmation.
