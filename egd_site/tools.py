@@ -151,7 +151,7 @@ def contact(email, full_name, country_code, subject, message, press = 0):
 
 
 @frappe.whitelist(allow_guest=True)
-def registration(firstname, lastname, email, country_code, occupation, organization, title, donation: int, familiarity:int):
+def registration(firstname, lastname, email, country_code, occupation, organization, title, donation: int, familiarity):
 	doc = frappe.get_doc({
 		"doctype": "Web Registration",
 		"email": email,
@@ -162,7 +162,7 @@ def registration(firstname, lastname, email, country_code, occupation, organizat
 		"organization": organization,
 		"title": title,
 		"donation": int(donation),
-		"familiarity": int(familiarity),
+		"familiarity": familiarity,
 		"language": frappe.local.lang,
 	})
 	doc.insert(ignore_permissions=True)
