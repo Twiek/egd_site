@@ -1,11 +1,62 @@
 /* Schedule Area */
-#schedules{
-	background: #f3f4f3;
-}
 #schedule-tab{
 	position: relative;
 }
 .schedule{
+
+	.card-header-b {
+		cursor: pointer;
+		background-color: #ebeceb;
+		border-bottom: 1px dashed #adadad;
+
+		.opener-chevron-b {
+			transition: transform 0.35s ease-in-out;
+			position: absolute;
+			right: 20px;
+			bottom: 60px;
+			font-size: 25px;
+			color: #848484;
+		}
+		// &.collapsed { }
+		&:not(.collapsed) {
+			.opener-chevron-b {
+				transition: transform 0.35s ease-in-out;
+				transform: rotate(90deg);
+			}
+		}
+		.time,
+		.faces,
+		.text {
+			padding-top: 35px;
+			padding-bottom: 35px;
+		}
+		.time {
+			color: white;
+			background-color: $preset;
+			text-align: center;
+			font-size: 18px;
+			font-weight: 700;
+		}
+		.faces {
+			text-align: center;
+			img {
+				width: 75%;
+			}
+		}
+		.text {
+			padding-right: 60px;
+			p {
+				color: #848484;
+			}
+		}
+		/* mobile or only mobile */
+		@media (max-width: 767px) {
+			.opener-chevron-b {
+				right: 15px;
+			}
+		}
+	}
+
 	.nav-tabs{
 		display: block;
 		border-bottom: none;
@@ -76,38 +127,60 @@
 			border: none;
 		}
 	}
-	.show .card-body{
-		background: #f3f4f3;
-	}
 	.card{
+		background-color: transparent;
 		.schedule-slot-time{
+			text-align: center;
 			background: $preset;
-		    color: #fff;
-		    padding: 38px 28px;
-		    float: left;
-		    font-size: 18px;
-		    font-weight: 700;
-		    -webkit-box-flex: 0;
-		    -ms-flex: 0 0 18%;
-		    flex: 0 0 18%;
-		    max-width: 18%;
+			color: #fff;
+			padding: 38px 28px;
+			float: left;
+			font-size: 18px;
+			font-weight: 700;
+			-webkit-box-flex: 0;
+			-ms-flex: 0 0 18%;
+			flex: 0 0 18%;
+			max-width: 18%;
+			// a {
+			// 	color: white;
+			// 	&:hover {
+			// 		color: lighten($preset, 5%);
+			// 	}
+			// }
 		}
 	}
-	.card-header{
+	.card-header {
 		position: relative;
-	    padding: 35px 40px 35px 224px;
-	    border-bottom: 1px dashed #e5e5e5;
-	    cursor: pointer;
-	    border-left: none;
-	    width: 100%;
-		.images-box{
+		padding: 35px 70px 35px 224px;
+		border-bottom: 1px dashed #e5e5e5;
+		cursor: pointer;
+		border-left: none;
+		width: 100%;
+		.opener-chevron {
+			transition: transform 0.35s ease-in-out;
+			position: absolute;
+			right: 20px;
+			top: 50px;
+			font-size: 25px;
+		}
+		// &.collapsed { }
+		&:not(.collapsed) {
+			.opener-chevron {
+				transition: transform 0.35s ease-in-out;
+				transform: rotate(90deg);
+			}
+		}
+		.images-box {
+			&.extra {
+				margin-left: -30px;
+			}
 			width: 70px;
-		    height: 70px;
-		    float: left;
-		    margin-right: 20px;
-		    img{
-		    	border-radius: 50%;
-		    }
+			height: 70px;
+			float: left;
+			margin-right: 20px;
+			img {
+				border-radius: 50%;
+			}
 		}
 		.time{
 			color: #777777;

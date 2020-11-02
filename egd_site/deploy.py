@@ -12,10 +12,6 @@ path_site_app = "{0}/apps/{1}/".format(path_bench, site_app)
 # /api/method/egd_site.deploy.github_site
 @frappe.whitelist(allow_guest=True)
 def github_site():
-	return github_signature_deploy("site")
-
-
-def github_signature_deploy(type="site"):
 	import hashlib
 	import hmac
 
@@ -60,6 +56,6 @@ def app_site_pull():
 
 def app_site_compile_assets():
 	from subprocess import Popen
-	cmd = "bench build --app {0} && sudo supervisorctl restart frappe-bench-web:frappe-bench-frappe-web && bench --site all clear-website-cache".format(site_app)
+	cmd = "bench build --app {0} && sudo supervisorctl restart frappe-bench-web:frappe-bench-frappe-web && bench --site {1} clear-cache".format(site_app, frappe.local.site)
 	Popen(cmd, shell=True, cwd=path_bench)
 	return { "msg": "app site assets compiling initialized ok" }

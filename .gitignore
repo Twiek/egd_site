@@ -5,3 +5,4 @@
 tags
 egd_site/docs/current
 node_modules
+__pycache__

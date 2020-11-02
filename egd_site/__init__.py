@@ -30,8 +30,8 @@ def site_env() -> str:
 	return sites[frappe.local.site] if frappe.local.site in sites else "local"
 
 
-# <Override guess_language method
-from frappe.translate import guess_language as frappe_guess_language
+# <FRAPPE OVERRIDES
+
 def egd_guess_language(lang_list=None) -> str:
 	"""Set `frappe.local.lang` from url language segment: `/xx/...`"""
 	if is_app_for_actual_site():
@@ -44,17 +44,48 @@ def egd_guess_language(lang_list=None) -> str:
 				path = frappe.local.request.path
 				# Default language first in list
 				lang = languages[0]
-				if len(path) >= 3 and path[1:3] in languages:
+				# /xx || /xx/path 
+				if (len(path) == 3 or (len(path) > 3 and path[3:4] == "/")) and path[1:3] in languages:
 					lang = path[1:3]
 			frappe.lang = frappe.local.lang = lang
 			return lang
 	return frappe_guess_language(lang_list)
+
+from frappe.translate import guess_language as frappe_guess_language
 frappe.translate.guess_language = egd_guess_language
-# Override guess_language method>
 
 
-# <Override resolve_redirect method
-from frappe.website.redirect import resolve_redirect as frappe_resolve_redirect
+def egd_get_user_lang(user=None) -> str:
+	"""If user logged use gessed language on session beginning or resumption"""
+	if is_app_for_actual_site():
+		return frappe.local.lang
+	else:
+		return frappe_get_user_lang(user)
+
+from frappe.translate import get_user_lang as frappe_get_user_lang
+frappe.translate.get_user_lang = egd_get_user_lang
+
+
+def egd_load_lang(lang, apps=None):
+	"""Checks `en` too"""
+	if is_app_for_actual_site():
+		import os
+		from frappe.translate import get_translation_dict_from_file
+		out = frappe.cache().hget("lang_full_dict", lang, shared=True)
+		if not out:
+			out = {}
+			for app in (apps or frappe.get_all_apps(True)):
+				path = os.path.join(frappe.get_pymodule_path(app), "translations", lang + ".csv")
+				out.update(get_translation_dict_from_file(path, lang, app) or {})
+			frappe.cache().hset("lang_full_dict", lang, out, shared=True)
+		return out or {}
+	else:
+		return frappe_load_lang(lang, apps)
+
+from frappe.translate import load_lang as frappe_load_lang
+frappe.translate.load_lang = egd_load_lang
+
+
 def egd_resolve_redirect(path):
 	if is_app_for_actual_site():
 		requested = frappe.local.request.path
@@ -62,7 +93,7 @@ def egd_resolve_redirect(path):
 
 		# Show access password for any host not related to production or local (staging., prod., ...)
 		if site_env() == "preprod":
-			user_agent = frappe.local.request.headers.get('User-Agent')
+			user_agent = frappe.local.request.headers.get("User-Agent")
 			# Allow access to site checker Pulno/0.7 (http://www.pulno.com/bot.html)
 			if not user_agent or not "pulno.com/bot.html" in user_agent:
 				restricted_to = ["/access"]
@@ -73,11 +104,84 @@ def egd_resolve_redirect(path):
 				or frappe.local.request.cookies["preview_access"] != frappe.local.conf.RESTRICTED_COOKIE_VALUE):
 				frappe.local.flags.redirect_location = "/access"
 				raise frappe.Redirect
-		frappe_resolve_redirect(path)
-	else:
-		frappe_resolve_redirect(path)
+	frappe_resolve_redirect(path)
 
+from frappe.website.redirect import resolve_redirect as frappe_resolve_redirect
 frappe.website.redirect.resolve_redirect = egd_resolve_redirect
-# TODO: Below line must be commented when installing module. Please resolve.
+# First import full module `render` to avoid issue when file loading from `bench`
+import frappe.website.render
 frappe.website.render.resolve_redirect = egd_resolve_redirect
-# Override resolve_redirect method>
+
+
+def egd_add_metatags(context):
+	"""Override `Web Page` Doctype template if CMS page."""
+	if is_app_for_actual_site():
+		# Allow CMS webpages
+		if context.doctype == "Web Page":
+			context.template = "templates/web.html"
+
+		# Override metatags
+		if not "metatags" in context:
+			context.metatags = frappe._dict({})
+
+		context.metatags["lang"] = frappe.local.lang
+		context.metatags["url"] = context.url
+		context.metatags["og:url"] = context.url
+
+		# If blog image or no default use the "summary_large_image" value
+		if "image" in context.metatags and context.metatags["image"]:
+			context.metatags["twitter:card"] = "summary_large_image"
+		else:
+			context.metatags["image"] = frappe.utils.get_url() + "/assets/egd_site/images/logo-square.png"
+			context.metatags["twitter:card"] = "summary"
+
+		if not "title" in context.metatags:
+			if "meta_title" in context:
+				context.metatags["title"] = context["meta_title"]
+			elif context.title:
+				context.metatags["title"] = context.title
+			# Add title suffix except for home
+			if context["path"] != "":
+				context.metatags["title"] += (
+					frappe.get_hooks("HTML_TITLE_SUFFIX")[0]
+					if frappe.get_hooks("HTML_TITLE_SUFFIX")
+					else ""
+				)
+
+		if not "description" in context.metatags and "meta_description" in context:
+			context.metatags["description"] = context["meta_description"]
+	frappe_add_metatags(context)
+from frappe.website.context import add_metatags as frappe_add_metatags
+frappe.website.context.add_metatags = egd_add_metatags
+
+
+# def egd_add_preload_headers(response):
+# 	if is_app_for_actual_site():
+# 		from bs4 import BeautifulSoup
+# 		import re
+# 		try:
+# 			preload = []
+# 			soup = BeautifulSoup(response.data, "lxml")
+# 			for elem in soup.find_all('script', src=re.compile(".*")):
+# 				preload.append(("script", elem.get("src")))
+
+# 			for elem in soup.find_all('link', rel="stylesheet"):
+# 				preload.append(("style", elem.get("href")))
+
+# 			links = []
+# 			for type, link in preload:
+# 				links.append("<{}>; rel=preload; as={}".format(link, type))
+
+# 			if links:
+# 				response.headers["Link"] = ",".join(links)
+# 		except Exception:
+# 			import traceback
+# 			traceback.print_exc()
+# 	else:
+# 		frappe_add_preload_headers(response)
+
+# from frappe.website.render import add_preload_headers as frappe_add_preload_headers
+# frappe.website.render.add_preload_headers = egd_add_preload_headers
+
+
+# FRAPPE OVERRIDES>

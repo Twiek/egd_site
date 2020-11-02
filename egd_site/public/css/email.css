@@ -1,0 +1,185 @@
+/* csslint ignore:start */
+/* palette colors*/
+.frappe {
+  /* auto email report */
+}
+.frappe body {
+  line-height: 1.5;
+  color: #36414c;
+}
+.frappe p {
+  margin: 1em 0 !important;
+}
+.frappe hr {
+  border-top: 1px solid #d1d8dd;
+}
+.frappe .body-table {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.frappe .body-table td {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.frappe .email-header,
+.frappe .email-body,
+.frappe .email-footer {
+  width: 100% !important;
+  min-width: 100% !important;
+}
+.frappe .email-body {
+  font-size: 14px;
+}
+.frappe .email-footer {
+  border-top: none;
+  font-size: 12px;
+}
+.frappe .email-header {
+  border: 1px solid #d1d8dd;
+  border-radius: 4px 4px 0 0;
+}
+.frappe .email-header .brand-image {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+.frappe .email-header-title {
+  font-weight: bold;
+}
+.frappe .body-table.has-header .email-body {
+  border: 1px solid #d1d8dd;
+  border-radius: 0 0 4px 4px;
+  border-top: none;
+}
+.frappe .body-table.has-header .email-footer {
+  border-top: none;
+}
+.frappe .email-footer-container {
+  margin-top: 30px;
+}
+.frappe .email-footer-container > div:not(:last-child) {
+  margin-bottom: 5px;
+}
+.frappe .email-unsubscribe a {
+  color: #8d99a6;
+  text-decoration: underline;
+}
+.frappe .btn {
+  text-decoration: none;
+  padding: 7px 10px;
+  font-size: 12px;
+  border: 1px solid;
+  border-radius: 3px;
+}
+.frappe .btn.btn-default {
+  color: #fff;
+  background-color: #f0f4f7;
+  border-color: transparent;
+}
+.frappe .btn.btn-primary {
+  color: #fff;
+  background-color: #5e64ff;
+  border-color: #444bff;
+}
+.frappe .table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.frappe .table td,
+.frappe .table th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #d1d8dd;
+  text-align: left;
+}
+.frappe .table th {
+  font-weight: bold;
+}
+.frappe .table > thead > tr > th {
+  vertical-align: middle;
+  border-bottom: 2px solid #d1d8dd;
+}
+.frappe .table > thead:first-child > tr:first-child > th {
+  border-top: none;
+}
+.frappe .table.table-bordered {
+  border: 1px solid #d1d8dd;
+}
+.frappe .table.table-bordered td,
+.frappe .table.table-bordered th {
+  border: 1px solid #d1d8dd;
+}
+.frappe .more-info {
+  font-size: 80% !important;
+  color: #8d99a6 !important;
+  border-top: 1px solid #ebeff2;
+  padding-top: 10px;
+}
+.frappe .text-right {
+  text-align: right !important;
+}
+.frappe .text-center {
+  text-align: center !important;
+}
+.frappe .text-muted {
+  color: #8d99a6 !important;
+}
+.frappe .text-extra-muted {
+  color: #d1d8dd !important;
+}
+.frappe .text-regular {
+  font-size: 14px;
+}
+.frappe .text-medium {
+  font-size: 12px;
+}
+.frappe .text-small {
+  font-size: 10px;
+}
+.frappe .text-bold {
+  font-weight: bold;
+}
+.frappe .indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: #b8c2cc;
+  display: inline-block;
+  margin-right: 5px;
+}
+.frappe .indicator.indicator-blue {
+  background-color: #5e64ff;
+}
+.frappe .indicator.indicator-green {
+  background-color: #98d85b;
+}
+.frappe .indicator.indicator-orange {
+  background-color: #ffa00a;
+}
+.frappe .indicator.indicator-red {
+  background-color: #ff5858;
+}
+.frappe .indicator.indicator-yellow {
+  background-color: #feef72;
+}
+.frappe .screenshot {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #d1d8dd;
+  margin: 8px 0;
+  max-width: 100%;
+}
+.frappe .list-unstyled {
+  list-style-type: none;
+  padding: 0;
+}
+.frappe .report-title {
+  margin-bottom: 20px;
+}
+
+
+.logo {
+  margin: 40px 0 30px 0;
+}
+.logo img {
+  max-width: 300px;
+}
+/* csslint ignore:end */

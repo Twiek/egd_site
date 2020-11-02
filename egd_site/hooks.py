@@ -12,8 +12,8 @@ app_email = "info@ayudaefectiva.org"
 app_license = "MIT"
 
 
-AE_ASSETS_VERSION = "1.0.0.0"
-AE_HTML_TITLE_SUFFIX = " | Effectiva Giving Day"
+ASSETS_VERSION = "1.0.0.3"
+HTML_TITLE_SUFFIX = " | International Effective Giving Day"
 
 # Site domains & environment
 site_app_domains = {
@@ -23,12 +23,7 @@ site_app_domains = {
 	"egd.ayudaefectiva.org": "preprod",
 }
 
-# bench new-site --db-name db_egd --mariadb-root-password ******* --force egd.local
-# bench new-app egd_site
-# bench --site egd.local install-app egd_site
-# bench setup requirements
-
-translated_languages_for_website = ["en", "es"]
+translated_languages_for_website = ["en", "de", "es"]
 language_default = translated_languages_for_website[0]
 
 # Includes in <head>
@@ -70,13 +65,14 @@ get_website_user_home_page = "egd_site.tools.get_home_page"
 website_redirects = [
 	{ "source": "/index", "target": "/" },
 	{ "source": "/index.html", "target": "/" },
+	# Avoid framework contact and about pages being accesible 
+	{ "source": "/about", "target": "/" },
+	{ "source": "/contact", "target": "/" },
 	# Languages: Remove main language segment. For example,
 	# if "en" is first one in "translated_languages_for_website"
 	# then route "/en/example" will be redirected 301 to "/example"
 	{ "source": r"/{0}".format(language_default), "target": "/" },
 	{ "source": r"/{0}/(.*)".format(language_default), "target": r"/\1" },
-	{ "source": "/es/login", "target": "/login?_lang=es" },
-	{ "source": "/es/contact", "target": "/contact?_lang=es" },
 ]
 
 # Url rewrites
@@ -91,8 +87,8 @@ update_website_context = [
 ]
 
 website_context = {
-	"AE_ASSETS_VERSION": AE_ASSETS_VERSION,
-	"AE_HTML_TITLE_SUFFIX": AE_HTML_TITLE_SUFFIX,
+	"ASSETS_VERSION": ASSETS_VERSION,
+	"HTML_TITLE_SUFFIX": HTML_TITLE_SUFFIX,
 	"language_default": language_default,
 }
 

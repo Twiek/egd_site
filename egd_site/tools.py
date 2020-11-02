@@ -1,7 +1,7 @@
 
 from __future__ import unicode_literals
 import frappe
-from jinja2.runtime import Context
+from frappe import _
 
 
 def get_home_page(user:str=""):
@@ -9,8 +9,6 @@ def get_home_page(user:str=""):
 
 
 def context_extend(context):
-	# CONTEXT: check order in "def build_context(context):"
-
 	languages = frappe.get_hooks("translated_languages_for_website")
 
 	context["lang"] = frappe.local.lang
@@ -42,56 +40,176 @@ def context_extend(context):
 				"is_home": not path_without_language,
 			})
 
-
 		if not "context" in frappe.local.response:
 			frappe.local.response.context = {}
 
-		# # Below lines will override ALL context variables previously generated
-		# frappe.local.response.context["title"] = context.metatags["title"] + " | PEPE"
-		# 	# frappe.get_hooks("AE_HTML_TITLE_SUFFIX")[0]
-		# 	# if frappe.get_hooks("AE_HTML_TITLE_SUFFIX")
-		# 	# else ""
-
-
-		print("XXX COMPROBAR QUE LOS METATAGS SE APLICAN!!!!!")
-
-		# # context.base_template_path = app_base[0] if app_base else "templates/base.html"
-		# if not "metatags" in context:
-		# 	context.metatags = frappe._dict({})
-
-		# context.metatags["lang"] = frappe.local.lang
-		# context.metatags["url"] = context.url
-		# context.metatags["og:url"] = context.url
-
-		# # If blog image or no default use the "summary_large_image" value
-		# if "image" in context.metatags and context.metatags["image"]:
-		# 	context.metatags["twitter:card"] = "summary_large_image"
-		# else:
-		# 	context.metatags["image"] = frappe.utils.get_url() + "/assets/egd_site/images/effective-giving-day.svg"
-		# 	context.metatags["twitter:card"] = "summary"
-
-		# if not "title" in context.metatags:
-		# 	if "meta_title" in context:
-		# 		context.metatags["title"] = context["meta_title"]
-		# 	elif context.title:
-		# 		context.metatags["title"] = context.title
-		# 	# Add title suffix except for home
-		# 	if "path" in context and context["path"] != "":
-		# 		context.metatags["title"] += (
-		# 			frappe.get_hooks("AE_HTML_TITLE_SUFFIX")[0]
-		# 			if frappe.get_hooks("AE_HTML_TITLE_SUFFIX")
-		# 			else ""
-		# 		)
-
-		# if not "description" in context.metatags:
-		# 	if "meta_description" in context:
-		# 		context.metatags["description"] = context["meta_description"]
-
-
-	print(context)
 	return context
 
 
-# https://api.ip2country.info/ip?5.6.7.8
-# https://apility.io/search/5.6.7.8
-# https://ipgeolocation.io/pricing.html
+@frappe.whitelist(allow_guest=True)
+def subscribe(email):
+	from frappe.utils.verified_command import get_signed_params
+
+	url = "{0}?{1}".format(
+		frappe.utils.get_url("/api/method/egd_site.tools.confirm_subscription"),
+		get_signed_params({"email": email, "_lang": frappe.local.lang})
+	)
+	messages = (
+		_("newsletter:email:body:verify_your_email"),
+		url,
+		_("newsletter:email:body:click_here_to_verify")
+	)
+	content = "<p>{0}</p><p><a href=\"{1}\">{2}</a></p>".format(*messages)
+	frappe.sendmail(email, subject=_("newsletter:email:subject"),
+		content=content, delayed=False)
+
+
+@frappe.whitelist(allow_guest=True)
+def confirm_subscription(email):
+	from frappe.utils.verified_command import verify_request
+	if not verify_request():
+		return
+
+	# Default user message
+	message = frappe._dict({
+		"title": _("newsletter:dialog:title:newsletter_subscription"),
+		"html": _('newsletter:dialog:body:error_adding_email_"{0}".').format(email),
+		"primary_label": _("dialog:body:go_to_homepage"),
+	})
+
+	group_name = "EGD Subscriptions"
+	if not frappe.db.exists("Email Group", group_name):
+		frappe.get_doc({
+			"doctype": "Email Group",
+			"title": group_name,
+		}).insert(ignore_permissions=True)
+
+	from frappe.sessions import get_geo_from_ip
+	country_code = ""
+	if frappe.local.request_ip:
+		geo = get_geo_from_ip(frappe.local.request_ip)
+		if geo and "country" in geo:
+			country_code = geo["country"]["iso_code"]
+
+	from frappe.utils import validate_email_address
+	email = email.strip()
+	email_valid = validate_email_address(email, False)
+	if email_valid:
+		if not frappe.db.get_value("Email Group Member",
+			{"email_group": group_name, "email": email_valid}):
+			frappe.get_doc({
+				"doctype": "Email Group Member",
+				"email_group": group_name,
+				"email": email_valid,
+				"country": country_code,
+				"ip": frappe.local.request_ip,
+			}).insert(ignore_permissions=True)
+			frappe.get_doc("Email Group", group_name).update_total_subscribers()
+			frappe.db.commit()
+			message.html=_('newsletter:dialog:body:email_"{0}"_subscribed_ok').format(email)
+		else:
+			message.html =_('newsletter:dialog:body:email_"{0}"_subscribed_previously').format(email)
+
+	frappe.respond_as_web_page(**message)
+
+
+@frappe.whitelist(allow_guest=True)
+def contact(email, full_name, country_code, subject, message, press = 0):
+	subject = "{0}: {1}".format("EGD: PRESS CONTACT" if int(press) else "EGD: USER CONTACT", subject)
+	email_to = None
+	settings = frappe.get_single("Web Settings")
+	for row in settings.contacts_x_country:
+		if row.country_code == country_code:
+			email_to = row.email
+
+	if not email_to and settings.contact_default:
+		email_to = settings.contact_default
+
+	from . import site_env
+	if site_env() == "local":
+		email_to = settings.contact_default_local or None
+
+	email = "{0} <{1}>".format(full_name, email)
+
+	if email_to:
+		from frappe.utils import now
+		if frappe.db.sql("""SELECT COUNT(*) FROM `tabWeb Contact`
+			WHERE TIMEDIFF(%s, modified) < '01:00:00'""", now())[0][0] > 500:
+			return
+		frappe.sendmail(recipients=email_to, sender=email, content=message,
+			subject=subject, delayed=False)
+
+	doc = frappe.get_doc({
+		"doctype": "Web Contact",
+		"email": "-",
+		"full_name": "-",
+		"country_code": country_code,
+		"forwarded_to": email_to,
+		"subject": subject,
+		"message": message,
+		"language": frappe.local.lang,
+	})
+	doc.insert(ignore_permissions=True)
+
+	return "success"
+
+
+@frappe.whitelist(allow_guest=True)
+def registration(firstname, lastname, email, country_code, occupation, organization, title, donation: int, familiarity):
+	doc = frappe.get_doc({
+		"doctype": "Web Registration",
+		"email": email,
+		"firstname": firstname,
+		"lastname": lastname,
+		"country_code": country_code,
+		"occupation": occupation,
+		"organization": organization,
+		"title": title,
+		"donation": int(donation),
+		"familiarity": familiarity,
+		"language": frappe.local.lang,
+	})
+	doc.insert(ignore_permissions=True)
+
+	from frappe.utils.verified_command import get_signed_params
+	url = "{0}?{1}".format(
+		frappe.utils.get_url("/api/method/egd_site.tools.confirm_registration"),
+		get_signed_params({"email": email, "_lang": frappe.local.lang})
+	)
+	messages = (
+		_("registration:email:body:verify_your_email"),
+		url,
+		_("registration:email:body:click_here_to_verify")
+	)
+	content = "<p>{0}</p><p><a href=\"{1}\">{2}</a></p>".format(*messages)
+	frappe.sendmail(email, subject=_("registration:email:subject"),
+		content=content, delayed=False)
+
+	return "success"
+
+
+@frappe.whitelist(allow_guest=True)
+def confirm_registration(email):
+	from frappe.utils.verified_command import verify_request
+	if not verify_request():
+		return
+
+	# Default user message
+	message = frappe._dict({
+		"title": _("registration:dialog:title:registration_subscription"),
+		"html": _('registration:dialog:body:error_confirming_your_email.').format(email),
+		"primary_label": _("dialog:body:go_to_homepage"),
+	})
+
+	fields = ["name", "email_confirmed"]
+	registration = frappe.get_value("Web Registration", {"email": email}, fields, as_dict=True)
+	if registration.name and not registration.email_confirmed:
+		doc = frappe.get_doc("Web Registration", registration.name)
+		doc.email_confirmed = 1
+		doc.save(ignore_permissions=True)
+		frappe.db.commit()
+		message.html=_('registration:dialog:body:email_"{0}"_confirmed_ok').format(email)
+	elif registration.name and registration.email_confirmed:
+		message.html =_('registration:dialog:body:email_"{0}"_confirmed_previously').format(email)
+
+	frappe.respond_as_web_page(**message)

@@ -1,12 +1,9 @@
 {
 	"css/egd-site.web.min.css": [
-		"../../frappe/frappe/public/scss/website.scss",
-		"../../frappe/frappe/public/less/indicator.less",
 		"public/scss/web.scss"
 ],
 	"js/egd-site.web.min.js": [
 		"public/template/js/waypoints.min.js",
-		"public/template/js/jquery.nav.js",
 		"public/template/js/jquery.easing.min.js",
 		"public/template/js/wow.js",
 		"public/template/js/jquery.slicknav.js",

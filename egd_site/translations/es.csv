@@ -1,41 +1,86 @@
-
-apps/frappe/frappe/public/js/frappe/ui/messages.js,Message,Mensaje
-apps/frappe/frappe/www/login.py,Email Address,Email
-apps/frappe/frappe/www/login.html,Back to Login,Iniciar sesión
-apps/frappe/frappe/www/login.html,Forgot Password?,¿Has olvidado tu contraseña?
-apps/frappe/frappe/core/doctype/user/user.js,Reset Password,Cambiar mi contraseña
-apps/frappe/frappe/www/login.html,Forgot Password,Contraseña olvidada
-apps/frappe/frappe/core/doctype/user/user.py,Password reset instructions have been sent to your email,Te hemos enviado un email con un enlace que te permite cambiar tu contraseña
-apps/frappe/frappe/templates/includes/login/login.js,Instructions Emailed,Instrucciones enviadas a tu email
-apps/frappe/frappe/www/update-password.html,New Password Required.,Por favor introduce tu nueva contraseña.
-apps/frappe/frappe/core/doctype/user/user.py,Invalid Password:,Error:
-apps/frappe/frappe/utils/password_strength.py,This is a very common password.,Contraseña demasiado sencilla.
-apps/frappe/frappe/www/update-password.html,"Hint: Include symbols, numbers and capital letters in the password","Por favor utiliza números, mayúsculas y/o algún símbolo"
-apps/frappe/frappe/handler.py,You have been successfully logged out,¡Esperamos verte pronto!
-apps/frappe/frappe/templates/includes/login/login.js,Invalid Login. Try again.,Email o contraseña incorrectas
-apps/frappe/frappe/www/update-password.html,Please enter the password,Introduce tu nueva contraseña
-apps/frappe/frappe/www/update-password.html,Old Password Required.,Es necesario que indiques tu contraseña actual
-apps/frappe/frappe/www/update-password.html,Invalid Password,Contraseña actual inválida
-apps/frappe/frappe/www/update-password.html,Old Password,Contraseña actual
-apps/frappe/frappe/www/update-password.html,New Password,Nueva contraseña
-apps/frappe/frappe/www/update-password.html,Password Updated,Contraseña actualizada correctamente
-DocType: Chat Profile,Offline,Desconectado correctamente
-DocType: Workflow State,Home,Home
-DocType: Custom DocPerm,Submit,Enviar
-apps/frappe/frappe/templates/includes/login/login.js,Success,Has entrado correctamente
-apps/frappe/frappe/utils/response.py,Your system is being updated. Please refresh again after a few moments,"Discúlpanos: estamos actualizando la web. Si recargas esta página en unos segundos todo debería estar de nuevo en su sitio."
-apps/frappe/frappe/templates/includes/login/login.js,Valid Login id required.,Email necesario
-
-apps/egd_site/egd_site/templates/includes/footer.html,Enter your email here,Introduce tu email
-apps/egd_site/egd_site/templates/includes/footer.html,Subscribe,Subscribirse
-apps/egd_site/egd_site/templates/includes/footer.html,Stay up to date,Mantente informado
-apps/egd_site/egd_site/templates/includes/footer.html,Legal,Condiciones
-apps/egd_site/egd_site/templates/includes/footer.html,Privacy,Privacidad
-
-apps/egd_site/egd_site/templates/includes/header.html,Agenda,Agenda
-apps/egd_site/egd_site/templates/includes/header.html,Speakers,Ponentes
-apps/egd_site/egd_site/templates/includes/header.html,Press,Prensa
-apps/egd_site/egd_site/templates/includes/header.html,Register,Registro
-apps/egd_site/egd_site/templates/includes/header.html,Contact,Contacto
-apps/egd_site/egd_site/templates/includes/header.html,EFFECTIVE GIVING DAY,DÍA DE LA DONACIÓN EFECTIVA
-apps/egd_site/egd_site/templates/includes/header.html,REGISTER NOW,REGÍSTRATE AHORA
+apps/egd_site/egd_site/templates/includes/contact.html,contact:form:select_your_country,Elige tu país
+apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submit,Enviar mensaje
+apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submitted_successfully_message,Mensaje enviado correctamente. Contactaremos contigo lo antes posible.
+apps/egd_site/egd_site/tools.py,dialog:body:go_to_homepage,Ir a la homepage
+apps/egd_site/egd_site/templates/includes/contact.html,form:email,Email
+apps/egd_site/egd_site/templates/includes/register.html,form:first_name,Nombre
+apps/egd_site/egd_site/templates/includes/contact.html,form:full_name,Nombre y apellidos
+apps/egd_site/egd_site/templates/includes/contact.html,form:i_have_read_and_agree,He leido y acepto la política de privacidad:
+apps/egd_site/egd_site/templates/includes/register.html,form:last_name,Apellidos
+apps/egd_site/egd_site/templates/includes/contact.html,form:message,Mensaje
+apps/egd_site/egd_site/templates/includes/register.html,form:select_option,Elige una opción
+apps/egd_site/egd_site/templates/includes/contact.html,form:subject,Asunto
+apps/egd_site/egd_site/public/js/web.js,form:submit:error,Error en el envío...
+apps/egd_site/egd_site/public/js/web.js,form:submit:sending,Enviando...
+apps/egd_site/egd_site/templates/includes/hero.html,hero:intro,Give with your head as well as your heart: Discover how the ideas of effective giving can help you maximize your impact when donating to the causes you care about
+apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_date,"November 30, 2020"
+apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_place,Online event
+apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_time,6:45 p.m. CET
+apps/egd_site/egd_site/templates/includes/hero.html,hero:register_button,REGÍSTRATE AHORA
+apps/egd_site/egd_site/templates/includes/hero.html,hero:title,DÍA INTERNACIONAL DE LA DONACIÓN EFECTIVA
+apps/egd_site/egd_site/templates/includes/header.html,link:agenda,Agenda
+apps/egd_site/egd_site/templates/includes/header.html,link:contact,Contacto
+apps/egd_site/egd_site/templates/includes/footer.html,link:cookies,Cookies
+apps/egd_site/egd_site/templates/includes/header.html,link:get_involved,link:get_involved
+apps/egd_site/egd_site/templates/includes/header.html,link:home,Home
+apps/egd_site/egd_site/templates/includes/footer.html,link:legal,Legal
+apps/egd_site/egd_site/templates/includes/header.html,link:press,Prensa
+apps/egd_site/egd_site/templates/includes/footer.html,link:privacy,Privacidad
+apps/egd_site/egd_site/templates/includes/section-about.html,link:read_more,Leer más
+apps/egd_site/egd_site/templates/includes/header.html,link:register,Registro
+apps/egd_site/egd_site/templates/includes/header.html,link:speakers,Ponentes
+apps/egd_site/egd_site/templates/includes/contact.html,link:view,link:view
+apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_ok","Tu email ""{0}"" se ha suscrito correctamente"
+apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_previously","Tu email ""{0}"" ya estaba suscrito"
+apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:error_adding_email_""{0}"".","Se ha producido un error suscribiendo el email ""{0}""."
+apps/egd_site/egd_site/tools.py,newsletter:dialog:title:newsletter_subscription,Suscripción al newsletter
+apps/egd_site/egd_site/tools.py,newsletter:email:body:click_here_to_verify,Haz click aquí para confirmar tu email
+apps/egd_site/egd_site/tools.py,newsletter:email:body:thank_you,Muchas gracias por tu interés
+apps/egd_site/egd_site/tools.py,newsletter:email:body:verify_your_email,Es necesario que confirmes tu email para finalizar la suscripción
+apps/egd_site/egd_site/tools.py,newsletter:email:subject,Confirma tu email (acción necesaria)
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:email,Tu email
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submit,Suscribirse
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,Pronto recibirás un email para que confirmes tu suscripción. Muchas gracias por suscribirte.
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Mantente informado
+apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,ES How much (if anything) do you currently give per year to ‘effective charities’ (as defined by the effective giving movement)? (USD)
+apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:a_bit_familiar,ES A bit familiar
+apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:not_familiar,ES Not familiar
+apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:question,ES How familiar are you with the effective giving movement?
+apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:quite_familiar,ES Quite familiar
+apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:very_familiar,ES Very familiar
+apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:other,Otra
+apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:professional,Profesional
+apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:student,Estudiante
+apps/egd_site/egd_site/templates/includes/register.html,register:form:organization,Organización
+apps/egd_site/egd_site/templates/includes/register.html,register:form:organization_title,Puesto que desempeñas
+apps/egd_site/egd_site/templates/includes/register.html,register:form:select_country,Elige tu país
+apps/egd_site/egd_site/templates/includes/register.html,register:form:select_occupation,Selecciona tu ocupación
+apps/egd_site/egd_site/templates/includes/register.html,register:form:submit,Registrarse
+apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message,Pronto recibirás un mensaje para que confirmes tu registro. Muchas gracias por interesarte en el evento.
+apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_ok","registration:dialog:body:email_""{0}""_confirmed_ok"
+apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_previously","registration:dialog:body:email_""{0}""_confirmed_previously"
+apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,registration:dialog:body:error_confirming_your_email.
+apps/egd_site/egd_site/tools.py,registration:dialog:title:registration_subscription,registration:dialog:title:registration_subscription
+apps/egd_site/egd_site/tools.py,registration:email:body:click_here_to_verify,registration:email:body:click_here_to_verify
+apps/egd_site/egd_site/tools.py,registration:email:body:thank_you,registration:email:body:thank_you
+apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,registration:email:body:verify_your_email
+apps/egd_site/egd_site/tools.py,registration:email:subject,registration:email:subject
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:intro,ES section:about:intro
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:1,ES section:about:list:1
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:2,ES section:about:list:2
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:3,ES section:about:list:3
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:4,ES section:about:list:4
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:title,ES section:about:title
+apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:intro,ES section:agenda:intro
+apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:title,ES section:agenda:title
+apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:organized_by,Organizado por
+apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:supported_by,Con el apoyo de
+apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:intro,ES section:speakers:intro
+apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:see_all_speakers,Ver todos los ponentes
+apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:title,ES section:speakers:title
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:1:title,section:why:1:title
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:2:title,section:why:2:title
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:3:title,section:why:3:title
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:4:title,section:why:4:title
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:intro,ES section:why:intro
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:title,ES section:why:title

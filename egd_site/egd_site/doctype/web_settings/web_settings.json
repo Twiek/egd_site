@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "creation": "2020-10-21 18:19:28.267260",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contact_form_section",
+  "contacts_x_country",
+  "contact_default",
+  "contact_default_local"
+ ],
+ "fields": [
+  {
+   "fieldname": "contacts_x_country",
+   "fieldtype": "Table",
+   "label": "Contact emails by ISO country",
+   "options": "Web Setting ContactXCountry"
+  },
+  {
+   "fieldname": "contact_form_section",
+   "fieldtype": "Section Break",
+   "label": "Contact form"
+  },
+  {
+   "description": "Default email if there is no country specific email defined",
+   "fieldname": "contact_default",
+   "fieldtype": "Data",
+   "label": "Contact email default"
+  },
+  {
+   "fieldname": "contact_default_local",
+   "fieldtype": "Data",
+   "label": "Contact email default (LOCAL)"
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2020-10-21 19:03:25.533048",
+ "modified_by": "Administrator",
+ "module": "EGD Site",
+ "name": "Web Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

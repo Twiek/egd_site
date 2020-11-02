@@ -1,0 +1,120 @@
+{
+ "actions": [],
+ "creation": "2020-10-20 14:52:45.956729",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "firstname",
+  "lastname",
+  "email",
+  "email_confirmed",
+  "language",
+  "country_code",
+  "occupation",
+  "organization",
+  "title",
+  "donations",
+  "familiarity"
+ ],
+ "fields": [
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Email"
+  },
+  {
+   "fieldname": "language",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Lang"
+  },
+  {
+   "fieldname": "country_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Country"
+  },
+  {
+   "fieldname": "firstname",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "lastname",
+   "fieldtype": "Data",
+   "label": "Last name"
+  },
+  {
+   "fieldname": "occupation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Occupation"
+  },
+  {
+   "fieldname": "organization",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Organization"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title"
+  },
+  {
+   "description": "How much (if anything) do you currently give per year to \u2018effective charities\u2019 (as defined by the effective giving movement)? (USD)",
+   "fieldname": "donations",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Donations"
+  },
+  {
+   "description": "How familiar are you with the effective giving movement?<br>\n0: Not familiar at all<br>\n1: Somewhat familiar<br>\n2: Quite familiar<br>\n3: Very familiar",
+   "fieldname": "familiarity",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Familiarity"
+  },
+  {
+   "default": "0",
+   "fieldname": "email_confirmed",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Email confirmed"
+  }
+ ],
+ "links": [],
+ "modified": "2020-11-02 18:05:22.587772",
+ "modified_by": "Administrator",
+ "module": "EGD Site",
+ "name": "Web Registration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "email",
+ "track_changes": 1
+}

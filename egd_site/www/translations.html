@@ -1,0 +1,16 @@
+
+<style>
+pre {
+	font-size: 12px;
+	line-height: 14px;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+</style>
+
+<h1>Translations</h1>
+{% for lang, data in languages_data.translated.items() %}
+<h2>{{ lang }}</h2>
+<pre>{{ data }}</pre>
+<pre>{{ languages_data.segments_as_txt[lang] }}</pre>
+{% endfor %}

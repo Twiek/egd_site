@@ -1,5 +1,21 @@
 
 
+$color-primary: #1b5266;
+
+
+// <BOOTSTRAP 4
+$primary: $color-primary;
+$enable-validation-icons: false;
+$form-feedback-valid-color: $color-primary;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.form-check-input {
+ 	margin-top: .4rem;
+}
+// BOOTSTRAP 4>
+
+
 // LINEICONS
 $lni-font-path: "/assets/egd_site/fonts/line-icons";
 @import "line-icons/main";
@@ -17,9 +33,12 @@ $lni-font-path: "/assets/egd_site/fonts/line-icons";
 }
 
 
+// FONTAWESOME
+@import "/assets/frappe/css/font-awesome.css";
+
+
 // <BASE TEMPLATE STYLES
-// Current Preset color
-$preset: #1b5266;
+$preset: $color-primary;
 
 // @import "../template/css/colors/purple";
 @import "../template/css/slicknav.min";
@@ -40,23 +59,60 @@ $preset: #1b5266;
 // Service Area
 @import "../template/scss/service";
 
-// Portfolio Area
-@import "../template/scss/portfolio";
-
 // Team Area
 @import "../template/scss/team";
 
-// Blog Area
-// @import "../template/scss/blog";
-
 // Contact Area
-// @import "../template/scss/contact";
+.container-form {
+	.form-wrapper {
+		background-color: white;
+		padding: 56px;
+		box-shadow: 0 8px 24px #E2E8ED;
+		.form-group {
+			margin-bottom: 30px;
+		}
+		.form-control {
+			display: block;
+			width: 100%;
+			line-height: 26px;
+			font-size: 14px;
+			box-shadow: none;
+			color: #848484;
+			background-color: #f8fafa;
+			padding: 7px 19px;
+			border-radius: 20px;
+			background-image: none;
+			background-clip: padding-box;
+		}
+		.form-control:focus,
+		.custom-select:focus {
+			color: #212121;
+			background-color: #fff;
+			border-color: $preset;
+			box-shadow: none;
+			outline: 0;
+		}
+		.custom-select {
+			width: 100%;
+			font-size: 14px;
+			box-shadow: none;
+			color: #848484;
+			background-color: #f8fafa;
+			padding: 7px 19px;
+			border-radius: 20px;
+		}
+		.form-check-label {
+			font-size: 14px;
+			color: #848484;
+		}
+	}
+}
 
-// Contact Area
+// Footer
 @import "../template/scss/footer";
 
-// Shortcode
-@import "../template/scss/shortcode";
+// Carousel
+@import "../template/scss/hero-area";
 
 // Responsive
 @import "../template/scss/responsive";
@@ -64,25 +120,148 @@ $preset: #1b5266;
 // BASE TEMPLATE STYLES>
 
 
-.hide {
+// GLOBAL
+.hide, .hidden {
 	display: none;
 }
+small, .small {
+	line-height: 120%;
+}
 
-// ACCORDION CHEVRON
-.card-header {
-	.opener-chevron {
-		transition: transform 0.35s ease-in-out;
-		position: absolute;
-		right: 30px;
-		top: 50px;
-		font-size: 25px;
-	}
-	// &.collapsed { }
-	&:not(.collapsed) {
-		.opener-chevron {
-			transition: transform 0.35s ease-in-out;
-			transform: rotate(90deg);
+
+// NAVBAR
+.navbar {
+	.nav-item {
+		&.selected {
+			.language {
+				font-weight: bold !important;
+			}
+		}
+		.nav-link {
+			&.active {
+				color: $primary !important;
+				font-weight: bold;
+			}
+		}
+		.language {
+			padding: 0 5px !important;
 		}
 	}
 }
 
+
+// FRAPPE MESSAGES
+.page-card {
+	.page-card-body {
+		> div {
+			text-align: right;
+		}
+	}
+}
+
+
+// FORM FOOTER SUBSCRIBE
+.form-subscribe {
+	.form-check-label {
+		color: #817a7a;
+	}
+	button {
+		height: 55px;
+		@include media-breakpoint-up(md) {
+			margin-left: -55px !important;
+		}
+	}
+	a {
+		color: lighten($color-primary, 10%);
+	}
+	a:hover {
+		color: lighten($color-primary, 40%);
+	}
+}
+
+
+// COOKIES MESSAGE
+#cookies-message {
+	position: fixed;
+	bottom: -16px;
+	right: 0;
+	left: 0;
+	z-index: 1020;
+	padding: 20px 30%;
+	box-shadow: 0 0 1rem rgba(black, 0.12);
+	.close {
+		right: -25px;
+		position: relative;
+	}
+}
+
+
+// HEADERS, PARAGRAPHS AND LISTS FOR FULL TEXT PAGES
+.legal-content {
+	.page-content {
+		h1, h2, h3, h4, h5, h6, .h1,
+		.h2, .h3, .h4, .h5, .h6 {
+			margin-bottom: 1.5rem;
+			margin-top: 2.5rem;
+		}
+		p {
+			margin: 0px 0 15px 0;
+		}
+		ul, ol {
+			margin: 17px;
+			li {
+				list-style: disc;
+				padding: 0 0 10px 0;
+			}
+		}
+	}
+}
+
+
+// HOME PAGE
+#page-home {
+	#about,
+	#schedules {
+		background-color: #f3f4f3;
+	}
+	#team {
+		background: url(/assets/egd_site/template/img/background/countdown.jpg) no-repeat center;
+		background-attachment: scroll;
+		background-size: auto auto;
+		background-size: cover;
+		background-attachment: fixed;
+		position: relative;
+		.section-title-header,
+		.section-title {
+			color: white;
+		}
+	}
+}
+
+
+// CONTENT PAGE LINKS
+.page-content a {
+	text-decoration: underline;
+}
+
+
+// FORMS LEGAL TEXT
+.legal-read-more-container {
+	font-size: 12px !important;
+	line-height: 17px !important;
+	color: #848484;
+	.legal-read-more-text {
+		position: relative;
+		overflow: auto;
+		max-height: 50px;
+		transition: max-height 0.5s ease-out;
+		p {
+			margin-bottom: 5px;
+		}
+		&.opened {
+			max-height: 400px;
+			transition: max-height 0.5s ease-in;
+			overflow: auto;
+		}
+	}
+}

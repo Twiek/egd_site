@@ -1,0 +1,22 @@
+
+<section id="team" class="section-padding text-center">
+	{% if name == "home" %}
+	<div class="overlay"></div>
+	{% endif %}
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title-header text-center">
+					<h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ _('section:speakers:title') }}</h2>
+					{#<!-- <p class="wow fadeInDown" data-wow-delay="0.2s">{{ _('section:speakers:intro') }}</p> -->#}
+				</div>
+			</div>
+		</div>
+
+		{% include "templates/includes/speakers.html" %}
+
+		{% if name == "home" %}
+		<a href="{{ url_lang }}/speakers" class="btn btn-common mt-30 wow fadeInUp" data-wow-delay="1.9s">{{ _('section:speakers:see_all_speakers') }}</a>
+		{% endif %}
+	</div>
+</section>
