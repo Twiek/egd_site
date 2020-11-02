@@ -247,6 +247,9 @@ small, .small {
 
 // FORMS LEGAL TEXT
 .legal-read-more-container {
+	font-size: 12px !important;
+	line-height: 17px !important;
+	color: #848484;
 	.legal-read-more-text {
 		position: relative;
 		overflow: auto;
@@ -261,9 +264,4 @@ small, .small {
 			overflow: auto;
 		}
 	}
-}
-.legal-text {
-	font-size: 12px !important;
-	line-height: 17px !important;
-	color: #848484;
 }

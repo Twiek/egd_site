@@ -6,25 +6,25 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="form-group">
-						<input type="text" class="form-control" name="fullname" placeholder="{{ _('form:full_name') }}" required>
+						<input type="text" class="form-control" name="fullname" placeholder="{{ _('form:full_name') }} *" required>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
-						<input type="email" class="form-control" name="email" placeholder="{{ _('form:email') }}" pattern="^.+@.+\..+$" required>
+						<input type="email" class="form-control" name="email" placeholder="{{ _('form:email') }} *" pattern="^.+@.+\..+$" required>
 					</div> 
 				</div>
 				<div class="col-md-12">
 					<div class="form-group">
 						<select class="custom-select select-countries" name="country" required>
-							<option selected disabled value="">{{ _('contact:form:select_your_country') }}</option>
+							<option selected disabled value="">{{ _('contact:form:select_your_country') }} *</option>
 						</select>
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" name="subject" placeholder="{{ _('form:subject') }}" required>
+						<input type="text" class="form-control" name="subject" placeholder="{{ _('form:subject') }} *" required>
 					</div>
 					<div class="form-group">
-						<textarea class="form-control" rows="4" name="message" placeholder="{{ _('form:message') }}" required></textarea>
+						<textarea class="form-control" rows="4" name="message" placeholder="{{ _('form:message') }} *" required></textarea>
 					</div>
 					<div class="form-group">
 						<!-- TODO: Do contact/press legal text multilanguage -->
@@ -104,7 +104,7 @@
 						<div class="form-check">
 							<input class="form-check-input" type="checkbox" name="accepted" id="form-conditions" required>
 							<label class="form-check-label" for="form-conditions">
-								I have read and accept the treatment of my personal data
+								I have read and accept the treatment of my personal data *
 								{#<!-- <a href="{{ url_lang }}/privacy" target="_blank">{{ _('link:view') }}</a> -->#}
 							</label>
 						</div>

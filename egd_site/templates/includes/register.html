@@ -5,30 +5,30 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="form-group">
-						<input type="text" class="form-control" name="firstname" placeholder="{{ _('form:first_name') }}" required>
+						<input type="text" class="form-control" name="firstname" placeholder="{{ _('form:first_name') }} *" required>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="form-group">
-						<input type="text" class="form-control" name="lastname" placeholder="{{ _('form:last_name') }}" required>
+						<input type="text" class="form-control" name="lastname" placeholder="{{ _('form:last_name') }} *" required>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="form-group">
-						<input type="email" class="form-control" name="email" placeholder="{{ _('form:email') }}" pattern="^.+@.+\..+$" required>
+						<input type="email" class="form-control" name="email" placeholder="{{ _('form:email') }} *" pattern="^.+@.+\..+$" required>
 					</div> 
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
 						<select class="custom-select select-countries" name="country" required>
-							<option selected disabled value="">{{ _('register:form:select_country') }}</option>
+							<option selected disabled value="">{{ _('register:form:select_country') }} *</option>
 						</select>
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
 						<select class="custom-select" name="occupation" required>
-							<option selected disabled value="">{{ _('register:form:select_occupation') }}</option>
+							<option selected disabled value="">{{ _('register:form:select_occupation') }} *</option>
 							<option value="student">{{ _('register:form:occupation:student') }}</option>
 							<option value="professional">{{ _('register:form:occupation:professional') }}</option>
 							<option value="other">{{ _('register:form:occupation:other') }}</option>
@@ -37,12 +37,12 @@
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
-						<input type="text" class="form-control" name="organization" placeholder="{{ _('register:form:organization') }}" required>
+						<input type="text" class="form-control" name="organization" placeholder="{{ _('register:form:organization') }}">
 					</div>
 				</div>
 				<div class="col-md-6">
 					<div class="form-group">
-						<input type="text" class="form-control" name="title" placeholder="{{ _('register:form:organization_title') }}" required>
+						<input type="text" class="form-control" name="title" placeholder="{{ _('register:form:organization_title') }}">
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -75,7 +75,7 @@
 						<div class="form-check">
 							<input class="form-check-input" type="checkbox" name="accepted" id="form-conditions" required>
 							<label class="form-check-label" for="form-conditions">
-								I have read and accept the processing of my personal data for the purposes described
+								I have read and accept the processing of my personal data for the purposes described *
 								{#<!-- {{ _('form:i_have_read_and_agree') }}
 								<a href="{{ url_lang }}/privacy" target="_blank">{{ _('link:view') }}</a> -->#}
 							</label>

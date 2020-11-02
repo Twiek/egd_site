@@ -6,7 +6,7 @@
 				<div class="form-subscribe subscribe-inner wow fadeInDown" data-wow-delay="0.3s">
 					<h2 class="subscribe-title">{{ _('newsletter:stay_up_to_date') }}</h2>
 					<form class="bs-validation row justify-content-center" novalidate>
-						<input class="form-control mb-2 col-xs-12 col-md-8" name="email" placeholder="{{ _('newsletter:form:email') }}" pattern="^.+@.+\..+$" required>
+						<input class="form-control mb-2 col-xs-12 col-md-8" name="email" placeholder="{{ _('newsletter:form:email') }} *" pattern="^.+@.+\..+$" required>
 						<button type="submit" class="btn btn-common col-xs-12 col-md-4 mx-4" data-style="zoom-in" data-spinner-size="30" name="submit" id="submit">
 							<span class="text-nowrap">{{ _('newsletter:form:submit') }}</span>
 						</button>
@@ -23,7 +23,7 @@
 						<div>
 							<input class="form-check-input" name="accepted" type="checkbox" id="form-subscribe-conditions" required>
 							<label class="form-check-label" for="form-subscribe-conditions">
-								I have read and accept the processing of my personal data for the described purpose
+								I have read and accept the processing of my personal data for the described purpose *
 								{#<!-- {{ _('form:i_have_read_and_agree') }}
 								(<a href="{{ url_lang }}/privacy-newsletter" target="_blank">{{ _('link:view') }}</a>) -->#}
 							</label>

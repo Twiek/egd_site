@@ -79,9 +79,9 @@
    "label": "Donations"
   },
   {
-   "description": "How familiar are you with the effective giving movement?<br>\n0: Not familiar at all<br>\n1: A bit familiar<br>\n2: Quite familiar<br>\n3: Very familiar",
+   "description": "How familiar are you with the effective giving movement?<br>\n0: Not familiar at all<br>\n1: Somewhat familiar<br>\n2: Quite familiar<br>\n3: Very familiar",
    "fieldname": "familiarity",
-   "fieldtype": "Int",
+   "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Familiarity"
   },
@@ -94,7 +94,7 @@
   }
  ],
  "links": [],
- "modified": "2020-10-21 19:14:31.339443",
+ "modified": "2020-11-02 18:05:22.587772",
  "modified_by": "Administrator",
  "module": "EGD Site",
  "name": "Web Registration",
