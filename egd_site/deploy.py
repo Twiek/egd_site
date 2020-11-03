@@ -39,7 +39,9 @@ def github_site():
 					elif payload_obj["ref"] == "refs/heads/master" and site_env() == "prod":
 						return deploy_site()
 					else:
-						return { "error": "Push not for \"develop\" branch so nothing to do." }
+						return { "error": "Nothing to do: {0} & {1}".format(
+							site_env(), payload_obj["ref"]
+						) }
 				elif frappe.local.conf.maintenance_mode:
 					return { "error": "bench in maintenance mode. Try again later..." }
 			else:
