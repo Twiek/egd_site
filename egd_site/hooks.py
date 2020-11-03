@@ -12,7 +12,7 @@ app_email = "info@ayudaefectiva.org"
 app_license = "MIT"
 
 
-ASSETS_VERSION = "1.0.0.3"
+ASSETS_VERSION = "1.0.0.4"
 HTML_TITLE_SUFFIX = " | International Effective Giving Day"
 
 # Site domains & environment

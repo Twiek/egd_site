@@ -115,7 +115,8 @@ def confirm_subscription(email):
 
 @frappe.whitelist(allow_guest=True)
 def contact(email, full_name, country_code, subject, message, press = 0):
-	subject = "{0}: {1}".format("EGD: PRESS CONTACT" if int(press) else "EGD: USER CONTACT", subject)
+	subject = "{0} ({1}): {2}".format("EGD: PRESS CONTACT" if int(press) else "EGD: USER CONTACT",
+	country_code, subject)
 	email_to = None
 	settings = frappe.get_single("Web Settings")
 	for row in settings.contacts_x_country:
