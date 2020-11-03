@@ -63,6 +63,9 @@ def app_site_pull():
 
 def app_site_compile_assets():
 	from subprocess import Popen
-	cmd = "bench build --app {0} && sudo supervisorctl restart frappe-bench-web:frappe-bench-frappe-web && bench --site {1} clear-cache".format(site_app, frappe.local.site)
+	cmd = "bench build --app {0} && \
+sudo supervisorctl restart frappe-bench-web:frappe-bench-frappe-web && \
+bench --site {1} clear-cache && \
+bench --site {1} clear-website-cache".format(site_app, frappe.local.site)
 	Popen(cmd, shell=True, cwd=path_bench)
 	return { "msg": "{0} app site assets compiling initialized ok".format(site_env()) }
