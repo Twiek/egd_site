@@ -1,6 +1,8 @@
 from __future__ import unicode_literals
 import frappe, json, subprocess
 from frappe.utils import get_bench_path
+from . import site_env
+
 
 site_app = "egd_site"
 path_bench = get_bench_path()
@@ -31,12 +33,15 @@ def github_site():
 			if action == "ping": 
 				return "Ping received!"
 			elif action == "push":
-				if "ref" in payload_obj and payload_obj["ref"] != "refs/heads/develop":
-					return { "error": "Push not for \"develop\" branch so nothing to do." }
+				if "ref" in payload_obj:
+					if payload_obj["ref"] == "refs/heads/develop" and site_env() == "preprod":
+						return deploy_site()
+					elif payload_obj["ref"] == "refs/heads/master" and site_env() == "prod":
+						return deploy_site()
+					else:
+						return { "error": "Push not for \"develop\" branch so nothing to do." }
 				elif frappe.local.conf.maintenance_mode:
 					return { "error": "bench in maintenance mode. Try again later..." }
-				else:
-					return deploy_site()
 			else:
 				return 'no action for "{0}"'.format(action)
 		else:
@@ -58,4 +63,4 @@ def app_site_compile_assets():
 	from subprocess import Popen
 	cmd = "bench build --app {0} && sudo supervisorctl restart frappe-bench-web:frappe-bench-frappe-web && bench --site {1} clear-cache".format(site_app, frappe.local.site)
 	Popen(cmd, shell=True, cwd=path_bench)
-	return { "msg": "app site assets compiling initialized ok" }
+	return { "msg": "{0} app site assets compiling initialized ok".format(site_env()) }

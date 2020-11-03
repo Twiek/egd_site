@@ -19,7 +19,6 @@ HTML_TITLE_SUFFIX = " | International Effective Giving Day"
 site_app_domains = {
 	"egd.local": "local",
 	"effectivegivingday.org": "prod",
-	"staging.effectivegivingday.org": "preprod",
 	"egd.ayudaefectiva.org": "preprod",
 }
 
