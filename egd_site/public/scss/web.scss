@@ -71,7 +71,8 @@ $preset: $color-primary;
 		.form-group {
 			margin-bottom: 30px;
 		}
-		.form-control {
+		.form-control,
+		.custom-control {
 			display: block;
 			width: 100%;
 			line-height: 26px;
@@ -176,6 +177,15 @@ small, .small {
 	}
 	a:hover {
 		color: lighten($color-primary, 40%);
+	}
+	.custom-control-label {
+		color: #888;
+		padding-top: 2px;
+		line-height: 18px;
+	}
+	.was-validated .custom-control-input:valid ~ .custom-control-label,
+	.custom-control-input.is-valid ~ .custom-control-label {
+		color: #549ab3;
 	}
 }
 
