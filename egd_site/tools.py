@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 import frappe
 from frappe import _
+from . import site_env
 
 
 def get_home_page(user:str=""):
@@ -9,6 +10,8 @@ def get_home_page(user:str=""):
 
 
 def context_extend(context):
+	context["site_env"] = site_env()
+
 	languages = frappe.get_hooks("translated_languages_for_website")
 
 	context["lang"] = frappe.local.lang
@@ -126,7 +129,6 @@ def contact(email, full_name, country_code, subject, message, press = 0):
 	if not email_to and settings.contact_default:
 		email_to = settings.contact_default
 
-	from . import site_env
 	if site_env() == "local":
 		email_to = settings.contact_default_local or None
 
