@@ -46,6 +46,7 @@
 		frappe.ready = function(fn) { frappe.ready_events.push(fn) }
 		window.dev_server = {{ dev_server }}
 		window.context = {
+			site_env: '{{ site_env }}',
 			lang: '{{ lang }}',
 			translations: {
 				form_submit_sending: "{{ _('form:submit:sending') }}",
@@ -54,7 +55,7 @@
 		}
 		// window.socketio_port = {{ frappe.socketio_port }}
 	</script>
-	{% if dev_server != 1 %}
+	{% if site_env == 'prod' %}
 	{# <!-- https://daan.dev/wordpress/analytics-gdpr-anonymize-ip-cookie-notice/ --> #}
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-73DBS3QEYS"></script>
 	<script>
