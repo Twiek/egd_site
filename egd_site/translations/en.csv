@@ -1,3 +1,32 @@
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:1:hosts,"<strong>Hosts</strong>: Sebastian Schwiecker, <a href='https://effektiv-spenden.org'>effektiv-spenden.org</a> & Siobhan Brenton, <a href='https://rcforward.org/'>RC Forward</a>"
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:1:intro,<strong>Sebastian Schwiecker</strong> & <strong>Siobhan Brenton</strong>
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:1:title,An introduction to effective giving
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:2:description,"Climate change is a perplexing and huge problem that leaves many of us hopeless about our own ability to make a meaningful difference. In this talk, Johannes, Climate Lead at Founders Pledge, will explain the principles enabling high-impact climate giving for individuals, introduce new climate recommendations, and elaborate how the US elections and COVID-19 play into optimal giving choices around climate."
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:2:hosts,<strong>Host</strong>: Sebastian Schienle
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:2:intro,"<strong>Johannes Ackva</strong>, Climate Lead, Founders Pledge"
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:2:speakers,"<strong>Speaker</strong>: Johannes Ackva, Climate Lead, Founders Pledge"
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:2:title,The ABC of High Impact Climate Philanthropy and where to give now
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:description,"With so many animals suffering around the globe, how can I as a donor make a big impact for animals? In this talk, Leah shares Animal Charity Evaluators' methods for evaluating organizations and presents their brand new 2020 charity recommendations."
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:hosts,"<strong>Host</strong>: Katja Jäger, Betterplace Lab"
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:intro,"<strong>Leah Edgerton</strong>, Executive Director Animal Charity Evaluators"
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:speakers,"<strong>Speaker</strong>: Leah Edgerton, Executive Director Animal Charity Evaluators"
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:3:title,Animal welfare: Our recommendations for the giving season
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:4:description,agenda:4:description
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:4:hosts,agenda:4:hosts
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:4:intro,agenda:4:intro
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:4:speakers,agenda:4:speakers
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:4:title,agenda:4:title
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:5:description-1,agenda:5:description-1
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:5:description-2,agenda:5:description-2
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:5:hosts,agenda:5:hosts
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:5:intro,agenda:5:intro
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:5:speakers,agenda:5:speakers
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:5:title,agenda:5:title
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:description,agenda:6:description
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:intro,agenda:6:intro
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:speakers,agenda:6:speakers
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:title,agenda:6:title
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:see_into_your_local_time,see in your local time
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:select_your_country,Select your country
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submit,Send message
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submitted_successfully_message,Message sent successfully. We will contact you as soon as possible.
