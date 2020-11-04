@@ -5,7 +5,7 @@ apps/egd_site/egd_site/tools.py,dialog:body:go_to_homepage,Go to homepage
 apps/egd_site/egd_site/templates/includes/contact.html,form:email,Email
 apps/egd_site/egd_site/templates/includes/register.html,form:first_name,First name
 apps/egd_site/egd_site/templates/includes/contact.html,form:full_name,Full name
-apps/egd_site/egd_site/templates/includes/contact.html,form:i_have_read_and_agree,I have read and accept the privacy statement
+apps/egd_site/egd_site/templates/includes/footer.html,form:i_have_read_and_agree,I have read and accept the privacy statement
 apps/egd_site/egd_site/templates/includes/register.html,form:last_name,Last name
 apps/egd_site/egd_site/templates/includes/contact.html,form:message,Message
 apps/egd_site/egd_site/templates/includes/register.html,form:select_option,Select an option
@@ -29,7 +29,7 @@ apps/egd_site/egd_site/templates/includes/footer.html,link:privacy,privacy
 apps/egd_site/egd_site/templates/includes/section-about.html,link:read_more,Read more
 apps/egd_site/egd_site/templates/includes/header.html,link:register,Register
 apps/egd_site/egd_site/templates/includes/header.html,link:speakers,Speakers
-apps/egd_site/egd_site/templates/includes/contact.html,link:view,view
+apps/egd_site/egd_site/templates/includes/footer.html,link:view,view
 apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_ok","Your email ""{0}"" was successfully subscribed"
 apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_previously","Your email ""{0}"" were subscribed previously"
 apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:error_adding_email_""{0}"".","There was an error adding your email ""{0}""."
