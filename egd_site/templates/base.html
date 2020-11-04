@@ -5,11 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="{{ url }}{{ "/" + path if path else "" }}" rel="canonical">
 
+	{% if site_env != "prod" %}
 	{# https://support.google.com/webmasters/answer/182192?hl=en #}
-{#	{%- for language in languages_meta %}
+	{%- for language in languages_meta %}
 	<link rel="alternate" href="{{ language.url }}" hreflang="{{ language.hreflang }}" />
 	{%- endfor %}
-#}
+	{% endif %}
+
 	{%- block meta_block %}{% include "templates/includes/meta_block.html" %}{% endblock %}
 
 	<title>{% block title %}{{ title | striptags }}{{ HTML_TITLE_SUFFIX if name != "home" else "" }}{% endblock %}</title>

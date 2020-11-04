@@ -12,14 +12,13 @@ app_email = "info@ayudaefectiva.org"
 app_license = "MIT"
 
 
-ASSETS_VERSION = "1.0.0.6"
+ASSETS_VERSION = "1.0.0.8"
 HTML_TITLE_SUFFIX = " | International Effective Giving Day"
 
 # Site domains & environment
 site_app_domains = {
 	"egd.local": "local",
 	"effectivegivingday.org": "prod",
-	"staging.effectivegivingday.org": "preprod",
 	"egd.ayudaefectiva.org": "preprod",
 }
 

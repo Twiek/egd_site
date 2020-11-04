@@ -43,7 +43,7 @@
 						<li class="nav-item">
 							<a class="nav-link" href="{{ url_lang }}/get-involved">{{ _('link:get_involved') }}</a>
 						</li> -->
-						{# IMPORTANTE!!!! HABILITAR link rel="alternate" en base.html
+						{% if site_env != "prod" %}
 						<li class="nav-item">
 							<span class="navbar-text">·</span>
 						</li>
@@ -64,7 +64,7 @@
 							<a class="nav-link language" href="{{ language.url }}">{{ language.code|upper }}</a>
 						</li>
 						{% endfor %}
-						#}
+						{% endif %}
 					</ul>
 				</div>
 			</div>
