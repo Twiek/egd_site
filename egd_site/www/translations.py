@@ -32,8 +32,7 @@ def get_context(context):
 		"segments_as_txt": frappe._dict(),
 	})
 
-	languages = frappe.get_hooks("translated_languages_for_website")
-	for lang in languages:
+	def process_lang(lang):
 		path = os.path.join(frappe.get_pymodule_path(app), "translations", lang + ".csv")
 		data = get_translation_dict_from_file(path, lang, app)
 		ctx_lang["translated"][lang] = data
@@ -41,9 +40,23 @@ def get_context(context):
 		mem_file = io.StringIO()
 		w = writer(mem_file, lineterminator="\n")
 		for p, m in messages:
-			translated = ctx_lang["translated"][lang][m] if m in ctx_lang["translated"][lang] else m
+			translated = m
+			if (m in ctx_lang["translated"][lang] and ctx_lang["translated"][lang][m] not in [m, ""]):
+				translated = ctx_lang["translated"][lang][m]
+			# Set english as default language and use it for empty translation segments in other langs
+			elif lang != "en" and m in ctx_lang["translated"]["en"]:
+				translated = ctx_lang["translated"]["en"][m]
 			w.writerow([p if p else '', m, translated])
 
-		ctx_lang["segments_as_txt"][lang] = mem_file.getvalue()
+		raw = mem_file.getvalue()
+		ctx_lang["segments_as_txt"][lang] = raw.replace("<", "&lt;").replace(">", "&gt;")
+
+	languages = frappe.get_hooks("translated_languages_for_website")
+	if "en" in languages:
+		process_lang("en")
+		languages.remove("en")
+
+	for lang in languages:
+		process_lang(lang)
 
 	context["languages_data"] = ctx_lang
