@@ -5,43 +5,43 @@ apps/egd_site/egd_site/tools.py,dialog:body:go_to_homepage,Zurück zur Startseit
 apps/egd_site/egd_site/templates/includes/contact.html,form:email,E-Mail
 apps/egd_site/egd_site/templates/includes/register.html,form:first_name,Vorname
 apps/egd_site/egd_site/templates/includes/contact.html,form:full_name,Vollständiger Name
-apps/egd_site/egd_site/templates/includes/contact.html,form:i_have_read_and_agree,Ich habe die Datenschutzbestimmungen gelesen und akzeptiert:
+apps/egd_site/egd_site/templates/includes/footer.html,form:i_have_read_and_agree,Ich habe die Datenschutzbestimmungen gelesen und akzeptiert:
 apps/egd_site/egd_site/templates/includes/register.html,form:last_name,Nachname
 apps/egd_site/egd_site/templates/includes/contact.html,form:message,Nachricht
 apps/egd_site/egd_site/templates/includes/register.html,form:select_option,Wähle eine Option aus
 apps/egd_site/egd_site/templates/includes/contact.html,form:subject,Betreff
 apps/egd_site/egd_site/public/js/web.js,form:submit:error,Fehler...
 apps/egd_site/egd_site/public/js/web.js,form:submit:sending,Sendet...
-apps/egd_site/egd_site/templates/includes/hero.html,hero:intro,Gutes tun braucht Herz und Kopf: Finde heraus wie du mit effektiven Spenden die größtmögliche Wirkung erzielen kannst um die Dinge zu erreichen, die wirklich wichtig sind
-apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_date,"30. November 2020"
-apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_time,18:45 Uhr
+apps/egd_site/egd_site/templates/includes/hero.html,hero:intro,"Gutes tun braucht Herz und Kopf: Finde heraus wie du mit effektiven Spenden die größtmögliche Wirkung erzielen kannst um die Dinge zu erreichen, die wirklich wichtig sind"
+apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_date,30. November 2020
 apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_place,Virtuelles Event
+apps/egd_site/egd_site/templates/includes/hero.html,hero:place_date_extra_time,18:45 Uhr
 apps/egd_site/egd_site/templates/includes/hero.html,hero:register_button,Jetzt registrieren
 apps/egd_site/egd_site/templates/includes/hero.html,hero:title,INTERNATIONAL EFFECTIVE GIVING DAY
 apps/egd_site/egd_site/templates/includes/header.html,link:agenda,Agenda
 apps/egd_site/egd_site/templates/includes/header.html,link:contact,Kontakt
 apps/egd_site/egd_site/templates/includes/footer.html,link:cookies,Cookies
+apps/egd_site/egd_site/templates/includes/header.html,link:get_involved,Get involved
 apps/egd_site/egd_site/templates/includes/header.html,link:home,Startseite
 apps/egd_site/egd_site/templates/includes/footer.html,link:legal,AGB
-apps/egd_site/egd_site/templates/includes/footer.html,link:login,Login
 apps/egd_site/egd_site/templates/includes/header.html,link:press,Presse
-apps/egd_site/egd_site/templates/includes/contact.html,link:privacy,Datenschutzhinweise
+apps/egd_site/egd_site/templates/includes/footer.html,link:privacy,Datenschutzhinweise
 apps/egd_site/egd_site/templates/includes/section-about.html,link:read_more,Mehr erfahren
 apps/egd_site/egd_site/templates/includes/header.html,link:register,Registrieren
 apps/egd_site/egd_site/templates/includes/header.html,link:speakers,Referenten
+apps/egd_site/egd_site/templates/includes/footer.html,link:view,view
 apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_ok","Du hast Dich mit Deiner E-Mail ""{0}"" erfolgreich angemeldet"
 apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_previously","Deine E-Mail ""{0}"" ist bereits angemeldet"
 apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:error_adding_email_""{0}"".","Es gab einen Fehler mit Deiner E-Mail ""{0}""."
 apps/egd_site/egd_site/tools.py,newsletter:dialog:title:newsletter_subscription,Newsletter Anmeldung
 apps/egd_site/egd_site/tools.py,newsletter:email:body:click_here_to_verify,Hier klicken um Deine E-Mail zu bestätigen
-apps/egd_site/egd_site/tools.py,newsletter:email:body:thank_you,Vielen Dank für Dein Interesse.
 apps/egd_site/egd_site/tools.py,newsletter:email:body:verify_your_email,Um Deine Anmeldung abzuschließen prüfe bitte deine E-Mails.
 apps/egd_site/egd_site/tools.py,newsletter:email:subject,E-Mail Bestätigung (Handlung erforderlich)
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:email,Deine E-Mail
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submit,Anmelden
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,Besten Dank für deine Anmeldung. Um diese abzuschließen haben wir dir gerade eine E-Mail zur Bestätigung geschickt.
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Bleib auf dem neusten Stand
-apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,Wie viel spendest du bisher jedes Jahr an "effektive hilfsorganisationen" (US-Dollar)?
+apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,"Wie viel spendest du bisher jedes Jahr an ""effektive hilfsorganisationen"" (US-Dollar)?"
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:a_bit_familiar,Kenne mich ein bisschen aus
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:not_familiar,Kenne mich nicht aus
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:question,Wie gut kennst du dich mit effektivem Spenden aus?
@@ -56,18 +56,17 @@ apps/egd_site/egd_site/templates/includes/register.html,register:form:select_cou
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_occupation,Wähle die Art deiner Beschäftigung
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submit,Registriere dich
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message,Vielen Dank für Deine Anmeldung. Du wirst in Kürze eine Bestätigungsemail erhalten.
-apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_ok","registration:dialog:body:email_""{0}""_confirmed_ok"
-apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_previously","registration:dialog:body:email_""{0}""_confirmed_previously"
-apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,registration:dialog:body:error_confirming_your_email.
-apps/egd_site/egd_site/tools.py,registration:dialog:title:registration_subscription,registration:dialog:title:registration_subscription
-apps/egd_site/egd_site/tools.py,registration:email:body:click_here_to_verify,registration:email:body:click_here_to_verify
-apps/egd_site/egd_site/tools.py,registration:email:body:thank_you,registration:email:body:thank_you
-apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,registration:email:body:verify_your_email
-apps/egd_site/egd_site/tools.py,registration:email:subject,registration:email:subject
+apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_ok","Email ""{0}"" confirmed successfully."
+apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_previously","Email ""{0}"" confirmed previously."
+apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,Error with your email confirmation.
+apps/egd_site/egd_site/tools.py,registration:dialog:title:registration_subscription,Registration
+apps/egd_site/egd_site/tools.py,registration:email:body:click_here_to_verify,Click here to verify your email
+apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,Thank you for your interest in the International Effective Giving Day! <strong>Please confirm your email address to complete your registration</strong>:
+apps/egd_site/egd_site/tools.py,registration:email:subject,Please confirm your email address to complete your registration
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:intro,Der Effective Giving Day ist eine virtuelle Konferenz mit einigen der renommiertesten Experten im Bereich effektiver Spenden.
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:1,section:about:list:1
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:2,section:about:list:2
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:3,section:about:list:3
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:1,Keynote address: Nobel Laureate Professor <strong>Michael Kremer</strong>
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:2,Supported by the world’s leading organizations in effective philanthropy and charity evaluation
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:3,"Also featuring: Johannes Ackva (Climate Lead <strong>Founders Pledge</strong>), Leah Edgerton (Executive Director <strong>Animal Charity Evaluators</strong>), Neil Buddy Shah (Managing Director, <strong>GiveWell</strong>)"
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:4,section:about:list:4
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:title,Über die Veranstaltung
 apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:intro,section:agenda:Einfürhung
@@ -77,5 +76,9 @@ apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners
 apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:intro,section:speakers:Einführung
 apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:see_all_speakers,section:speakers:Alle Referenten
 apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:title,Referenten
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:1:title,Can non-profits make a dent on the world’s biggest problems?
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:2:title,Are all charities just as good? How can we compare one against another?
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:3:title,I want to give - but how can I decide which charities to support?
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:4:title,How can I be sure that my money will have real impact?
 apps/egd_site/egd_site/templates/includes/section-why.html,section:why:intro,section:why:Einführung
 apps/egd_site/egd_site/templates/includes/section-why.html,section:why:title,Warum du teilnehmen solltest.
