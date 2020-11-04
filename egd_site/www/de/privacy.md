@@ -8,7 +8,7 @@ body_class: legal-content
 
 Die vom BENUTZER durch eines der Formulare auf der WEBSITE zur Verfügung gestellten Informationen werden in eine oder mehrere Dateien unter der Verantwortung von FUNDACIÓN AYUDA EFECTIVA (nachstehend DIE STIFTUNG) mit Sitz in der Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, aufgenommen.
 
-## 2. Ziele der Behandlung
+## 2. Ziele der Verarbeitung
 
 DIE STIFTUNG wird die vom BENUTZER zur Verfügung gestellten Informationen für unterschiedliche Zwecke behandeln, je nachdem, wie die Daten gesammelt werden:
 
@@ -22,7 +22,7 @@ Die persönlichen Daten werden bis zur Erledigung Ihrer Informationsanfrage aufb
 
 ### 2.2 Rundschreiben
 
-Verwalten Sie das Abonnement des BENUTZERS im Newsletter, der auf der WEBSITE zu finden ist, um ihm Informationen über effektiven Altruismus und unsere Aktivitäten und Veranstaltungen zukommen zu lassen.
+Verwaltung der Abonnements des BENUTZERS für den Newsletter, der auf der WEBSITE zu finden ist, um ihm Informationen über effektiven Altruismus und unsere Aktivitäten und Veranstaltungen zukommen zu lassen.
 
 Die rechtliche Grundlage, die den Versand des Newsletters legitimiert, ist die Zustimmung des BENUTZERS selbst zum Zeitpunkt der Datenerhebung durch Ankreuzen des entsprechenden Kästchens.
 
@@ -38,17 +38,17 @@ Die Daten, die der Benutzer DER STIFTUNG zur Verfügung gestellt hat, werden nic
 
 - Die Daten werden vom Bürgerbeauftragten, von der Staatsanwaltschaft oder von den Richtern oder Gerichten oder vom Rechnungshof in Ausübung der ihnen zugewiesenen Funktionen angefordert.
 
-## 4. obligatorische oder fakultative Art der angeforderten Informationen
+## 4. Obligatorische oder freiwillige Angabe von Informationen
 
-Wenn der BENUTZER uns Daten über Formulare auf der WEBSITE zur Verfügung stellt, werden die mit einem Sternchen (*) gekennzeichneten Felder, die für die Anfrage oder Konsultation oder für die Erbringung der Dienstleistungen obligatorisch sind, ausdrücklich angegeben.
+Wenn der BENUTZER uns Daten über Formulare auf der WEBSITE zur Verfügung stellt, werden die mit einem Sternchen (\*) gekennzeichneten Felder, die für die Anfrage oder Konsultation oder für die Erbringung der Dienstleistungen obligatorisch sind, ausdrücklich gekennzeichnet.
 
-Die Weigerung, die obligatorischen Daten zu liefern, bedeutet die Unmöglichkeit, der vom BENUTZER gewünschten Beratung oder Dienstleistung beizuwohnen.
+Die Weigerung, die obligatorischen Daten bereitzustellen, bedeutet, dass der BENUTZER die gewünschten Beratung oder Dienstleistung nicht in Anspruch nehmen kann.
 
 Ebenso erklärt der BENUTZER durch Anklicken der Schaltflächen "Senden", "Akzeptieren", "Abonnieren" oder anderer ähnlicher Schaltflächen, die in den Formularen auf der WEBSITE enthalten sind, dass die darin enthaltenen Informationen und Daten korrekt und wahrheitsgemäß sind.
 
-## Nr. 5 Ausübung der Rechte
+## Nr. 5 Ausübung von Rechten
 
-Der BENUTZER kann seine Einwilligung widerrufen und seine Rechte auf Zugang, Berichtigung und Löschung/Löschung seiner persönlichen Daten ausüben, sowie die Verarbeitung einschränken oder sich direkt der Verarbeitung widersetzen oder das Recht auf Übertragbarkeit dieser Daten ausüben, indem er eine E-Mail an die Adresse info @ ayudaefectiva sendet. org oder über die Postanschrift Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid, und weisen Sie sich als BENUTZER der WEBSITE aus, indem Sie eine Fotokopie Ihres Personalausweises oder eines gleichwertigen Dokuments vorlegen und Ihre Anfrage spezifizieren.
+Der BENUTZER kann seine Einwilligung widerrufen und seine Rechte auf Zugang, Berichtigung und Löschung/Löschung seiner persönlichen Daten ausüben, sowie die Verarbeitung einschränken oder sich direkt der Verarbeitung widersetzen oder das Recht auf Übertragbarkeit dieser Daten ausüben, indem er eine E-Mail an die Adresse info @ ayudaefectiva sendet. org sendet oder über die Postanschrift Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid Kontakt aufnimmt und Sie sich als BENUTZER der WEBSITE ausweißt, indem eine Fotokopie des Personalausweises oder eines gleichwertigen Dokuments vorgelegt und die Anfrage spezifiziert wird.
 
 Wenn Sie der Ansicht sind, dass Ihr Recht auf den Schutz personenbezogener Daten verletzt wurde, können Sie ebenfalls eine Beschwerde bei der spanischen Datenschutzbehörde (www.aepd.es) einreichen.
 
@@ -58,7 +58,7 @@ Der BENUTZER garantiert, dass er/sie volljährig ist und dass die durch die Form
 
 Der BENUTZER verpflichtet sich, die STIFTUNG über jede Änderung der angegebenen Informationen zu informieren, indem er eine E-Mail an info @ ayudaefectiva.org schickt, sich als BENUTZER der WEBSITE identifiziert und die Informationen angibt, die geändert werden müssen.
 
-## 7. vom Benutzer zur Verfügung gestellte Daten Dritter
+## 7. Vom Benutzer zur Verfügung gestellte Daten Dritter
 
 Für den Fall, dass der BENUTZER personenbezogene Daten Dritter zu irgendeinem Zweck zur Verfügung stellt, garantiert er, dass er die betroffenen Parteien vorher informiert und ihre Zustimmung zur Übermittlung ihrer Daten an DIE STIFTUNG eingeholt hat.
 
@@ -66,7 +66,7 @@ Der BENUTZER garantiert, dass die Betroffenen volljährig sind und dass die zur 
 
 Für den Fall, dass Verantwortlichkeiten aus einer Verletzung dieser Bedingungen durch den BENUTZER abgeleitet werden, ist er oder sie für die Folgen einer solchen Verletzung verantwortlich.
 
-## Nr. 8: Kekse
+## Nr. 8: Cookies
 
 DIE STIFTUNG verwendet Cookies und andere ähnliche Datenspeicherungs- und -abrufmechanismen auf Endgeräten ("Cookies").
 
