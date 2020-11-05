@@ -90,6 +90,9 @@ apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation
 apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:student,Student
 apps/egd_site/egd_site/templates/includes/register.html,register:form:organization,Organization
 apps/egd_site/egd_site/templates/includes/register.html,register:form:organization_title,Title
+apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_accept,I have read and accept the processing of my personal data for the purposes described
+apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_clause_link,privacy clause
+apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_text,"Your data will be treated by FUNDACIÓN AYUDA EFECTIVA to manage your registration, as well as to keep you informed about this and future related events. You can exercise your rights by using the following email address info @ ayudaefectiva.org, identifying yourself as a registered user of the effectivegivingday.org website, and specifying your request. For more information about the treatment of your data, please please read the following link:"
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_country,Select you country
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_occupation,Select your occupation
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submit,Register
