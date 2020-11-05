@@ -83,5 +83,10 @@ frappe.ready(function() {
 			$(`#contact-default`).collapse('show')
 		}
 	})
+
+	setTimeout(function() {
+		$press_country_selector.val('ES')
+		$(`#contact-${contact_by_country['ES']}`).collapse('show')
+	}, 500)
 })
 </script>
