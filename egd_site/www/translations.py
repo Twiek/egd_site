@@ -13,9 +13,23 @@ def get_context(context):
 	# from frappe.translate import get_messages_for_app
 	from frappe.translate import deduplicate_messages
 	from frappe.translate import get_all_messages_from_js_files
-	from frappe.translate import get_server_messages
+	from frappe.translate import get_messages_from_file
 	from frappe.translate import get_translation_dict_from_file
 	from csv import writer
+
+	def get_server_messages(app):
+		"""Extracts all translatable strings (tagged with `_(`) from Python modules
+			inside an app"""
+		messages = []
+		file_extensions = (".py", ".html", ".js", ".vue", ".md")
+		for basepath, folders, files in os.walk(frappe.get_pymodule_path(app)):
+			for dontwalk in (".git", "public", "locale", "__pycache__", "translations"):
+				if dontwalk in folders: folders.remove(dontwalk)
+			for f in files:
+				f = frappe.as_unicode(f)
+				if f.endswith(file_extensions):
+					messages.extend(get_messages_from_file(os.path.join(basepath, f)))
+		return messages
 
 	app = "egd_site"
 	messages = []

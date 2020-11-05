@@ -32,6 +32,7 @@ apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:read
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:select_your_country,Select your country
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submit,Send message
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submitted_successfully_message,Message sent successfully. We will contact you as soon as possible.
+apps/egd_site/egd_site/www/en/contact-us.md,contact:title,Contact us
 apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:accept,Accept
 apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:link:read_more,Read cookies page for more info
 apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:message,This site uses its own and third-party cookies to offer you a better service.
@@ -80,6 +81,8 @@ apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submit,Sub
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,Soon you will receive a an email for confirmation. Thank you very much for your registration.
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:link:privacy_clause,privacy clause
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Stay up to date
+apps/egd_site/egd_site/www/en/press.md,press:intro,"We are happy to respond to interview requests, provide quotes or answer questions. Please fill in this form and we will put you in touch with the best press contact for your country or area of interest."
+apps/egd_site/egd_site/www/en/press.md,press:title,Press
 apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,How much (if anything) do you currently give per year to charities you know are highly effective? (USD)
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:a_bit_familiar,Somewhat familiar
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:not_familiar,Not familiar
@@ -98,6 +101,8 @@ apps/egd_site/egd_site/templates/includes/register.html,register:form:select_cou
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_occupation,Select your occupation
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submit,Register
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message,<strong>Thank you for registering!</strong> You you will receive a confirmation email within a few minutes. A few days before the event you will also receive the instructions on how to join it online.
+apps/egd_site/egd_site/www/en/register.md,register:intro,"If you would like to attend the International Effective Giving Day event on November 30, please register by filling in the following form. You will receive a confirmation email and we will send the link to join the event to that same email address a few days before the event."
+apps/egd_site/egd_site/www/en/register.md,register:title,Register
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_ok","Email ""{0}"" confirmed successfully."
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_previously","Email ""{0}"" confirmed previously."
 apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,Error with your email confirmation.

@@ -1,5 +1,5 @@
 
 def get_context(context):
-	context["title"] = "International Effective Giving Day"
+	context["title"] = "Día Internacional de la Ayuda Efectiva"
 	context["meta_title"] = context["title"]
-	context["meta_description"] = "Join us on November 30, 2020 to discover how the ideas of effective giving can help you maximize your impact when donating to the causes you care about"
+	context["meta_description"] = "El 30 de noviembre de 2020 podrás descubrir cómo las ideas de la ayuda efectiva te pueden ayudar a maximizar tu impacto al donar a las causas que te importan"

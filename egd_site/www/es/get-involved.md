@@ -1,6 +1,6 @@
 ---
-title: Get involved
-meta_description: "Get involved with effective giving: donate, learn more or help spread the message"
+title: Involúcrate
+meta_description: "Involúcrate con la ayuda efectiva: dona, aprende más o difunde el mensaje"
 ---
 
 # Get involved

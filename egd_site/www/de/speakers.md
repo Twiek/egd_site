@@ -1,6 +1,7 @@
 ---
-;title: HTML head title. Remove coment character ";" to be applied
-;meta_description: META description. Remove coment character ";" to be applied
+title: Referenten
+meta_description: Neben Nobelpreisträger Michael Kremer werden Expertinnen von GiveWell, Animal Charity Evaluators und Founders Pledge zu den Vortragenden gehören.
+sitemap: 1
 ---
 
 {% include "templates/includes/section-speakers.html" %}
