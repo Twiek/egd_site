@@ -27,9 +27,15 @@ apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:intro,"<strong>Ch
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:speakers,"<strong>Speaker</strong>: Charlie Bresler, <a href='https://www.thelifeyoucansave.org/'>The Life You Can Safe</a>"
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:title,How you can make a difference today
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:see_into_your_local_time,see in your local time
+apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:accept,I have read and accept the treatment of my personal data
+apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:read_more,Read more...
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:select_your_country,Select your country
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submit,Send message
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submitted_successfully_message,Message sent successfully. We will contact you as soon as possible.
+apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:accept,Accept
+apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:message,This site uses its own and third-party cookies to offer you a better service.
+apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:link:read_more,Read cookies page for more info
+apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:title,Cookies
 apps/egd_site/egd_site/tools.py,dialog:body:go_to_homepage,Go to homepage
 apps/egd_site/egd_site/templates/includes/contact.html,form:email,Email
 apps/egd_site/egd_site/templates/includes/register.html,form:first_name,First name
