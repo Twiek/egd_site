@@ -33,8 +33,8 @@ apps/egd_site/egd_site/templates/includes/contact.html,contact:form:select_your_
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submit,Send message
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submitted_successfully_message,Message sent successfully. We will contact you as soon as possible.
 apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:accept,Accept
-apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:message,This site uses its own and third-party cookies to offer you a better service.
 apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:link:read_more,Read cookies page for more info
+apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:message,This site uses its own and third-party cookies to offer you a better service.
 apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:title,Cookies
 apps/egd_site/egd_site/tools.py,dialog:body:go_to_homepage,Go to homepage
 apps/egd_site/egd_site/templates/includes/contact.html,form:email,Email
@@ -73,8 +73,11 @@ apps/egd_site/egd_site/tools.py,newsletter:email:body:click_here_to_verify,Click
 apps/egd_site/egd_site/tools.py,newsletter:email:body:verify_your_email,Thank you very much for your interest. We need your email confirmation to finish your subscription.
 apps/egd_site/egd_site/tools.py,newsletter:email:subject,Email confirmation (action needed)
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:email,Your email
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:privacy_accept,I have read and accept the processing of my personal data for the described purpose
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:privacy_text,"Your data will be processed by FUNDACIÓN AYUDA EFECTIVA to send you the newsletter and event notifications. You can exercise your rights through the following email info @ ayudaefectiva.org, identifying yourself as a subscriber to the effectivegivingday.org newsletter and specifying your request. For more information about the treatment of your data and your rights, please read the following link:"
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submit,Subscribe
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,Soon you will receive a an email for confirmation. Thank you very much for your registration.
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:link:privacy_clause,privacy clause
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Stay up to date
 apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,How much (if anything) do you currently give per year to charities you know are highly effective? (USD)
 apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:a_bit_familiar,Somewhat familiar
