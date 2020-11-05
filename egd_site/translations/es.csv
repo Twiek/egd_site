@@ -27,8 +27,8 @@ apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:intro,"<strong>Ch
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:speakers,"<strong>Speaker</strong>: Charlie Bresler, <a href='https://www.thelifeyoucansave.org/'>The Life You Can Safe</a>"
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:title,How you can make a difference today
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:see_into_your_local_time,see in your local time
-apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:accept,I have read and accept the treatment of my personal data
-apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:read_more,Read more...
+apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:accept,He leído y acepto el tratamiento de mis datos personales
+apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:read_more,Leer más...
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:select_your_country,Elige tu país
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submit,Enviar mensaje
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submitted_successfully_message,Mensaje enviado correctamente. Contactaremos contigo lo antes posible.
@@ -75,11 +75,11 @@ apps/egd_site/egd_site/tools.py,newsletter:email:body:click_here_to_verify,Haz c
 apps/egd_site/egd_site/tools.py,newsletter:email:body:verify_your_email,Es necesario que confirmes tu email para finalizar la suscripción
 apps/egd_site/egd_site/tools.py,newsletter:email:subject,Confirma tu email (acción necesaria)
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:email,Tu email
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:privacy_accept,I have read and accept the processing of my personal data for the described purpose
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:privacy_text,"Your data will be processed by FUNDACIÓN AYUDA EFECTIVA to send you the newsletter and event notifications. You can exercise your rights through the following email info @ ayudaefectiva.org, identifying yourself as a subscriber to the effectivegivingday.org newsletter and specifying your request. For more information about the treatment of your data and your rights, please read the following link:"
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:privacy_accept,He leído y acepto el tratamiento de mis datos personales con la finalidad descrita
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:privacy_text,"Sus datos serán tratados por FUNDACIÓN AYUDA EFECTIVA para enviarle nuestra newsletter. Podrá ejercer sus derechos a través del siguiente correo info @ ayudaefectiva.org, identificándose como suscriptor a la newsletter de effectivegivingday y concretando su solicitud. Para más información sobre el tratamiento de sus datos y sus derechos, consulte el siguiente enlace:"
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submit,Suscribirse
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,Pronto recibirás un email para que confirmes tu suscripción. Muchas gracias por suscribirte.
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:link:privacy_clause,privacy clause
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:link:privacy_clause,cláusula de privacidad
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Mantente informado
 apps/egd_site/egd_site/www/es/press.md,press:intro,"We are happy to respond to interview requests, provide quotes or answer questions. Please fill in this form and we will put you in touch with the best press contact for your country or area of interest."
 apps/egd_site/egd_site/www/es/press.md,press:title,Press
@@ -94,9 +94,9 @@ apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation
 apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:student,Estudiante
 apps/egd_site/egd_site/templates/includes/register.html,register:form:organization,Organización
 apps/egd_site/egd_site/templates/includes/register.html,register:form:organization_title,Puesto que desempeñas
-apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_accept,I have read and accept the processing of my personal data for the purposes described
-apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_clause_link,privacy clause
-apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_text,"Your data will be treated by FUNDACIÓN AYUDA EFECTIVA to manage your registration, as well as to keep you informed about this and future related events. You can exercise your rights by using the following email address info @ ayudaefectiva.org, identifying yourself as a registered user of the effectivegivingday.org website, and specifying your request. For more information about the treatment of your data, please please read the following link:"
+apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_accept,He leído y acepto el tratamiento de mis datos personales con las finalidades descritas
+apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_clause_link,cláusula de privacidad
+apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_text,"Sus datos serán tratados por FUNDACIÓN AYUDA EFECTIVA para gestionar su registro, asi como para mantenerle informado sobre este y futuros eventos. Podrá ejercer sus derechos mediante la siguiente dirección de correo info @ ayudaefectiva.org, identificándose como usuario registrado del sitio web de effectivegivingday.org, concretando su solicitud. Para más información sobre el tratamiento de sus datos y sus derechos, consulte el siguiente enlace:"
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_country,Elige tu país
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_occupation,Selecciona tu ocupación
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submit,Registrarse
