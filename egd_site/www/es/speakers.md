@@ -1,6 +1,7 @@
 ---
-;title: HTML head title. Remove coment character ";" to be applied
-;meta_description: META description. Remove coment character ";" to be applied
+title: Ponentes
+meta_description: Nuestros ponentes incluyen a Michael Kremer, Premio Nobel de Economía de 2019, y directivos de GiveWell, Animal Charity Evaluators and Founders Pledge
+sitemap: 1
 ---
 
 {% include "templates/includes/section-speakers.html" %}

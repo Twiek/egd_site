@@ -1,6 +1,7 @@
 ---
-;title: HTML head title. Remove coment character ";" to be applied
-;meta_description: META description. Remove coment character ";" to be applied
+title: Agenda
+meta_description: La agenda del evento incluye sesiones sobre cómo aplicar la ayuda efectiva al cambio climático, la pobreza y la salud global y el bienestar animal
+sitemap: 1
 ---
 
 {% set cards_opened = 1 %}

@@ -1,0 +1,92 @@
+
+<div class="row">
+	<div class="form-group col-lg-4">
+		<label for="press-country-selector">{{ _('register:form:select_country') }}</label>
+		<select id="press-country-selector" class="custom-select select-countries" name="country">
+			<option selected disabled value=""></option>
+		</select>
+	</div>
+</div>
+
+<div id="press-contact-items">
+	<div class="item collapse" id="contact-spain" data-parent="#press-contact-items">
+		<div class="card card-body">
+			<h2>Dona</h2>
+			<p><a href="https://ayudaefectiva.org">Ayuda Efectiva</a> selecciona y financia 
+				los programas que, con un mismo coste, salvan más vidas o ayudan más a más 
+				personas. Las donaciones a su 
+				<a href="https://ayudaefectiva.org/fondo-salud-global">Fondo Salud Global</a> 
+				se destinan en su totalidad a financiar una selección de los proyectos más 
+				efectivos (basándose en la investigación y las recomendaciones de GiveWell). 
+				La donaciones son deducibles tanto en IRPF como en Impuesto de sociedades.
+			</p>
+			<hr>
+			<h2>Aprende más</h2>
+			<p>¿Quieres saber más? Puedes <a href="https://ayudaefectiva.org/ayuda-efectiva">leer 
+				acerca de la ayuda efectiva</a>, suscribirte a la 
+				<a href="https://ayudaefectiva.org/#newsletter-de-ayuda-efectiva">newsletter</a> 
+				o seguir a la fundación Ayuda Efectiva en 
+				<a href="https://twitter.com/ayuda_efectiva">Twitter</a>, 
+				<a href="https://www.facebook.com/FundacionAyudaEfectiva">Facebook</a> o 
+				<a href="https://www.linkedin.com/company/fundacion-ayuda-efectiva/">LinkedIn</a>.
+			</p>
+		</div>
+	</div>
+	<div class="item collapse" id="contact-1fortheworld" data-parent="#press-contact-items">
+		<div class="card card-body">
+			<h3>Jack Lewars</h3>
+			<p>jack<img src="/assets/egd_site/images/e.png">1fortheworld<span>.</span>org</p>
+			<p>(+1) 929 509 1496</p>
+		</div>
+	</div>
+	<div class="item collapse" id="contact-givingwhatwecan" data-parent="#press-contact-items">
+		<div class="card card-body">
+			<h3>Jack Lewars</h3>
+			<p>luke.freeman<img src="/assets/egd_site/images/e.png">givingwhatwecan<span>.</span>org</p>
+		</div>
+	</div>
+	<div class="item collapse" id="contact-effektiv-spenden" data-parent="#press-contact-items">
+		<div class="card card-body">
+			<h3>Sebastian Schwiecker</h3>
+			<p>sebastian.schwiecker<img src="/assets/egd_site/images/e.png">effektiv-spenden<span>.</span>org</p>
+			<p>(+49) 30/26035519</p>
+		</div>
+	</div>
+	<div class="item collapse" id="contact-default" data-parent="#press-contact-items">
+		<div class="card card-body">
+			<h3>TODO: Define default contact???</h3>
+		</div>
+	</div>
+</div>
+
+<script>
+
+// TODO: Define default contact ???
+
+frappe.ready(function() {
+	const contact_by_country = {
+		'US': '1fortheworld',
+		'CA': '1fortheworld',
+		'GB': '1fortheworld',
+		'ES': 'spain',
+		'DE': 'effektiv-spenden',
+		'AU': 'effektiv-spenden',
+		'CH': 'effektiv-spenden',
+		'AU': 'givingwhatwecan',
+	}
+	const $press_country_selector = $('#press-country-selector')
+	$press_country_selector.on('change', function() {
+		let country = $press_country_selector.val()
+		if (typeof contact_by_country[country] != 'undefined') {
+			$(`#contact-${contact_by_country[country]}`).collapse('show')
+		} else {
+			$(`#contact-default`).collapse('show')
+		}
+	})
+
+	setTimeout(function() {
+		$press_country_selector.val('ES')
+		$(`#contact-${contact_by_country['ES']}`).collapse('show')
+	}, 500)
+})
+</script>

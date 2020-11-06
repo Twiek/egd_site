@@ -1,6 +1,7 @@
 ---
-;title: HTML head title. Remove coment character ";" to be applied
-;meta_description: META description. Remove coment character ";" to be applied
+title: Agenda
+meta_description: Unabhängige Experten werden dir zeigen was du mit effektiven Spenden in den Bereichen Klimaschutz, Entwicklungszusammenarbeit und Tierschutz alles erreichen kannst.
+sitemap: 1
 ---
 
 {% set cards_opened = 1 %}

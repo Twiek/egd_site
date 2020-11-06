@@ -1,6 +1,7 @@
 ---
-;title: HTML head title. Remove coment character ";" to be applied
-;meta_description: META description. Remove coment character ";" to be applied
+title: Presse
+meta_description: Für Presseanfragen fülle das Formular aus und ein lokaler Ansprechpartner wird sich schnellstmöglich mit dir in Verbindung setzen.
+sitemap: 1
 ---
 
 <section>
@@ -8,11 +9,8 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="section-title-header text-center">
-					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">Press</h1>
-					<p class="wow fadeInDown" data-wow-delay="0.2s">We are happy to respond to 
-					interview requests, provide quotes or answer questions. Please fill in this 
-					form and we will put you in touch with the best press contact for your 
-					country or area of interest</p>
+					<h1 class="section-title wow fadeInUp" data-wow-delay="0.2s">{{ _('press:title') }}</h1>
+					<p class="wow fadeInDown" data-wow-delay="0.2s">{{ _('press:intro') }}</p>
 				</div>
 			</div>
 		</div>

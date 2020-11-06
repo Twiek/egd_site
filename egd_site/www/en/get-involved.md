@@ -5,4 +5,4 @@ meta_description: "Get involved with effective giving: donate, learn more or hel
 
 # Get involved
 
-<!-- TODO: pending GET INVOLVED en -->
+{% include "templates/includes/get-involved.html" %}

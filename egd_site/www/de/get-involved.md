@@ -1,8 +1,8 @@
 ---
-title: Get involved
-meta_description: "Get involved with effective giving: donate, learn more or help spread the message"
+title: Mach mit!
+meta_description: "Mach mit! Spende, informiere dich und erfahre wie du auch andere für die Idee begeistern kannst."
 ---
 
-# Get involved
+# Mach mit!
 
-<!-- TODO: pending GET INVOLVED DE -->
+{% include "templates/includes/get-involved.html" %}

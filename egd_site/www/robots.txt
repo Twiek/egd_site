@@ -4,6 +4,7 @@ Disallow: /login
 
 User-agent: Adidxbot
 Crawl-delay: 20
+Disallow: /login
 
 User-agent: AdsBot-Google
 Disallow: /login

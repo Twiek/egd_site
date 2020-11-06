@@ -59,6 +59,8 @@ def deploy_site():
 
 def app_site_pull():
 	subprocess.check_output(["git", "pull"], cwd=path_site_app)
+	# Doubled because weird git pull not working first time
+	subprocess.check_output(["git", "pull"], cwd=path_site_app)
 
 
 def app_site_compile_assets():
@@ -68,4 +70,5 @@ sudo supervisorctl restart frappe-bench-web:frappe-bench-frappe-web && \
 bench --site {1} clear-cache && \
 bench --site {1} clear-website-cache".format(site_app, frappe.local.site)
 	Popen(cmd, shell=True, cwd=path_bench)
-	return { "msg": "{0} app site assets compiling initialized ok".format(site_env()) }
+	return { "msg": "{0} app for {1} site {2} assets compiling initialized ok: {3}".format(
+		site_app, site_env(), frappe.local.site, cmd) }
