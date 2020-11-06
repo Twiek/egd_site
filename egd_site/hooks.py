@@ -12,8 +12,7 @@ app_email = "info@ayudaefectiva.org"
 app_license = "MIT"
 
 
-ASSETS_VERSION = "1.0.0.8"
-HTML_TITLE_SUFFIX = " | International Effective Giving Day"
+ASSETS_VERSION = "1.0.0.9"
 
 # Site domains & environment
 site_app_domains = {
@@ -87,7 +86,6 @@ update_website_context = [
 
 website_context = {
 	"ASSETS_VERSION": ASSETS_VERSION,
-	"HTML_TITLE_SUFFIX": HTML_TITLE_SUFFIX,
 	"language_default": language_default,
 }
 

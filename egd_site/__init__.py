@@ -142,11 +142,8 @@ def egd_add_metatags(context):
 				context.metatags["title"] = context.title
 			# Add title suffix except for home
 			if context["path"] != "":
-				context.metatags["title"] += (
-					frappe.get_hooks("HTML_TITLE_SUFFIX")[0]
-					if frappe.get_hooks("HTML_TITLE_SUFFIX")
-					else ""
-				)
+				from frappe import _
+				context.metatags["title"] += " | " + _("hero:title")
 
 		if not "description" in context.metatags and "meta_description" in context:
 			context.metatags["description"] = context["meta_description"]

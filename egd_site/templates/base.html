@@ -14,7 +14,7 @@
 
 	{%- block meta_block %}{% include "templates/includes/meta_block.html" %}{% endblock %}
 
-	<title>{% block title %}{{ title | striptags }}{{ HTML_TITLE_SUFFIX if name != "home" else "" }}{% endblock %}</title>
+	<title>{% block title %}{{ title | striptags }}{{ " | " + _("hero:title") if name != "home" else "" }}{% endblock %}</title>
 	{% block favicon %}
 	{#- https://realfavicongenerator.net/ #}
 	<link rel="apple-touch-icon" sizes="180x180" href="/assets/egd_site/images/favicons/apple-touch-icon.png?{{ ASSETS_VERSION }}">
