@@ -101,8 +101,8 @@ apps/egd_site/egd_site/templates/includes/register.html,register:form:select_cou
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_occupation,Selecciona tu ocupación
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submit,Registrarse
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message,Pronto recibirás un mensaje para que confirmes tu registro. Muchas gracias por interesarte en el evento.
-apps/egd_site/egd_site/templates/includes/register.html,register:intro,"If you would like to attend the International Effective Giving Day event on November 30, please register by filling in the following form. You will receive a confirmation email and we will send the link to join the event to that same email address a few days before the event."
-apps/egd_site/egd_site/templates/includes/register.html,register:title,Register
+apps/egd_site/egd_site/templates/includes/register.html,register:intro,"¿Quieres asistir al Día Internacional de la Ayuda Efectiva el 30 de noviembre? El evento es gratuito, pero necesitas registrarte completando el seguiente formulario. Recibirás un email para confirmar tu correo electrónico y, unos días antes del evento, el enlace para poder conectarte."
+apps/egd_site/egd_site/templates/includes/register.html,register:title,Registro
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_ok","Email ""{0}"" confirmed successfully."
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_previously","Email ""{0}"" confirmed previously."
 apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,Error en la confirmación de tu email.
@@ -142,7 +142,7 @@ apps/egd_site/egd_site/templates/includes/speakers.html,speakers:5:intro,"Direct
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:6:intro,"Directora de operaciones de RC Forward"
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:7:description,<a href='https://www.1fortheworld.org/'>One for the World</a> es un movimiento de personas que aspiran a revolucionar las donaciones benéficas para acabar con la pobreza extrema. Sus miembros se comprometen a donar un 1% de sus ingresos a las organizaciones benéficas más efectivas.
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:7:intro,"One for the World, Executive Director"
-apps/egd_site/egd_site/templates/includes/speakers.html,speakers:8:description,<a href='https://ayudaefectiva.org/'>La fundación Ayuda Efectiva selecciona y financia los programas humanitarios que&comma; con un mismo coste&comma; salvan más vidas o ayudan más a más personas.
+apps/egd_site/egd_site/templates/includes/speakers.html,speakers:8:description,La fundación <a href='https://ayudaefectiva.org/'>Ayuda Efectiva</a> selecciona y financia los programas humanitarios que&comma; con un mismo coste&comma; salvan más vidas o ayudan más a más personas.
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:8:intro,"Presidente de Ayuda Efectiva"
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:9:description,<a href='https://www.effektiv-spenden.org/'>effektiv-spenden.org</a> permite a sus donantes en Alemania apoyar algunas de las organizacionesbenéficas más efectivas del mundo con deducibilidad fiscal. Todas sus recomendaciones están validadas por expertos independientes de todo el mundo.
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:9:intro,"Director ejecutivo de effektiv-spenden.org"
