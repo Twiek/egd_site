@@ -6,11 +6,11 @@ body_class: legal-content
 
 ## 1. Rechtliche Informationen
 
-Effectivegivingday.org (nachfolgend die WEBSITE) ist eine von FUNDACIÓN AYUDA EFECTIVA (nachfolgend DIE STIFTUNG), einer im Stiftungsregister unter der Nummer 2263 eingetragenen Einrichtung, verwaltete Domain:
+Effectivegivingday.org (nachfolgend die WEBSITE) ist eine von FUNDACIÓN AYUDA EFECTIVA (nachfolgend DIE STIFTUNG), einer im Spanischen Stiftungsregister unter der Nummer 2263 eingetragenen Einrichtung, verwaltete Domain:
 
 NIF: G884444278
 
-SOZIALE ANSPRACHE: Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid
+ADRESSE: Calle Rozabella, 6 (Centro Europa Empresarial), Edificio París, planta 0, oficina 13, 28290 Las Rozas, Madrid
 
 POSTLEITZAHL: 28290
 
@@ -18,7 +18,7 @@ STANDORT: Madrid
 
 EMAIL: info @ ayudaefectiva.org
 
-DIE STIFTUNG erfüllt die Anforderungen des Gesetzes 49/2002 vom 23. Dezember über die Steuerregelung für gemeinnützige Organisationen und steuerliche Anreize für Mäzenatentum.
+DIE STIFTUNG erfüllt die Anforderungen des spanischen Gesetzes 49/2002 vom 23. Dezember über die Steuerregelung für gemeinnützige Organisationen und steuerliche Anreize für gemeinnützige Unterstützung.
 
 ## 2. Art des Website-Inhalts und Nutzungsbedingungen
 
@@ -34,7 +34,7 @@ Der Zugang zur WEBSITE ist kostenlos.
 
 ## 3. Verantwortung des Benutzers
 
-Der BENUTZER verpflichtet sich, die WEBSITE oder die darin angebotenen Informationen nicht für Aktivitäten zu verwenden, die gegen das Gesetz, die Moral oder die öffentliche Ordnung verstoßen, und sie im Allgemeinen in Übereinstimmung mit den von der STIFTUNG festgelegten Bedingungen zu nutzen.
+Der BENUTZER verpflichtet sich, die WEBSITE oder die darin angebotenen Informationen nicht für Aktivitäten zu verwenden, die gegen das Gesetz, die Moral oder die öffentliche Ordnung verstoßen und sie im Allgemeinen in Übereinstimmung mit den von der STIFTUNG festgelegten Bedingungen zu nutzen.
 
 Die Meinungen, Inhalte und im Allgemeinen alle vom BENUTZER ausgeführten Aktivitäten unterliegen ihrer ausschließlichen Verantwortung, ohne dass die STIFTUNG für Schäden oder Verluste haftet, die sich aus diesen Aktivitäten ergeben können, die sich ihrer Kontrolle entziehen, und ohne dass der BENUTZER tatsächlich Kenntnis davon hat.
 
@@ -46,7 +46,7 @@ DIE STIFTUNG behält sich das Recht vor, den Zugang zur WEBSITE ohne vorherige A
 
 ## Nr. 5 Geistiges und gewerbliches Eigentum
 
-Alle Inhalte der WEBSITE (einschließlich, aber nicht beschränkt auf Datenbanken, Bilder, Zeichnungen, Grafiken, Textdateien, Audio-, Video- und Software), die nicht von einer externen Bank stammen, sind Eigentum der STIFTUNG und werden durch nationale und internationale Vorschriften über geistiges und gewerbliches Eigentum geschützt, wobei alle Rechte vorbehalten sind. 
+Alle Inhalte der WEBSITE (einschließlich, aber nicht beschränkt auf Datenbanken, Bilder, Zeichnungen, Grafiken, Textdateien, Audio-, Video- und Software), die nicht von einer externen Quelle stammen, sind Eigentum der STIFTUNG und werden durch nationale und internationale Vorschriften über geistiges und gewerbliches Eigentum geschützt, wobei alle Rechte vorbehalten sind. 
 
 Der Domainname, die Marken, Zeichen, Unterscheidungszeichen oder Logos, die auf der WEBSITE erscheinen, sind Eigentum der STIFTUNG.
 
@@ -70,7 +70,7 @@ Gegebenenfalls wurden die auf der WEBSITE gefundenen Hyperlinks zuvor mit den Ei
 
 ## 7. die Gültigkeit der Nutzungsbedingungen
 
-Die Nutzungsbedingungen dieser WEBSITE sind unbestimmter Natur. Die STIFTUNG behält sich das einseitige Recht vor, die Bedingungen für den Zugang zu denselben sowie deren Inhalt zu ändern.
+Die Nutzungsbedingungen dieser WEBSITE sind von unbestimmter Dauer. Die STIFTUNG behält sich das einseitige Recht vor, die Bedingungen für den Zugang zu denselben sowie deren Inhalt zu ändern.
 
 ## 8. die Nichtigkeit und Unwirksamkeit der Klauseln
 
