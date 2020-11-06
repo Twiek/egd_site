@@ -25,7 +25,7 @@ Es gibt viele Arten von Cookies. Im Folgenden bieten wir dem Benutzer einige Kla
 
 2. Nach dem Zeitpunkt der Aufbewahrung:
 
-* Sitzungs-Cookies: sind diejenigen, die Daten sammeln und speichern, wenn der Benutzer auf einen Dienst zugreift, und die aufhören, sobald der Benutzer den Dienst verlässt.
+* Sitzungs-Cookies: sind diejenigen, die Daten sammeln und speichern, wenn der Benutzer auf einen Dienst zugreift, und die nicht mehr genutzt werden, sobald der Benutzer den Dienst verlässt.
 * Persistente Cookies: sind diejenigen, deren Dauer von der für die Verarbeitung verantwortlichen Person zeitlich festgelegt wird. Die Aufbewahrungsdauer kann von einigen Minuten bis zu mehreren Jahren variieren. Sie werden verwendet, um bestimmte Parameter jedes Mal, wenn der Benutzer einen Dienst besucht, zu speichern und wiederherzustellen.
 
 3. Abhängig von ihrem Zweck:
@@ -38,7 +38,7 @@ Es gibt viele Arten von Cookies. Im Folgenden bieten wir dem Benutzer einige Kla
 
 4. Andere Technologien:
 
-* Pixel, Web-Bugs oder Tracker: auch bekannt als Tracking-Pixel, Tracking-Pixel, Pixel-Tags oder Konvertierungspixel, Web-Beacons oder Web-Beacons sind winzige Bilder von 1x1 transparenten Pixeln, die in einen Dienst eingefügt werden, um die Aktivität zu messen. Sobald eine bestimmte Seite in einem Browser geladen ist, wird dieses Bild geladen, und diese Daten können gemessen werden. Die Tracking-Pixel ermöglichen es im Allgemeinen, den Weg herauszufinden, den die IP eines bestimmten Benutzers in einem Online-Dienst nimmt.
+* Pixel, Web-Bugs oder Tracker: auch bekannt als Tracking-Pixel, Pixel-Tags, Konvertierungspixel oder Web-Beacons sind winzige Bilder von 1x1 transparenten Pixeln, die in einen Dienst eingefügt werden, um die Aktivität von Benutzern zu messen. Sobald eine bestimmte Seite in einem Browser geladen ist, wird dieses Bild geladen, und diese Daten können gemessen werden. Die Tracking-Pixel ermöglichen es im Allgemeinen, den Weg herauszufinden, den die IP eines bestimmten Benutzers in einem Online-Dienst nimmt.
 * HTML5-Speicherung: besteht darin, die Kapazitäten der HTML5-Technologie auszunutzen, um im Browser des Benutzers bestimmte Parameter zu speichern, die zur Identifizierung des Browsers desselben verwendet werden können.
 * Local Shared Objects (LSO): auch als "Flash Cookies" bekannt, besteht darin, Informationen ohne Cookies auf dem Computer des Benutzers zu speichern, wobei die Adobe Flash Player-Technologie genutzt wird.
 * Etags: Dies ist ein Mechanismus des HTTP-Protokolls, der die Validierung des Caches ermöglicht, den der Benutzer in seinem Webbrowser speichert. Diese Technologie wird hauptsächlich verwendet, um Bandbreite zu sparen und das doppelte Herunterladen von Inhalten zu vermeiden. Sie kann aber auch dazu verwendet werden, den Browser des Benutzers zu erkennen.
@@ -63,7 +63,7 @@ Persistenz: Session-Cookies / Bis zu einem Jahr
 
 Herkunft/Lieferant: Eigene
 
-Mehr Informationen: Wenn der Benutzer z.B. die Cookie-Warnung schließt, lassen Sie sie geschlossen, bewahren Sie gegebenenfalls einige Daten auf, die für die Navigation des eingeloggten Benutzers erforderlich sind, usw.
+Mehr Informationen: Wenn der Benutzer z.B. die Cookie-Warnung schließt, lassen sie sie geschlossen, sie bewahren gegebenenfalls einige Daten auf, die für die Navigation des eingeloggten Benutzers erforderlich sind, usw.
 
 **Analytische Cookies**:
 
@@ -73,11 +73,11 @@ Herkunft/Lieferant: Google Inc. *
 
 Mehr Informationen: Informationen zum Google Analytics-Cookie: [https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)
 
-(*) Lieferanten, die nicht in der Europäischen Union oder in Ländern mit gleichwertiger Datenschutzgesetzgebung ansässig sind
+(\*) Lieferanten, die nicht in der Europäischen Union oder in Ländern mit gleichwertiger Datenschutzgesetzgebung ansässig sind
 
 Die durch diese Cookies erhaltenen Informationen werden auf Servern von Anbietern gespeichert, die nicht in der Europäischen Union oder in Ländern mit gleichwertiger Datenschutzgesetzgebung ansässig sind.
 
-Diese Anbieter bieten jedoch die folgenden angemessenen Garantien in Bezug auf den Datenschutz:
+Diese Anbieter bieten jedoch die folgenden Garantien in Bezug auf den Datenschutz:
 
 Google hat sich an das Datenschutzschild gehalten: [https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active](https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active)
 
@@ -98,9 +98,9 @@ Unten bieten wir Links an, wo der Benutzer Informationen darüber findet, wie Co
 
 ### Wie wirkt sich die Verwendung von Cookies auf den Schutz der persönlichen Daten des Benutzers aus?
 
-Die meisten Cookies sammeln anonyme Informationen, die es nicht erlauben, die Identität des Benutzers zu erfahren, obwohl einige der enthaltenen Codes dazu dienen, den Browser des verwendeten Geräts zu identifizieren oder zu individualisieren, und die Vorschriften über den Schutz personenbezogener Daten gelten möglicherweise. Wir informieren Sie daher, dass die durch Cookies erhaltenen Informationen mit den in dieser Cookie-Richtlinie angegebenen Zwecken behandelt werden. Gleichermaßen werden diese Informationen auch von den Unternehmen behandelt, die Cookies mit dem in ihren jeweiligen Datenschutzrichtlinien angegebenen Zweck zur Verfügung stellen.
+Die meisten Cookies sammeln anonyme Informationen, die es nicht erlauben, die Identität des Benutzers zu erfahren, obwohl einige der enthaltenen Codes dazu dienen, den Browser des verwendeten Geräts zu identifizieren oder zu individualisieren, und die Vorschriften über den Schutz personenbezogener Daten gelten möglicherweise. Wir informieren Sie daher, dass die durch Cookies erhaltenen Informationen mit den in dieser Cookie-Richtlinie angegebenen Zwecken behandelt werden. Gleichermaßen werden diese Informationen auch von den Unternehmen verwendet, die Cookies mit dem in ihren jeweiligen Datenschutzrichtlinien angegebenen Zweck zur Verfügung stellen.
 
-Unter Berücksichtigung der Tatsache, dass diese Codes keine Identifizierung des Benutzers ermöglichen, sind die in den Datenschutzbestimmungen anerkannten Rechte auf Zugang, Berichtigung, Unterdrückung, Widerspruch, Einschränkung und Übertragbarkeit jedoch nicht anwendbar, es sei denn, der Benutzer ist in der Lage, zusätzliche Informationen bereitzustellen, die es ermöglichen, seine Identität mit den Identifizierungscodes seiner Cookies zu verknüpfen.
+Unter Berücksichtigung der Tatsache, dass diese Codes keine Identifizierung des Benutzers ermöglichen, sind die in den Datenschutzbestimmungen anerkannten Rechte auf Zugang, Berichtigung, Unterdrückung, Widerspruch, Einschränkung und Übertragbarkeit nicht anwendbar, es sei denn, der Benutzer ist in der Lage, zusätzliche Informationen bereitzustellen, die es ermöglichen, seine Identität mit den Identifizierungscodes seiner Cookies zu verknüpfen.
 
 Wenn der Benutzer der Ansicht ist, dass sein Recht auf Datenschutz verletzt wurde, kann er eine Beschwerde bei der spanischen Datenschutzbehörde (www.aepd.es) einreichen.
 
