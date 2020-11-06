@@ -2,8 +2,18 @@
 #schedule-tab{
 	position: relative;
 }
-.schedule{
-
+.schedule {
+	&.get-involved {
+		.card {
+			margin-bottom: -1px;
+		}
+		.card-header-b {
+			padding-bottom: 1px;
+			.text {
+				padding-left: 5%;
+			}
+		}
+	}
 	.card-header-b {
 		cursor: pointer;
 		background-color: #ebeceb;
@@ -13,7 +23,7 @@
 			transition: transform 0.35s ease-in-out;
 			position: absolute;
 			right: 20px;
-			bottom: 60px;
+			bottom: 40%; 
 			font-size: 25px;
 			color: #848484;
 		}
@@ -141,66 +151,6 @@
 			-ms-flex: 0 0 18%;
 			flex: 0 0 18%;
 			max-width: 18%;
-			// a {
-			// 	color: white;
-			// 	&:hover {
-			// 		color: lighten($preset, 5%);
-			// 	}
-			// }
-		}
-	}
-	.card-header {
-		position: relative;
-		padding: 35px 70px 35px 224px;
-		border-bottom: 1px dashed #e5e5e5;
-		cursor: pointer;
-		border-left: none;
-		width: 100%;
-		.opener-chevron {
-			transition: transform 0.35s ease-in-out;
-			position: absolute;
-			right: 20px;
-			top: 50px;
-			font-size: 25px;
-		}
-		// &.collapsed { }
-		&:not(.collapsed) {
-			.opener-chevron {
-				transition: transform 0.35s ease-in-out;
-				transform: rotate(90deg);
-			}
-		}
-		.images-box {
-			&.extra {
-				margin-left: -30px;
-			}
-			width: 70px;
-			height: 70px;
-			float: left;
-			margin-right: 20px;
-			img {
-				border-radius: 50%;
-			}
-		}
-		.time{
-			color: #777777;
-		    font-size: 13px;
-		    margin-bottom: 5px;
-		}
-		h4{
-			font-weight: 700;
-		    font-size: 18px;
-		    color: #212121;
-		    text-transform: uppercase;
-		    margin-bottom: 8px;
-		}
-		.name{
-			position: relative;
-		    font-size: 14px;
-		    color: #777777;
-		    font-weight: 500;
-		    display: inline-block;
-		    margin-bottom: 5px;
 		}
 	}
 	.card-body{
@@ -240,21 +190,6 @@
 	.collapsed:after{
       content: "\e940";
     }
-	.card-header{
-		background: transparent;
-		cursor: pointer;
-		padding: 0;
-		i{
-			color: $preset;
-			width: 40px;
-		    height: 40px;
-		    display: inline-block;
-		    line-height: 40px;
-		    text-align: center;
-		    margin-right: 10px;
-			border-right: 1px solid #ddd;
-		}
-	}
 	.card-body{
 		padding-left: 56px;
 	}
