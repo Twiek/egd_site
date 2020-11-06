@@ -83,12 +83,12 @@ apps/egd_site/egd_site/templates/includes/footer.html,newsletter:link:privacy_cl
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Mantente informado
 apps/egd_site/egd_site/www/es/press.md,press:intro,"Si trabajas para algún medio, estaremos encantados de organizar entrevistas con nuestros ponentes, facilitarte declaraciones y otros materiales o responder a tus preguntas. Por favor, completa este formulario y te conectaremos con el mejor contacto de prensa para tu país o tu área de interés."
 apps/egd_site/egd_site/www/es/press.md,press:title,Prensa
-apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,How much (if anything) do you currently give per year to charities you know are highly effective? (USD)
-apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:a_bit_familiar,Somewhat familiar
-apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:not_familiar,Not familiar
-apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:question,How familiar are you with the effective giving movement?
-apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:quite_familiar,Quite familiar
-apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:very_familiar,Very familiar
+apps/egd_site/egd_site/templates/includes/register.html,register:form:donation:question,¿Qué importe aproximado donas anualmente a organizaciones altamente efectivas? (Opcional&comma; EUR)
+apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:a_bit_familiar,Algo
+apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:not_familiar,Poco
+apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:question,¿Cuánto conoces las ideas de la ayuda efectiva?
+apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:quite_familiar,Bastante
+apps/egd_site/egd_site/templates/includes/register.html,register:form:familiarity:very_familiar,Mucho
 apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:other,Otra
 apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:professional,Profesional
 apps/egd_site/egd_site/templates/includes/register.html,register:form:occupation:student,Estudiante
