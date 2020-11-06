@@ -26,7 +26,7 @@ apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:description,agend
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:intro,"<strong>Charlie Bresler</strong>, Executive Director, The Life You Can Safe"
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:speakers,"<strong>Ponente</strong>: Charlie Bresler, <a href='https://www.thelifeyoucansave.org/'>The Life You Can Safe</a>"
 apps/egd_site/egd_site/templates/includes/agenda.html,agenda:6:title,How you can make a difference today
-apps/egd_site/egd_site/templates/includes/agenda.html,agenda:see_into_your_local_time,see in your local time
+apps/egd_site/egd_site/templates/includes/agenda.html,agenda:see_into_your_local_time,ver en tu zona horaria
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:accept,He leído y acepto el tratamiento de mis datos personales
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:read_more,Leer más...
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:select_your_country,Elige tu país
@@ -116,7 +116,7 @@ apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:3,"Con ponencias de Johannes Ackva (<strong>Founders Pledge</strong>), Leah Edgerton (<strong>Animal Charity Evaluators</strong>) y Neil Buddy Shah (<strong>GiveWell</strong>)"
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:4,section:about:list:4
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:title,Acerca del evento
-apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:intro,"Únete a nosotros el 30 de noviembre de 2020 para asistir a dos horas repletas de información acerca de las formas más efectivas para solucionar algunos de los problemas más urgentes del mundo."
+apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:intro,"Únete a nosotros el 30 de noviembre de 2020 para asistir a dos horas repletas de información acerca de las formas más efectivas para solucionar algunos de los problemas más urgentes del mundo.<br><strong>El idioma de todas las ponencias será el inglés.</strong>"
 apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:title,Agenda
 apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:organized_by,Organizado por
 apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:supported_by,Con el apoyo de
