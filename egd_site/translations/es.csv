@@ -105,28 +105,28 @@ apps/egd_site/egd_site/templates/includes/register.html,register:intro,"If you w
 apps/egd_site/egd_site/templates/includes/register.html,register:title,Register
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_ok","Email ""{0}"" confirmed successfully."
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_previously","Email ""{0}"" confirmed previously."
-apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,Error with your email confirmation.
-apps/egd_site/egd_site/tools.py,registration:dialog:title:registration_subscription,Registration
-apps/egd_site/egd_site/tools.py,registration:email:body:click_here_to_verify,Click here to verify your email
-apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,Thank you for your interest in the International Effective Giving Day! <strong>Please confirm your email address to complete your registration</strong>:
+apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,Error en la confirmación de tu email.
+apps/egd_site/egd_site/tools.py,registration:dialog:title:registration_subscription,Registro
+apps/egd_site/egd_site/tools.py,registration:email:body:click_here_to_verify,Haz clic para verificar tu email
+apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,¡Gracias por tu interés en el Día Internacional de la Ayuda Efectiva! <strong>Confirma tu dirección de email para completar tu registro</strong>:
 apps/egd_site/egd_site/tools.py,registration:email:subject,Please confirm your email address to complete your registration
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:intro,International Effective Giving Day is an online event giving you the chance to hear from some of the world's most eminent thinkers in effective philanthropy.
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:1,Keynote address: Nobel Laureate Professor <strong>Michael Kremer</strong>
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:2,Supported by the world’s leading organizations in effective philanthropy and charity evaluation
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:3,"Also featuring: Johannes Ackva (Climate Lead <strong>Founders Pledge</strong>), Leah Edgerton (Executive Director <strong>Animal Charity Evaluators</strong>), Neil Buddy Shah (Managing Director, <strong>GiveWell</strong>)"
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:intro,El Día Internacional de la Ayuda Efectiva es un evento online en el que podrás asistir a ponencias y conversaciones con algunas de las figuras clave en el campo de la filantropía efectiva.
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:1,Ponente principal: <strong>Michael Kremer</strong>&comma; Premio Nobel de Economía de 2019
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:2,Un evento apoyado por las organizaciones líderes en filantropía efectiva y evaluación de proyectos benéficos
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:3,"Con ponencias de Johannes Ackva (Climate Lead <strong>Founders Pledge</strong>), Leah Edgerton (Executive Director <strong>Animal Charity Evaluators</strong>), Neil Buddy Shah (Managing Director, <strong>GiveWell</strong>)"
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:4,section:about:list:4
-apps/egd_site/egd_site/templates/includes/section-about.html,section:about:title,About the event
-apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:intro,"Join us on November 30, 2020 for two hours packed with the latest information on the most effective ways to tackle some of the world’s most pressing problems."
+apps/egd_site/egd_site/templates/includes/section-about.html,section:about:title,Acerca del evento
+apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:intro,"Únete a nosotros el 30 de noviembre de 2020 para asistir a dos horas repletas de información acerca de las formas más efectivas para solucionar algunos de los problemas más urgentes del mundo."
 apps/egd_site/egd_site/templates/includes/section-agenda.html,section:agenda:title,Agenda
 apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:organized_by,Organizado por
 apps/egd_site/egd_site/templates/includes/section-partners.html,section:partners:supported_by,Con el apoyo de
 apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:intro,section:speakers:intro
 apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:see_all_speakers,Ver todos los ponentes
-apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:title,Speakers
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:1:title,Can non-profits make a dent on the world’s biggest problems?
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:2:title,Are all charities just as good? How can we compare one against another?
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:3:title,I want to give - but how can I decide which charities to support?
-apps/egd_site/egd_site/templates/includes/section-why.html,section:why:4:title,How can I be sure that my money will have real impact?
+apps/egd_site/egd_site/templates/includes/section-speakers.html,section:speakers:title,Ponentes
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:1:title,¿Podemos solucionar los mayores problemas del mundo?
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:2:title,¿Son todas las organizaciones benéficas igual de buenas? ¿Cómo podemos compararlas?
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:3:title,Quiero donar: ¿Cómo puedo elegir a qué organización donar?
+apps/egd_site/egd_site/templates/includes/section-why.html,section:why:4:title,¿Cómo puedo estar seguro de que mi dinero tiene un impacto real?
 apps/egd_site/egd_site/templates/includes/section-why.html,section:why:intro,Have you ever wondered how much you can actually improve the world through charitable giving? Our speakers will shed light on the key questions you have to answer if you care about having an impact:
 apps/egd_site/egd_site/templates/includes/section-why.html,section:why:title,Why you should attend
 apps/egd_site/egd_site/templates/includes/speakers.html,speakers:1:description,"Professor Michael Kremer is one of the world’s most influential development economists. Prof. Kremer pioneered the use of randomised control trials to measure the impact of interventions and identify practical solutions which can benefit low-income people in developing countries. He has produced some of the most influential research in the field, notably a 20-year study showing the lasting positive effects of school-based deworming programmes, the development of new approaches to water treatment, and a series of studies showing how digitally delivered agricultural advice can cost-effectively improve outcomes for smallholder farmers."
