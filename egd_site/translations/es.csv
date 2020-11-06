@@ -31,13 +31,13 @@ apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:acce
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:privacy:read_more,Leer más...
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:select_your_country,Elige tu país
 apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submit,Enviar mensaje
-apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submitted_successfully_message,Mensaje enviado correctamente. Contactaremos contigo lo antes posible.
+apps/egd_site/egd_site/templates/includes/contact.html,contact:form:submitted_successfully_message,Tu mensaje se ha enviado correctamente. Contactaremos contigo lo antes posible. ¡Gracias por tu interés!
 apps/egd_site/egd_site/www/es/contact-us.md,contact:title,Contacta con nosotros
 apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:accept,Aceptar
 apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:link:read_more,Consulta la política de cookies
 apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:message,Utilizamos cookies propias y de terceros para poder ofrecerte este servicio.
 apps/egd_site/egd_site/templates/includes/cookies.message.html,cookies:box:title,Cookies
-apps/egd_site/egd_site/tools.py,dialog:body:go_to_homepage,Ir a la homepage
+apps/egd_site/egd_site/tools.py,dialog:body:go_to_homepage,Continuar
 apps/egd_site/egd_site/templates/includes/contact.html,form:email,Email
 apps/egd_site/egd_site/templates/includes/register.html,form:first_name,Nombre
 apps/egd_site/egd_site/templates/includes/contact.html,form:full_name,Nombre y apellidos
@@ -70,15 +70,15 @@ apps/egd_site/egd_site/templates/includes/footer.html,link:view,view
 apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_ok","Tu email ""{0}"" se ha suscrito correctamente"
 apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:email_""{0}""_subscribed_previously","Tu email ""{0}"" ya estaba suscrito"
 apps/egd_site/egd_site/tools.py,"newsletter:dialog:body:error_adding_email_""{0}"".","Se ha producido un error suscribiendo el email ""{0}""."
-apps/egd_site/egd_site/tools.py,newsletter:dialog:title:newsletter_subscription,Suscripción al newsletter
+apps/egd_site/egd_site/tools.py,newsletter:dialog:title:newsletter_subscription,Suscripción a la newsletter
 apps/egd_site/egd_site/tools.py,newsletter:email:body:click_here_to_verify,Haz click aquí para confirmar tu email
 apps/egd_site/egd_site/tools.py,newsletter:email:body:verify_your_email,Es necesario que confirmes tu email para finalizar la suscripción
-apps/egd_site/egd_site/tools.py,newsletter:email:subject,Confirma tu email (acción necesaria)
+apps/egd_site/egd_site/tools.py,newsletter:email:subject,Por favor&comma; confirma tu email (acción necesaria)
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:email,Tu email
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:privacy_accept,He leído y acepto el tratamiento de mis datos personales con la finalidad descrita
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:privacy_text,"Sus datos serán tratados por FUNDACIÓN AYUDA EFECTIVA para enviarle nuestra newsletter. Podrá ejercer sus derechos a través del siguiente correo info @ ayudaefectiva.org, identificándose como suscriptor a la newsletter de effectivegivingday y concretando su solicitud. Para más información sobre el tratamiento de sus datos y sus derechos, consulte el siguiente enlace:"
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submit,Suscribirse
-apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,Pronto recibirás un email para que confirmes tu suscripción. Muchas gracias por suscribirte.
+apps/egd_site/egd_site/templates/includes/footer.html,newsletter:form:submitted_successfully_message,Pronto recibirás un email con un enlace para que confirmes tu suscripción. ¡Muchas gracias!
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:link:privacy_clause,cláusula de privacidad
 apps/egd_site/egd_site/templates/includes/footer.html,newsletter:stay_up_to_date,Mantente informado
 apps/egd_site/egd_site/www/es/press.md,press:intro,"Si trabajas para algún medio, estaremos encantados de organizar entrevistas con nuestros ponentes, facilitarte declaraciones y otros materiales o responder a tus preguntas. Por favor, completa este formulario y te conectaremos con el mejor contacto de prensa para tu país o tu área de interés."
@@ -100,16 +100,16 @@ apps/egd_site/egd_site/templates/includes/register.html,register:form:privacy_te
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_country,Elige tu país
 apps/egd_site/egd_site/templates/includes/register.html,register:form:select_occupation,Selecciona tu ocupación
 apps/egd_site/egd_site/templates/includes/register.html,register:form:submit,Registrarse
-apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message,Pronto recibirás un mensaje para que confirmes tu registro. Muchas gracias por interesarte en el evento.
+apps/egd_site/egd_site/templates/includes/register.html,register:form:submitted_successfully_message,Pronto recibirás un email con un enlace para que confirmes tu registro. ¡Muchas gracias!
 apps/egd_site/egd_site/templates/includes/register.html,register:intro,"¿Quieres asistir al Día Internacional de la Ayuda Efectiva el 30 de noviembre? El evento es gratuito, pero necesitas registrarte completando el seguiente formulario. Recibirás un email para confirmar tu correo electrónico y, unos días antes del evento, el enlace para poder conectarte."
 apps/egd_site/egd_site/templates/includes/register.html,register:title,Registro
-apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_ok","Email ""{0}"" confirmed successfully."
+apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_ok","Has quedado correctamente registrado con el email ""{0}"". ¡Muchas gracias!"
 apps/egd_site/egd_site/tools.py,"registration:dialog:body:email_""{0}""_confirmed_previously","Email ""{0}"" confirmed previously."
 apps/egd_site/egd_site/tools.py,registration:dialog:body:error_confirming_your_email.,Error en la confirmación de tu email.
-apps/egd_site/egd_site/tools.py,registration:dialog:title:registration_subscription,Registro
+apps/egd_site/egd_site/tools.py,registration:dialog:title:registration_subscription,¡Gracias por registrarte!
 apps/egd_site/egd_site/tools.py,registration:email:body:click_here_to_verify,Haz clic para verificar tu email
-apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,¡Gracias por tu interés en el Día Internacional de la Ayuda Efectiva! <strong>Confirma tu dirección de email para completar tu registro</strong>:
-apps/egd_site/egd_site/tools.py,registration:email:subject,Please confirm your email address to complete your registration
+apps/egd_site/egd_site/tools.py,registration:email:body:verify_your_email,¡Gracias por tu interés en el Día Internacional de la Ayuda Efectiva!<br><br><strong>Por favor&comma; confirma tu dirección de email para completar tu registro</strong>:
+apps/egd_site/egd_site/tools.py,registration:email:subject,Por favor&comma; confirma tu registro (acción necesaria)
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:intro,El Día Internacional de la Ayuda Efectiva es un evento online en el que podrás asistir a ponencias y conversaciones con algunas de las figuras clave en el campo de la filantropía efectiva.
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:1,Ponente principal: <strong>Michael Kremer&comma; Premio Nobel de Economía de 2019</strong>
 apps/egd_site/egd_site/templates/includes/section-about.html,section:about:list:2,Un evento apoyado por las organizaciones líderes en filantropía efectiva y evaluación de proyectos benéficos
